@@ -14,7 +14,7 @@ As we covered back in the [Installations Project](/courses/foundations/lessons/i
 * What the difference between front- and back-end development is
 * Why you need to install Ruby but not Javascript
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -25,5 +25,5 @@ As we covered back in the [Installations Project](/courses/foundations/lessons/i
 
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

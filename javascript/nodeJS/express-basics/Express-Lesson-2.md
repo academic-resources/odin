@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to do the following:
 - List a few ways to access model data.
 - Test models by creating a number of instances (using a standalone script). 
 
-### CRUD
+### ** CRUD
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept.
 
@@ -25,17 +25,17 @@ Of course, this is simply a concept and not some sort of rule that must be follo
 The CRUD operations roughly correlate to the HTTP methods that you can employ in an express app.  This definition can be somewhat flexible, but in general `create` correlates to `POST` (or `app.post()` in an express app), `read` correlates to `GET` (`app.get()`), `update` to `PUT` (`app.put()`) and `delete` to `DELETE` (`app.delete()`)
 
 
-### MVC
+### ** MVC
 
 MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
 
-<span id="model">**Models**</span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
+<span id="model">** Models** </span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
 
-<span id="view">**Views**</span> are, of course, the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
+<span id="view">** Views** </span> are, of course, the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
 
-<span id="controller">**Controllers**</span> are the components that decide what view to display and what information is going to be put into it.
+<span id="controller">** Controllers** </span> are the components that decide what view to display and what information is going to be put into it.
 
-#### MVC Example
+#### ** MVC Example
 
 Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos that are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the database (DB).  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field.
 
@@ -45,19 +45,19 @@ Our controller then would be called by Express whenever we get an `app.get()` re
 
 If this is a little confusing at this point, don't worry about it too much.  You will be creating models, views, and controllers in the tutorial and it will all become much clearer once you see them in use.
 
-### Which database should I choose?
+### ** Which database should I choose?
 
 One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
 
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Continue where we left off with the [MDN library tutorial (Part 3)!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 </div>
 
-### Knowledge Checks 
+### ** Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
@@ -66,7 +66,7 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
 
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - For a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30).

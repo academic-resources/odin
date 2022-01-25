@@ -3,17 +3,17 @@
 
 Now that we can manipulate the DOM, it's time to revisit [Rock Paper Scissors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors) and add a simple UI to it.
 
-Before you start making changes to your Rock Paper Scissors project, you need to learn about a concept in Git called **branching** so that you can make your changes without having to worry about breaking what you have now.
+Before you start making changes to your Rock Paper Scissors project, you need to learn about a concept in Git called ** branching**  so that you can make your changes without having to worry about breaking what you have now.
 
 Branches in Git allow your repository to hold multiple *alternate reality* versions of your files at the same time. You’ve actually (sort of) been using branches since you made your first commit, you just might not have known it! Back in [the setting up Git lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) when you ran `git config --global init.defaultBranch main` you were setting the name of what’s called the *default* branch for your repos. The default branch is just what we call the branch that is created when you make your first commit on a project, and in that command we set the name to be `main` as is the current standard. 
 
 Like the branches in a tree (hence the name), all of the branches for a project stem off of a “trunk” (the `main` branch) or off of *other* branches.
 
-When you make commits on a specific branch those changes only exist on **that** branch, leaving all of your other branches exactly as they were when you branched off of them.
+When you make commits on a specific branch those changes only exist on ** that**  branch, leaving all of your other branches exactly as they were when you branched off of them.
 
 This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*
 
-### Using Branches
+### ** Using Branches
 
 You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
 
@@ -27,7 +27,7 @@ Sometimes the same lines in a file will have been changed by two different branc
 
 When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main` or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
-### Sharing Code
+### ** Sharing Code
 
 Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all. 
 
@@ -40,7 +40,7 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 <img width="602" alt="Dropdown menu of branches on GitHub" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/32a651388da10d018d4143b066badf2c9f27dc93/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png">
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 

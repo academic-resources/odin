@@ -26,18 +26,18 @@ Look through these now and then use them to test yourself after doing the assign
 * What is the "default stylesheet" or "user agent stylesheet"?
 * Why use a CSS reset file?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
  
-  1. Dive right into learning HTML and CSS with [freeCodeCamp's interactive tutorials](https://www.freecodecamp.org/learn/responsive-web-design/) to introduce you to these new concepts. Do only the courses/lessons in the linked section, do not do any of the other sections/certifications such as Javascript Algorithms". It's long and, if you're new, might take you at least a few days to get through. **This resource is meant to help you develop familiarity, so do not expect to memorize everything.** Instead, expect to google these concepts in the future when you need to use them. You do not need to do the projects at the end of the section, you'll have plenty of time to practice your skills in future lessons. (A large part of their proposed '300 hours' for completion comes from these projects, so it probably won't take you that long if you only do the exercises).
+  1. Dive right into learning HTML and CSS with [freeCodeCamp's interactive tutorials](https://www.freecodecamp.org/learn/responsive-web-design/) to introduce you to these new concepts. Do only the courses/lessons in the linked section, do not do any of the other sections/certifications such as Javascript Algorithms". It's long and, if you're new, might take you at least a few days to get through. ** This resource is meant to help you develop familiarity, so do not expect to memorize everything.**  Instead, expect to google these concepts in the future when you need to use them. You do not need to do the projects at the end of the section, you'll have plenty of time to practice your skills in future lessons. (A large part of their proposed '300 hours' for completion comes from these projects, so it probably won't take you that long if you only do the exercises).
 
-      **Note:** If you are using a browser add-on such as Dark Reader (or a similar add-on that creates a "dark mode" for a website), it may interfere with certain exercises. If your solution isn't accepted, try disabling the browser add-on and submitting it again.
+  **     ** Note:**  If you are using a browser add-on such as Dark Reader (or a similar add-on that creates a "dark mode" for a website), it may interfere with certain exercises. If your solution isn't accepted, try disabling the browser add-on and submitting it again.
  
   2. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](https://www.youtube.com/watch?v=14Vb6tZCjEY) (resets are mentioned starting at the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](https://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * A good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/) from CSS Tricks.
@@ -50,7 +50,7 @@ This section contains helpful links to other content. It isn't required, so cons
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
     * Hop on over to [Flexbox Froggy](https://flexboxfroggy.com/) or dig into [Grid Garden](https://cssgridgarden.com/) to learn some concepts with a fun game!
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is the difference between HTML and CSS?

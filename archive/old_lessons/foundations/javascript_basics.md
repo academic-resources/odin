@@ -15,10 +15,10 @@ Look through these now and then use them to test yourself after doing the assign
 * What are strings, arrays and booleans?
 * What are events?
 
-### Announcement
+### ** Announcement
 We are in the process of completely revamping and rewriting our JavaScript content. The material that would replace the lessons found here in the WebDev101 course is pretty much complete.  Right now, we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested, [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -27,13 +27,13 @@ We are in the process of completely revamping and rewriting our JavaScript conte
       1. Another in-browser IDE to explore for HTML/CSS/JavaScript is [codepen.io](http://codepen.io/pen/).
       2. You can also try the JavaScript section of [repl.it](https://repl.it/languages/javascript). It doesn't support HTML and CSS, but it does provide you with a helpful JavaScript console.
   3. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based on problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now; it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
-      1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, let's break it down into a few steps. The **first thing** we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer). Hint: [modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate* (remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in JavaScript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students' solutions for inspiration.
+      1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, let's break it down into a few steps. The ** first thing**  we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer). Hint: [modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate* (remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in JavaScript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students' solutions for inspiration.
       2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
   4. There's a lot of power in your browser's DevTools for debugging and working with JavaScript code.  The [official DevTools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great tips for working with JavaScript in the browser.
 
 </div>
 
-### Student Solutions
+### ** Student Solutions
 Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
@@ -126,7 +126,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 * [mazen.j's solution to problem 1 & 2 ](https://github.com/chilinoodle/js_ProjectEuler)
 * [theghall's solution to Problem 2](https://github.com/theghall/fibonacci-problem.git)
 * [theghall's solution to Problem 1](https://github.com/theghall/fizzbuzz-variant.git)
-* [Rajat Dhyani's solution to Problem 1 & 2](https://github.com/Rajat-dhyani/project_euler) - [View in Browser](https://rajat-dhyani.github.io/project_euler/) - **(Interactive!)**
+* [Rajat Dhyani's solution to Problem 1 & 2](https://github.com/Rajat-dhyani/project_euler) - [View in Browser](https://rajat-dhyani.github.io/project_euler/) - ** (Interactive!)** 
 * [kookfromleduc's solution to Problem 1, 2, & 3](https://github.com/kookfromleduc/projecteuler)
 * [mrjsykes's solution to Problem 1](https://github.com/johndsykes86/ProjectEuler/blob/master/EulerProblem1.js)
 * [0elo's solution](https://github.com/0elo/the_odin_project/tree/master/js-101)
@@ -405,7 +405,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 * [Deepak's Solutions](https://github.com/Deepak5050/Javascript101/blob/master/script.js) - [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Javascript101/blob/master/index.html)
 * [Alexander Amirov's solution](https://github.com/xrocketmanx/javascript-practise) - [View in browser](http://htmlpreview.github.io/?https://github.com/xrocketmanx/javascript-practise/blob/master/index.html)
 * [John Connor's solution](https://github.com/jacgitcz/project_euler) - [View in browser](https://htmlpreview.github.io/?https://github.com/jacgitcz/project_euler/blob/master/euler.html)
-* [Bruno Nascimento's solution](https://github.com/nscmnto/javascript101) - [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/javascript101/blob/master/index.html) **(Interactive!)**
+* [Bruno Nascimento's solution](https://github.com/nscmnto/javascript101) - [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/javascript101/blob/master/index.html) ** (Interactive!)** 
 * [Tyler K. Solutions](https://github.com/sekurratay/Euler)
 * [Jason Keeney's solution](https://github.com/jkeeney/multiples_of_3_and_5) - [View in browser](https://htmlpreview.github.io/?https://github.com/jkeeney/multiples_of_3_and_5/blob/master/index.html)
 * [Shala's Solutions](https://github.com/ShalaQweghen/project_euler)
@@ -508,7 +508,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 * [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
 * [Airton's Solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/projectEuller) - [View in Browser](https://airtonbjunior.github.io/odinproject/projects/projectEuller/)
 * [AaronScott2's Solution](https://github.com/AaronScott2/euler)
-* [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) - [View in Browser](https://zaidkhraibut.github.io/project-euler/) - **(Interactive!)**
+* [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) - [View in Browser](https://zaidkhraibut.github.io/project-euler/) - ** (Interactive!)** 
 * [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) - [View in Browser](https://mariatheodo.github.io/projectEuler)
 * [Toba's solution](https://github.com/theboytee/project_euler)
@@ -561,7 +561,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 
 </details>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
 
 * A straight-to-the-point [primer on JavaScript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)

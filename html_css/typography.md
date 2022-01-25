@@ -17,7 +17,7 @@ Do what you can to get at least a familiarity with the high level decisions invo
 * What are the disadvantages of using web fonts? Of loading your own?
 * What are the important properties of fonts that you can specify using CSS?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Fonts and Typography](http://learn.shayhowe.com/html-css/typography)
@@ -26,7 +26,7 @@ Do what you can to get at least a familiarity with the high level decisions invo
 4. Browse the [Google Web Fonts](http://www.google.com/fonts) and see if any of them seem interesting to you.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Importing your own fonts](http://www.html5rocks.com/en/tutorials/webfonts/quick/)

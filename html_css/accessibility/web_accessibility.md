@@ -10,7 +10,7 @@ What you may not have too much an understanding of, though, is the topic of acce
 
 * Explain what web accessibility is.
 
-### What is Web Accessibility?
+### ** What is Web Accessibility?
 
 Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities and other circumstantial limitations can use them with as few barriers as possible.
 
@@ -18,7 +18,7 @@ There are different types of disabilities, including (but not limited to) audito
 
 Situational limitations are a little different. Using a phone outside on a bright day, browsing a site with one hand while you're busy doing something else with the other, or living in an area where the internet is slow or the bandwidth is expensive are all examples of situational limitations. These limitations, unlike a disability, occur to users only in specific situations, but are still important to keep in mind when developing a website.
 
-### Why Web Accessibility Matters
+### ** Why Web Accessibility Matters
 
 Let's first look at a non-web example to gain a little perspective. Imagine being in a multi-story building that has no elevator. For some people, this might only be an annoyance. "Huh, no elevator. I guess I'll walk up a few flights of stairs, then." A person that requires a wheelchair, however, would find it impossible, or at the very least much more difficult, to go anywhere beyond the first floor. Even if a person in a wheelchair had someone to lift the wheelchair up each step, it would be a much more difficult process. The point here is that an elevator would have made this building more accessible.
 
@@ -26,20 +26,20 @@ The building is your website, and the elevator is a collection of various access
 
 One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws *requiring* accessibility to be implemented.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
 2. Watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 </div>
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is web accessibility?
 * Who truly benefits from accessibility features?
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

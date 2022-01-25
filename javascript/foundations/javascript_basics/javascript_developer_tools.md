@@ -19,7 +19,7 @@ After completing this lesson, you will be able to:
 - Enable or Disable CSS Classes
 - Simulate media queries in Device Mode
 
-### Opening Dev Tools
+### ** Opening Dev Tools
 
 There are three ways to open the Developer Tools menu:
 
@@ -28,7 +28,7 @@ There are three ways to open the Developer Tools menu:
 2. Right-click anywhere on a webpage and select `Inspect`
 3. Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -51,12 +51,12 @@ Google has updated some of the required sections in the below tutorials and some
 
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 
-### Knowledge Check 
+### ** Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#opening-dev-tools"> How do you open developer tools? </a>

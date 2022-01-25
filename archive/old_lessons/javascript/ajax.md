@@ -18,7 +18,7 @@ The best part of AJAX is that it doesn't actually require a full page refresh li
 * How do you handle errors generated during the process?
 * How can you use events to "listen" for AJAX operations, for instance if you wanted to create a "loading..." notification that disappears when you're done loading?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [AJAX from learn.jquery.com](http://learn.jquery.com/ajax) for an introduction to AJAX.  Read through each of the links at the bottom, e.g. "Key Concepts".
@@ -26,7 +26,7 @@ The best part of AJAX is that it doesn't actually require a full page refresh li
 3. If you're still looking for another explanation, read [Submitting a Form as an AJAX Request using jQuery by Matt Lunn](http://www.mattlunn.me.uk/blog/2012/10/submitting-a-form-as-an-ajax-request-using-jquery/) (but it will be review)
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [jQuery's Global AJAX Event Handlers docs](http://api.jquery.com/category/ajax/global-ajax-event-handlers/)

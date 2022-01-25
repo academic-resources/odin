@@ -5,7 +5,7 @@ There are a whole lot of external APIs that you can access using simple Javascri
 
 To work with an API, you will usually need to register your application with the API provider (and get an API key to identify yourself with when making a request).  After that initial setup, most access is often free.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Do the Codecademy track about [learning to use APIs with Javascript for accessing YouTube](http://www.codecademy.com/tracks/youtube).
@@ -13,7 +13,7 @@ To work with an API, you will usually need to register your application with the
 3. Finish the first part of Udacity [Google Maps APIs](https://www.udacity.com/course/google-maps-apis--ud864) course to get better understanding of real world application of working with APIs.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Codecademy's API Track](https://www.codecademy.com/apis)

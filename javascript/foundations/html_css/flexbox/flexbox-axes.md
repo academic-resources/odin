@@ -13,7 +13,7 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 }
 ```
 
-### Axes
+### ** Axes
 
 <span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In _most_ circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
 
@@ -23,7 +23,9 @@ In other words, in our very first example, we put `display: flex` on a div and i
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw">
   flex-direction example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 One thing to note is that in this example, `flex-direction: column` would not work as expected if we used the shorthand `flex: 1`. Try it out now (i.e. go change the flex value on the `flex: 1 1 auto;` line). Can you figure out why it does not work if `flex: 1` is used? The divs collapse, even though they _clearly_ have a `height` defined there.
@@ -38,7 +40,7 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>

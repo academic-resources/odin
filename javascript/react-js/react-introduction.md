@@ -14,7 +14,7 @@ This section aims to provide you with all you need to know to get started with R
 - Explain what `create-react-app` does
 - Explain how to use `react-testing-library`
 
-### Why React?
+### ** Why React?
 
 React is one of the most powerful, widely used frontend frameworks.
 
@@ -32,7 +32,7 @@ If you need more convincing, the recent [2021 StackOverflow Developer Survey](ht
 
 _Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
 
-### Components
+### ** Components
 
 Applications built with React are made with (reusable) components. Components are your "building blocks." To gain confidence using React, you should learn to divide your application or project into these separate components. The following picture gives you an idea of how to do that with a very basic app.
 
@@ -132,7 +132,7 @@ render() {
 }
 ```
 
-The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually **JSX**. JSX is an HTML-like syntax that is "transpiled" (or converted) into JavaScript so a browser is able to process it. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. One thing you should know about JSX is that you can't use some JavaScript protected words as html attributes anymore, such as `class`, `onchange`, or `for`. Instead of `class` you will need to use `className`, instead of `onchange` you write `onChange`, and instead of `for`, you must use ... wait for it ... `htmlFor`. All attributes in JSX are written in camelCase and some have their names changed completely to avoid the transpiler getting too confused about whether you're assigning a label `for` an input, or instantiating a `for` loop. You should be fairly familiar with the camelCase naming convention from the naming of variables in JavaScript.
+The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually ** JSX** . JSX is an HTML-like syntax that is "transpiled" (or converted) into JavaScript so a browser is able to process it. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. One thing you should know about JSX is that you can't use some JavaScript protected words as html attributes anymore, such as `class`, `onchange`, or `for`. Instead of `class` you will need to use `className`, instead of `onchange` you write `onChange`, and instead of `for`, you must use ... wait for it ... `htmlFor`. All attributes in JSX are written in camelCase and some have their names changed completely to avoid the transpiler getting too confused about whether you're assigning a label `for` an input, or instantiating a `for` loop. You should be fairly familiar with the camelCase naming convention from the naming of variables in JavaScript.
 
 The `render()` function you see is the most used React "lifecycle" function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ top-level JSX element. When you want to return elements nested within one another, they need to be wrapped in a single parent element. For example:
 
@@ -219,13 +219,13 @@ For further understanding of React components, [this short article](https://dev.
 
 For further understanding of the difference between functional and class based components, read [this article](https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108). They discuss concepts like state and lifecycle methods, which we haven't talked about yet, so don't spend too much time getting hung up or trying to memorize the differences. However, it may be helpful to bookmark this page because it will prove useful later on in the course when we do learn about them. Rest assured, we will expand on the question of "which type of component should I use?" later.
 
-### Create-react-app
+### ** Create-react-app
 
 Developers at Facebook came up with a great tool called `create-react-app`, which sets up a complete React application for you. By running one command, it does all the necessary setup and configuration for you to immediately start working on your project.
 
 If you want to see all the things we have discussed in action, go ahead and run `npx create-react-app my-first-react-app` in your terminal, `cd` into the project by typing `cd my-first-react-app`, and then open it in your text editor of choice. If you want, you can view the project in the browser via the command `npm start`.
 
-### Index.js and App.js
+### ** Index.js and App.js
 
 Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this line:
 
@@ -235,15 +235,15 @@ In short, this line of code tells React to render the App component into the DOM
 
 If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.
 
-### Testing
+### ** Testing
 
 Often React testing is done with `react-testing-library`. Taking your learnings from the Battleship project, you should apply these concepts going forward in all your future projects, even with React.
 
-### React Developer Tools
+### ** React Developer Tools
 
 React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the first couple of pages of the react.js documentation. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. Once again, don't worry too much about those yet.
@@ -251,14 +251,14 @@ React Developer Tools is an extension to the browser developer tools which allow
 3. Read [this](https://testing-library.com/docs/react-testing-library/intro) documentation on React testing.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app.
 - [This video](https://www.youtube.com/watch?v=YQLn7ycfzEo) on react-testing-library.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>

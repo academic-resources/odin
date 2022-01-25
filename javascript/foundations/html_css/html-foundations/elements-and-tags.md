@@ -9,7 +9,7 @@ HTML (Hypertext markup language) defines the structure and content of webpages. 
 - Explain what HTML Tags are
 - Explain what HTML elements are
 
-### Elements and Tags
+### ** Elements and Tags
 
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
@@ -29,17 +29,17 @@ HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/do
 
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
   1. [Watch Kevin Powells Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>

@@ -14,13 +14,13 @@ By the end of this lesson, you should be able to do the following:
 - Add custom styling to validation errors.
 - Add validation using only JavaScript.
 
-### Practice
+### ** Practice
 
-### Warmup
+### ** Warmup
 
 Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
 
-### Project
+### ** Project
 
 Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.
 
@@ -32,7 +32,7 @@ The form doesn't need to actually submit, but you should give an error message i
 4. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 5. Test out all possible cases.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation'>Understand the importance of validating HTML forms before submitting them to a server.</a>

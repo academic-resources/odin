@@ -10,11 +10,12 @@ Meaningful text is pretty straight forward: when a user reads text or has it ann
 * Know how to provide meaningful text in forms.
 * Know how to provide meaningful `alt` attributes for images.
 
-### Links
+### ** Links
 Let's take a look at two different examples of a link:
 
 ```html
 <!-- Example 1: Where's "here"? -->
+
 <a href='...'>Click here</a> to start your career in web development!
 
 <!-- Example 2: I love that place! -->
@@ -33,26 +34,31 @@ When you add links to a page, there are a few rules you should be following:
 
 ```html
 <!-- Example 1: Now the user is aware that this link will open or download a PDF file. -->
+
 <a href='...'>2021 Sign Up Statistics (PDF, 1MB)</a>
 
 <!-- Example 2: And now the user knows this link opens in a new tab! -->
+
 <a href='...'>GitHub (opens in new tab)</a>
 ```
 
 The next time you need to use links, try saying the contents of the element out loud to yourself. Does it reasonably indicate where that link would take you, such as the title of the page, article, or video? Are you aware whether it'll open in a new tab automatically or not, or that it'll open a download dialog? If you've been testing out using a screen reader up to this point, then an even better way to test whether a link has meaningful text is with the screen reader itself!
 
-### Forms
+### ** Forms
 
 Providing meaningful errors to users when they are filling out or submitting a form can turn the experience from frustrating to... well, maybe not fun, but at the very least just a bit less frustrating. Let's take a look at a few error examples, ranging from not helpful at all to very helpful:
 
 ```html
 <!-- Example 1: Huh? -->
+
 <div class='input-error'>Error: Invalid input.</div>
 
 <!-- Example 2: That makes more sense. -->
+
 <div class='input-error'>Error: Email is invalid.</div>
 
 <!-- Example 3: Even better! -->
+
 <div class='input-error'>Error: 'JohnSmith@@test.com' is not valid. Example of a valid email: example@yourdomain.com.</div>
 ```
 
@@ -64,30 +70,32 @@ The error in Example 3 is even more meaningful. It not only tells you what input
 
 Another way to provide meaningful text in forms is with instructions, such as when a password input lists any characters that the password must contain ("Must include at least one uppercase letter and one number..."). For instructions that are unique to an input, they should be placed alongside the input itself. Instructions that are more global across the form, such as indicating which inputs are required, should either be placed at the top of the form ("* indicates a required field"), or placed alongside the input or its label ("Name (required)").
 
-### Alternative Text
+### ** Alternative Text
 
 At this point you should be pretty familiar with the `alt` attribute on `img` elements. Whether you are or not, let's see if you can tell which of the following examples is valid:
 
 ```html
 <!-- Example 1 -->
+
 <img src='...' alt='' />
 
 <!-- Example 2 -->
+
 <img src='...' alt='Odin' />
 ```
 
-Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it. In those cases, you should **always** use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you simply omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
+Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it. In those cases, you should ** always**  use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you simply omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
 
 For Example 2, the screen reader would announce, "Odin, graphic", making the user aware that there's an image and what it's an image of. What the alternative text should be for an image will ultimately depend on various factors, though. Read [Alternative Text - WebAIM](https://webaim.org/techniques/alttext) to learn about when and how you should be adding alternative text for images based on the function of the image and the context surrounding it.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What are three rules you should follow in order to provide meaningful links?
 * What information should you inform users of in order to provide meaningful error messages in forms?
 * When should you use the empty string/null value for the `alt` attribute?
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

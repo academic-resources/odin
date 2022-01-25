@@ -2,7 +2,7 @@
 
 By this point you have probably heard about JavaScript frameworks such as React, Angular or Vue. Almost all major web apps being built today use frameworks and many job postings ask for experience with at least one of them. But what are they? We aren't going to spend too much time teaching you all the nitty-gritty details of each of these frameworks, but knowing what they do and how to get started with one of them is crucial in todays web-dev world.
 
-### What is a framework?
+### ** What is a framework?
 
 Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things! 
 
@@ -16,16 +16,17 @@ Imagine the power of being able to do something like this as many times as you l
 <my-card-component>
   <h1>Card title</h1>
   <p>Card Content</p>
+
 </my-card-component>
 ```
 
 The way that these components are created differs greatly between frameworks, but re-usuable components are the foundation of all frameworks.
 
-Most frameworks also include some sort of state-management system.  State management means that your components can know certain things about the current environment and then present themselves differently based on those variables.  For example if you have a header component with a `log-in` button you would want to show it only when the user is not logged in (or replace it with a `log-out` button). Somewhere in your app (again, this will differ **greatly** from framework to framework) you will have a variable like `isUserLoggedIn` that you can use to change the header-component content.
+Most frameworks also include some sort of state-management system.  State management means that your components can know certain things about the current environment and then present themselves differently based on those variables.  For example if you have a header component with a `log-in` button you would want to show it only when the user is not logged in (or replace it with a `log-out` button). Somewhere in your app (again, this will differ ** greatly**  from framework to framework) you will have a variable like `isUserLoggedIn` that you can use to change the header-component content.
 
 Different frameworks will have various other tools built-in (or easily included with plugins) such as routing (changing the view based on the URL), rendering arrays as lists, and animation. In essence frameworks make creating complex and robust web applications much easier.
 
-### Which framework then?
+### ** Which framework then?
 
 It's no secret that there are a _ton_ of Front-end frameworks in the world... so selecting one to learn is a daunting process.  Here's an incomplete and unordered list of JS frameworks you may have heard of. 
 
@@ -47,13 +48,13 @@ The good news is that it doesn't _really_ matter which framework you select.  Mo
 
 The rest of this section will go through the 3 most popular front-end frameworks (React, Angular and Vue), tell you a bit about them, and offer resources to get you started.
 
-### Assignment
+### ** Assignment
 
 1. Spend a little time poking around the sites for various frameworks above to get a feel for what's out there.
 2. Check out [this recent survey](https://2019.stateofjs.com/front-end-frameworks/) to get a feel for the general popularity and usage of the various frameworks.
 3. [This survey](https://insights.stackoverflow.com/survey/2020#technology) is not JS or web centered, but includes some data about frameworks.
 4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
 
-### Additional Resources
+### ** Additional Resources
 
 * [A blogpost diving into why frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)

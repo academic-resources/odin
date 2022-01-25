@@ -7,19 +7,19 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
-### Installing nvm
+### ** Installing nvm
 
 <details>
   <summary><b>Installation on Linux</b></summary>
 
-#### Step 0: Prerequisites 
+#### ** Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
 
 ```bash
 sudo apt install curl
 ``` 
 
-#### Step 1: Downloading and Installing `nvm`
+#### ** Step 1: Downloading and Installing `nvm`
 
 Simply run this command:
 
@@ -29,7 +29,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 This will install `nvm`
 
-#### Step 2: Initializing `nvm`
+#### ** Step 2: Initializing `nvm`
 
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or if you don't feel like copying from the terminal), run these commands:
 
@@ -82,11 +82,11 @@ For more information, view [NVM's github documentation](https://github.com/nvm-s
 
 </details>
 
-### Installing Node
+### ** Installing Node
 
 Now that we have `nvm` installed, we can install Node.
 
-#### Step 1: Installation
+#### ** Step 1: Installation
 
 Run:
 
@@ -102,7 +102,7 @@ Downloading and installing Node v16.xx.x...
 
 If not, close the terminal, re-open it and run `nvm install node` again.
 
-#### Step 2: Setting the Node Version
+#### ** Step 2: Setting the Node Version
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy, just run the following command:
 

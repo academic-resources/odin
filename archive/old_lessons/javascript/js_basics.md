@@ -45,7 +45,7 @@ This is a fairly long list of things to pay attention to but it should be mostly
 * How would you use a closure to "close" a value within a function?
 * How does `#bind` make your life simpler when thinking about closures and scopes?
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Read [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/), which is a good post for getting fired up to learn Javascript.
 2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/introduction-to-javascript) (you already did up to lesson 5).

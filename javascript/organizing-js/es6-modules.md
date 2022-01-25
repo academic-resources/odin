@@ -19,13 +19,13 @@ After completing this lesson, you will be able to:
 - Explain one of the main benefits of writing code in modules.
 - Explain "named" exports and "default" exports.
 
-### The History of JavaScript
+### ** The History of JavaScript
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions.. with good answers.
 
 - Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective. This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the official Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
 
-### npm
+### ** npm
 
 The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you [installed the Jest testing framework](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to do our exercises.
 
@@ -36,11 +36,11 @@ Read through the npm links below but don't worry about running any of the comman
 3. [This tutorial](https://docs.npmjs.com/getting-started/using-a-package.json) covers the `package.json` file, which you can use to manage your project's dependencies.
 4. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
 
-### Yarn?
+### ** Yarn?
 
 At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`. For the most part, it does the same things, though it _does_ have a few more features. Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career. It _is_ a fine project, however, and may be worth your consideration in the future.
 
-### Webpack
+### ** Webpack
 
 Webpack is simply a tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
 
@@ -57,7 +57,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
-### ES6 Modules (finally!)
+### ** ES6 Modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
@@ -166,7 +166,7 @@ Using this pattern gives you the freedom to only import the functions you need i
 
 The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>

@@ -21,7 +21,7 @@ There is also a big difference between each of the image filetypes, so pay atten
 * How do you add video to your page? (please don't autoplay...)
 * How do you add audio to your page? (please don't autoplay...)
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Images and Media (includes CSS)](http://learn.shayhowe.com/html-css/images-audio-video)
@@ -30,7 +30,7 @@ There is also a big difference between each of the image filetypes, so pay atten
 4. Skim through this article about [the difference between raster and vector](https://www.psprint.com/resources/difference-between-raster-vector/). Don’t worry if you don’t absorb it all – you’ll have time to pick it up later.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Another look at differences between image types](http://www.practicalecommerce.com/articles/1821-Image-Formats-What-s-the-Difference-Between-JPG-GIF-PNG-)

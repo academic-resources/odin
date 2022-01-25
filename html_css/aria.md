@@ -13,7 +13,7 @@ In the previous lessons you learned several ways to make websites more accessibl
 * Understand the three ARIA attributes that can add labels to elements.
 * Understand what the `aria-hidden` attribute does.
 
-### What is WAI-ARIA?
+### ** What is WAI-ARIA?
 
 WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
 
@@ -26,9 +26,9 @@ It's important to note that ARIA can only modify the semantics or context of an 
 
 When you use ARIA, you will usually have to take additional steps to add in any missing semantics or functionality. Remember the Keyboard Navigation lesson and how we had to add in functionality to `<div>` "buttons"?
 
-#### The Five Rules of ARIA
+#### ** The Five Rules of ARIA
 
-ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG have something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
+ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that ** no ARIA is better than bad ARIA** , even when you have the best intentions. The WCAG have something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
 
 1. Always use native HTML elements and attributes over ARIA when possible.
 
@@ -40,16 +40,16 @@ ARIA can be extremely powerful when used correctly, but it can be equally as dan
 
 5. All interactive elements must have an accessible name.
 
-### The Accessibility Tree
+### ** The Accessibility Tree
 
 Before we get into a couple of the ARIA attributes available to us, it's important to know some basics of what the accessibility tree is, as it will help you understand just what those attributes are actually doing.
 
 The accessibility tree is based on the DOM, something you should be very familiar with by now. While the DOM represents nodes and objects that make up a web page, the accessibility tree contains only the accessibility related information that will be used by assistive technologies. The way ARIA works is by modifying properties of the objects that make up this accessibility tree. For this lesson, we're only going to focus on two of these properties:
 
-* **Name**: Also known as the "accessible name", this is what assistive technologies announce to a user and what separates elements of the same type from one another. The name may be set by one or more native labels, including the text contents of an element, the `<label>` element, or the `alt` attribute, to name a few.
-* **Description**: This is what assistive technologies announce in addition to its accessible name.
+* ** Name** : Also known as the "accessible name", this is what assistive technologies announce to a user and what separates elements of the same type from one another. The name may be set by one or more native labels, including the text contents of an element, the `<label>` element, or the `alt` attribute, to name a few.
+* ** Description** : This is what assistive technologies announce in addition to its accessible name.
 
-### ARIA Labels
+### ** ARIA Labels
 
 ARIA labels help users of assistive technologies better understand the content on a web page by overriding native labels or providing additional descriptive text. Unlike the `<label>` element, ARIA labels aren't limited to being used on only a select few elements, though they still have their own limitations.
 
@@ -57,7 +57,7 @@ You may remember being warned against using the `id` attribute earlier in the cu
 
 When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, both `aria-labelledby` and `aria-describedby`are two of the ARIA attributes that require another element to be given an `id`.
 
-#### `aria-label`
+#### ** `aria-label`
 
 The `aria-label` attribute overrides any native label and modifies the name property in the accessibility tree, though it's best used when an element doesn't already have a native label. When you add `aria-label` to an element, you pass in a string as the value, which will become that elements accessible name. `aria-label` doesn't work on every HTML element, though. Adding the attribute to a plain `<div>` or a `<span>` will have no effect, for example.
 
@@ -75,9 +75,9 @@ Instead of a screen reader announcing, "X, button", which wouldn't make any sens
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
 
-One thing you should avoid using `aria-label` for is trying to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. To put it simply: **don't**. You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a braille reader.
+One thing you should avoid using `aria-label` for is trying to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. To put it simply: ** don't** . You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a braille reader.
 
-#### `aria-labelledby`
+#### ** `aria-labelledby`
 
 The `aria-labelledby` attribute overrides both native labels as well as the `aria-label` attribute. When you use this attribute, the accessible name of the labeled element (the one with the `aria-labelledby` attribute) has its accessible name changed to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose `id` are passed in). 
 
@@ -85,9 +85,11 @@ What's great about `aria-labelledby` is that you can pass in any number of `id` 
 
 ```html
 <!-- Here's the labelling element -->
+
 <h2 id='label'>Shirts</h2>
 
 <!-- And here's the labelled element. Note the order of the ID references passed in -->
+
 <button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
 ```
 
@@ -99,41 +101,49 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 ```html
 <!-- Clicking the <label> element gives focus to the input element -->
+
 <label for='name'>Name:</label>
+
 <input id='name' type='text' />
 
 <!-- Clicking the <div> element won't give focus to the input element -->
+
 <div id='label'>Name:</div>
+
 <input type='text' aria-labelledby='label' />
 ```
 
-#### `aria-describedby`
+#### ** `aria-describedby`
 
 The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` value are passed in can also be visually hidden.
 
 ```html
 <label>Password:
   <input type='password' aria-describedby='password-requirements' />
+
 </label>
 
 <!-- Meaningful text + ARIA! -->
+
 <span id='password-requirements'>Password must be at least 10 characters long.</span>
 ```
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
 
-### Hiding Content from the Accessibility Tree
+### ** Hiding Content from the Accessibility Tree
 
 Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display`and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
 ```html
 <!-- Example 1 -->
+
 <button type='button'>
   <span class='material-icons'>add</span>
   Add Book
 </button>
 
 <!-- Example 2 -->
+
 <button type='button'>
   <span class='material-icons' aria-hidden='true'>add</span>
   Add Book
@@ -146,7 +156,7 @@ Be careful when using this attribute, though. When you give an element `aria-hid
 
 You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use both a screen reader and navigate the page via a keyboard.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What purpose does WAI-ARIA serve?
@@ -156,7 +166,7 @@ This section contains questions for you to check your understanding of this less
 * What are the differences between the three ARIA labels?
 * What does the `aria-hidden` attribute do?
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

@@ -17,7 +17,7 @@ Once you finish these lessons, you should have the tools to be able to collabora
 * What is Pair Programming?
 * What are the benefits of Pair Programming?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -26,7 +26,7 @@ Once you finish these lessons, you should have the tools to be able to collabora
 
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.

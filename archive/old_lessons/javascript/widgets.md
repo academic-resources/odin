@@ -11,7 +11,7 @@ We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which m
 * How do you use jQuery UI?
 * Where are the docs for jQuery UI?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read about [jQuery UI from learn.jquery.com](http://learn.jquery.com/jquery-ui/)
@@ -19,7 +19,7 @@ We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which m
 3. If you want further widget inspiration, [check out this list of 50 jQuery plugins from tutorialzine](http://tutorialzine.com/2013/04/50-amazing-jquery-plugins/) (or do it to see what plugins you might want to use yourself).
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [jQuery for Designers from Web Designer Wall](http://www.webdesignerwall.com/demo/jquery/)

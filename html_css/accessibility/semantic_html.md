@@ -9,7 +9,7 @@ As useful as `<div>` and `<span>` elements can be as generic containers, they're
 * Explain why semantic HTML is important for accessibility.
 * Name the seven HTML elements that define landmarks on a page.
 
-### The Importance of Semantics
+### ** The Importance of Semantics
 
 In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a *semantic meaning*, but don't really provide any *context* when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning *and* are announced with some sort of context to help users perceive or operate them, like a `<button>`. 
 
@@ -19,10 +19,12 @@ Okay, let's look at an actual example to help better understand this whole seman
 
 ```html
 <!-- These are buttons... right? -->
+
 <div class='button-container'>
   <div class='rock'>Rock</div>
   <div class='paper'>Paper</div>
   <div class='scissors'>Scissors</div>
+
 </div>
 ```
 
@@ -32,16 +34,18 @@ This issue can be easily fixed by using semantic HTML:
 
 ```html
 <!-- Okay, these are *definitely* buttons -->
+
 <div class='button-container'>
   <button class='rock'>Rock</button>
   <button class='paper'>Paper</button>
   <button class='scissors'>Scissors</button>
+
 </div>
 ```
 
 Because the `<button>` element has a semantic meaning and provides context, a screen reader would announce the text content as well as the role of the element: "Rock, button".
 
-#### Using Semantic HTML Correctly
+#### ** Using Semantic HTML Correctly
 
 When it comes to using semantic HTML correctly, you want to think about what your intent for users is and what context you want (or need) to provide to them. This can vary depending on the situation, but there are some things you should absolutely be checking for moving forward:
 
@@ -51,20 +55,24 @@ When it comes to using semantic HTML correctly, you want to think about what you
 
 ```html
 <!-- Useful when you need the input itself to have an ID -->
+
 <label for='name'>Name</label>
+
 <input type='text' id='name' />
 
 <!-- Look, Ma, no ID! -->
+
 <label>
   Name
   <input type='text' />
+
 </label>
 ```
 
 * Continuing with inputs, you should always use the `type` that makes the most sense for its intended use. `type="text"`makes more sense for a name or address field, while `type="email"` or `type="tel"` would of course make more sense for an e-mail or telephone field, respectively. For certain devices, using the correct `type` may show only the required or additional characters on the keyboard. A `type="tel"` input, for example, might make it much easier for users to fill out their phone number by providing larger, numerical-only keys on mobile or tablet devices.
 * When you want to present a list of some sort to a user, you should use the appropriate list element (`ol`, `<ul>`, or `<dl>`) and their related list item elements. This will not only let the user know when they are entering or exiting a list, but also how many items are in the list.
 
-### Headings and Landmarks
+### ** Headings and Landmarks
 
 Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are seven native HTML elements that define these landmark regions:
 
@@ -80,23 +88,23 @@ By properly using landmarks and headings, you provide users of assistive technol
 
 If you were to use only `<div>` elements to act as these landmarks and headings, maybe adding in some CSS to visually style them, then a screen reader user would have to go through the entire page just to get to a specific section, and they may not be able to actually tell what is a heading or a landmark on the page.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [How screen readers navigate data tables](https://tink.uk/how-screen-readers-navigate-data-tables/) to see a great example of just how much context a proper `<table>` element provides. There is also a video at the end of the blog post if you want to *hear* how a table is announced.
 2. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
 </div>
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Why is semantic HTML important for accessibility?
 * What are the seven HTML elements that define landmarks on a page?
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [NVAccess](https://www.nvaccess.org/download/) provides a download of the NVDA screen reader, one of the more popular (and free!) screen readers available, though it's only available for the Windows OS (this is the **only** time where we're saying it's okay to use Windows in the scope of this curriculum). If you're using a macOS device, you should have the VoiceOver screen reader available to you by default. While the lessons in this section will provide you with what a screen reader will generally announce, it can be invaluable to start using a screen reader yourself to test out your projects and see how they might be perceived.
+* [NVAccess](https://www.nvaccess.org/download/) provides a download of the NVDA screen reader, one of the more popular (and free!) screen readers available, though it's only available for the Windows OS (this is the ** only**  time where we're saying it's okay to use Windows in the scope of this curriculum). If you're using a macOS device, you should have the VoiceOver screen reader available to you by default. While the lessons in this section will provide you with what a screen reader will generally announce, it can be invaluable to start using a screen reader yourself to test out your projects and see how they might be perceived.
 * [Screen Reader Basics: VoiceOver](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=8) and [Screen Reader Basics: NVDA](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9) go over some basics for getting started with both brands of screen readers. Both videos are worth watching regardless of which screen reader you choose/is available to you, as they contain some universal information as well.
 * [ARIA Landmarks Example](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/HTML5.html) lists the native HTML elements that define landmark regions as well as what their role is. If you check this resource out, be sure to enable the button toggles at the top of the page to see how the page is sectioned by landmarks and how it uses headings.

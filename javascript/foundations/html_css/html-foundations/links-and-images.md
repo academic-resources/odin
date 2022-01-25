@@ -12,7 +12,7 @@ In this lesson, we will learn how to create links and add some visual flair to o
 - The difference between absolute and relative links
 - How to display an image on webpage using HTML
 
-### Preparation
+### ** Preparation
 
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
@@ -25,7 +25,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ```
 
-### Anchor Elements
+### ** Anchor Elements
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
 
@@ -49,14 +49,14 @@ By default, any text wrapped with an anchor tag without a `href` attribute will 
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-### Absolute and Relative Links
+### ** Absolute and Relative Links
 
 Generally, there are two kinds of links we will create:
 
 1. Links to pages on other websites on the internet
 2. Links to pages located on our own websites
 
-#### Absolute Links
+#### ** Absolute Links
 
 Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
@@ -64,7 +64,7 @@ We've already seen an absolute link in action. The link we created to The Odin P
 
 `https://www.theodinproject.com/about`
 
-#### Relative Links
+#### ** Relative Links
 
 Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
@@ -74,6 +74,7 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
 
 ```html
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Odin Links and Images</title>
@@ -83,6 +84,7 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
   <body>
     <h1>About Page</h1>
   </body>
+
 </html>
 ```
 
@@ -94,6 +96,7 @@ Back in the index page, add the following anchor element to create a link to the
 	<a href="https://www.theodinproject.com/about">click me</a>
 
 	<a href="about.html">About</a>
+
 </body>
 ```
 
@@ -113,6 +116,7 @@ To fix this, we just need to update the about link href value to include the `pa
 <body>
   <h1>Homepage</h1>
   <a href="pages/about.html">About</a>
+
 </body>
 ```
 
@@ -124,17 +128,18 @@ In many cases, this will work just fine; however, you can still run into unexpec
 <body>
   <h1>Homepage</h1>
   <a href="./pages/about.html">About</a>
+
 </body>
 ```
 
 
-#### A Metaphor
+#### ** A Metaphor
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
 Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house.
 
-### Images
+### ** Images
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
@@ -148,7 +153,9 @@ For example, using an absolute path we can display an image located on The Odin 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/gORbExZ">
   absolute-path-image</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 To use images that we have on our own websites, we can use a relative path.
@@ -167,12 +174,13 @@ Finally add the image to the `index.html` file:
 	<a href="pages/about.html">About</a>
 
 	<img src="images/dog.jpg">
+
 </body>
 ```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
-### Parent Directories
+### ** Parent Directories
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
@@ -189,7 +197,7 @@ To break this down:
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
-### Alt attribute
+### ** Alt attribute
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
@@ -201,12 +209,14 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp">
   image-alt-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
@@ -215,13 +225,13 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
 </div>
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>

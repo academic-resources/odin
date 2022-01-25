@@ -3,7 +3,7 @@
 
 As mentioned in the previous lesson, the lifecycle methods such as `componentDidMount`, `componentDidUpdate` and also the `render` method can only be called in class components. This was a reason why functional components were for long referred to as "dumb" or "stateless" components. They were usually just used to return some JSX because of their inability to have a state or lifecycle methods. Since the introduction of Hooks, this has changed completely.
 
-**Hooks allow functional components to also have a lifecycle as well as a state.**
+** Hooks allow functional components to also have a lifecycle as well as a state.** 
 
 Other than the basic hooks you will encounter in this section, there are many other hooks such as `useRef` or `useContext`, just to name two. React also provides the ability to write your own custom hooks. This changes the game between functional vs. class components. Functional components are no longer considered “dumb” components. Many programmers have increasingly begun to prefer functional components over class components. For more information have a look [here](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg).
 
@@ -15,7 +15,7 @@ Now we will discuss the most basic hooks.  Create a `create-react-app` and use t
 - Explain how state is managed in a functional component
 - Explain how lifecycle methods work in a functional component
 
-### useState
+### ** useState
 
 So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:
 
@@ -51,7 +51,7 @@ Then we can <span id='declare-state'>declare</span> a state like this: `const [c
  
 Afterwards we are declaring a function, which right now just sets a new count. In this case we are incrementing the current count with one. This function will be called anytime we click the button. In the div above the button we are just displaying the current state. One thing to mention and keep in mind here is that setting the state is an asynchronous task. Additionally, setting the state calls a re-render. That's the reason we see the new count when clicking the button. If it wouldn't trigger a re-render then we would still see the old count. Our component will update after setting the state. As mentioned in our last lecture, we might want to use this opportunity of updating to do some tasks. Unfortunately, we don't have any lifecycle methods in functional components, right?
 
-### useEffect
+### ** useEffect
 
 Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
 
@@ -114,7 +114,7 @@ The syntax is as follows:
 
 `useEffect(() => {}, [])`
 
-In the curly brackets you can write the code that will be executed. The dependency array at the end is optional, however, you will include it more often than not. A dependency is any state, prop, context that is used within the `useEffect` callback. You can also include state or props that are not. `useEffect` will trigger based on changes in the dependencies listed. ESLint will warn you if it expects a dependency, but one is not added, however, this is a warning and they are not **required**.
+In the curly brackets you can write the code that will be executed. The dependency array at the end is optional, however, you will include it more often than not. A dependency is any state, prop, context that is used within the `useEffect` callback. You can also include state or props that are not. `useEffect` will trigger based on changes in the dependencies listed. ESLint will warn you if it expects a dependency, but one is not added, however, this is a warning and they are not ** required** .
 
 You have three different options for the <span id='dependency'>dependency</span> array:
 
@@ -128,7 +128,7 @@ You have three different options for the <span id='dependency'>dependency</span>
    }, []);
    ```
 
-   This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
+   This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs ** one time**  when the component mounts (is inserted in the DOM tree)
 
 2. Add a dependency to the array. Like we did it in our example code.
 
@@ -152,7 +152,7 @@ You have three different options for the <span id='dependency'>dependency</span>
    });
    ```
 
-You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, **AND** right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componentDidUpdate` method combined.
+You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, ** AND**  right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componentDidUpdate` method combined.
 
 The return statement we are adding to our useEffect is actually equal to a `componentWillUnmount` method.
 
@@ -167,21 +167,21 @@ return () => {
 
 If you write a return statement like the above in a useEffect, it will do the same as a `componentWillUnmount` method. As you can see, there is a lot to the useEffect hook.  You can also create your own custom hooks if desired. However, with the above mentioned hooks `useState` and `useEffect` you will be fine in most of your smaller projects. 
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
 2. Now go back to your CV Project and rewrite it using functional components and hooks.  
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Here](https://www.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
 * [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
   * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.
 
-### Knowledge Checks
+### ** Knowledge Checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#declare-state">How do you declare state in a functional component?</a>

@@ -10,7 +10,7 @@ Luckily, with HTML there are a couple of different types of lists at your dispos
 - How to create an unordered list
 - How to create an ordered list
 
-### Unordered Lists
+### ** Unordered Lists
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
@@ -22,10 +22,12 @@ Each list item in an unordered list begins with a bullet point:
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powjajd">
   html-unordred-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Ordered Lists
+### ** Ordered Lists
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
 
@@ -35,10 +37,12 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp">
   html-ordered-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 To get some practice using lists, create a new HTML document and create the following lists:
@@ -49,14 +53,14 @@ To get some practice using lists, create a new HTML document and create the foll
 4. An ordered list of your all time top 5 favorite video games or movies
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 - [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>

@@ -1,6 +1,13 @@
-### Exerpt
->Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails.**It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.**You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).**###  Topics
-This is a fairly long list of things to pay attention to but it should be mostly review.*** How do you include a Javascript file in your HTML file?
+### ** Exerpt
+>Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails.** It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.** You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).** 
+
+---
+
+
+### ** Topics
+This is a fairly long list of things to pay attention to but it should be mostly review.** 
+
+* How do you include a Javascript file in your HTML file?
 * How do you include Javascript directly in your HTML code?
 * How can you write and run your Javascript code using programs like [jsfiddle](http://jsfiddle.net/)?
 * How do you create a new object using the "Constructor" method?
@@ -34,13 +41,15 @@ This is a fairly long list of things to pay attention to but it should be mostly
 * Why are closures useful?
 * How would you use a closure to "close" a value within a function?
 * How does `#bind` make your life simpler when thinking about closures and scopes?
----**# Challenge:
+---** # Challenge:
 <div class="lesson-content__panel" markdown="1">
 1. Read [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/), which is a good post for getting fired up to learn Javascript.
 2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/introduction-to-javascript) (you already did up to lesson 5).
 3. Glance through [Javascript Basics from Mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to review from the Codecademy course.
-</div>**## Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*** A straight-to-the-point [primer on Javascript from discovermeteor.com](http://www.discovermeteor.com/blog/javascript-for-meteor/)
+</div>** ## Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+
+* A straight-to-the-point [primer on Javascript from discovermeteor.com](http://www.discovermeteor.com/blog/javascript-for-meteor/)
 * [Javascript is Sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/) is a blog that covers great technical depth on fundamental JS concepts.  We will use it often in the coming lessons.
 * [Javascript and jQuery: The Missing Manual](http://web-algarve.com/books/JS%20AJAX%20jquery%20&%20angular/JavaScript%20&%20jQuery-%20The%20Missing%20Manual,%203rd%20Edition.pdf) is a great book about JS.
 * [Best Javascript Books](http://www.tripwiremagazine.com/2012/11/best-javascript-jquery-books.html)

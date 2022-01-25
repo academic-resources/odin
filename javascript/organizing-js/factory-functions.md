@@ -1,4 +1,4 @@
-### What's wrong with constructors?
+### ** What's wrong with constructors?
 
 Object constructors are one of about a million ways to start organizing your code. They are fairly common in the wild and are a fundamental building block of the JavaScript language.
 
@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-### Factory function introduction
+### ** Factory function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
@@ -57,7 +57,7 @@ const jeff = new Person('jeff', 27);
 
 ```
 
-#### Object Shorthand
+#### ** Object Shorthand
 
 A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
 
@@ -97,7 +97,7 @@ console.log({name, color, number, food});
  // { name: 'Maynard', color: 'red', number: 34, food: 'rice' }
 ```
 
-### Scope and Closure
+### ** Scope and Closure
 
 From simply reading the above example, you are probably already in pretty good shape to start using factory functions in your code. Before we get there though, it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
 
@@ -133,7 +133,7 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
     That statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
 
-### Private Variables and Functions
+### ** Private Variables and Functions
 
 Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:
 
@@ -185,7 +185,7 @@ In this example, `counterCreator` initializes a local variable (`count`) and the
 
 The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test, and easier to reason about for you and anyone else that wants to use your objects.
 
-### Back to Factory Functions
+### ** Back to Factory Functions
 
 Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!).
 
@@ -228,7 +228,7 @@ Take a minute to look through this example and see if you can figure out what's 
 
 What would happen here if we tried to call `jimmie.die()`? What if we tried to manipulate the health: `jimmie.health -= 1000`? Well, those are things that we have NOT exposed publicly so we would get an error. This is a very good thing! Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information. In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it. In the long run, this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
 
-#### Inheritance with factories
+#### ** Inheritance with factories
 
 In the constructors lesson, we looked fairly deeply into the concept of prototypes and inheritance, or giving our objects access to the methods and properties of another object. There are a few easy ways to accomplish this while using factories. Check this one out:
 
@@ -267,7 +267,7 @@ const Nerd = (name) => {
 
 - Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article. In the second half of the article, the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about. Good stuff!
 
-### The Module Pattern
+### ** The Module Pattern
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here.
 
@@ -307,12 +307,12 @@ In our calculator example above, the function inside the IIFE is a simple factor
 
 <span id='name-spacing'></span>A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/'> Describe common bugs you might run into using constructors.</a>

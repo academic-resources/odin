@@ -5,7 +5,7 @@ In this unit, we are going to be following the [express tutorial](https://develo
 # Concepts:
 By the end of this lesson, you should be able to do the following:
 
-#### Express web framework
+#### ** Express web framework
 - Describe Express and Node's main benefits.
 - Describe the relationship between Node and Express.
 - Explain what a module is and how Express fits in.
@@ -16,14 +16,14 @@ By the end of this lesson, you should be able to do the following:
 - Describe error handling in Express.
 - Describe what the main parts of an Express app might look like.
 
-#### Setting up a Node development environment
+#### ** Setting up a Node development environment
 - Describe Express development environment.
 - Import Express into an application using NPM.
 - Create and run applications using the Express application generator tool.
 - Set up a development environment for Express on your computer.
 
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -34,13 +34,13 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners.
 - [This](https://www.youtube.com/watch?v=L72fhGm1tfE) video crash course provides you with all the basic concepts.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express" title="Permalink to Introducing Node"> What is Express?</a>

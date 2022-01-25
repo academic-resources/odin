@@ -8,7 +8,7 @@ There's a whole world of exciting things you can learn. Further on the front-end
 
 So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. But focus on creating interesting software and use that to drive your education. However, we're not done yet. There is yet more to learn!
 
-### Additional Resources
+### ** Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

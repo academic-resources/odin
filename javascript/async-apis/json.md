@@ -5,7 +5,7 @@ JSON (JavaScript Object Notation) is a standardized format for structuring data.
 
 Fortunately, there isn't much to learn here. We're only including a lesson on it because some formatting rules can cause confusion if you aren't aware of them. Spend 10-15 minutes going through the following resources and you'll be good to go.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. [This MDN tutorial]( https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) is probably all you need...

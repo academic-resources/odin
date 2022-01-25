@@ -10,14 +10,14 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 * What interesting animations can you use in CSS3?
 * What are pseudo-elements and what are they useful for?
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Read about [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), stop at the Javascript section.
 2. Peruse through these [CSS Animated Loading Icons](http://tobiasahlin.com/spinkit/) for some animation inspiration.
 3. Glance at [canIuse](http://caniuse.com/), a compatibility table for various elements in CSS and HTML5.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [W3Schools on Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)

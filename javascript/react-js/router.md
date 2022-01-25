@@ -8,7 +8,7 @@ In this lecture we are going to learn a little bit about routing in React. Up un
 
 - Explain how `react-router-dom` works
 
-### React Router
+### ** React Router
 
 Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)
 
@@ -75,11 +75,11 @@ export default RouteSwitch;
 
 <span id="components">So what is happening here?</span> First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
-1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
+1. ** Route** : Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
-2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion we have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
+2. ** BrowserRouter** : Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion we have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
 
-3. **Routes**: Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.
+3. ** Routes** : Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.
 
 Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first. Your `index.js` should look something like this:
 
@@ -103,7 +103,7 @@ Once this is done, go ahead and run `npm start` and check out both routes: the h
 
 You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
@@ -111,13 +111,13 @@ You should now have enough basics to get started with React routing. There are a
 3. Watch [this](https://www.youtube.com/watch?v=Law7wfdg_ls) video for reviewing. You should already be familiar with those concepts.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
 
-### Knowledge Checks
+### ** Knowledge Checks
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 

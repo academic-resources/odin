@@ -21,7 +21,7 @@ Grid was introduced to fill this need.
 - What are gutters (also known as alleys) in the grid?
 - How can you nest grids?
 
-### Overview
+### ** Overview
 Grid layout introduces a two-dimensional grid system which works with columns and rows. This compares against the mainly one dimensional alternatives where you fix the layout to either columns or rows. The result is the ability to create complex layouts in a simple and clean way as you aren't required to include anything in your HTML markup as you would with tools like Bootstrap.
 
 If you have any experience with other CSS layout options like floats then Grid can take a little getting used to. Here are some practical tips that can help you as you use Grid in your layouts.
@@ -41,14 +41,14 @@ One limitation to the current grid specification is that subgrids are not yet wi
 Grid is now supported in all major browsers meaning you can use it right away to start creating awesome layouts. You can find out if your browser version supports it [here](https://caniuse.com/#feat=css-grid).
 
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
 - Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of CSS Grid through 28 levels.
 - Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
 - Wes Bos has a [CSS Grid course](https://cssgrid.io/) which goes really in depth on the subject.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.

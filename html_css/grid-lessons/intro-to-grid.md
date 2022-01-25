@@ -12,7 +12,7 @@ The following lessons will show you how to create a grid, position grid items an
 * Compare the basics between Flexbox and Grid
 * Describe a situation for using Grid over Flexbox
 
-### A Look Back at Flex
+### ** A Look Back at Flex
 
 In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-flexbox) again to get up to speed.
 
@@ -24,7 +24,9 @@ You’ll remember you can line up a nice row of flex items like this:
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJbRy">
   Single Row | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Or a column like this:
@@ -33,7 +35,9 @@ Or a column like this:
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYwoX">
   Single Column | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 For one-dimensional layouts, Flex offers a convienent tool without having to rely on floats or CSS hacks to align your items properly.
@@ -52,10 +56,12 @@ But setting up a two-dimensional layout of cards would be much simpler using CSS
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXwpZR">
   2D Layout | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### What the Grid?
+### ** What the Grid?
 
 Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (yes, Wes Bos’ dad!) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
 
@@ -67,11 +73,11 @@ When reviewing older resources, keep in mind that differences between Flex and G
 
 While some people thought CSS Grid was here to replace Flexbox, you will learn by the end of these lessons that Grid is just another tool for the bag. In fact, not only do each of these modules have their own use cases, but you will also find it helpful to pair Flex and Grid together. But we’ll be covering all of that in the concluding lesson. First you will learn how to actually make a grid!
 
-### Additional Resources
+### ** Additional Resources
 - Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#a-look-back-at-flex'>How can you use Flex to make a two-dimensional layout?</a>

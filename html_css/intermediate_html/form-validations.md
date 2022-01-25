@@ -15,26 +15,29 @@ This lesson will explore some of the built-in validations you can use with HTML 
 - Know how to use a few of the basic built-in HTML validations
 - Know how to build custom validations
 
-### Required Validation
+### ** Required Validation
 
 We will often want to ensure specific fields have been filled in before submitting the form, for example, the email and password in a login form.
 
 To make a field required, we simply add the `required` attribute to it:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGzB" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
 <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYeZGzB">
 forms-required-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
 on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(*) to the required field label like we have done in the example.
 
-### Text Length Validations
+### ** Text Length Validations
 
 Sometimes we will want users only to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that Twitter used to have in its status field or having minimum and maximum length constraints on a username field.
 
-#### Minimum length Validation
+#### ** Minimum length Validation
 
 To add the minimum length validation, we give the form control a `minlength` attribute with an integer value that represents the minimum amount of characters we want to allow in the form control:
 
@@ -42,12 +45,14 @@ To add the minimum length validation, we give the form control a `minlength` att
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/WNZOwgp">
   forms-min-length-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Try entering less than three charters into the text area and clicking the tweet button to see the validation in action.
 
-#### Maximum Length Validation
+#### ** Maximum Length Validation
 
 To add a maximum length validation, we give the form control an `maxlength` attribute with an integer value which represents the maximum amount of characters we want to allow in the form control:
 
@@ -55,12 +60,14 @@ To add a maximum length validation, we give the form control an `maxlength` attr
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/zYEzqJJ">
   forms-maximum-length-validations</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 With the maximum length validation, the browser will prevent users from entering more characters than the max length attribute value. Try this for yourself in the example above.
 
-#### Combining Validations
+#### ** Combining Validations
 
 HTML allows us to apply as many validations as we wish to a form controls. For example, we can give our tweet textarea both `minlength` and `maxlength` validations:
 
@@ -68,12 +75,14 @@ HTML allows us to apply as many validations as we wish to a form controls. For e
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYeZGVY">
   forms-combining-validations</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 This gives us much more scope to control what users input.
 
-### Minimum and Maximum Validations
+### ** Minimum and Maximum Validations
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
@@ -83,7 +92,7 @@ You can view the complete list of supported elements on [MDN's documentation](h
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
-#### Min Validation
+#### ** Min Validation
 
 To add a minimum value validation, we give the form control a `min` attribute with an integer value which represents the minimum number we want the form control to accept:
 
@@ -91,12 +100,14 @@ To add a minimum value validation, we give the form control a `min` attribute wi
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWwyxd">
   forms-min-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Try submitting the form with a quantity of 0 to see the validation in action.
 
-#### Max Validation
+#### ** Max Validation
 
 To add a maximum value validation, we give the form control a `max` attribute with an integer value which represents the maximum number we want the form control to accept:
 
@@ -104,12 +115,14 @@ To add a maximum value validation, we give the form control a `max` attribute wi
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWegdxB">
   forms-max-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Try submitting the form with seven passengers to see the validation in action.
 
-### Pattern Validations
+### ** Pattern Validations
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
 Real-world applications would be checking a credit card number or a zipcode is in the correct format.
@@ -120,7 +133,9 @@ To add a pattern validation, we give the form control a `pattern` attribute with
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzrQqRK">
   forms-pattern-basic-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format".
@@ -132,7 +147,9 @@ We can add a more descriptive validation message by giving our input a `title` a
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEoyzQ">
   forms-pattern-with-title-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 When we submit the form with an incorrect zip code, we will be greeted with a more helpful message telling us exactly what went wrong and how to resolve it.
@@ -143,7 +160,9 @@ It is also good practice to use a `placeholder` attribute to show users an examp
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYzLNXv">
   forms-pattern-with-placeholder-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 The pattern attribute can only be used on `<input>` elements. Some input elements already validate data matches a certain pattern. For example the email input field which will make sure a valid email is entered and the url input element which will check to ensure the url starts with http or https:
@@ -152,10 +171,12 @@ The pattern attribute can only be used on `<input>` elements. Some input element
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGRZbK">
   forms-built-in-pattern-validations</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Styling Validations
+### ** Styling Validations
 
 We can target form controls that have passed or failed validations using the `:valid` and `:invalid` pseudo-classes.
 
@@ -165,14 +186,16 @@ To see this in action, we will be using our email and website example that we lo
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMwx">
   forms-styling-validations</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 First of all, we target any valid inputs and give them a green border. Our email and URL inputs initially have a green border since they are not required fields and are valid.
 
 When a field is invalid, we give it a red border instead. Try entering an invalid email address and URL to see how this looks.
 
-### Conclusion
+### ** Conclusion
 
 The built-in validations will take you far with ensuring your users enter the correct data. They are quick and easy to add. However, they have their limitations.
 
@@ -182,7 +205,7 @@ In this case, we will need to get creative and make custom validations using Jav
 
 It's also worth noting client-side validations are not a silver bullet for ensuring users enter the correct data. To ensure the integrity of any user data coming into our systems, we should also have server-side validations in place. We will cover this side of validations later in the curriculum.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -193,13 +216,13 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 </div>
 
-### Additional Resources
+### ** Additional Resources
 
 - Check out [html5pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
 - Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do and don'ts for form validation UX.
 - [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design
 
-### Knowledge Check
+### ** Knowledge Check
 
 - <a class="knowledge-check-link" href='#required-validation'>What does the required validation do?</a>
 - <a class="knowledge-check-link" href='#text-length-validations'>What validations can you use for checking text length?</a>

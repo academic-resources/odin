@@ -3,7 +3,7 @@
 
 Let's take a quick break from the main Express tutorial to practice what we've already learned.  At this point you should know enough to use Express to make some fun interactive web apps! We're going to create a super simple message board.
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 

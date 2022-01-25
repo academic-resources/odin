@@ -15,7 +15,7 @@ In this lesson, we've laid out resources for learning several different framewor
 * How do models stay up to date with your database?
 * How does clicking a link to another "page" in a single-page web app actually render a different "page" without making an HTTP request to the server?
 
-### Assignment
+### ** Assignment
 
 Reading the following articles is required.  After that, it's up to you to choose which framework you'd like to dive into.  We've provided resources for Backbone.js, Angular.js and Ember.js below, but you should only choose one to begin with.
 
@@ -25,7 +25,7 @@ Reading the following articles is required.  After that, it's up to you to choos
 3. Browse through the [Seven Frameworks of JS from Steven Anderson](http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/)
 </div>
 
-### Backbone.js Resources
+### ** Backbone.js Resources
 
 * [Learn Backbone Completely from JSIS](http://javascriptissexy.com/learn-backbone-js-completely/)
 * [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
@@ -35,17 +35,17 @@ Reading the following articles is required.  After that, it's up to you to choos
 * [Backbone.js and Ruby on Rails, Ruby on Rails screencasts, part 2](https://www.youtube.com/watch?v=98oUGEz_y4g&list=PL4XBVtvKZKqcoTXHdOCXdiQmh7ke94Hzm&index=21)
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
 
-### Angular.js Resources
+### ** Angular.js Resources
 
 * [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
 * [Angular.js video training resources](http://www.egghead.io)
 * [Angular.js and Ruby on Rails, Ruby on Rails screencasts](https://www.youtube.com/watch?v=R96rw9vEtiQ)
 
-### Ember.js Resources
+### ** Ember.js Resources
 
 * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [A Great Free AngularJS Course from CodeSchool](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)

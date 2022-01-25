@@ -19,7 +19,7 @@ Pay particular attention to which element acts as the parent of the element you'
 * How would you set up a grid of 20x20 boxes on the page using floats?  Using lists?
 * What are negative margins useful for?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [CSS Floats 101 from A List Apart](http://alistapart.com/article/css-floats-101)
@@ -27,7 +27,7 @@ Pay particular attention to which element acts as the parent of the element you'
 3. Play around with the [Positioning Tutorial / Widget from BarelyFitz Designs](http://www.barelyfitz.com/screencast/html-training/css/positioning/) to see the differences between different positioning schemes.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Video: Positioning Elements](https://www.youtube.com/watch?v=TiY5FuwgocI) - amazing video giving a general overview of the different CSS position values and how they work.

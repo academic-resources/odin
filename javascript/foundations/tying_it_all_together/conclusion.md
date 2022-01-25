@@ -6,13 +6,13 @@ With what you know already you could start putting together some basic websites,
 
 You've come a long way up the learning curve but there is so much more cool stuff that you'll learn to do, and now is the time to decide which path you want to take. Either Ruby with Ruby on Rails or JavaScript with Node/Express. Both paths will guide you in building skills, building up a portfolio of projects, and becoming a great developer. There is no right answer here on what is the best path. Learning multiple languages can help you become a well-rounded developer, but sticking with one could make you more of an expert in a particular language. Both paths will help you become a great developer. The important thing is to not switch halfway though; this will only set you back.
 
-Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckily, all these skills are transferrable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
+Learning how to program is ** much**  more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and ** much**  more. Luckily, all these skills are transferrable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
 
 Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need - even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs, though). A good course is far more important than the language you learn first. 
 
 To help you make a decision, here are some perks of each technology:
 
-#### Ruby and Ruby On Rails: 
+#### ** Ruby and Ruby On Rails: 
 * Opinionated 
   - You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
   - You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
@@ -24,7 +24,7 @@ To help you make a decision, here are some perks of each technology:
 * Single paradigm
   - Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
 
-#### JavaScript/Node & Express
+#### ** JavaScript/Node & Express
 * Un-opinionated
   - There is no standard way of doing things. You are going to have to decide the structure of projects yourself, for better or worse.
 * Very fast

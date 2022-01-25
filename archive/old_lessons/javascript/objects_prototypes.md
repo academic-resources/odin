@@ -2,7 +2,7 @@
 
 Javascript doesn't really have "classes", per se, like Ruby -- instead they use "prototypes" to DRY ("Don't Repeat Yourself") up code.
 
-You'll also find **Objects** used a whole lot.  They're basically containers that can contain anything from variables to functions (or both!).  They might remind you a lot of Ruby's hashes.  You'll find them used in standard ways (for logically grouping variables) or ways which may be new to you (to group functions within a particular namespace).
+You'll also find ** Objects**  used a whole lot.  They're basically containers that can contain anything from variables to functions (or both!).  They might remind you a lot of Ruby's hashes.  You'll find them used in standard ways (for logically grouping variables) or ways which may be new to you (to group functions within a particular namespace).
 
 # Concepts:
 
@@ -13,14 +13,14 @@ You'll also find **Objects** used a whole lot.  They're basically containers tha
 * How do prototypes allow you to inherit and DRY up code?
 * What happens if you take the prototype of the prototype of the prototype etc. of an object?
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Read [Understanding Objects in JS from JSIS](http://javascriptissexy.com/javascript-objects-in-detail/)
 2. Read [Javascript Prototypes from JSIS](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 3. Read [OOP in Javascript from JSIS](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Prototypes in Javascript from MSDN](http://msdn.microsoft.com/en-us/magazine/ff852808.aspx)

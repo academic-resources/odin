@@ -12,7 +12,7 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 - Practice everyday techniques used by JavaScript programmers.
 
-### Drop-down Menus
+### ** Drop-down Menus
 
 You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:
 
@@ -21,13 +21,13 @@ You know what we're talking about here. Picture a nav-bar or a button and when y
 3. Make sure the code is reusable! You should be able to create multiple drop-downs on a page without repeating the JavaScript code.
 4. If you bundle your code into a module you can [publish it to npm](https://docs.npmjs.com/getting-started/publishing-npm-packages) and then install and use it anytime you like! Nothing like publishing your own modules to make you feel like a pro 😎.
 
-### Mobile menus
+### ** Mobile menus
 
 Mobile versions of your sites are almost definitely going to need their own menu implementation. Depending on how you decided to implement your drop-down, you _could_ reuse it here, but there are tons of more inventive options out there.
 
 1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0) [inspiration](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/), pick something and try to implement it!
 
-### Image slider
+### ** Image slider
 
 Again, there's not much instruction needed here - just practice.  
 
@@ -43,7 +43,7 @@ Don't spend too much time worrying about getting your images to display at the c
 6. Add a timeout which advances the slides every 5 seconds.
 7. Play around with your slideshow!
 
-### Knowledge Check
+### ** Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

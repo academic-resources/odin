@@ -4,7 +4,7 @@ In this project you'll be building an exclusive clubhouse where your members can
 
 This will be a chance for you to use the authentication skills we learned in the last project, you also be practicing your database skills so buckle up!
 
-### Assignment 
+### ** Assignment 
 
 <div class="lesson-content__panel" markdown="1">
 

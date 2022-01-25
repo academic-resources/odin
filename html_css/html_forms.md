@@ -19,14 +19,14 @@ Forms are important to get right not just because you want the correct data gett
 * How do you link element selections together (e.g. check boxes) so they are nicely formatted when your server receives them?
 * What should your "submit" button probably say instead of "submit"?
 
-### Assignment
+### ** Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Forms](http://learn.shayhowe.com/html-css/building-forms)
 2. Browse through [Form Basics from MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form) to see if you've missed anything.
 </div>
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [HTML Forms Docs](http://www.w3schools.com/html/html_forms.asp)

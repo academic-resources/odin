@@ -7,12 +7,12 @@ That black screen or window is the command line interface (CLI), where you're ab
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
 
-#### Test Drive Your Terminal
+#### ** Test Drive Your Terminal
 Open a terminal on your computer.
 
-- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+- ** Linux** : open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
-- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
+- ** macOS** : Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
 Before we do anything, take a look at the following text:
 ```
@@ -22,7 +22,7 @@ This is a terminal command because it begins with a `$`. The `$` is saying "Hey!
 
 It returns your username. Cool!
 
-#### Why learn this now?
+#### ** Why learn this now?
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will require you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
@@ -36,17 +36,17 @@ By the end of this lesson, you should be able to do the following:
 - Use the command line to rename or destroy a directory and a file.
 - Use the command line to open a file or folder in a program.
 
-### Assignment
+### ** Assignment
 <div class="lesson-content__panel" markdown="1">
 
-**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
+** Note** : Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
 
   1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
   2. Read through [chapter 1 of Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/basics).
 </div>
 
 
-#### Use the Command Line Like a Pro
+#### ** Use the Command Line Like a Pro
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. If they are forced to do something over and over again, odds are good that they'll figure out a way to automate it instead. The good news is that you get to benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
 
 First, you might have already noticed that copying and pasting inside the command line doesn't work the way that you'd expect. When you're inside the command line, you'll need to use `Ctrl+Shift+C` (Mac: `Cmd+C`) to copy and `Ctrl+Shift+V` (Mac: `Cmd+V`) to paste. For example, to copy and paste commands from your browser into the command line, you'll highlight the command text and use `Ctrl+C` as usual and then paste it in your terminal using `Ctrl+Shift+V`. Test it out!
@@ -61,15 +61,15 @@ But once you've typed in a little bit more, it will complete the name for you, m
 
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. See the next section of this lesson for a more detailed example.
 
-#### Opening files in VSCode from the Command Line
+#### ** Opening files in VSCode from the Command Line
 
 On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
-##### MacOS Users:
+##### ** MacOS Users:
 
 MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
-### Exercise
+### ** Exercise
 In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
 <div class="lesson-content__panel" markdown="1">
@@ -83,7 +83,7 @@ In this exercise, you will practice creating files and directories and deleting 
 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The art of command line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete pro-maker for beginners. It serves as a open source repository. This also has a lot of protips!
@@ -93,7 +93,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
 * [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
 
-### Knowledge Check
+### ** Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is the command line?

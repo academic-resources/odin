@@ -5,7 +5,7 @@ Developing is incredibly rewarding but can also be difficult and frustrating.  T
 * [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
 * [oreanarose: What makes a good web developer?](http://oreanarose.com/2010/12/what-makes-a-good-web-developer/)
 
-### Additional Resources
+### ** Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

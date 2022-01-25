@@ -4,7 +4,7 @@ There are still plenty of ways you can make your workflow better or improve your
 
 Onwaaaaaaard!!!
 
-### Additional Resources
+### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Web Fundamentals](https://developers.google.com/web/fundamentals/)... tons of links to articles specific to your goals.
