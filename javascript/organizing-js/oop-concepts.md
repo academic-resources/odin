@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 By this point, you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript. But that is just the _tip_ of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively.
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP). The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 - Explain the "Single Responsibility Principle".
@@ -22,7 +23,9 @@ Here's a really common example. Most of our code has functions to update and wri
 
 So instead of this:
 
-~~~javascript
+
+```js
+
 function isGameOver() {
 
   // game over logic goes here!
@@ -34,11 +37,13 @@ function isGameOver() {
     document.body.appendChild(gameOverDiv)
   }
 }
-~~~
+```
 
 You should extract all the DOM manipulation into its own module and use it like so:
 
-~~~javascript
+
+```js
+
 function isGameOver() {
 
   // game over logic goes here!
@@ -47,7 +52,7 @@ function isGameOver() {
     DOMStuff.gameOver(this.winner)
   }
 }
-~~~
+```
 
 In fact - the function `isGameOver` shouldn't be calling the DOM function anyway. That should go elsewhere (directly in the game-loop).
 

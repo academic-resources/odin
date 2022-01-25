@@ -10,7 +10,7 @@ One of the biggest issues with constructors is that while they _look_ just like 
 
 The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 - Describe common bugs you might run into using constructors.
@@ -27,7 +27,9 @@ By the end of this lesson, you should be able to do the following:
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
-~~~javascript
+
+```js
+
 const personFactory = (name, age) => {
   const sayHello = () => console.log('hello!');
   return { name, age, sayHello };
@@ -38,11 +40,13 @@ const jeff = personFactory('jeff', 27);
 console.log(jeff.name); // 'jeff'
 
 jeff.sayHello(); // calls the function and logs 'hello!'
-~~~
+```
 
 For reference, here is the same thing created using the constructor pattern:
 
-~~~javascript
+
+```js
+
 const Person = function(name, age) {
   this.sayHello = () => console.log('hello!');
   this.name = name;
@@ -50,25 +54,34 @@ const Person = function(name, age) {
 };
 
 const jeff = new Person('jeff', 27);
-~~~
+
+```
 
 #### Object Shorthand
 
 A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
 
-~~~javascript
+
+```js
+
 return {name: name, age: age, sayHello: sayHello};
-~~~
+
+```
 
 Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating, you can condense it like so:
 
-~~~javascript
+
+```js
+
 return {name, age, sayHello};
-~~~
+
+```
 
 With that knowledge in your pocket, check out this little hack:
 
-~~~javascript
+
+```js
+
 const name = "Maynard";
 const color = "red";
 const number = 34;
@@ -82,7 +95,7 @@ console.log(name, color, number, food); // Maynard red 34 rice
 // the output is much easier to decipher:
 console.log({name, color, number, food});
  // { name: 'Maynard', color: 'red', number: 34, food: 'rice' }
-~~~
+```
 
 ### Scope and Closure
 
@@ -92,7 +105,9 @@ However, before we're able to make sense of closure, we need to make sure you ha
 
 In the following example, do you know what will be logged on the last line?
 
-~~~javascript
+
+```js
+
 let a = 17;
 
 const func = x => {
@@ -102,7 +117,7 @@ const func = x => {
 func(99);
 
 console.log(a); // ???????
-~~~
+```
 
 Is it 17 or 99? Do you know why? Can you edit the code so that it prints the other value?
 
@@ -122,7 +137,9 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
 Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:
 
-~~~javascript
+
+```js
+
 const FactoryFunction = string => {
   const capitalizeString = () => string.toUpperCase();
   const printString = () => console.log(`----${capitalizeString()}----`);
@@ -135,7 +152,7 @@ printString(); // ERROR!!
 capitalizeString(); // ERROR!!
 taco.capitalizeString(); // ERROR!!
 taco.printString(); // this prints "----TACO----"
-~~~
+```
 
 Because of the concept of scope, neither of the functions created inside of `FactoryFunction` can be accessed outside of the function itself, which is why lines 9, 10, and 11 fail. The only way to use either of those functions is to `return` them in the object (see line 4), which is why we can call `taco.printString()` but _not_ `taco.capitalizeString()`. The big deal here is that even though _we_ can't access the `capitalizeString()` function, `printString()` can. That is closure.
 
@@ -143,7 +160,9 @@ Because of the concept of scope, neither of the functions created inside of `Fac
 
 Here's another example:
 
-~~~javascript
+
+```js
+
 const counterCreator = () => {
   let count = 0;
   return () => {
@@ -158,7 +177,7 @@ counter(); // 0
 counter(); // 1
 counter(); // 2
 counter(); // 3
-~~~
+```
 
 In this example, `counterCreator` initializes a local variable (`count`) and then returns a function. To use that function, we have to assign it to a variable (line 9). Then, every time we run the function it logs `count` to the console and increments it. Keep in mind, `counter()` is calling the return value of `counterCreator`. As above, the function `counter` is a closure. It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
@@ -170,7 +189,9 @@ The concept of private functions is very useful and should be used as often as i
 
 Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!).
 
-~~~javascript
+
+```js
+
 const Player = (name, level) => {
   let health = level * 2;
   const getLevel = () => level;
@@ -200,7 +221,8 @@ const Player = (name, level) => {
 const jimmie = Player('jim', 10);
 const badGuy = Player('jeff', 5);
 jimmie.attack(badGuy);
-~~~
+
+```
 
 Take a minute to look through this example and see if you can figure out what's going on.
 
@@ -210,7 +232,9 @@ What would happen here if we tried to call `jimmie.die()`? What if we tried to m
 
 In the constructors lesson, we looked fairly deeply into the concept of prototypes and inheritance, or giving our objects access to the methods and properties of another object. There are a few easy ways to accomplish this while using factories. Check this one out:
 
-~~~javascript
+
+```js
+
 const Person = (name) => {
   const sayName = () => console.log(`my name is ${name}`);
   return {sayName};
@@ -227,17 +251,19 @@ const jeff = Nerd('jeff');
 
 jeff.sayName(); //my name is jeff
 jeff.doSomethingNerdy(); // nerd stuff
-~~~
+```
 
 This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object. If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)).
 
-~~~javascript
+
+```js
+
 const Nerd = (name) => {
   const prototype = Person(name);
   const doSomethingNerdy = () => console.log('nerd stuff');
   return Object.assign({}, prototype, {doSomethingNerdy});
 }
-~~~
+```
 
 - Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article. In the second half of the article, the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about. Good stuff!
 
@@ -249,7 +275,9 @@ Modules are actually very similar to factory functions. The main difference is h
 
 Meet a module:
 
-~~~javascript
+
+```js
+
 const calculator = (() => {
   const add = (a, b) => a + b;
   const sub = (a, b) => a - b;
@@ -266,7 +294,7 @@ const calculator = (() => {
 calculator.add(3,5); // 8
 calculator.sub(6,2); // 4
 calculator.mul(14,5534); // 77476
-~~~
+```
 
 The concepts are exactly the same as the factory function. However, instead of creating a factory that we can use over and over again to create multiple objects, the module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
 

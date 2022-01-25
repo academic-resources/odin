@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Sometimes you end up with a chain of different files and assets like images and stylesheets and javascript files and it's a real pain to get them all mashed together the way you need to in order to ship the site, especially if you're adding in preprocessors and uglifiers.  Luckily people have created build tools like [Grunt](http://gruntjs.com/) whose sole purpose is to make this work flow easier for you.
 
@@ -6,7 +7,7 @@ Most of these tools use Javascript and are built to help people programming with
 
 One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/ruby-on-rails/the-asset-pipeline).
 
-### Learning Outcomes
+# Concepts:
 
 * Why are automatic build tools useful?
 * Why would you want to concatenate your CSS and Javascript files?

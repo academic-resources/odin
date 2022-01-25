@@ -1,10 +1,11 @@
-### Introduction
+## Intro:
+
 
 This is a very brief look at the similarities and differences between Ruby and Javascript.  Basically, Javascript uses functions eeeeeeverywhere and it has to wait a lot for things to happen.
 
 This will obviously be less helpful for you if you haven't been through the Ruby lessons, but it may be interesting to compare the two regardless so you get an idea of common similarities between languages.
 
-### Learning Outcomes
+# Concepts:
 
 * How are Ruby blocks like JS anonymous functions?
 * How can JS functions be saved to variables (like Ruby Methods) and passed around?

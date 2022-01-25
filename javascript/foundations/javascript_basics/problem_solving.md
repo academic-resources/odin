@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about *problem solving*: the most important skill a developer needs.
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
@@ -16,7 +17,7 @@ The best way to improve your problem solving ability is by building experience b
 
 In this lesson we will walk through a few techniques that can be used to help with the problem solving process.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 * Explain the three steps in the problem solving process.
@@ -46,12 +47,12 @@ The last question is where you will write out an algorithm to solve the problem.
 
 Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
 
-~~~
+```
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number increment the counter by one
 Print the value of the counter variable
-~~~
+```
 
 This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
 
@@ -87,41 +88,48 @@ The desired output is a list of numbers from 1 to the number the user entered. B
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudo code for this problem:
 
-~~~
+```
 When a user inputs a number
 Loop from 1 to the entered number
 If the current number is divisible by 3 then print "Fizz"
 If the current number is divisible by 5 then print "Buzz"
 If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
-~~~
+```
 
 #### Divide and Conquer (Implement)
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 With JavaScript, we'll use the "prompt" method.
 
-~~~javascript
+
+```js
+
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
-~~~
+
+```
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. **Note**: We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
 With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
 
-~~~javascript
+
+```js
+
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i <= answer; i++) {
   console.log(i);
 }
-~~~
+```
 
 If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: the initial value of the variable `i` in our loop (**NOTE**: Most of the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1). The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++`, tells our loop to increment `i` by 1 every iteration. As a result, if the user inputs 10, this loop would print numbers 1 - 10 to the console.
 
 With that working, let's move on to the next problem: If the current number is divisible by 3, then print `Fizz`.
 
-~~~javascript
+
+```js
+
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i <= answer; i++) {
@@ -131,13 +139,13 @@ for (let i = 1; i <= answer; i++) {
     console.log(i);
   }
 }
-~~~
+```
 
 We are using the modulus operator (`%`) here to divide the current number by three. If you recall from a previous lesson, the modulus operator returns the remainder of a division. So if a remainder of 0 is returned from the division, it means the `current` number is divisible by 3.
 
 After this change the program will now output this when you run it and the user inputs 10:
 
-~~~bash
+```bash
 1
 2
 Fizz
@@ -148,11 +156,13 @@ Fizz
 8
 Fizz
 10
-~~~
+```
 
 The program is starting to take shape. The final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
 
-~~~javascript
+
+```js
+
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i <= answer; i++) {
@@ -164,11 +174,11 @@ for (let i = 1; i <= answer; i++) {
     console.log(i);
   }
 }
-~~~
+```
 
 When you run the program now, you should see this output if the user inputs 10:
 
-~~~bash
+```bash
 1
 2
 Fizz
@@ -179,11 +189,13 @@ Fizz
 8
 Fizz
 Buzz
-~~~
+```
 
 We have one more subproblem to solve to complete the program: If the current number is divisible by 3 and 5 then print `FizzBuzz`.
 
-~~~javascript
+
+```js
+
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i <= answer; i++) {
@@ -197,7 +209,7 @@ for (let i = 1; i <= answer; i++) {
     console.log(i);
   }
 }
-~~~
+```
 
 We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)`, so that if `i` was divisible by 3, it would print `Fizz` and then move on to the next number in the iteration, even if `i` was divisible by 5 as well.
 
@@ -205,7 +217,7 @@ With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we check that
 
 The program is now complete! If you run it now you should get this output when the user inputs 20:
 
-~~~bash
+```bash
 1
 2
 Fizz
@@ -226,7 +238,7 @@ FizzBuzz
 Fizz
 19
 Buzz
-~~~
+```
 
 ### Assignment
 

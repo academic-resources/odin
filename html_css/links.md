@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 Links are the glue holding the web together, so make sure you understand how to properly link to external websites AND internal files.
 
-### Learning Outcomes
+# Concepts:
 
 * What's the difference between internal links (/somepage) and external links (http://www.somesite.com/somepage)?
 * When on a webpage should you use the full URI (with the `http://yoursite.com/somepath`) and when should you use the relative path (`/somepath`)?

@@ -1,14 +1,5 @@
-This lesson is fun! You'll be setting up several views, and you'll start to see your Application come together. We'll finally get to see our data showing up in the browser!  This is a long lesson that is broken up into several sub-lessons, so make sure you click through to see them all.**
-
-
-###  Topics
-  do the following:**
-
-
-**
-
-
-
+This lesson is fun! You'll be setting up several views, and you'll start to see your Application come together. We'll finally get to see our data showing up in the browser!  This is a long lesson that is broken up into several sub-lessons, so make sure you click through to see them all.**###  Topics
+  do the following:****
 - Describe asynchronous functions.
 - Manage asynchronous operations in controller functions.
 - Manage flow control when using asynchronous operations.
@@ -20,24 +11,9 @@ This lesson is fun! You'll be setting up several views, and you'll start to see 
 - Describe how views and models work in practice.
 - Query database using models.
 - Describe date handling using luxon.
----**
-
-
-# Challenge:**
-
-
-<div class="lesson-content__panel" markdown="1">**
-
-
-1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
-</div>**
-
-
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.**
-
-
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async" title="Asynchronous flow control using async">Why do we use the async module?"</a>
+---**# Challenge:**<div class="lesson-content__panel" markdown="1">**1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
+</div>**### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.**- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async" title="Asynchronous flow control using async">Why do we use the async module?"</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#why_is_this_needed" title="Permalink to Why is this needed?">Why are async methods needed and what do they avoid?</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_parallel" title="Permalink to Asynchronous operations in parallel">How do we run multiple asynchronous operations in parallel?</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_series" title="Permalink to Asynchronous operations in series">How do we run multiple asynchronous operations in series?</a>

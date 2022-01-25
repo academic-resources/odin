@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 First released back in 2012 by Google, AngularJS was the first big-hitter in Single Page Application(SPA) frameworks. A big appeal of AngularJS was its unobtrusive approach as you could control which parts of your page interacted with the AngularJS framework.
 

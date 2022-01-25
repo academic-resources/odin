@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 Javascript doesn't really have "classes", per se, like Ruby -- instead they use "prototypes" to DRY ("Don't Repeat Yourself") up code.
 
 You'll also find **Objects** used a whole lot.  They're basically containers that can contain anything from variables to functions (or both!).  They might remind you a lot of Ruby's hashes.  You'll find them used in standard ways (for logically grouping variables) or ways which may be new to you (to group functions within a particular namespace).
 
-### Learning Outcomes
+# Concepts:
 
 * How are JS objects similar to Ruby objects?
 * Can JS functions be defined inside of objects?

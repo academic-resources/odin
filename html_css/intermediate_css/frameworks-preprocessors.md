@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 At this point, you have written quite a bit of vanilla HTML and CSS, and learned many design techniques that you will continue to use as you grow as a developer. Through your experiences, you have no doubt encountered a CSS framework or two. You may have also learned about preprocessors (aka precompilers). Both of these types of tools can make writing CSS more streamlined and less tedious.
 
@@ -6,7 +7,7 @@ You should be aware that, at this point in your learning, both frameworks and pr
 
 An important reason to know about frameworks and preprocessors is that they are are commonly found in the workplace. In addition, many job requirements include Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
 
-### Learning Outcomes
+# Concepts:
 
 By the end of this lesson, you should:
 

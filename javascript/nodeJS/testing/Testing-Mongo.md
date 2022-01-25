@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 When the code that you are testing has to touch a database, the amount of setup that you have to do gets quite a bit more complicated. Obviously you don't want to run your testing code on your production database because of the risk of compromising your user's data. In this lesson we're going to set up a new in-memory version of a mongo database and then tell our app to use that when running our tests.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 - Explain the purpose of using a separate database for testing.
@@ -23,7 +24,9 @@ We're going to use an npm package called `mongodb-memory-server`. You can see th
 
 Setting it up is actually pretty simple, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the simple example below.
 
-~~~javascript
+
+```js
+
 //// mongoConfig.js
 const mongoose = require("mongoose");
 
@@ -32,13 +35,16 @@ const mongoDb = `YOUR MONGO URL`;
 mongoose.connect(mongoDb, { useNewUrlParser: true });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
-~~~
+
+```
 
 The above code should look very familiar to you by now.. it's the same setup code we've been using all along. The only difference is that we've moved it out to its own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
 
 Next we need to create a separate config for our testing environment. The config file that you can find on the `mongodb-memory-server` repo README should work just fine. Below is a slightly edited version of it. Copy this to a new file called `mongoConfigTesting.js`
 
-~~~javascript
+
+```js
+
 //// mongoConfigTesting.js 
 const mongoose = require("mongoose");
 const { MongoMemoryServer } = require("mongodb-memory-server");
@@ -63,7 +69,8 @@ async function initializeMongoServer() {
 }
 
 module.exports = initializeMongoServer;
-~~~
+
+```
 
 Now, if your tests are set up similarly to the tests in our last project, you can simply call this function in your testing file, and then any operations that work on your mongo database will use this testing one instead of your real one.
 

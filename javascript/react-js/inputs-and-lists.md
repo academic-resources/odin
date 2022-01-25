@@ -1,10 +1,11 @@
-### Introduction
+## Intro:
+
 
 Before we go any further, we'll dive into an assignment that will test our knowledge thus far. You **should** attempt to do the assignment on your own first. You can then proceed further along in this lesson to see the walkthrough of how we approached it.  Don't be discouraged if you find yourself stuck. The previous material should equip you to solve or search for the right things. However, once you've given it an honest effort (you'd only be cheating yourself if you didn't!), continue with the lesson to achieve enlightenment on how things can be done.
 
 If you feel uneasy about what we've learned so far, go back and review the concepts of `state` and `props` from the previous lessons.
 
-### Learning Outcomes
+# Concepts:
 
 - Understanding how to render lists in React
 - Understanding how to handle input fields and forms in React.
@@ -28,7 +29,9 @@ Our application will be made of two components, `App` and `Overview`. Your appli
 
 3. Open your `App.js` file in your `src` directory and make sure it looks like this.
 
-~~~javascript
+
+```js
+
 // App.js
 
 import React, { Component } from "react";
@@ -40,11 +43,14 @@ class App extends Component {
 }
 
 export default App;
-~~~
+
+```
 
 4. Make sure to clean the `index.js` as well. It should look something similar to this:
 
-~~~javascript
+
+```js
+
 // Index.js
 
 import React from "react";
@@ -57,7 +63,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-~~~
+
+```
 
 5. We may style the application using "vanilla" CSS to make it look a little bit nicer. At this point, you should be familiar with the basics of CSS from the previous material. 
 If you intend on styling the application, we highly recommend that you use your own styling instead of using CSS frameworks that are beyond the current scope of the curriculum. Please refer to both [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) and [React](https://reactjs.org/docs/faq-styling.html) documentation if you wish to know more about how to style React applications with CSS. If you are following along with this tutorial and do not wish to style the application, you can skip this step.
@@ -66,7 +73,9 @@ If you intend on styling the application, we highly recommend that you use your 
 
 7. Finally, let's write some code. To begin, in our `App.js` file, our class component should look like this.
 
-~~~javascript
+
+```js
+
 // App.js
 
 import React, { Component } from "react";
@@ -99,16 +108,20 @@ class App extends Component {
 }
 
 export default App;
-~~~
+
+```
 
 We created the skeleton of our component. First, we imported `React` and `Component` from "react", then we initialized the constructor. In the constructor, we defined state with:
 
-~~~javascript
+
+```js
+
 this.state = {
   task: { text: '' },
   tasks: [],
 };
-~~~
+
+```
 
 We assigned `task` to an object and `task.text` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
 
@@ -120,7 +133,9 @@ Now, let's have a look at what our application looks like. Run `npm start` in yo
 
 Let's add some functionality to it. Go back to your `App.js` component and add the following two functions. Make sure to add those functions between your constructor and the render method.
 
-~~~javascript
+
+```js
+
 handleChange = (e) => {
   this.setState({
     task : {
@@ -136,7 +151,8 @@ onSubmitTask = (e) => {
     task: { text: '' },
   });
 };
-~~~
+
+```
 
 Naturally, if we do not invoke those functions nothing will change in our application. So let's call them. <span id="handle-input-field">The `handleChange` function will be our `onChange` handler for our input field. It sets the current `task` in state to whatever we type in our input field.</span> <span id="handle-form">The `onSubmitTask` function will be our `onSubmit` handler for our `form` element.</span> The `onSubmit` handler of the form should be invoked by clicking the button.
 
@@ -144,9 +160,11 @@ In the `onSubmitTask` function, we first call `e.preventDefault()` because we do
 
 The following line does the magic.
 
-~~~javascript
+
+```js
+
 tasks: this.state.tasks.concat(this.state.task),
-~~~
+```
 
 It adds the task (whatever is in our input field when we submit the form) to our `tasks` array. Later we can map over this array to display all the tasks we submitted. Make sure that you **DON'T** directly assign state. That is also the reason we don't use the `push` method here. It would give us an error.
 
@@ -156,25 +174,29 @@ We still haven't invoked those functions yet, so let's do that.
 
 In your `App.js` component in your render method, add an onChange handler to your input element like so:
 
-~~~javascript
+
+```js
+
 <input
   onChange={this.handleChange}
   value={task.text}
   type="text"
   id="taskInput"
 />
-~~~
+```
 
 Notice that we also have to specify the `value` attribute for React input elements. In this case we want the value of the input field to be what we saved in our `task` object in state under the `text` property.
 
 And also add the `onSubmitTask` function to our form element like so:
 
-~~~javascript
+
+```js
+
 <form onSubmit={this.onSubmitTask}>
   {/* Leave all your code. Just add the onSubmit handler to the form element, or
   as an onClick handler to the submit button, as you prefer */}
 </form>
-~~~
+```
 
 If you add an onSubmit handler to the form, your button must be of `type="submit"`, otherwise it won't work. Alternatively, you can add an `onClick` event to the button which calls the `onSubmitTask` function.
 
@@ -182,7 +204,9 @@ Great, if you run your application now with `npm start` (or refresh the browser 
 
 <span id="render-list">Go to your `Overview.js` file in the components folder and add the following code:</span>
 
-~~~javascript
+
+```js
+
 // Overview.js
 
 import React from "react";
@@ -200,13 +224,16 @@ const Overview = (props) => {
 };
 
 export default Overview;
-~~~
+
+```
 
 It takes the `tasks` from the `props` and maps over it. For each task it will then display a `li` element with the content of tasks. When checking out the application in the browser we can see we received an error message which says that a unique key is required. React always requires you to add a unique key to each element when you `map` over a list. In real world projects you often use database ids as unique keys, however in this project we are not using a database, so let's install a package that provides us with unique ids.
 
 Run `npm install uniqid` in your project folder. Uniqid is a package which creates unique ids based on the current time, the process and the machine name. Once this is done, we just have to include it like this:
 
-~~~javascript
+
+```js
+
 // App.js
 
 import React, { Component } from "react";
@@ -244,9 +271,12 @@ class App extends Component {
       },
     });
   };
-~~~
 
-~~~javascript
+```
+
+
+```js
+
 // Overview.js
 
 import React from "react";
@@ -264,27 +294,35 @@ const Overview = (props) => {
 };
 
 export default Overview;
-~~~
+
+```
 
 Almost done, the only thing we need to do is import our `Overview` component to our `App.js` file and add it in our render method, while passing down the `tasks` array as props.
 
 Add this line to the top of your `App.js` file, right below where we import React.
 
-~~~javascript
+
+```js
+
 import Overview from "./components/Overview";
-~~~
+
+```
 
 And then add the Overview component to your render method in `App.js`. Add this line of code right before the last closing `div`, and right after the closing `form` tag in `App.js`.
 
-~~~javascript
+
+```js
+
 <Overview tasks={tasks} />
-~~~
+```
 
 Here we go, run `npm start` (or refresh) one last time. If you've done everything right, you should now be able to type a task into the input field and click submit to display it right below the input field. Feel free to play around a little bit and maybe change or style it as you like.
 
 Your finished files should look like this:
 
-~~~javascript
+
+```js
+
 // App.js
 
 import React, { Component } from "react";
@@ -346,9 +384,12 @@ class App extends Component {
 }
 
 export default App;
-~~~
 
-~~~javascript
+```
+
+
+```js
+
 // Overview.js
 
 import React from "react";
@@ -366,7 +407,8 @@ const Overview = (props) => {
 };
 
 export default Overview;
-~~~
+
+```
 
 ### Optional Tasks / Ideas to play around
 

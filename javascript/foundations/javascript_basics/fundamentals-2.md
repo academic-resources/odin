@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 * Name the eight data types in JavaScript.
 * Understand the difference between single, double, and backtick quotes.

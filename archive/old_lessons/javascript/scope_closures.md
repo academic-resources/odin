@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 With all these functions going around, we've got to keep track of scope!  Which variables got set where?  Who can access what? What is this mysterious `this` variable which seems to embody everything strange and complicated-seeming about Javascript scope?
 
 All this scoping (and using closures) makes a lot of sense when you remember that functions in Javascript can get called at different times and from different places in the code, especially if they are related to events (where they get called as callbacks, which you've seen before but are also covered in the next lesson).
 
-### Learning Outcomes
+# Concepts:
 
 * What is `this` equal to? (not a simple question...)
 * How do you `bind` variables to a scope?

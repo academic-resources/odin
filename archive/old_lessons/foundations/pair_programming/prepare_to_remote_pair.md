@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 

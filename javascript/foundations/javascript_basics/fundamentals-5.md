@@ -1,4 +1,4 @@
-### Learning Outcomes
+# Concepts:
 
 - Creating objects.
 - Accessing object properties.

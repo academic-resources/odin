@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
 
@@ -16,28 +17,28 @@ Click the Operating System you have chosen below:
 
 Run these commands in the terminal to update the Linux system:
 
-~~~bash
+```bash
 sudo apt update
 sudo apt upgrade
-~~~
+```
 
 #### Step 1.2: Install git
 
 It's likely you have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
 
-~~~bash
+```bash
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git
-~~~
+```
 
 #### Step 1.3: Verify version
 
 Make sure your git version is **at least** 2.28 by running this command:
 
-~~~bash
+```bash
 git --version
-~~~
+```
 
 If the version number is less than 2.28, follow the instructions again. 
 
@@ -51,9 +52,9 @@ If the version number is less than 2.28, follow the instructions again.
 #### Step 1.0: Install Homebrew
 First, you'll need to install Homebrew.  Make sure you have checked the requirements [here](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
-~~~bash
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-~~~
+```
 
 Note: On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
@@ -63,9 +64,9 @@ Reading the terminal may seem a bit intimidating, but this is a great chance to 
 
 MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
 
-~~~bash
+```bash
 brew install git
-~~~
+```
 
 This will install the latest version of Git. Easy, right?
 
@@ -73,9 +74,9 @@ This will install the latest version of Git. Easy, right?
 
 **Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
 
-~~~bash
+```bash
 git --version
-~~~
+```
 
 If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
 1. Run `brew doctor`
@@ -101,29 +102,29 @@ For Git to work properly, we need to let it know who we are so that it can link 
 
 The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
 
-~~~bash
+```bash
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
-~~~
+```
 
 GitHub recently changed the default branch on new repositories from `master` to `main`, change the default branch for Git using this command:
 
-~~~bash
+```bash
 git config --global init.defaultBranch main
-~~~
+```
 
 To enable colorful output with `git`, type
 
-~~~bash
+```bash
 git config --global color.ui auto
-~~~
+```
 
 To verify things are working properly, enter these commands and verify that the output matches your name and email address.
 
-~~~bash
+```bash
 git config --get user.name
 git config --get user.email
-~~~
+```
 
 #### Step 2.2: Create a GitHub Account or Sign In
 
@@ -135,9 +136,9 @@ An SSH key is a cryptographically secure identifier. It's like a really long pas
 
 First, we need to see if you have an Ed25519 algorithm SSH key already installed. Type this into the terminal and check the output with the information below:
 
-~~~bash
+```bash
 ls ~/.ssh/id_ed25519.pub
-~~~
+```
 
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
@@ -145,9 +146,9 @@ To create a new SSH key, run the following command inside your terminal. The `-C
 
 **Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C odin@theodinproject.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
 
-~~~bash
+```bash
 ssh-keygen -t ed25519 -C <youremail>
-~~~
+```
 
 * When it prompts you for a location to save the generated key, just push `Enter`.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
@@ -162,9 +163,9 @@ Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green but
 
 Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
 
-~~~bash
+```bash
 cat ~/.ssh/id_ed25519.pub
-~~~
+```
 
 Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address. 
 

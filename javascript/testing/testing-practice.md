@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 Let's practice!  This testing thing really is not that difficult, but it _is_ quite new.  The only way to get comfortable with it is to spend some time doing it.
 
 ### Assignment
@@ -22,7 +23,9 @@ Write tests for the following, and then make the tests pass!
 
 5. An `analyzeArray` function that takes an array of numbers and returns an object with the following properties: `average`, `min`, `max`, and `length`.
 
-   ~~~javascript
+   
+```js
+
    const object = analyzeArray([1,8,3,4,2,6]);
 
    object == {
@@ -31,7 +34,7 @@ Write tests for the following, and then make the tests pass!
      max: 8,
      length: 6
    };
-   ~~~
+   ```
 </div>
 
 ### Special Note on using ES6 import statements with Jest

@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 CSS3 offers a whole lot of interesting functionality that you didn't know about but will really help you make your sites into something special.  Just be conscious of browser compatibility issues -- some of these aren't available on older browsers.
 
-### Learning Outcomes
+# Concepts:
 
 * How do you round corners of a box?
 * How do you add a shadow to a box?

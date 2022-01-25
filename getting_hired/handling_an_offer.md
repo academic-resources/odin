@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 If you kicked butt, you'll get an offer.  That means there's a pretty good chance you'll get to work there, but just remember that not all "offers" (especially verbal-only ones) are actually real.  It's a good time to be happy because you did well but don't expect that it's a done deal.  I've seen companies pull offers for internal reasons or external reasons -- the point is that it happens, so don't go buying a house until you've signed the documents.  If it's just a verbal offer, ask them to email you the details.
 

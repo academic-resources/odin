@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 - Explain what tightly coupled code is
@@ -14,7 +15,9 @@ There are _many_ benefits to using TDD when you write your code. One of the bigg
 
 Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:
 
-~~~javascript
+
+```js
+
 function guessingGame() {
   const magicNumber = 22;
   const guess = prompt('guess a number between 1 and 100!');
@@ -26,11 +29,13 @@ function guessingGame() {
     alert('YOU DID IT! 🎉');
   }
 }
-~~~
+```
 
 Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we _do_ need to test is the number logic, which is much easier if we untangle it from the other functions:
 
-~~~javascript
+
+```js
+
 function evaluateGuess(magicNumber, guess) {
   if (guess > magicNumber) {
     return 'YOUR GUESS IS TOO BIG';
@@ -49,7 +54,8 @@ function guessingGame() {
 }
 
 guessingGame();
-~~~
+
+```
 
 In this example, the only thing we really need to test is the `evaluateGuess` function, which is much easier to test because it has a clear input and output and doesn't call any external functions. This implementation is _much_ nicer as well because it's much easier to extend.  If we wanted to switch out the `prompt` and `alert`s for methods that manipulate the DOM we can do that more simply now and if we want to make our game more advanced by letting the user make multiple guesses, that is also easier.
 

@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 There are many different units that you can use to define sizes in CSS. This lesson will introduce the most important to you, and show you where to learn about the rest of them.
 
-### Learning Outcomes
+# Concepts:
 * You'll learn the difference between relative and absolute units
 * You'll learn when its appropriate to use the different units.
 

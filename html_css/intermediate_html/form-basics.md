@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Forms are one of the most critical parts of your site. They are your user's gateway into your backend – the user provides data in a form, and you do stuff with it.
 
@@ -6,9 +7,9 @@ You need to specify the proper types of inputs for each possible data item since
 
 In this lesson, we will explore the basics of HTML forms and some of the different types of inputs available to you.
 
-### Learning Outcomes
+# Concepts:
 
-By the end of this lesson, you should be able to:
+
 
 - Create forms with HTML
 - Have a basic idea of how to style forms
@@ -29,11 +30,11 @@ POST is used when we want to change something on the server, for example, when a
 
 The markup for creating a form element looks like this:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
 
 </form>
-~~~
+```
 
 ### Form Controls
 
@@ -45,11 +46,11 @@ The input element is the most versatile of all the form control elements. It acc
 
 A text input looks like this:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
   <input type="text">
 </form>
-~~~
+```
 
 Text inputs accept any text input. For example, you would use it to collect things like users' first and last names.
 
@@ -59,12 +60,12 @@ An input on its own isn't very useful since the user will not know what kind of 
 
 To create a label, we use the `<label>` element. The text we want displayed in the label will go between its opening and closing tags:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
   <label for="firstName">First Name:</label>
   <input type="text" id="firstName">
 </form>
-~~~
+```
 
 Labels accept a `for` attribute, which associates it with a particular input.  The input we want to associate with a label needs an `id` attribute with the same value as the labels `for` attribute.
 
@@ -76,10 +77,10 @@ To guide users on what to enter in form elements, we can include placeholder tex
 
 This is done by adding a `placeholder` attribute to an input. The value will be the *placeholder* text we want to display in the input:
 
-~~~html
+```html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" placeholder="Bob...">
-~~~
+```
 
 Placeholder text should be example text that demonstrates what should be entered and in what format.
 
@@ -89,10 +90,10 @@ Just like we need to use labels, so users understand what the data entered into 
 
 We do this by adding a name attribute to our inputs:
 
-~~~html
+```html
 <label for="firstName">First Name:</label>
 <input type="text" id="first_name" name="first_name">
-~~~
+```
 
 The name attribute serves as a reference to the data inputted into a form control after submitting it. You can think of it as a variable name for the input. Form input should always have a name attribute; otherwise, it will be ignored when the form is submitted.
 
@@ -107,13 +108,13 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 The output we care about from the response is the "form" object. It should look something like this:
 
-~~~json
+```json
 "form": {
     "age": "33",
     "first_name": "John",
     "last_name": "Doe"
   },
-~~~
+```
 
 Try changing the name attributes of some of the input fields in the form and then submitting again to see how form data in the response changes.
 
@@ -140,10 +141,10 @@ They also validate the user has entered a correctly formatted email address, but
 
 To create an email input, we use an input element with type attribute of "email":
 
-~~~html
+```html
 <label for="user_email">Email Address:</label>
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
-~~~
+```
 
 **Password Input**
 
@@ -151,10 +152,10 @@ Password inputs are another specialized text input. They differ from regular tex
 
 A password input can be created using an input element with a type of "password":
 
-~~~html
+```html
 <label for="user_password">Password:</label>
 <input type="password" id="user_password" name="password">
-~~~
+```
 
 **Number Input**
 
@@ -162,10 +163,10 @@ The number input only accepts number values and ignores any other characters the
 
 We create a number input using the input element with a type attribute of "number":
 
-~~~html
+```html
 <label for="amount">Amount:</label>
 <input type="number" id="amount" name="amount">
-~~~
+```
 
 **Date Input**
 
@@ -173,10 +174,10 @@ To collect dates from a user, we can use a date input. This input is unique beca
 
 To create a date input, we use the input element with a type attribute of "date":
 
-~~~html
+```html
 <label for="dob">Date of Birth:</label>
 <input type="date" id="dob" name="dob">
-~~~
+```
 
 **Text Area**
 
@@ -184,21 +185,21 @@ The text area element provides an input box that can accept text that spans mult
 
 To create a text area, we use the `<textarea>` element:
 
-~~~html
+```html
 <textarea></textarea>
-~~~
+```
 
 Unlike input elements, Textarea elements do have a closing tag. This allows you to wrap some initial content you want the text area to display:
 
-~~~html
+```html
 <textarea>Some initial content</textarea>
-~~~
+```
 
 Text area elements accept a couple of unique attributes that other form controls do not. These are the rows and cols attributes. They allow you to control the initial height(rows) and width(cols) of the text area:
 
-~~~html
+```html
 <textarea rows="20" cols="60"></textarea>
-~~~
+```
 
 ### Selection Elements
 
@@ -210,7 +211,7 @@ The select element renders a dropdown list where users can select an option. Syn
 
 To create a select dropdown, we use the `<select>` element. Any options we want to display within the select element are defined using `<option>` elements:
 
-~~~html
+```html
 <select name="Car">
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
@@ -220,13 +221,13 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
   <option value="ford">Ford</option>
 </select>
 
-~~~
+```
 
 All the option elements need to have a value attribute. This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
-~~~html
+```html
 <select name="Car">
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
@@ -235,11 +236,11 @@ We can set one of the options to be the default selected element when the browse
   <option value="mini">Mini</option>
   <option value="ford">Ford</option>
 </select>
-~~~
+```
 
 We may also split the list of options into groups using the `<optgroup>` element. The optgroup element take a `label` attribute which the browser uses as the label for each group:
 
-~~~html
+```html
 <select name="fashion">
   <optgroup label="Clothing">
     <option value="t_shirt">T-Shirts</option>
@@ -252,7 +253,7 @@ We may also split the list of options into groups using the `<optgroup>` element
     <option value="sandals">Sandals</option>
   </optgroup>
 </select>
-~~~
+```
 
 **Radio Buttons**
 
@@ -260,7 +261,7 @@ Select dropdowns are great for saving space on the page when we have an extensiv
 
 In this case, we can use radio buttons. Radio buttons allow us to create multiple options that the user can choose one of. To create radio buttons, we use the ever adaptable input element again with a type attribute of "radio":
 
-~~~html
+```html
 <h1>Ticket Type</h1>
 <div>
   <input type="radio" id="child" name="ticket_type" value="child">
@@ -276,13 +277,13 @@ In this case, we can use radio buttons. Radio buttons allow us to create multipl
   <input type="radio" id="senior" name="ticket_type" value="senior">
   <label for="senior">Senior</label>
 </div>
-~~~
+```
 
 When we select one of the radio buttons and then select another, it will deselect the first one. Radio buttons know to do this because they have the same name attribute. This is how the browser knows these elements are part of the same group of options.
 
 We can set the default selected radio button by adding the `checked` attribute to it:
 
-~~~html
+```html
 <h1>Ticket Type</h1>
 <div>
   <input type="radio" id="child" name="ticket_type" value="child">
@@ -298,14 +299,14 @@ We can set the default selected radio button by adding the `checked` attribute t
   <input type="radio" id="senior" name="ticket_type" value="senior">
   <label for="senior">Senior</label>
 </div>
-~~~
+```
 
 **Checkboxes**
 Checkboxes are similar to radio buttons in that that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
 
 To create a checkbox, we use the input element with a type attribute of "checkbox":
 
-~~~html
+```html
 <h1>Pizza Toppings</h1>
 
 <div>
@@ -327,25 +328,25 @@ To create a checkbox, we use the input element with a type attribute of "checkbo
   <input type="radio" id="mushrooms" name="topping" value="mushrooms">
   <label for="mushrooms">Mushrooms</label>
 </div>
-~~~
+```
 
 We can also have a single checkbox when we want users to toggle if they want something to be true or false. Like signing up to a newsletter when they create an account for example:
 
-~~~html
+```html
 <div>
   <input type="checkbox" id="newsletter" name="news_letter">
   <label for="newsletter">Send me the news letter</label>
 </div>
-~~~
+```
 
 We can set a checkboxes to be checked by default on page load by giving them a `checked` attribute:
 
-~~~html
+```html
 <div>
   <input type="checkbox" id="newsletter" name="news_letter" checked>
   <label for="newsletter">Send me the news letter</label>
 </div>
-~~~
+```
 
 ### Buttons
 
@@ -353,9 +354,9 @@ The button element creates clickable buttons that the user can interact with to 
 
 To create a button, we use the `<button>`  element. The content or text we want to have displayed inside the button will go within the opening and closing tags:
 
-~~~html
+```html
 <button>Click Me</button>
-~~~
+```
 
 The button element also accepts a type attribute that tells the browser which kind of button it is dealing with. There are three types of buttons available to us.
 
@@ -365,9 +366,9 @@ Once a user is finished filling in a form, they will need a way to submit it.  T
 
 To create a submit button, we use the button element with a type attribute of "submit":
 
-~~~html
+```html
 <button type="submit">Submit</button>
-~~~
+```
 
 **Reset Button**
 
@@ -375,9 +376,9 @@ A reset button clears all the data the user has entered into the form and sets a
 
 To create a reset button, we use the button element with a type  attribute of "reset":
 
-~~~html
+```html
 <button type="reset">Reset</button>
-~~~
+```
 
 **Generic Button**
 
@@ -385,9 +386,9 @@ The third and final button type is simply a generic button that can be used for 
 
 To create a generic button, we use the button element with a type attribute of "button":
 
-~~~html
+```html
 <button type="button">Click to Toggle</button>
-~~~
+```
 
 ### Organizing Form Elements
 
@@ -401,7 +402,7 @@ The fieldset element is a container element that allows us to group related form
 
 To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the open and closing fieldset tags:
 
-~~~html
+```html
 <fieldset>
   <label for="first_name">First Name</label>
   <input type="text" id="first_name" name="first_name">
@@ -409,7 +410,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
   <label for="last_name">Last Name</label>
   <input type="text" id="last_name" name="last_name">
 </fieldset>
-~~~
+```
 
 **Legend**
 
@@ -417,7 +418,7 @@ The legend element is used to give a field sets a heading or caption so the user
 
 To create a legend, we use the `<legend>` element with the text we want to display within its opening and closing tags. A legend should always come right after an opening fieldset tag:
 
-~~~html
+```html
 <fieldset>
   <legend>Contact Details</legend>
 
@@ -443,11 +444,11 @@ To create a legend, we use the `<legend>` element with the text we want to displ
   <label for="zip_code">Zip Code:</label>
   <input type="text" id="zip_code" name="zip_code">
 </fieldset>
-~~~
+```
 
 A common use-case for these elements is using a fieldset to group radio buttons and using a legend to communicate to the user what each of the options is ultimately for:
 
-~~~html
+```html
 <fieldset>
   <legend>What would you like to drink?</legend>
 
@@ -467,7 +468,7 @@ A common use-case for these elements is using a fieldset to group radio buttons 
   </div>
 
 </fieldset>
-~~~
+```
 
 ### A Note on Styling Forms
 

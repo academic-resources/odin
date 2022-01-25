@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
 
-### Learning Outcomes
+# Concepts:
 
 * The differences between CSS transitions and CSS animations
 * How to configure animation sub-properties
@@ -33,7 +34,7 @@ Let's see an animation in action to see what we've been talking about.
 
 Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual animation properties used in the example above:
 
-~~~css
+```css
 #ball {
   /* ... other CSS properties ... */
   animation-duration: 2s;
@@ -41,7 +42,7 @@ Note how the animation is already running and how it keeps repeating itself. We'
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-~~~
+```
 
 This is known as the configuration stage where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example we have:
 
@@ -57,7 +58,7 @@ This is known as the configuration stage where we define our animation propertie
 
 Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule. 
 
-~~~css
+```css
 @keyframes change-color {
   from {
     background-color: red;
@@ -67,7 +68,7 @@ Now it's time to tackle the second half of our animation definition by exploring
     background-color: green;
   }
 }
-~~~
+```
 
 The `@keyframes` at-rule references the 'change-color' name we defined earlier. Then, we use the `from` and `to` properties to change the `background-color` of `#ball` from red to green. 
 
@@ -84,7 +85,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-~~~css
+```css
 #ball {
   /* ... other CSS properties ... */
   background-color: red;
@@ -106,7 +107,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
     background-color: green;
   }
 }
-~~~
+```
 
 Here we added another keyframe for when the `animation-duration` is at 50%, or 1 second. This means as well as the `background-color` changing to an additional value, we have also specified that the ball double in size. Just be aware that additional keyframes are always defined in percentages. Only the `0%/100%` values may use the `from/to` alias. 
 

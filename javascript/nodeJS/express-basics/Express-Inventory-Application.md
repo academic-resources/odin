@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Alright! Let's flex our skills a little! That tutorial was humongous, and you learned a _lot_ of things. The only way to make it stick is to practice! For this project you are going to create an Inventory management app for an imaginary store. It's up to you what kind of business this is -- you could be selling groceries, car parts, baby-toys, musical-instruments, ponies or anything!
 

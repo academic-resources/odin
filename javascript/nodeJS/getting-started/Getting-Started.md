@@ -2,7 +2,7 @@ Like we learned in the introduction lesson, Node.js is really just JavaScript. S
 
 This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes right after this assignment will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
  - Explain some things that Node.js is commonly used for.

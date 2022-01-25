@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 Browsers, by default, inject a little bit of style into your web projects. You may not have thought about this specifically, but you  have definitely encountered it.
 
-### Learning Outcomes
+# Concepts:
 - You'll learn about default browser styles
 - You'll learn how to use a CSS reset to remove, or change those default styles. 
 

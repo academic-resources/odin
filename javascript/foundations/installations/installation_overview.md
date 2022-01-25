@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 The first step for building any website is having the right tools. For us, that means setting up a development environment for writing good code.
 

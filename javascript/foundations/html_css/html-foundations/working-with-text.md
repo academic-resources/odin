@@ -1,10 +1,11 @@
-### Introduction
+## Intro:
+
 
 Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
 In this lesson, we will learn about the text-based elements you are likely to use the most.
 
-### Learning Outcomes
+# Concepts:
 
 - How to create paragraphs
 - How to create headings
@@ -17,7 +18,7 @@ In this lesson, we will learn about the text-based elements you are likely to us
 
 What would you expect the following text to output on an HTML page?
 
-~~~html
+```html
 <body>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
@@ -25,7 +26,7 @@ What would you expect the following text to output on an HTML page?
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
   nisi ut aliquip ex ea commodo consequat.
 </body>
-~~~
+```
 
 It looks like two paragraphs of text, and so you might expect it to display in that way. However that is not the case, as you can see in the output below:
 

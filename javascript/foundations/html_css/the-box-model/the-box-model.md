@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 Now that you understand the basic syntax of HTML and CSS, we're going to get serious. The most important skills you need to master with CSS are _positioning_ and _layout_. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more crucial. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
 
-### Learning Outcomes
+# Concepts:
 
 - You'll learn all about _the box model_.
 - You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`
@@ -15,11 +16,11 @@ The first important concept that you need to understand to be successful in CSS 
 
 Basically, every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
 
-~~~css
+```css
 * {
   border: 2px solid red;
 }
-~~~
+```
 
 ![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
 

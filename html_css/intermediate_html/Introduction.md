@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 In this course we're going to dig deeper into both HTML and CSS. Our foundations lessons, by design, only scratched the surface of what's possible. We wanted to give you all of the bare necessities for getting started so you could move on and be somewhat productive as quickly as possible, but now it's time to slow down and dig in!
 

@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Now that you're done with your first project, you are on your way to becoming advanced with React. So let's talk about some more advanced topics. The first will be **lifecycle methods**. This is an incredibly important topic, so pay close attention and make sure you understand everything.
 
@@ -6,8 +7,8 @@ Lifecycle methods are special methods built into React, used to operate on compo
 
 One important thing to notice is that lifecycle methods can **only** be used in `class components`. In functional components we have other options. But more on that in the next lesson. Let's begin.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 - Explain the lifecycle of a component
 - Explain the most important lifecycle methods

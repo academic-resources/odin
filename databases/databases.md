@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g. Active Record) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
 
@@ -18,7 +19,7 @@ SQL is one of those topics that's been stored away in dusty old technical manual
 
 Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
-### Learning Outcomes
+# Concepts:
 Look through these now and then use them to test yourself after doing the assignment:
 
 #### Important Concepts:
@@ -93,11 +94,12 @@ For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` witho
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
 
-~~~sql
+```sql
   UPDATE Users
   SET name='barfoo', email='bar@foo.com'
   WHERE email='foo@bar.com';
-~~~
+
+```
 
 <span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
@@ -128,24 +130,26 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id;
-~~~
+
+```
 
 See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say I only want to display users who have written more than 10 posts:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id
   HAVING posts_written >= 10;
-~~~
+
+```
 
 Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 

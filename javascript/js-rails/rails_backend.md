@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 So, you've now learned a lot of juicy JavaScript, enabling you to make various components of your HTML/CSS page react to user actions and/or input. That's great! As you've seen, you can get your apps to do a lot of pretty cool things already, just using client-side JavaScript. You may have noticed, though, that there is still an important piece of the puzzle missing: unless you use [Local Storage](http://coding.smashingmagazine.com/2010/10/11/local-storage-and-how-to-use-it/), your app 'forgets' the user's preferences, as well as any other changes made, as soon as the page gets reloaded.
 
@@ -20,8 +21,8 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 If you skipped Ruby and/or Ruby on Rails or are on the [full-stack JavaScript path](https://www.theodinproject.com/paths/full-stack-javascript), you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 #### With Ruby on Rails
 

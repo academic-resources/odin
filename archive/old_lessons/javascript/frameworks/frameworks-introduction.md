@@ -12,12 +12,12 @@ The various frameworks (there _are_ a lot of them) tend to have a few things in 
 
 Imagine the power of being able to do something like this as many times as you like across your whole project to get a nice looking card:
 
-~~~
+```
 <my-card-component>
   <h1>Card title</h1>
   <p>Card Content</p>
 </my-card-component>
-~~~
+```
 
 The way that these components are created differs greatly between frameworks, but re-usuable components are the foundation of all frameworks.
 

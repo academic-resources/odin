@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 All of the most popular modern web browsers include a suite of tools designed to help
 with the development of websites. They are sometimes referred to as the web
@@ -23,7 +24,7 @@ developer tools isn't that difficult. It can feel clunky the first few times you
 use them, but with a little practice, you will soon find yourself comfortably
 using them to experiment and fix bugs with ease on your web pages.
 
-### Learning Outcomes
+# Concepts:
 Make sure you can do each of the following once you have finished the assignments:
 
 * You can open the developer tools in your browser.

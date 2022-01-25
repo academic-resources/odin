@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 The first step to making responsive websites is using techniques that are _naturally_ flexible. In a later lesson you'll learn how to completely rearrange items on a page based on screen size, but in most cases, it's preferable to rely on tools like flexbox and grid to make your pages work on a wide range of screens first.
 
-### Learning Outcomes
+# Concepts:
 * You'll learn a few tips for keeping your sites naturally responsive
 
 Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
@@ -15,9 +16,9 @@ When mobile phones first started getting web browsers, most websites were _not_ 
 
 For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
 
-~~~html
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
-~~~
+```
 
 It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 

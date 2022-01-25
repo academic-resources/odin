@@ -1,4 +1,4 @@
-### Learning Outcomes
+# Concepts:
 
 - Using arrays.
 - Using built-in array methods.

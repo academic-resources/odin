@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 You can't code the front end and ignore design and user experience (UX).  Not everyone is cut out to be an artist and you don't have to be.  But you do have to actually use your design brain a little bit if you want a site your users actually care about visiting.  That doesn't mean just having beautiful graphics, which is a common misconception about design.
 
@@ -10,7 +11,7 @@ Given the focus web design has on crafting an effective user experience, which i
 
 Remember that your goal here is to absorb the most important concepts and continue on your way.  You can always come back when you've got enough experience to start asking the right questions.
 
-### Learning Outcomes
+# Concepts:
 
 * What is design?
 * What is user experience?

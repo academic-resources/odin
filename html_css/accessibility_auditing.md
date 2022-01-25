@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 
 By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your DevTools and how to audit your web pages for any outstanding a11y issues.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 * Open the accessibility section within your browser's DevTools.
 * Audit a web page with a third party auditing tool.

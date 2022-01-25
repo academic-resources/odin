@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system.
 
@@ -14,17 +15,17 @@ Node is also very easy to install using nvm, so this should go quickly :)
 #### Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
 
-~~~bash
+```bash
 sudo apt install curl
-~~~ 
+``` 
 
 #### Step 1: Downloading and Installing `nvm`
 
 Simply run this command:
 
-~~~bash
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-~~~
+```
 
 This will install `nvm`
 
@@ -32,16 +33,16 @@ This will install `nvm`
 
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or if you don't feel like copying from the terminal), run these commands:
 
-~~~bash
+```bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-~~~
+```
 
 You can verify `nvm` is installed by running the command:
 
-~~~BASH
+```BASH
 command -v nvm
-~~~
+```
 
 if this returns `nvm: command not found` close the terminal and re-open it.
 
@@ -55,27 +56,27 @@ On macOS 10.15 and above, the default shell is now zsh. During installation, nvm
 
 To create the `.zshrc` file and start the nvm installation, run the following commands:
 
-~~~bash
+```bash
 touch ~/.zshrc
-~~~
+```
 
-~~~bash
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-~~~
+```
 
 Restart your terminal, or copy and paste the following into your terminal and press enter: 
 
-~~~bash
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-~~~
+```
 
 Test your nvm installation by running:
 
-~~~bash
+```bash
 nvm --version.
-~~~
+```
 
 For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
 
@@ -89,15 +90,15 @@ Now that we have `nvm` installed, we can install Node.
 
 Run:
 
-~~~bash
+```bash
 nvm install --lts
-~~~
+```
 
 This will install the most recent stable version of Node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
 
-~~~bash
+```bash
 Downloading and installing Node v16.xx.x...
-~~~
+```
 
 If not, close the terminal, re-open it and run `nvm install node` again.
 
@@ -105,9 +106,9 @@ If not, close the terminal, re-open it and run `nvm install node` again.
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy, just run the following command:
 
-~~~bash
+```bash
 nvm use node
-~~~
+```
 
 Now when you run `node -v` you should see `v16.xx.x` or something similar.
 

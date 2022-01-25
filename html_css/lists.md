@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 Ordered and unordered lists are heavily used in most websites.  It's not just for bullet-points and numbers... they are also used in creating horizontal navbars and long collections of objects (like a list of pictures of items for sale).  They often take the place of tables as the method of choice for displaying structured content.
 
-### Learning Outcomes
+# Concepts:
 
 * What is the basic list syntax?
 * How do you nest lists inside each other?

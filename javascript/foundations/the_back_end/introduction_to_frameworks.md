@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework.
 
@@ -8,7 +9,7 @@ There are often several different popular frameworks for a given language.  They
 
 A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
 
-### Learning Outcomes
+# Concepts:
 Look through these now and then use them to test yourself after doing the assignment:
 
 * What is a framework?

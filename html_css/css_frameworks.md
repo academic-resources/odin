@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 At this point, you have written quite a bit of vanilla HTML and CSS, and learned many design techniques that you will continue to use as you grow as a developer. However, through your experiences, you have no doubt encountered a few popular CSS frameworks that promise to make writing CSS more streamlined and less tedious. Sound tempting?
 
@@ -12,7 +13,7 @@ For these reasons, this lesson is designed to teach you _about_ frameworks and w
 
 Doing so will make you a better developer in the end.
 
-### Learning Outcomes
+# Concepts:
 
 - What are CSS frameworks?
 - How do frameworks actually work?

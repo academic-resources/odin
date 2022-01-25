@@ -1,10 +1,4 @@
-You know what a developer does now but you'll also want to familiarize yourself with the basic tools of the trade:**
-
-
-**
-
-
-
+You know what a developer does now but you'll also want to familiarize yourself with the basic tools of the trade:****
 * **Computer** -- Okay, this one should be obvious.  But get a Unix (Mac) or Linux system if you're able to make things a bit easier on yourself (obviously biased in the Ruby/Rails community). If you are on Windows we have provided some suggestions about how to run linux along side your Windows operating system in the installations project in the next course, Foundations.
 * **[Google](http://www.google.com/)** -- Really?  YES! You will get stuck.  Repeatedly.  You'll get incredibly good at identifying the error message and Googling the heck out of it.  Don't underestimate how often professional devs use Google... we're in an industry where you never know everything and it's constantly changing so seeking help online is an art and a science all in one.
 * **Text Editor** -- The text editor is where you'll spend most of your time actually writing code, so pick one you like.  If you're just starting out, they probably all seem the same but there's a big difference between, for instance, a command line editor like Vi (which doesn't let you use the mouse at all!) and a GUI-based one that feels more like what you're familiar with from writing essays in school.

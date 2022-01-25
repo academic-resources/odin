@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Validations allow us to set specific constraints or rules that determine what data users can enter into an input. When a user enters data that breaks the rules, a message will appear, providing feedback on what was wrong with the entered data and how to fix it.
 
@@ -6,9 +7,9 @@ Validations are a vital ingredient in well-designed forms. They help protect our
 
 This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into creating custom validations using JavaScript.
 
-### Learning Outcomes
+# Concepts:
 
-By the end of this lesson, you should be able to:
+
 
 - Explain what form validations are
 - Know how to use a few of the basic built-in HTML validations

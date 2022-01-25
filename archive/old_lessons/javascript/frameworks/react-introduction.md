@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 React was created by Facebook in 2013 to help with creating user interfaces. It quickly became a popular framework and many companies use it for their own web development needs. It is often used to create single-page applications.
 

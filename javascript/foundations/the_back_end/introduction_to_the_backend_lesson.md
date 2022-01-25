@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 The "frontend" denotes the interface that a web user interacts with - what they see (and hear) when using the web. The three languages of the frontend are fairly standardized: HTML for markup, CSS for presentation, and JavaScript for scripting. 
 
@@ -10,7 +11,7 @@ Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python an
 
 As we covered back in the [Installations section](https://www.theodinproject.com/courses/foundations/lessons/installation-overview), the front-end languages live in the browser so there are no extra installations required.  For the reasons listed above, the back-end languages do require you to install them on your computer in order to get them running. NodeJS has already been installed as it is required in the JavaScript section of Foundations. Ruby and Rails are installed in their own respective sections as they aren't required until then.
 
-### Learning Outcomes
+# Concepts:
 
 * What is the difference between front-end and back-end development?
 * Why are we required to install back-end languages on our computer (besides to run them)?

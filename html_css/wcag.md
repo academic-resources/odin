@@ -1,11 +1,12 @@
-### Introduction
+## Intro:
+
 
 After the previous lesson, you should now have a better understanding of how important web accessibility can be for certain users, and how beneficial it can be for *all* users. But how do we know not only what should be a11y friendly, but how to make those things a11y friendly? Well, there are many sources available to tell us the what and how, those who actually rely on accessibility being one of the best sources we can consult.
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 * Explain the purpose of the Web Content Accessibility Guidelines.
 * Name the 4 principles of the WCAG.

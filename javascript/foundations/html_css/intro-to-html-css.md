@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web.
 
-### Learning Outcomes
+# Concepts:
 * Get a basic overview of HTML, CSS and how they work together.
 
 ### HTML and CSS

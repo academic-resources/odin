@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Git is like a really **epic save button** for your files and directories. Officially, Git is a version control system.
 
@@ -20,7 +21,7 @@ Finally, you will set up a project with Git that will serve as a template for yo
 
 For now, let's learn what Git is and why it's so powerful!
 
-### Learning Outcomes:
+# Concepts::
 By the end of this lesson, you should be able to do the following:
 
  - Explain what Git and GitHub are and the differences between the two.

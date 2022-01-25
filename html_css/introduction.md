@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 In this course, you'll learn HTML5 and CSS3, the foundations of building and styling modern web pages.  We'll also dip into design and UX because it's difficult to call yourself a full stack developer without having at least a cursory appreciation for the decisions that produce the page itself.  If you're taking this course because you want to build your own websites, that section will be even more helpful.
 
 If you haven't completed it already, the first place to start is the [Introduction to HTML and CSS](/courses/foundations/lessons/introduction-to-html-and-css), which covers a lot of ground so you can get up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.

@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails.
 
@@ -6,7 +7,7 @@ It's actually quite easy to hack together simple browser interactions using a bi
 
 You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
 
-### Learning Outcomes
+# Concepts:
 This is a fairly long list of things to pay attention to but it should be mostly review.
 
 * How do you include a Javascript file in your HTML file?

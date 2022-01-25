@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 The "front-end languages" live in the browser.  After you type an address into the address bar at the top and hit the enter/return key, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to request a CSS file and a JavaScript file as well (probably many more than one, but we'll keep it simple).  
 
@@ -10,7 +11,7 @@ On the front end, you will need to be highly conscious of who your user is and h
 
 In the following lessons, you'll get a healthy understanding of each of the three front-end languages. To get warmed up, we'll start at the high level.
 
-### Learning Outcomes
+# Concepts:
 Look through these now and then use them to test yourself after doing the assignment:
 
 * What is the role of HTML in a web page?

@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 
 In this lecture we are going to learn a little bit about routing in React. Up until now we have only written one-page applications. Once your application has multiple pages, you need to set up a reliable routing system. This is to handle the component or page that should be rendered when navigating to a certain route. For this we are going to use a package called `react-router-dom`.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 - Explain how `react-router-dom` works
 
@@ -13,7 +14,9 @@ Let's go through it step by step. First of all, create a new project using `crea
 
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
 
-~~~javascript
+
+```js
+
 const Profile = () => {
   return (
     <div>
@@ -23,11 +26,14 @@ const Profile = () => {
 };
 
 export default Profile;
-~~~
+
+```
 
 And also make sure your `App.js` file looks like this:
 
-~~~javascript
+
+```js
+
 const App = () => {
   return (
     <div>
@@ -37,14 +43,17 @@ const App = () => {
 };
 
 export default App;
-~~~
+
+```
 
 Once you have this, install the package. Open a terminal and run `npm i react-router-dom`. This is going to install all the dependencies for us.
 While this is happening, we can create a new file called `RouteSwitch.js`, which is going to be the file that handles our routes.
 
 Once the package is finished installing, you can add this code to your RouteSwitch.js file:
 
-~~~javascript
+
+```js
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -61,7 +70,8 @@ const RouteSwitch = () => {
 };
 
 export default RouteSwitch;
-~~~
+
+```
 
 <span id="components">So what is happening here?</span> First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
@@ -73,7 +83,9 @@ export default RouteSwitch;
 
 Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first. Your `index.js` should look something like this:
 
-~~~javascript
+
+```js
+
 import React from "react";
 import ReactDOM from "react-dom";
 import RouteSwitch from "./RouteSwitch";
@@ -84,7 +96,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-~~~
+
+```
 
 Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 

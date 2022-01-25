@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 Taking a structured approach to getting hired means starting early and getting some important things out of the way first.
 

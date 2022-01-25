@@ -1,11 +1,12 @@
-### Introduction
+## Intro:
+
 It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/ruby-on-rails/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
 At this point, you've got all the tools you need, so it's time to practice allowing your front end Javascript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise you've got all the tools you need to put together those final pieces of the web development puzzle.
 
 Note that you can actually outsource your back end functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/), but you've already got the skills yourself, so let's use Rails!
 
-### Learning Outcomes
+# Concepts:
 
 * Refresher -- how do you set up a basic Rails app?
 * Refresher -- how to you load custom Javascript in a given Rails view page?

@@ -1,10 +1,11 @@
-### Introduction
+## Intro:
+
 With the limitations of the more traditional CSS layout techniques becoming more apparent with the huge growth in mobile and tablet sized screens, a new way was needed to reduce the current complexity of creating responsive website layouts.
 
 Grid was introduced to fill this need.
 
 
-### Learning Outcomes
+# Concepts:
 - What is a grid?
 - How do you create a grid container?
 - How do you create a fixed track size?

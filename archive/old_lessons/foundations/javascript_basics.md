@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), JavaScript code is run in your browser to make things move on your web page and allow users to interact with it. Examples of the functionality that JavaScript offers include drop-down menus and hover effects, which you see on web pages all the time. It's time to dive deeper and start getting your hands dirty with some code.
 
@@ -6,7 +7,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS d
 
 This lesson will tend to focus on understanding the programming side of JavaScript, while the next lesson on jQuery will build on the knowledge you gain here to allow you to interact with the elements on your web page.
 
-### Learning Outcomes
+# Concepts:
 Look through these now and then use them to test yourself after doing the assignment
 
 * What is a scripting language?

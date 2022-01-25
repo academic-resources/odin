@@ -1,6 +1,6 @@
 Let's look a little closer at what actually happened when you put `flex: 1` on those flex items in the last lesson.
 
-### Learning Outcomes
+# Concepts:
 * You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
 
 ### The flex shorthand

@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 As you'll learn, there are _many_ ways to move elements around on a web page. Over the years, new methods have been developed, and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and when it was introduced it was _revolutionary_.
 
 Because it is somewhat new as a technology, many resources put it near the end of their curriculum, but at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
-### Learning Outcomes
+# Concepts:
 
 In the following lessons: 
 

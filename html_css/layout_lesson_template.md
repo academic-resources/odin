@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 Introduction to the topic. When it was introduced, the problems it was created to address
 
 
-### Learning Outcomes
+# Concepts:
 List any learning outcomes here in bullet point format. Knowledge the student should have a better understanding of once they have read through the assignments.
 
 

@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 A *very* brief look back into the idea that browser loading matters (maybe).
 
-### Learning Outcomes
+# Concepts:
 
 * Why is it important which order you load scripts?
 * What does it mean if something "blocks the browser"?

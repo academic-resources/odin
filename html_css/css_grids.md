@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 Grids are another extension of the design world.  There's just something much more pleasing about navigating through a site that properly uses a grid to lay out the content than one which has ignored all the C.R.A.P principles and put things in place willy-nilly.
 
 In this section, you'll get a look at how to use CSS to lay out the elements of your page using a grid.
 
-### Learning Outcomes
+# Concepts:
 
 * Why are grids effective for helping site layout?
 * What are the major different types of grids in use today?

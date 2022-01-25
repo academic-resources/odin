@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialized tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way.
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
@@ -7,7 +8,7 @@ There are _a lot_ of advanced selectors, so going through every single one is ou
 
 As always feel free to open up your code editor and run you own experiments with these selectors - practice makes perfect!
 
-### Learning Outcomes
+# Concepts:
 * Understand how to use parent and sibling selectors
 * Recognize the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
@@ -22,7 +23,7 @@ Let's have a look at some more ways we can access different elements _without_ r
 
 We'll tackle some practical examples using this sample markup.
 
-~~~html
+```html
 <main class="parent">
   <div class="child group1">
     <div class="grand-child group1"></div>
@@ -34,19 +35,19 @@ We'll tackle some practical examples using this sample markup.
     <div class="grand-child group3"></div>
   </div>
 </main>
-~~~
+```
 
 By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
 
-~~~css
+```css
 main div {
   /* Our cool CSS */
 }
-~~~
+```
 
 But what if we wanted to be more specific and select _only_ the `child` or `grand-child` divs ? That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
-~~~css
+```css
 /* This rule will only select divs with a class of child */
 main > div {
   /* Our cool CSS */
@@ -56,11 +57,11 @@ main > div {
 main > div > div {
   /* More cool CSS */
 }
-~~~
+```
 
 Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
-~~~css
+```css
 /* This rule will only select the div with the class child group2 */
 .group1 + div {
   /* Our cool CSS */
@@ -70,16 +71,16 @@ Phrased another way, the child selector will select an element that is one level
 .group1 + div + div {
   /* More cool CSS */
 }
-~~~
+```
 
 Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling combinator `~`.
 
-~~~css
+```css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs*/
 .group1 ~ div {
   /* Our cool CSS */
 }
-~~~
+```
 
 Just like the descendant combinator, these selectors don't have any special specificity rules - their specificity score will just be made up of their component parts.
 
@@ -102,7 +103,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
 
-~~~css
+```css
   /* This rule will apply to all links */
   a {
     text-decoration: underline;
@@ -117,7 +118,7 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
   a:visited {
     color: purple;
   }
-~~~
+```
 
 ## Structural Pseudo-classes
 Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
@@ -132,7 +133,7 @@ Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:o
 
 For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/). This is a flexible pseudo-class with a few different uses.
 
-~~~css
+```css
   .myList:nth-child(5) {/* Selects the 5th child of myList */}
 
   .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
@@ -140,7 +141,7 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
   .myList:nth-child(3n + 3) { /* Selects every 3rd child of myList, beginning with the 3rd */}
 
   .myList:nth-child(even) {/* Selects every even child of myList */}
-~~~
+```
 
 ### Pseudo-elements
 While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseudo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specificity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
@@ -151,7 +152,7 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 
 [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
-~~~html
+```html
 <style>
   .emojify::before {
     content: '😎 🥸 🤓';
@@ -165,7 +166,7 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 <body>
   <div> Let's <span class="emojify">emojify</span>this span!</div>
 </body>
-~~~
+```
 
 Using these pseudo-elements this way would give us this result:
 
@@ -188,7 +189,7 @@ Let's look at some examples for basic usage.
 * `selector[attribute]` - Optionally we can combine our attribute selectors with other types of selectors, such as class or element selectors.
 * `[attribute="value"]` - To get really specific, we can use `=` to match a specific attribute with a specific value.
 
-~~~css
+```css
   [src] {
     /* This will target any element that has a src attribute. */
   }
@@ -200,7 +201,7 @@ Let's look at some examples for basic usage.
   img[src="puppy.jpg"] {
     /* This will target img elements with a src attribute that is exactly "puppy.jpg" */
   }
-~~~
+```
 
 Sometimes we need to be more general in how we access these attributes. For example, perhaps we're only interested in `img` elements where the `src` attribute's value ends in `.jpg`. For cases like this we have some attribute selectors that allow us to match a part of the attribute's value. If you've ever come across [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) before, these attributes use a similar syntax.
 
@@ -209,7 +210,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 * `[attribute$="value"]` - `$=` Will match strings from the end.
 * `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
-~~~css
+```css
 [class^='aus'] {
   /* Classes are attributes too!
     This will target any class that begins with 'aus':
@@ -233,7 +234,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
   for="ill"
   */
 }
-~~~
+```
 
 To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-strings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 

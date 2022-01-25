@@ -1,4 +1,4 @@
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do or answer the following:
 
 - Explain how token authentication differs from session based authentication.

@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/introduction-to-html-and-css), but if you're unable to answer the questions posed below in the "Learning Outcomes" section, you could probably benefit from the review of the basic stuff.
 
-### Learning Outcomes
+# Concepts:
 
 * What are selectors?
 * In general, how specific should you be when targeting elements using selectors?

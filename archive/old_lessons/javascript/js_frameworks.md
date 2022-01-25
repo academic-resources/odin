@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end.
 
 JS Frameworks can be blazing fast in terms of user experience (though they can take longer to load at first because there's a lot more going on than with a simple page).
@@ -7,7 +8,7 @@ You should be able to pick up a Javascript framework in a relatively short perio
 
 In this lesson, we've laid out resources for learning several different frameworks.  Backbone.js is typically the best for beginners because it's got the best documentation and has been around longest (so more support).  Angular is another well documented framework that's coming on strong.  As with the Ruby/Python Rails/Django conversations, what you should do is pick one and learn it well, and then you'll be able to pick up another much easier.
 
-### Learning Outcomes
+# Concepts:
 
 * What is a Javascript framework good for?
 * How do frameworks provide similar functionality to Rails' MVC architecture from the front end?

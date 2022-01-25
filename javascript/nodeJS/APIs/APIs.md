@@ -1,4 +1,4 @@
-### Learning Outcomes
+# Concepts:
 
 By the end of this lesson, you should be able to do the following:
 
@@ -12,7 +12,8 @@ By the end of this lesson, you should be able to do the following:
 - Configure CORS to only allow certain origins to access our API
 - Explain CORS headers
 
-### Introduction
+## Intro:
+
 
 In recent years, a new pattern for developing websites has been gaining popularity. Instead of creating an app that hosts both the database and view templates, many developers are separating these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend. This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/).
 

@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 There are a whole lot of external APIs that you can access using simple Javascript, adding rich content or interesting functionality to your webpages. A few examples include embedding Google Maps in your page or downloading Flickr images.
 

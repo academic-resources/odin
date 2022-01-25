@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 As mentioned in the previous lesson, the lifecycle methods such as `componentDidMount`, `componentDidUpdate` and also the `render` method can only be called in class components. This was a reason why functional components were for long referred to as "dumb" or "stateless" components. They were usually just used to return some JSX because of their inability to have a state or lifecycle methods. Since the introduction of Hooks, this has changed completely.
 
@@ -8,8 +9,8 @@ Other than the basic hooks you will encounter in this section, there are many ot
 
 Now we will discuss the most basic hooks.  Create a `create-react-app` and use the App.js file for the following examples. This won't actually create a lot of functionality, but when coding along you will remember everything better thanks to muscle memory.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 - Explain how state is managed in a functional component
 - Explain how lifecycle methods work in a functional component
@@ -18,7 +19,9 @@ By the end of this lesson, you should be able to:
 
 So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:
 
-~~~javascript
+
+```js
+
 import React, { useState } from "react";
 
 const App = () => {
@@ -37,7 +40,8 @@ const App = () => {
 };
 
 export default App;
-~~~
+
+```
 
 Go try this out in the browser.
 
@@ -51,7 +55,9 @@ Afterwards we are declaring a function, which right now just sets a new count. I
 
 Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
 
-~~~javascript
+
+```js
+
 import React, { useState, useEffect } from "react";
 
 const App = () => {
@@ -94,7 +100,8 @@ const App = () => {
 };
 
 export default App;
-~~~
+
+```
 Try it out to get an idea of what is happening. 
  
 Once you've done that, let's go through it all in detail.
@@ -113,41 +120,50 @@ You have three different options for the <span id='dependency'>dependency</span>
 
 1. Leave it empty. If you leave it empty the useEffect hook would look something like this:
 
-   ~~~javascript
+   
+```js
+
    useEffect(() => {
      // Do something
    }, []);
-   ~~~
+   ```
 
    This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
 
 2. Add a dependency to the array. Like we did it in our example code.
 
-   ~~~javascript
+   
+```js
+
    useEffect(() => {
      // Do something
    }, [color]);
-   ~~~
+   ```
 
    This way, the useEffect hook will re-run anytime the dependency (color) changes. This is similar to a `componentDidUpdate` method, with the only difference that it only runs when a certain condition has changed.
 
 3. Leave out the dependency array.
 
-   ~~~javascript
+   
+```js
+
    useEffect(() => {
      // Do something
    });
-   ~~~
+   ```
 
 You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, **AND** right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componentDidUpdate` method combined.
 
 The return statement we are adding to our useEffect is actually equal to a `componentWillUnmount` method.
 
-~~~javascript
+
+```js
+
 return () => {
   document.removeEventListener("click", changeColorOnClick);
 };
-~~~
+
+```
 
 If you write a return statement like the above in a useEffect, it will do the same as a `componentWillUnmount` method. As you can see, there is a lot to the useEffect hook.  You can also create your own custom hooks if desired. However, with the above mentioned hooks `useState` and `useEffect` you will be fine in most of your smaller projects. 
 

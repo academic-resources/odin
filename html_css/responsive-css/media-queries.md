@@ -1,14 +1,15 @@
-### Introduction
+## Intro:
+
 With media queries it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will need to actually _change_ some of your css values to accommodate a specific screen size. These changes could be subtle shifts, such as adjusting margin, padding or font-size to squeeze more content onto the screen, or they could be big obvious shifts in layout. The nature of the exact changes will depend on your design, but the underlying technique is the same.
 
-### Learning Outcomes
+# Concepts:
 * You'll learn how to implement media queries to create fully responsive websites that look great on any device.
 
 ### Media Query Syntax
 
 The basic syntax for media queries is actually very simple.
 
-~~~css
+```css
 body {
   margin: 24px;
 }
@@ -18,7 +19,7 @@ body {
     margin: 8px;
   }
 }
-~~~
+```
 
 In the above example, margin is changed based on screen size.  Specifically, on all screens _below or equal to_ 600px, the margin will be `8px`, and on all screens _above_ `600px`, it will be `24px`.
 
@@ -59,18 +60,18 @@ Something to be aware of: in most browsers, zooming in on a webpage will change 
 ### Print Styles
 You'll often see media queries defined with the `screen` keyword like so:
 
-~~~css
+```css
 @media screen and (max-width: 480px) {
 }
-~~~
+```
 
 This is mostly unnecessary, but points toward another very useful capability of media queries: changing styles based on media-type. Everything we've covered so far has been specifically intended for viewing on some kind of screen so specifying `screen` is somewhat redundant. It is possible, however, to create a different set of styles for your website when it is sent to your printer or viewed in print-preview mode by using the `print` keyword.
 
-~~~css
+```css
 @media print {
   /* print styles go here! */
 }
-~~~
+```
 
 This is not something we're going to focus on in this curriculum, but in some cases it may be something you want to consider taking advantage of. It's fairly common to change some colors (i.e. make things black/white) and add `display: none` to hide elements that are useless in a printed environment (buttons, nav-links etc.).
 

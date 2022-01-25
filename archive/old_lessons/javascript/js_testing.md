@@ -1,10 +1,11 @@
-### Introduction
+## Intro:
+
 
 We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something critical in your app or, as importantly, when exactly it actually stopped working.
 
 This lesson is meant to give you a head start so you can begin experimenting with testing on your own.
 
-### Learning Outcomes
+# Concepts:
 
 * Why should I test my Javascript?
 * What tools are out there to test Javascript with?

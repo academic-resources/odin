@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
  - Explain what an API is
  - Explain broadly how access to an API works
@@ -16,23 +17,23 @@ Servers that are created for serving data for external use (in websites or apps)
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also add a state code or a country code) as a URL query string parameter, like so:
 
-~~~
+```
 api.openweathermap.org/data/2.5/weather?q=London
-~~~
+```
 
 The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser...(we'll wait).
 
 You'll probably get an error like this:
 
-~~~
+```
 {"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
-~~~
+```
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
-~~~
+```
 http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
-~~~
+```
 
 As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
 
@@ -46,9 +47,9 @@ At this point in the curriculum, though, this point is largely moot. After all, 
 
 Back to OpenWeatherMap. Go ahead and create an account to obtain an API key from their free tier. Once the key has been activated, which [can take up to 2 hours](https://openweathermap.org/faq), try making a new request with the city of your choice AND the API key passed in as query string parameters, like the example above. You'll hopefully see a proper response, something like:
 
-~~~JSON
+```JSON
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
-~~~
+```
 
 Congratulations on making your first API request!
 
@@ -58,7 +59,9 @@ So how do we actually get the data from an API into our code?
 
 A couple of years ago the main way to access API data in your code was using an `XMLHttpRequest`. This function still works in all browsers, but unfortunately, it is not particularly nice to use. The syntax looks something like this:
 
-~~~javascript
+
+```js
+
 // Just getting XHR is a mess!
 if (window.XMLHttpRequest) { // Mozilla, Safari, ...
   request = new XMLHttpRequest();
@@ -77,7 +80,8 @@ if (window.XMLHttpRequest) { // Mozilla, Safari, ...
 // Open, send.
 request.open('GET', 'https://url.com/some/url', true);
 request.send(null);
-~~~
+
+```
 
 Ouch. That was painful.
 
@@ -85,7 +89,9 @@ Developers, feeling the pain of having to write that stuff out, began writing 3r
 
 More recently, however, web browsers have begun to implement a new native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet fetch:
 
-~~~javascript
+
+```js
+
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
   .then(function(response) {
@@ -94,17 +100,20 @@ fetch('https://url.com/some/url')
   .catch(function(err) {
     // Error :(
   });
-~~~
+
+```
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
 Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that here](https://developers.giphy.com/docs/api#quick-start-guide).
 
 Giphy has several methods for searching and finding gifs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [here](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
 
-~~~javascript
+
+```js
+
 'https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats'
 // of course we're searching for cats
-~~~
+```
 
 Go ahead and try that URL (with YOUR API key) in a browser. If everything goes well you should get a relatively long string of data and no errors.
 
@@ -114,18 +123,21 @@ A side note before we start putting this into our code. For security reasons, by
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
-~~~javascript
+
+```js
+
 fetch('url.url.com/api', {
   mode: 'cors'
 });
-~~~
+
+```
 
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
 ### Let's Do This
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
-~~~HTML
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,19 +150,19 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
   </script>
 </body>
 </html>
-~~~
+```
 
 In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
-~~~HTML
+```HTML
 <script>
   const img = document.querySelector('img');
 </script>
-~~~
+```
 
 Adding fetch with our URL from above is also relatively easy:
 
-~~~HTML
+```HTML
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -158,11 +170,11 @@ Adding fetch with our URL from above is also relatively easy:
       console.log(response.json());
     });
 </script>
-~~~
+```
 
 You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you _should_ have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is _another_ Promise... to get the data we need another `.then()` function.
 
-~~~HTML
+```HTML
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -173,7 +185,7 @@ You should now be able to open the HTML file in your browser, and while you won'
       console.log(response);
     });
 </script>
-~~~
+```
 
 Now we have a JavaScript object and if you inspect it closely enough you'll find that the data we need (an image URL) is nested rather deeply inside the object:
 
@@ -181,7 +193,7 @@ Now we have a JavaScript object and if you inspect it closely enough you'll find
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
-~~~HTML
+```HTML
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -192,11 +204,11 @@ To get to the data we need to drill down through the layers of the object until 
       console.log(response.data.images.original.url);
     });
 </script>
-~~~
+```
 
 Running the file should now log the URL of the image. All that's left to do is set the source of the image that's on the page to the URL we've just accessed:
 
-~~~HTML
+```HTML
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -207,7 +219,7 @@ Running the file should now log the URL of the image. All that's left to do is s
       img.src = response.data.images.original.url;
     });
 </script>
-~~~
+```
 
 If all goes well, you should see a new image on the page every time you refresh!
 

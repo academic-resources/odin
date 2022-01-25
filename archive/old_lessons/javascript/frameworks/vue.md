@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 VueJS was created by Evan You, it's the youngest of the popular frameworks, but it's quickly rising popularity proves that it's worth paying attention to. Vue is known for being one of the easiest frontend frameworks to learn while still having the same scalable power as other popular frameworks.
 

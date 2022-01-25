@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 With all the concepts we have learned in this section, you are more than ready to create your own React applications. However, there are a lot of other, more advanced concepts out there that we haven't discussed, but need to inform you of.
 
@@ -11,7 +12,7 @@ As a friendly reminder, Google and StackOverflow are your friends! We should be 
 
 Good Luck!
 
-### Learning Outcomes
+# Concepts:
 
 By the end of this lesson, you should be able to do the following:
 

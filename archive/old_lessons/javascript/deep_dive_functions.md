@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you group functions and variables logically to keep your code organized and maintainable.
 
-### Learning Outcomes
+# Concepts:
 
 * How do you call a function "method-style"?
 * How do you call a function "function-style"?

@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 JSON (JavaScript Object Notation) is a standardized format for structuring data. It is heavily based on the syntax for JavaScript objects. You will often encounter JSON formatted data when working with external servers or APIs - it is essentially the universal format for transmitting data on the web.
 

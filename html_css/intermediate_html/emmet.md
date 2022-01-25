@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 Emmet is a plugin, built into VSCode, that helps you write HTML and CSS more efficiently by providing a bunch of clever shortcuts. By now, you have written a good amount of HTML and CSS, and if you have been using vscode there's a big chance that you have already encountered emmet in some way.
 
-### Learning Outcomes
+# Concepts:
 
 By the end of this lesson, you should be able to do the following:
 

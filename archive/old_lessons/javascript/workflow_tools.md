@@ -1,11 +1,12 @@
-### Introduction
+## Intro:
+
 Very briefly, managing dependencies is something we've had to deal with many times in the past so far -- for example, you can't load jQuery UI before jQuery since it depends on jQuery being there first.  The same applies to packages in Node.  People have built tools to help you get it right.
 
 You've probably already got all kinds of kinks in your workflow so people have also designed tools to streamline the process.  They allow you to include all the preprocessors, packages, libraries etc. that you need with less manual labor.
 
 You may need these things now, you may not.  At least learn what they are so you'll know where to dig deeper when the time comes.
 
-### Learning Outcomes
+# Concepts:
 
 * What is a dependency?
 * What is a build tool?

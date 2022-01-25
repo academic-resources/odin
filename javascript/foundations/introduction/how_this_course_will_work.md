@@ -2,7 +2,8 @@
 
 The Odin Project is an open source community dedicated to providing the best information sources to take you from zero to a full-stack developer.  More information can be found at The Odin Project's [about page](https://www.theodinproject.com/about).
 
-### Introduction
+## Intro:
+
 
 In this unit, we'll learn about how the web works and start thinking about the basics of computer and web programming.
 

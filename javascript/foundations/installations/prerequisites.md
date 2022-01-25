@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) and **Google Chrome**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -264,25 +265,25 @@ Choose your Operating System:
    - Open your **Terminal**
    - Run the following command to download latest **Google Chrome** `.deb` package
 
-~~~bash
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 2: Install Google Chrome
 
    - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-~~~bash
+```bash
 sudo apt install ./google-chrome-stable_current_amd64.deb
-~~~
+```
 
    - Enter your password, if needed
 
 #### Step 3: Delete the installer file
 
-~~~bash
+```bash
 rm google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 4: Using Google Chrome
 You can start chrome in two ways,
@@ -290,9 +291,9 @@ You can start chrome in two ways,
    - Click **Google Chrome** from the Applications menu
    - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
 
-~~~bash
+```bash
 google-chrome
-~~~
+```
 
 </details>
 

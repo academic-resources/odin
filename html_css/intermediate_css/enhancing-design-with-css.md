@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 By now, you probably have a strong grasp of the important foundational concepts of CSS, but there is a lot more that you can do with CSS to make some truly spectacular looking websites. It's time to cover those useful little css features you can use to add some shine to your projects.
 
 There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-tricks.com/how-many-css-properties-are-there/) says there are _hundreds_. Luckily, you don't have to memorize them all. The number that you actually are going to end up using on a regular basis is much smaller. This lesson is going to cover most of the items you'll end up using on a regular basis. The format of this lesson is a little different since it's essentially just a list of CSS properties. We'll give a little description of the property and then link you to some documentation where you can see all the available options.
 
-### Learning Outcomes
+# Concepts:
 - You'll learn about a lot of useful css properties!
 
 #### Background

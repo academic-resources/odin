@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 This is a catch-all section for helpful resources like Style Guides (so your code follows established conventions), libraries, regular expressions, page loading, Local Storage in the browser and security.
 
-### Learning Outcomes
+# Concepts:
 
 * What is a "Style Guide" and why is it helpful for you as a beginner?
 * What is the Underscore library and how does it make Javascript much more Ruby-like?

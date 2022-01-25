@@ -2,7 +2,7 @@
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
-### Learning Outcomes
+# Concepts:
 By the end of this lesson, you should be able to do the following:
 
 - Know how to distinguish hard to read code from easy to read code.
@@ -13,7 +13,9 @@ Consider the following two snippets of JavaScript:
 
 This is ugly and hard to read code:
 
-~~~javascript
+
+```js
+
 const x =
 function(z) {
 let w = 0;z.forEach(
@@ -23,11 +25,14 @@ function(q){
 };
 
 x([2, 2, 2]);
-~~~
+
+```
 
 Now, this is clean and easy to read code:
 
-~~~javascript
+
+```js
+
 const sumArray = function(array) {
   let sum = 0;
   array.forEach(function(number) {
@@ -37,7 +42,8 @@ const sumArray = function(array) {
 };
 
 sumArray([2, 2, 2]);
-~~~
+
+```
 
 Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow.  Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work?  Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again.
 
@@ -53,16 +59,20 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:
 
-   ~~~javascript
+   
+```js
+
    let reallyReallyLongLine = something + somethingElse + anotherThing +
    		howManyTacos + oneMoreReallyLongThing;
-   ~~~
+   ```
 
    ​
 
 4. Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-   ~~~javascript
+   
+```js
+
    // Good
    const numberOfThings = 10;
    const myName = "Thor";
@@ -81,7 +91,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
    function myName() {
      return "Thor";
    }
-   ~~~
+   ```
 
 
 ### Assignment

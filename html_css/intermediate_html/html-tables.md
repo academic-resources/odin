@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 HTML Tables allow you to create two-dimensional tables made of rows and columns. In this lesson, you will learn everything you need to know about HTML Tables.
 
-### Learning Outcomes
+# Concepts:
 
 By the end of this lesson, you should be able to do the following:
 

@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 To do CSS correctly, you need to have a model in your head for how everything fits together on the page.  Otherwise, you're just randomly guessing and checking what works to move things around.  The Box Model is that model.  It defines how every element on the page gets placed and how they relate to each other.
 
 You can't be shaky on how it works if you want to be efficient with your work flow.  So take the time to really nail down your mental model for how elements interact with each other on the page.
 
-### Learning Outcomes
+# Concepts:
 
 * What's the difference between margin and padding?
 * How do borders affect the size of the box?

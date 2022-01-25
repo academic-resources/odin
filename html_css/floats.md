@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 Floats are used predominantly for wrapping text around images, or various shapes as we will see later on in this lesson. It's also worth understanding what they were previously used for before the creation of CSS Grid and Flexbox. 
 
-### Learning Outcomes
+# Concepts:
 * You'll learn how to properly use floats. 
 * Learn how floats work and how to use them
 * Understand how floats were used in the past, and why to avoid these methods in the present

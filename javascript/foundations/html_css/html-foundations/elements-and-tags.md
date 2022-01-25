@@ -1,9 +1,10 @@
-### Introduction
+## Intro:
+
 
 HTML (Hypertext markup language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+# Concepts:
+
 
 - Explain what HTML Tags are
 - Explain what HTML elements are

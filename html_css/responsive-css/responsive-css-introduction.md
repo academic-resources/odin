@@ -1,7 +1,8 @@
-### Introduction
+## Intro:
+
 "Responsive Design" is an incredibly important concept when it comes to developing for the web. In many ways, you are already equipped to create beautiful responsive websites. In this section we're going to fill in the gaps.
 
-### Learning Outcomes
+# Concepts:
 * You'll learn what "Responsive Design" is and why it's important.
 
 ### Terminology

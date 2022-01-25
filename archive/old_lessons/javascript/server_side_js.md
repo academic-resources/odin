@@ -1,4 +1,5 @@
-### Introduction
+## Intro:
+
 Understanding server-side Javascript is not a requirement for getting hired as a full stack junior developer because your Ruby and Rails skills are more than up to the task and in demand.  If you're short on time, consider this section supplemental.
 
 That said, it's really interesting and useful stuff because Node gives you some advantages that Rails doesn't.  It's worth your time to at least browse through the resources and get an idea of what Node is and what the fuss is about.
@@ -7,7 +8,7 @@ If you really love Javascript more than Ruby, you may be about to find your new 
 
 As a bonus, your Heroku know-how transfers to Node because they accept Node apps as well.  Cue the Success Kid meme!
 
-### Learning Outcomes
+# Concepts:
 
 * What is Node.js?
 * How do you download Node?

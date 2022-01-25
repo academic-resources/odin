@@ -1,6 +1,6 @@
 So far everything we've touched with flexbox has used the rule `flex: 1` on all flex items, which makes the items grow or shrink equally to fill all of the available space. Very often, however, this is not the desired effect. Flex is also very useful for arranging items that have a specific size. 
 
-### Learning Outcomes
+# Concepts:
 * You'll learn how to align items inside a flex container both vertically and horizontally.
 
 Let's look at another example.

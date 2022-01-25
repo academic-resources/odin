@@ -1,8 +1,9 @@
-### Introduction
+## Intro:
+
 
 Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with. However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to be able to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
 
-### Learning Outcomes
+# Concepts:
 
 - Name at least three kinds of Javascript errors
 - Identify two parts of an error message that help you find where the error originates
@@ -14,12 +15,12 @@ An error is a type of object built into the JS language, consisting of a name/ty
 
 Let’s assume we have written the following code:
 
-~~~js
+```js
 const a = "Hello"
 const b = "World"
 
 console.log(c)
-~~~
+```
 
 This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
 <img width="615" alt="Screen Shot 2021-12-29 at 1 54 55 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png"> 
@@ -30,7 +31,7 @@ The next part of an error gives us the name of the file in which you can find th
 
 Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
-~~~js
+```js
 const a = 5;
 const b = 10;
 
@@ -43,7 +44,8 @@ function print() {
 }
 
 print();
-~~~
+
+```
 
 Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
 
@@ -65,11 +67,11 @@ These are some of the most common errors you will encounter, so it’s important
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
-~~~js
+```js
 function helloWorld() {
   console.log "Hello World!"
 }
-~~~
+```
 
 will throw the following error, because we forgot the parentheses for `console.log()`!
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/02.png">
@@ -93,11 +95,12 @@ Per MDN, a `TypeError` may be thrown when:
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
-~~~js
+```js
 const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
-~~~
+
+```
 <img width="621" alt="Screen Shot 2021-05-17 at 12 14 12 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/03.png">
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
