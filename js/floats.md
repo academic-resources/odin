@@ -9,7 +9,9 @@ Floats are used predominantly for wrapping text around images, or various shapes
 
 
 ### ** The Basics
-The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is a box and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the box, will now wrap around the right side of the box. ** Let's say we want a second paragraph in the same container to *not* wrap around the box, but to be displayed beneath ** both**  the first paragraph and the floated box. We can then use `clear: left;` to allow this second paragraph to clear the box that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions. Let's have a look at what this will look like below.** <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWgoPdY" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is a box and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the box, will now wrap around the right side of the box. ** Let's say we want a second paragraph in the same container to *not* wrap around the box, but to be displayed beneath ** both**  the first paragraph and the floated box. We can then use `clear: left;` to allow this second paragraph to clear the box that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions. Let's have a look at what this will look like below :**
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWgoPdY" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/NWgoPdY">
   </a> by mgrigoriev8109 (<a href="https://codepen.io/mgrigoriev8109">@mgrigoriev8109</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -23,7 +25,9 @@ The `float` property works by taking an element out of the normal document flow,
 
 </p>
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** This happens because the float was taken out of the normal flow of the document. The most modern solution to this problem is to use `display: flow-root`, which creates a miniature layout within the page, inside of which everything is contained. If we apply `display: flow-root` to the second box, we can see what happens below.** <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQBGQp" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** This happens because the float was taken out of the normal flow of the document. The most modern solution to this problem is to use `display: flow-root`, which creates a miniature layout within the page, inside of which everything is contained. If we apply `display: flow-root` to the second box, we can see what happens below :**
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQBGQp" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/YzQBGQp">
   float problem fix</a> by mgrigoriev8109 (<a href="https://codepen.io/mgrigoriev8109">@mgrigoriev8109</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -36,7 +40,9 @@ The `float` property works by taking an element out of the normal document flow,
 
 
 ### ** Shapes
-Wrapping text around boxes with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). ** While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extension](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor.** 
+Wrapping text around boxes with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). ** While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extension](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor :**
+
+
 
 ---
 
@@ -53,13 +59,17 @@ While `float` was first used to wrap text around an image, developers soon reali
 
 ### ** Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
-* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation.** 
+* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation :**
+
+
 
 ---
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+
 
 * What is the main use for floats in the present day?
 * Why should floats not be used for modifying the layout of a page?

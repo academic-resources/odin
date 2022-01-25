@@ -1,4 +1,6 @@
-FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is.** 
+FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is :**
+
+
 
 ---
 
@@ -6,7 +8,9 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 ### ** Points to Ponder** *Look through these now and then use them to test yourself after doing the assignment** **  What is FTP?
 * When is FTP used?
 * How is FTP used?
-# Challenge** 1. FTP is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey, check it out.** 
+# Challenge** 1. FTP is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey, check it out :**
+
+
 
 ---
 

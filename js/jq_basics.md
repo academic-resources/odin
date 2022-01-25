@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-You should already have completed the [Foundations jQuery lesson](/foundations/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).** jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!** ## Topics:** * What is a selector?
+You should already have completed the [Foundations jQuery lesson](/foundations/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby) :**
+
+jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!** ## Topics:** * What is a selector?
 * What does the `$` symbol mean?
 * Why is it often important to wait for the Document (DOM) to finish loading?
 * How can you select a particular element on the page?
@@ -30,7 +32,9 @@ You should already have completed the [Foundations jQuery lesson](/foundations/j
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
 * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)

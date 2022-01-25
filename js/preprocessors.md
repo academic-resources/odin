@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-Preprocessors (aka precompilers) can make your life much easier by eliminating code repetition and providing all sorts of yummy time-saving and code-saving features.  If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your workflow to get your preprocessor set up but it's worth it.** ## Topics:** * What is a preprocessor?
+Preprocessors (aka precompilers) can make your life much easier by eliminating code repetition and providing all sorts of yummy time-saving and code-saving features.  If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your workflow to get your preprocessor set up but it's worth it :**
+
+## Topics:** * What is a preprocessor?
 * Why do preprocessors rock?
 * What does it mean that a preprocessor "compiles to CSS"?
 * What is SASS/SCSS?
@@ -22,7 +24,9 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [SASS's main website](http://sass-lang.com/)
 * [LESS's main website](http://www.lesscss.org/)

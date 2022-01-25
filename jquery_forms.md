@@ -1,6 +1,10 @@
 ### ** Intro :
 >
-Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX.** You've already got all the tools you need to use Javascript to validate your user's inputs, but you probably haven't used them in this way before.** 
+Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX :**
+
+You've already got all the tools you need to use Javascript to validate your user's inputs, but you probably haven't used them in this way before :**
+
+
 
 ---
 
@@ -25,7 +29,9 @@ Forms are the user's window into your back end.  You've learned a whole lot abou
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * [Smashing Magazine on an approach to Form Field Validation Errors](http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/)
 * [SO Answer on How to Improve a Form Validation Script](http://stackoverflow.com/questions/15060292/a-simple-jquery-form-validation-script) (see answers)

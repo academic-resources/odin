@@ -9,7 +9,9 @@ Frameworks are great for rapidly producing sites with interfaces that end-users 
 
 Additionally, the process of overriding a framework's styling or debugging style issues on your page becomes very difficult if you haven't really mastered CSS fundamentals. It is imperative to understand what a framework is doing "under the hood" so you are equipped to handle these issues later (and trust us, you will).
 
-For these reasons, this lesson is designed to teach you _about_ frameworks and what their role is, but we ** strongly recommend that you continue to focus on the fundamentals of CSS as you continue through the curriculum.** 
+For these reasons, this lesson is designed to teach you _about_ frameworks and what their role is, but we ** strongly recommend that you continue to focus on the fundamentals of CSS as you continue through the curriculum :**
+
+
 
 Doing so will make you a better developer in the end.
 

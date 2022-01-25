@@ -1,5 +1,7 @@
 ### ** Exerpt
->Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system.** We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two so read carefully!** Node is also very easy to install using nvm, so this should go quickly :)** 
+>Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system :**
+
+We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two so read carefully!** Node is also very easy to install using nvm, so this should go quickly :)** 
 
 ---
 
@@ -22,11 +24,15 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```BASH
 command -v nvm
 ```
-** if this returns `nvm: command not found` close the terminal and re-open it.** </details>** <details>
+** if this returns `nvm: command not found` close the terminal and re-open it :**
+
+</details>** <details>
   <summary><b>Installation on macOS</b></summary>
   <br/>
   
-On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.** To create the `.zshrc` file and start the nvm installation, run the following commands:** ** 
+On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it :**
+
+To create the `.zshrc` file and start the nvm installation, run the following commands:** ** 
 ```bash
 touch ~/.zshrc
 ```
@@ -42,12 +48,16 @@ export NVM_DIR="$HOME/.nvm"
 ```bash
 nvm --version.
 ```
-** For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).** </details>** 
+** For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update) :**
+
+</details>** 
 
 ---
 
 
-### ** Installing Node** Now that we have `nvm` installed, we can install Node.** 
+### ** Installing Node** Now that we have `nvm` installed, we can install Node :**
+
+
 #### ** ** Step 1: Installation** Run:** ** 
 ```bash
 nvm install --lts
@@ -56,9 +66,13 @@ nvm install --lts
 ```bash
 Downloading and installing Node v16.xx.x...
 ```
-** If not, close the terminal, re-open it and run `nvm install node` again.** 
+** If not, close the terminal, re-open it and run `nvm install node` again :**
+
+
 #### ** ** Step 2: Setting the Node Version** We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy, just run the following command:** ** 
 ```bash
 nvm use node
 ```
-** Now when you run `node -v` you should see `v16.xx.x` or something similar.** If you see that, you have successfully installed Node!
+** Now when you run `node -v` you should see `v16.xx.x` or something similar :**
+
+If you see that, you have successfully installed Node!

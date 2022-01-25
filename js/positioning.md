@@ -1,14 +1,20 @@
-### ** Positioning** By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, flexbox, and grid. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs, however, there are other methods at your disposal that can be very useful in some situations.** ## Topics:
+### ** Positioning** By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, flexbox, and grid. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs, however, there are other methods at your disposal that can be very useful in some situations :**
+
+## Topics:
  - You'll learn how to use absolute positioning.
  - You'll learn how to use fixed positioning.
  - You'll learn how to use sticky positioning.
- - You'll know the difference between each property and how to combine them.** 
+ - You'll know the difference between each property and how to combine them :**
+
+
 
 ---
 
 
 ### ** Static and Relative Positioning
-The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` displace the element relative to it's normal position in the flow of the document.** 
+The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` displace the element relative to it's normal position in the flow of the document :**
+
+
 
 ---
 
@@ -16,14 +22,18 @@ The default positioning mode that you've gotten used to is ``position: static``.
 ### ** Absolute Positioning
 ``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are: ** - modals
 - image with a caption on it
-- icons on top of other elements** In the following example, we are using absolute positioning to display text over an image.** <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+- icons on top of other elements** In the following example, we are using absolute positioning to display text over an image :**
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
   Absolute Position | CSS Positioning</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** Disclaimer: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.** 
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** Disclaimer: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts :**
+
+
 
 ---
 
@@ -53,6 +63,8 @@ Sticky elements will act like normal elements until you scroll past them, then t
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** - <a class="knowledge-check-link" href="#static-and-relative-positioning">What is the difference between static and relative positioning?</a>
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+- <a class="knowledge-check-link" href="#static-and-relative-positioning">What is the difference between static and relative positioning?</a>
 - <a class="knowledge-check-link" href="#absolute-positioning">What is absolute positioning useful for?</a>
 - <a class="knowledge-check-link" href="https://www.kevinpowell.co/article/positition-fixed-vs-sticky/">What is the difference between fixed and sticky positioning?</a>

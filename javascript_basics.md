@@ -1,5 +1,11 @@
 ### ** Exerpt
->As we [saw before](http://skillcrush.com/2012/04/05/javascript/), JavaScript code is run in your browser to make things move on your web page and allow users to interact with it. Examples of the functionality that JavaScript offers include drop-down menus and hover effects, which you see on web pages all the time. It's time to dive deeper and start getting your hands dirty with some code.** This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  JavaScript just happens to let you implement them to do fun things in the browser.** This lesson will tend to focus on understanding the programming side of JavaScript, while the next lesson on jQuery will build on the knowledge you gain here to allow you to interact with the elements on your web page.** 
+>As we [saw before](http://skillcrush.com/2012/04/05/javascript/), JavaScript code is run in your browser to make things move on your web page and allow users to interact with it. Examples of the functionality that JavaScript offers include drop-down menus and hover effects, which you see on web pages all the time. It's time to dive deeper and start getting your hands dirty with some code :**
+
+This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  JavaScript just happens to let you implement them to do fun things in the browser :**
+
+This lesson will tend to focus on understanding the programming side of JavaScript, while the next lesson on jQuery will build on the knowledge you gain here to allow you to interact with the elements on your web page :**
+
+
 
 ---
 
@@ -21,13 +27,17 @@ We are in the process of completely revamping and rewriting our JavaScript conte
       2. You can also try the JavaScript section of [repl.it](https://repl.it/languages/javascript). It doesn't support HTML and CSS, but it does provide you with a helpful JavaScript console.
   3. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based on problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now; it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:** **       1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, let's break it down into a few steps. The ** first thing**  we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer). Hint: [modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate* (remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in JavaScript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students' solutions for inspiration.
       2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
-  4. There's a lot of power in your browser's DevTools for debugging and working with JavaScript code.  The [official DevTools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great tips for working with JavaScript in the browser.** </div>** 
+  4. There's a lot of power in your browser's DevTools for debugging and working with JavaScript code.  The [official DevTools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great tips for working with JavaScript in the browser :**
+
+</div>** 
 
 ---
 
 
 ### ** Student Solutions
-Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution.** <details markdown="block">
+Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution :**
+
+<details markdown="block">
   <summary> Show Student Solutions </summary>** * Add your solution below this line!
 * [Lucas Bicudo's Solution for problem 1](https://github.com/lucbic/Project-Euler) - [View in browser](https://lucbic.github.io/Project-Euler/)
 * [Alex's Solution for problem 1](https://github.com/dracken2332/EulerProject) - [View in browser](https://dracken2332.github.io/EulerProject/)

@@ -3,7 +3,9 @@
 
 As mentioned in the previous lesson, the lifecycle methods such as `componentDidMount`, `componentDidUpdate` and also the `render` method can only be called in class components. This was a reason why functional components were for long referred to as "dumb" or "stateless" components. They were usually just used to return some JSX because of their inability to have a state or lifecycle methods. Since the introduction of Hooks, this has changed completely.
 
-** Hooks allow functional components to also have a lifecycle as well as a state.** 
+** Hooks allow functional components to also have a lifecycle as well as a state :**
+
+
 
 Other than the basic hooks you will encounter in this section, there are many other hooks such as `useRef` or `useContext`, just to name two. React also provides the ability to write your own custom hooks. This changes the game between functional vs. class components. Functional components are no longer considered “dumb” components. Many programmers have increasingly begun to prefer functional components over class components. For more information have a look [here](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg).
 

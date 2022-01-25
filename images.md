@@ -1,5 +1,9 @@
 ### ** Exerpt
->Images and other media are an essential part of providing a good user experience and they are ubiquitous on websites today.  They are also your biggest, clunkiest set of assets and can ruin your page load times if you're not careful.  When your site is slow, the easiest way to get it running faster is to optimize your image sizes and filetypes.** There is also a big difference between each of the image filetypes, so pay attention to the use cases for each.  Remember, the trade-offs are usually image size vs quality (though sometimes you want animation or clear backgrounds too), so figure out the differences between `gif` and `jpg` and `bmp` and `png` and `svg`.** 
+>Images and other media are an essential part of providing a good user experience and they are ubiquitous on websites today.  They are also your biggest, clunkiest set of assets and can ruin your page load times if you're not careful.  When your site is slow, the easiest way to get it running faster is to optimize your image sizes and filetypes :**
+
+There is also a big difference between each of the image filetypes, so pay attention to the use cases for each.  Remember, the trade-offs are usually image size vs quality (though sometimes you want animation or clear backgrounds too), so figure out the differences between `gif` and `jpg` and `bmp` and `png` and `svg` :**
+
+
 
 ---
 
@@ -28,6 +32,8 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [Another look at differences between image types](http://www.practicalecommerce.com/articles/1821-Image-Formats-What-s-the-Difference-Between-JPG-GIF-PNG-)

@@ -1,6 +1,14 @@
 ### ** Intro :** 
->Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails.** It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.** You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).** ## Topics:
-This is a fairly long list of things to pay attention to but it should be mostly review.** 
+>Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails :**
+
+It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world :**
+
+You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby) :**
+
+## Topics:
+This is a fairly long list of things to pay attention to but it should be mostly review :**
+
+
 
 * How do you include a Javascript file in your HTML file?
 * How do you include Javascript directly in your HTML code?
@@ -42,7 +50,9 @@ This is a fairly long list of things to pay attention to but it should be mostly
 2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/introduction-to-javascript) (you already did up to lesson 5).
 3. Glance through [Javascript Basics from Mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to review from the Codecademy course.
 </div>** ## Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * A straight-to-the-point [primer on Javascript from discovermeteor.com](http://www.discovermeteor.com/blog/javascript-for-meteor/)
 * [Javascript is Sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/) is a blog that covers great technical depth on fundamental JS concepts.  We will use it often in the coming lessons.

@@ -97,7 +97,9 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Test Yourself** Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.** <div class="lesson-content__panel" markdown="1">
+### ** Test Yourself** Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on :**
+
+<div class="lesson-content__panel" markdown="1">
   1. [Beginner Ruby Quiz #2](http://www.codequizzes.com/ruby/beginner/arrays-conditionals-loops)
   2. [Quiz #3](http://www.codequizzes.com/ruby/beginner/variable-scope-methods)
   3. [Quiz #4](http://www.codequizzes.com/ruby/beginner/symbols-array-methods-hashes)
@@ -109,7 +111,9 @@ Look through these now and then use them to test yourself after doing the assign
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * Still unsure about Enumerable?  Check out the [Enumerable Chapter of the Bastard's Book](http://ruby.bastardsbook.com/chapters/enumerables/)
 * GitHub Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)

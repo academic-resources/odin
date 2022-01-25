@@ -1,5 +1,13 @@
 ### ** Exerpt
->The router is the doorman of your application.  When an HTTP request arrives from the user's browser, it needs to know which controller action (method) should be run.  Should we display the "new user" webpage?  Should we edit an existing user with whatever data got sent along?** The Router is basically just a matching service.  It looks at the HTTP verb (GET, POST, PUT, DELETE) and the URL that is being requested and matches it with the appropriate controller action to run.  It's a pretty simple function but an essential one.  If it can't find a route that matches the request, your application will throw an error.** The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects.** If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.** Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.** 
+>The router is the doorman of your application.  When an HTTP request arrives from the user's browser, it needs to know which controller action (method) should be run.  Should we display the "new user" webpage?  Should we edit an existing user with whatever data got sent along?** The Router is basically just a matching service.  It looks at the HTTP verb (GET, POST, PUT, DELETE) and the URL that is being requested and matches it with the appropriate controller action to run.  It's a pretty simple function but an essential one.  If it can't find a route that matches the request, your application will throw an error :**
+
+The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects :**
+
+If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way :**
+
+Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file :**
+
+
 
 ---
 
@@ -11,7 +19,9 @@
 * Configure customized routes for a resource.
 * Name and describe the 7 RESTful controller actions.
 * Obtain a list of all possible routes your current Rails application provides you with.
-* Apply helper methods to create a navigation link on your webpage.** 
+* Apply helper methods to create a navigation link on your webpage :**
+
+
 
 ---
 
@@ -49,7 +59,9 @@
   /posts/1  # going to the #show action of the PostsController
   /posts/5  # also going to the #show action of PostsController
 ```
-** You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.** 
+** You will be able to access that ID directly from the controller by tapping into the params hash where it got stored :**
+
+
 
 ---
 
@@ -61,7 +73,9 @@
   resources :posts
   ...
 ```
-** That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does.** 
+** That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does :**
+
+
 
 ---
 
@@ -70,14 +84,24 @@
 ```bash
   edit_post  GET  /posts/:id/edit(.:format)  posts#edit
 ```
-** You can see the incoming HTTP verb and URL in the middle columns, then the controller action they map to on the right, which should all be quite familiar because you just wrote it in the routes file.  The `(.:format)` just means that it's okay but not required to specify a file extension like `.doc` at the end of the route... it will just get saved in the `params` hash for later anyway.  But what's on the leftmost column?  That's the "name" of the route.** There are a lot of situations where you want to be able to retrieve the URL for a particular route, like when you want to show navigation links on your webpage (do NOT hard code the URLS, because you'll be out of luck when you decide to change the URLs and have to manually go in and change them yourself).  Rails gives you a helper method that lets you create links called `link_to`, but you'll need to supply it with the text that you want to show and the URL to link it to.** ```ruby
+** You can see the incoming HTTP verb and URL in the middle columns, then the controller action they map to on the right, which should all be quite familiar because you just wrote it in the routes file.  The `(.:format)` just means that it's okay but not required to specify a file extension like `.doc` at the end of the route... it will just get saved in the `params` hash for later anyway.  But what's on the leftmost column?  That's the "name" of the route :**
+
+There are a lot of situations where you want to be able to retrieve the URL for a particular route, like when you want to show navigation links on your webpage (do NOT hard code the URLS, because you'll be out of luck when you decide to change the URLs and have to manually go in and change them yourself).  Rails gives you a helper method that lets you create links called `link_to`, but you'll need to supply it with the text that you want to show and the URL to link it to :**
+
+```ruby
   link_to "Edit this post", edit_post_path(3) # don't hardcode 3!
 ```
-** We're jumping a little bit ahead, but in this case, the second argument is supposed to be a path or a URL, so we use the path helper method to generate that.  `edit_post_path(3)` will generate the path `/posts/3/edit`.** Rails automatically generates helper methods for you which correspond to the names of all your routes.  These methods end with `_path` and `_url`.  `path`, as in `edit_post_path(3)`, will generate just the path portion of the URL, which is sufficient for most applications.  `url` will generate the full URL.** Any routes which require you to specify an ID or other parameters will need you to supply those to the helper methods as well (like we did above for edit).  You can also put in a query string by adding an additional parameter:** ** 
+** We're jumping a little bit ahead, but in this case, the second argument is supposed to be a path or a URL, so we use the path helper method to generate that.  `edit_post_path(3)` will generate the path `/posts/3/edit` :**
+
+Rails automatically generates helper methods for you which correspond to the names of all your routes.  These methods end with `_path` and `_url`.  `path`, as in `edit_post_path(3)`, will generate just the path portion of the URL, which is sufficient for most applications.  `url` will generate the full URL :**
+
+Any routes which require you to specify an ID or other parameters will need you to supply those to the helper methods as well (like we did above for edit).  You can also put in a query string by adding an additional parameter:** ** 
 ```ruby
   post_path(3, :referral_link => "/some/path/or/something")
 ```
-** Now the `:referral_link` parameter would be available in your `params` hash in your controller in addition to the normal set of parameters.** 
+** Now the `:referral_link` parameter would be available in your `params` hash in your controller in addition to the normal set of parameters :**
+
+
 
 ---
 
@@ -114,7 +138,9 @@
     end
   end
 ```
-** Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions.** 
+** Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions :**
+
+
 
 ---
 
@@ -143,7 +169,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
 * [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest** 
@@ -152,7 +180,9 @@ This section contains helpful links to other content. It isn't required, so cons
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+
 
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router">What is the purpose of the Rails router?</a>
 * <a class="knowledge-check-link" href="#root">How do you assign the root route of your application in the router?</a>

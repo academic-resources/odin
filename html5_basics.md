@@ -1,5 +1,7 @@
 ### ** Exerpt
->Most of this should be review since you've already completed the [HTML and CSS Foundations courses](/courses/foundations#html-foundations) (Right??) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.** 
+>Most of this should be review since you've already completed the [HTML and CSS Foundations courses](/courses/foundations#html-foundations) (Right??) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections :**
+
+
 
 ---
 
@@ -21,7 +23,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [WTFHTMLCSS with basic tips to improve your code](http://wtfhtmlcss.com/)
 * [W3C HTML5 tutorial ](http://www.w3schools.com/html/default.asp)

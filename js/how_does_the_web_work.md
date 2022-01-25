@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.** ## Topics:
+Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work :**
+
+## Topics:
 At the end of this lesson, you should be able to do the following:** * Describe what the internet is.
 * Describe what packets are and how they are used to transfer data.
 * Understand the differences between a web page, web server, web browser and search engine.
@@ -21,7 +23,9 @@ At the end of this lesson, you should be able to do the following:** * Describe 
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * Listen to [Part 1](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
 * Watch [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
@@ -33,7 +37,9 @@ This section contains helpful links to other content. It isn't required, so cons
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+
 
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work">What is a network?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s">What is the internet?</a>

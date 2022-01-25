@@ -1,7 +1,11 @@
 ### ** Intro :
 >
-So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web.** ## Topics:
-* Get a basic overview of HTML, CSS and how they work together.** 
+So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web :**
+
+## Topics:
+* Get a basic overview of HTML, CSS and how they work together :**
+
+
 
 ---
 
@@ -17,7 +21,9 @@ HTML and CSS are two languages that work together to create everything that you 
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
 * Bookmark [DevDocs.io](https://devdocs.io). Read the "Welcome" message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://freecodecamp.org))** 
@@ -26,7 +32,9 @@ This section contains helpful links to other content. It isn't required, so cons
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+
 
 * <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
 * <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>

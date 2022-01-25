@@ -1,4 +1,6 @@
-Let's dive deeper into the fundamentals of JavaScript. After you complete this lesson you will have time to practice all the bits and pieces you are learning, but as we go please be sure to do the exercises and code-alongs that you can find in the various articles and tutorials we're directing you to!  You will learn much more by _doing_ rather than simply reading.** 
+Let's dive deeper into the fundamentals of JavaScript. After you complete this lesson you will have time to practice all the bits and pieces you are learning, but as we go please be sure to do the exercises and code-alongs that you can find in the various articles and tutorials we're directing you to!  You will learn much more by _doing_ rather than simply reading :**
+
+
 
 ---
 
@@ -65,7 +67,9 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
 ** </details>** <details>
   <summary>How are while loops used?</summary>**   * The initializer is set before the loop
   * The loop runs _while_ the initializer hasn't reached the exit-condition
-  * The final-expression runs at the end of the code block, and brings the initializer closer to the exit-condition.**       initializer
+  * The final-expression runs at the end of the code block, and brings the initializer closer to the exit-condition :**
+
+      initializer
       while(exit-condition) {
       //code to run**       final-expression
       }** </details>** <details>
@@ -85,16 +89,24 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
 
 ### ** Operators and Comparisons** This basic information is another crucial building block in the foundation of your programming skill.  In the end it's not too complicated despite the technical jargon, but make sure you understand this stuff before you move on!** 1. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  
 2. [More operators](http://javascript.info/logical-operators).  
-3. Some of the most common operators in programming are those used to compare values.  Read about those [here](http://javascript.info/comparison).** 
+3. Some of the most common operators in programming are those used to compare values.  Read about those [here](http://javascript.info/comparison) :**
+
+
 
 ---
 
 
-### ** Conditionals** Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.** 1. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
+### ** Conditionals** Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that :**
+
+1. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
 2. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.  
 3. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) After reading try to tackle the 'Tasks' at the bottom of the page.
-4. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.** > ## Quick Tip:** ** >
-> As we get further into the curriculum, you are likely to encounter tasks or problems that you aren't sure how to complete.  ** That's OK!**   Do not waste too much time trying to figure something out when you don't have any idea where to start.  Simply give it a shot, and if you get stuck go ahead and ask for help or look at the given solution.  _THEN_ figure out how the solution works and try to code it yourself without looking.  Doing it yourself is the quickest way to actually learn, but don't get stuck thinking that you're cheating by looking up the answer or asking for help.** 
+4. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions :**
+
+> ## Quick Tip:** ** >
+> As we get further into the curriculum, you are likely to encounter tasks or problems that you aren't sure how to complete.  ** That's OK!**   Do not waste too much time trying to figure something out when you don't have any idea where to start.  Simply give it a shot, and if you get stuck go ahead and ask for help or look at the given solution.  _THEN_ figure out how the solution works and try to code it yourself without looking.  Doing it yourself is the quickest way to actually learn, but don't get stuck thinking that you're cheating by looking up the answer or asking for help :**
+
+
 
 ---
 
@@ -105,9 +117,13 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
 ---
 
 
-### ** Functions** Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript.** 1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one topic that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
+### ** Functions** Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript :**
+
+1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one topic that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
 2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).  
 3. Next, read [this one](http://javascript.info/function-basics) from Javascript.info.  We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation.  This article covers one of the more useful new abilities: 'default parameters'. \(and don't forget the 'tasks' at the end!!\)  
-4. Finally, read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you a little more context.  Another relatively new feature in modern JavaScript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.** 
+4. Finally, read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you a little more context.  Another relatively new feature in modern JavaScript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up :**
+
+
 
 ** 

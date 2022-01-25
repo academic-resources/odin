@@ -1,5 +1,7 @@
 ### ** Intro :** 
->Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/ruby_basics_lesson.md), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods*.** But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!** ## Topics:
+>Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/ruby_basics_lesson.md), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods* :**
+
+But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!** ## Topics:
 Look through these now and then use them to test yourself after doing the assignment:** #### ** ** Numbers, Operators and Expressions:
 * What's the difference between an `Integer` and a `Float`?
 * Why should you be careful when converting back and forth between integers and floats?
@@ -98,7 +100,9 @@ Look through these now and then use them to test yourself after doing the assign
 
 
 ### ** Test Yourself
-Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).** <div class="lesson-content__panel" markdown="1">
+Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby) :**
+
+<div class="lesson-content__panel" markdown="1">
   1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
   2. Make sure you go back up and look at all the questions from the "Learning Outcomes" section.  See if you can do most of them without looking back through the text.
 </div>** 
@@ -107,7 +111,9 @@ Note: If you want to actually write and run your own Ruby code, you can either u
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/)
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.

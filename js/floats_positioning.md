@@ -22,7 +22,9 @@ Pay particular attention to which element acts as the parent of the element you'
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [Video: Positioning Elements](https://www.youtube.com/watch?v=TiY5FuwgocI) - amazing video giving a general overview of the different CSS position values and how they work.
 * [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/) is a great resource for when you begin worrying about the finer details of positioning elements.

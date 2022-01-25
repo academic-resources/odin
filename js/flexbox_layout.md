@@ -1,5 +1,7 @@
 ### ** Intro :** 
->Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? vertical centering?).** ## Topics:** * How do you define a flex container?
+>Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? vertical centering?) :**
+
+## Topics:** * How do you define a flex container?
 * What items will become a flex-item?
 * Can a flex item also be a flex container?
 * When to use Flexbox?
@@ -20,7 +22,9 @@
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * Try the interactive [Flexbox froggy](http://flexboxfroggy.com/) game.
 * This [MDN Flex article](https://developer.mozilla.org/en-US/docs/Web/CSS/flex), which shows examples of what you can achieve with Flexbox.

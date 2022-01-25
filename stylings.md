@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-CSS3 offers a whole lot of interesting functionality that you didn't know about but will really help you make your sites into something special.  Just be conscious of browser compatibility issues -- some of these aren't available on older browsers.** 
+CSS3 offers a whole lot of interesting functionality that you didn't know about but will really help you make your sites into something special.  Just be conscious of browser compatibility issues -- some of these aren't available on older browsers :**
+
+
 
 ---
 
@@ -21,7 +23,9 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [W3Schools on Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)
 * [W3Schools on Box Shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)

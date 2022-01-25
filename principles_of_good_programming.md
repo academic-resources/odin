@@ -1,4 +1,6 @@
-There are a handful of generally accepted principles of good programming.  Common expressions like "be lazy" and "don't repeat yourself" go a long way.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  ** If you stick with them, they'll keep you out of trouble.  Print the list from the first post below if you need to.  This is a great resource to check back with once you're writing code more consistently.** 
+There are a handful of generally accepted principles of good programming.  Common expressions like "be lazy" and "don't repeat yourself" go a long way.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  ** If you stick with them, they'll keep you out of trouble.  Print the list from the first post below if you need to.  This is a great resource to check back with once you're writing code more consistently :**
+
+
 
 ---
 
@@ -14,7 +16,9 @@ There are a handful of generally accepted principles of good programming.  Commo
 ---
 
 
-### ** Your Assignment:** ** 1. Christopher Diggins has compiled a healthy list of principles in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531), check them out.  Some will be more specific than you're really ready for, but you'll likely encounter them all at some point early in your career.  Focus on the ones highlighted in the "Points to Ponder" above.  They're things that a live teacher will tell you again and again while walking around the classroom.** 
+### ** Your Assignment:** ** 1. Christopher Diggins has compiled a healthy list of principles in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531), check them out.  Some will be more specific than you're really ready for, but you'll likely encounter them all at some point early in your career.  Focus on the ones highlighted in the "Points to Ponder" above.  They're things that a live teacher will tell you again and again while walking around the classroom :**
+
+
 
 ---
 

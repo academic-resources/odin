@@ -1,5 +1,7 @@
 ### ** Exerpt
->So far you've been learning how to test code that you've written, but there's a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test ** before**  the code, so that you don't have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process.** 
+>So far you've been learning how to test code that you've written, but there's a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test ** before**  the code, so that you don't have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process :**
+
+
 
 ---
 
@@ -13,10 +15,24 @@ Look through these now and use them to guide your learning.  expect to:** **
 ---
 
 
-### ** What is TDD, and why do it?** Test Driven Development (TDD) just means, in its simplest definition, that you write the tests for a method *before* the method itself. This can seem like a *really* strange concept, especially when you first try doing it, but like anything else in programming (and life more broadly) the more you do it the more normal it will feel, and the better you will get at it.** Following Test Driven Development is especially useful when you're still learning about testing, as it will help you learn how to write code that's *easy* to test from the outset, rather than having to rewrite methods to make them testable.** Another benefit of writing code TDD style is that it *guarantees* that your code will be tested. When writing code with the intention of testing it after the fact, it's very easy to put testing on the back burner for so long that it never happens, and testing *before* you write the code in question removes that temptation. As was mentioned in the introduction, TDD'ing a project means that you don't have to manually test much if any functionality, and that time that you would've spent manually testing can add up quickly on a large project. One last benefit to the TDD approach is that it can help you better plan the design, and catch bugs earlier in the process because your tests are *driving* your development.** We should mention here though that not *everyone* agrees that TDD is the way to go. There are plenty of developers that write tests after the code is written. When you're first learning how to test it's probably best for you to write tests after your code, so that you can focus on learning testing in isolation. Feel free to try doing TDD once you feel more comfortable with testing though!** #### ** ** Red Green Refactor** When you first write your test in Test Driven Development it is in what's known as the `red` state, because when running the test it will fail and the output will be red. Once you've written a method that passes the test you are in the `green` state, as now the test passes and its output will be green. Once you're passing your test you can `refactor` the method, using the test to ensure that your method is still working as intended after your refactor.** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/00.png" alt="Diagram showing the red-green-refactor cycle">** This development cycle is known as red-green-refactor, and it's at the heart of the TDD process. When following TDD you will iterate over each unit of work needed for your project with these three steps until you're done!** One key aspect of the red-green-refactor cycle that *isn't* in the name, is that the code you write to go from `red` to `green` should be the ** minimum**  amount required to pass the test. If you find that the functionality you're adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren't testing all of the right functionality.** 
+### ** What is TDD, and why do it?** Test Driven Development (TDD) just means, in its simplest definition, that you write the tests for a method *before* the method itself. This can seem like a *really* strange concept, especially when you first try doing it, but like anything else in programming (and life more broadly) the more you do it the more normal it will feel, and the better you will get at it :**
+
+Following Test Driven Development is especially useful when you're still learning about testing, as it will help you learn how to write code that's *easy* to test from the outset, rather than having to rewrite methods to make them testable :**
+
+Another benefit of writing code TDD style is that it *guarantees* that your code will be tested. When writing code with the intention of testing it after the fact, it's very easy to put testing on the back burner for so long that it never happens, and testing *before* you write the code in question removes that temptation. As was mentioned in the introduction, TDD'ing a project means that you don't have to manually test much if any functionality, and that time that you would've spent manually testing can add up quickly on a large project. One last benefit to the TDD approach is that it can help you better plan the design, and catch bugs earlier in the process because your tests are *driving* your development :**
+
+We should mention here though that not *everyone* agrees that TDD is the way to go. There are plenty of developers that write tests after the code is written. When you're first learning how to test it's probably best for you to write tests after your code, so that you can focus on learning testing in isolation. Feel free to try doing TDD once you feel more comfortable with testing though!** #### ** ** Red Green Refactor** When you first write your test in Test Driven Development it is in what's known as the `red` state, because when running the test it will fail and the output will be red. Once you've written a method that passes the test you are in the `green` state, as now the test passes and its output will be green. Once you're passing your test you can `refactor` the method, using the test to ensure that your method is still working as intended after your refactor :**
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/00.png" alt="Diagram showing the red-green-refactor cycle">** This development cycle is known as red-green-refactor, and it's at the heart of the TDD process. When following TDD you will iterate over each unit of work needed for your project with these three steps until you're done!** One key aspect of the red-green-refactor cycle that *isn't* in the name, is that the code you write to go from `red` to `green` should be the ** minimum**  amount required to pass the test. If you find that the functionality you're adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren't testing all of the right functionality :**
+
+
 #### ** ** TDD Examples
-Let's walk through a TDD approach to a basic class.** Given the general problem:** ** 
-Create a `Square` class that takes an integer on initialization for the length of each side, and has an `#area` method and a `#perimeter` method which returns (as you probably guessed) the area and perimeter of the square respectively.** Start by making a directory to house this example, and then `lib` and `spec` directories to house the class and the specs respectively. Next, create the spec and class files. Lastly, open the example directory in your text editor so that you can start this TDD style!** ``` bash
+Let's walk through a TDD approach to a basic class :**
+
+Given the general problem:** ** 
+Create a `Square` class that takes an integer on initialization for the length of each side, and has an `#area` method and a `#perimeter` method which returns (as you probably guessed) the area and perimeter of the square respectively :**
+
+Start by making a directory to house this example, and then `lib` and `spec` directories to house the class and the specs respectively. Next, create the spec and class files. Lastly, open the example directory in your text editor so that you can start this TDD style!** ``` bash
 mkdir tdd-lesson
 cd tdd-lesson
 mkdir lib
@@ -117,12 +133,16 @@ end
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint** 
 
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** - What does it mean for code to be test ** driven** ?
+### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+- What does it mean for code to be test ** driven** ?
 - List four different advantages of TDD.
 - What is the 3 part development cycle used for TDD?
 - How much code should be written when going from the `red` state to the `green` state of the red-green-refactor cycle?

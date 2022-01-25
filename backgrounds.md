@@ -1,5 +1,7 @@
 ### ** Exerpt
->Backgrounds are usually ignored until they become a problem and then you're left trying to figure out why your elements are coming out looking so odd.  This brief section should get you thinking properly about backgrounds and the kinds of things you can do with them by just using regular old CSS.** 
+>Backgrounds are usually ignored until they become a problem and then you're left trying to figure out why your elements are coming out looking so odd.  This brief section should get you thinking properly about backgrounds and the kinds of things you can do with them by just using regular old CSS :**
+
+
 
 ---
 
@@ -24,7 +26,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [CSS Backgrounds](http://www.w3schools.com/css/css_background.asp)
 * [Do you really understand CSS linear-gradients?](https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/)

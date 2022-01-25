@@ -1,5 +1,7 @@
 ### ** Intro :** 
->Most of this should be review since you've already completed the [HTML and CSS Foundations courses](/courses/foundations#html-foundations) (Right??) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.** ## Topics:** * How is an HTML5 document structured?
+>Most of this should be review since you've already completed the [HTML and CSS Foundations courses](/courses/foundations#html-foundations) (Right??) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections :**
+
+## Topics:** * How is an HTML5 document structured?
 * What are elements/tags?
 * What are element attributes?
 * How do you link to external files?
@@ -16,7 +18,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [WTFHTMLCSS with basic tips to improve your code](http://wtfhtmlcss.com/)
 * [W3C HTML5 tutorial ](http://www.w3schools.com/html/default.asp)

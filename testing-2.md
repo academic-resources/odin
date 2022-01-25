@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.** 
+An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong :**
+
+
 
 ---
 
@@ -47,7 +49,13 @@ function evaluateGuess(magicNumber, guess) {
 }** guessingGame();
 
 ```
-** In this example, the only thing we really need to test is the `evaluateGuess` function, which is much easier to test because it has a clear input and output and doesn't call any external functions. This implementation is _much_ nicer as well because it's much easier to extend.  If we wanted to switch out the `prompt` and `alert`s for methods that manipulate the DOM we can do that more simply now and if we want to make our game more advanced by letting the user make multiple guesses, that is also easier.** If we had written this program with TDD it is very likely that it would have looked more like the second example to begin with.  Test driven development encourages better program architecture because it encourages you to write _Pure Functions_.** - Read [this quick article](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) about the value of 'Pure Functions'.** 
+** In this example, the only thing we really need to test is the `evaluateGuess` function, which is much easier to test because it has a clear input and output and doesn't call any external functions. This implementation is _much_ nicer as well because it's much easier to extend.  If we wanted to switch out the `prompt` and `alert`s for methods that manipulate the DOM we can do that more simply now and if we want to make our game more advanced by letting the user make multiple guesses, that is also easier :**
+
+If we had written this program with TDD it is very likely that it would have looked more like the second example to begin with.  Test driven development encourages better program architecture because it encourages you to write _Pure Functions_ :**
+
+- Read [this quick article](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) about the value of 'Pure Functions' :**
+
+
 
 ---
 
@@ -65,7 +73,9 @@ function evaluateGuess(magicNumber, guess) {
 
 
 ### ** Knowledge Check 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+- <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
 - <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are the two requirements for a function to be pure?</a>
 - <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are side effects and why is it important to identify them when testing a function?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>

@@ -1,5 +1,7 @@
 ### ** Exerpt
->This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/introduction-to-html-and-css), but if you're unable to answer the questions posed below in the " Topics" section, you could probably benefit from the review of the basic stuff.** 
+>This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/introduction-to-html-and-css), but if you're unable to answer the questions posed below in the " Topics" section, you could probably benefit from the review of the basic stuff :**
+
+
 
 ---
 
@@ -28,7 +30,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [Learn CSS Selectors Interactively Using CSS Diner](http://flukeout.github.io/)
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)

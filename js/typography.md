@@ -1,6 +1,12 @@
 ### ** Intro :
 >
-Something like 95% of the web is text and yet most web developers don't pay any heed whatsoever to typography -- it's this mysterious esoteric subject reserved for designer geeks and their lattes.  You are not "most web developers".** Typography is important stuff!  It can have a major effect on how your page *feels* when the user is reading through it and can also influence how easy the page is to digest, both major factors in your user deciding to continue or turn back.  You got introduced to it in the section on Design and UX, and here you'll see it implemented.** Do what you can to get at least a familiarity with the high level decisions involved with choosing a typeface and font sizes.  You don't need to dive into kerning and what ligatures are, but you should understand when it's appropriate to use serif vs sans-serif fonts and how font weights and line heights impact readability (recall how to build a good visual hierarchy).** ## Topics:** * Why do fonts matter?
+Something like 95% of the web is text and yet most web developers don't pay any heed whatsoever to typography -- it's this mysterious esoteric subject reserved for designer geeks and their lattes.  You are not "most web developers" :**
+
+Typography is important stuff!  It can have a major effect on how your page *feels* when the user is reading through it and can also influence how easy the page is to digest, both major factors in your user deciding to continue or turn back.  You got introduced to it in the section on Design and UX, and here you'll see it implemented :**
+
+Do what you can to get at least a familiarity with the high level decisions involved with choosing a typeface and font sizes.  You don't need to dive into kerning and what ligatures are, but you should understand when it's appropriate to use serif vs sans-serif fonts and how font weights and line heights impact readability (recall how to build a good visual hierarchy) :**
+
+## Topics:** * Why do fonts matter?
 * What's the difference between a serif and sans-serif font?
 * What are `font-family` attributes used for?
 * How is the active font determined in a `font-family`?
@@ -19,6 +25,8 @@ Something like 95% of the web is text and yet most web developers don't pay any 
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [Importing your own fonts](http://www.html5rocks.com/en/tutorials/webfonts/quick/)

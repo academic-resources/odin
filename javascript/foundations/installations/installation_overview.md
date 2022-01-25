@@ -34,7 +34,9 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 #### ** Linux (Official Ubuntu Flavors)
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. ** if you don't use a Mac, we recommend that you use Linux.**  It's that simple.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. ** if you don't use a Mac, we recommend that you use Linux :**
+
+ It's that simple.
 
 #### ** Windows
 
@@ -78,6 +80,8 @@ Many learners come to our Discord channel to ask if the directions on this page 
 
 Before we can continue, we must first stress one detail of importance:
 
-** We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.**  Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please ** do not bring it up in the Discord** . We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
+** We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment :**
+
+ Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please ** do not bring it up in the Discord** . We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
 
 With that out of the way, we need to set up an appropriate development environment!

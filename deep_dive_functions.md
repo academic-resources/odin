@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you group functions and variables logically to keep your code organized and maintainable.** 
+We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you group functions and variables logically to keep your code organized and maintainable :**
+
+
 
 ---
 
@@ -26,7 +28,9 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * Read the beginning section from [Javascript Module Pattern In-Depth from AdequatelyGood.com](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth) for another look at modules.  Don't worry about the advanced stuff.
 * [Common Javascript "Gotchas" from jbotus.com](http://www.jblotus.com/2013/01/13/common-javascript-gotchas/) is useful review of some of the things we've already covered.

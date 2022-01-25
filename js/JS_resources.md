@@ -15,7 +15,9 @@ We assume that you know the basics of JavaScript by now, that you know what a st
 4. [Eloquent JavaScript](http://eloquentjavascript.net/)
       - Starts with basic stuff then goes deep quick.
 5. [MDN](https://developer.mozilla.org/en-US/)
-      - Probably the most complete and definitive resource on the Net.  Professional programmers use the detailed documentation found here daily.** 
+      - Probably the most complete and definitive resource on the Net.  Professional programmers use the detailed documentation found here daily :**
+
+
 
 ---
 

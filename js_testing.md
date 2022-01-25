@@ -1,5 +1,9 @@
 ### ** Exerpt
->We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something critical in your app or, as importantly, when exactly it actually stopped working.** This lesson is meant to give you a head start so you can begin experimenting with testing on your own.** 
+>We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something critical in your app or, as importantly, when exactly it actually stopped working :**
+
+This lesson is meant to give you a head start so you can begin experimenting with testing on your own :**
+
+
 
 ---
 
@@ -19,7 +23,9 @@
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * [Test-first javascript for testing](http://testfirst.org)(go to the Javascript link on the left after reading about it) ** Update**  if the site is down, an archive copy [can be found here](https://web.archive.org/web/20131208165610/http://testfirst.org/learn_javascript) and the repo with their exercises [can be found here](https://github.com/alexch/learn_javascript).
 * [Writing Testable Frontend JS -- Anti-patterns from Shane Tomlinson](https://shanetomlinson.com/2013/testing-javascript-frontend-part-1-anti-patterns-and-fixes/)

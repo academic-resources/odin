@@ -1,6 +1,12 @@
 ### ** Intro :
 >
-Understanding server-side Javascript is not a requirement for getting hired as a full stack junior developer because your Ruby and Rails skills are more than up to the task and in demand.  If you're short on time, consider this section supplemental.** That said, it's really interesting and useful stuff because Node gives you some advantages that Rails doesn't.  It's worth your time to at least browse through the resources and get an idea of what Node is and what the fuss is about.** If you really love Javascript more than Ruby, you may be about to find your new home.  It's still quite rough around the edges, but Node has a lot going for it.** As a bonus, your Heroku know-how transfers to Node because they accept Node apps as well.  Cue the Success Kid meme!** ## Topics:** * What is Node.js?
+Understanding server-side Javascript is not a requirement for getting hired as a full stack junior developer because your Ruby and Rails skills are more than up to the task and in demand.  If you're short on time, consider this section supplemental :**
+
+That said, it's really interesting and useful stuff because Node gives you some advantages that Rails doesn't.  It's worth your time to at least browse through the resources and get an idea of what Node is and what the fuss is about :**
+
+If you really love Javascript more than Ruby, you may be about to find your new home.  It's still quite rough around the edges, but Node has a lot going for it :**
+
+As a bonus, your Heroku know-how transfers to Node because they accept Node apps as well.  Cue the Success Kid meme!** ## Topics:** * What is Node.js?
 * How do you download Node?
 * How do you get a Node server running?
 * How does Node manage its packages similarly to Ruby?
@@ -16,7 +22,9 @@ Understanding server-side Javascript is not a requirement for getting hired as a
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+
+
 
 * ["Useful Node.js Tools, Tutorials and Resources" by Luca Degasperi via Smashing Magazine](http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/)
 * [Node.js vs Ruby on Rails in 2017 by Andrew Alexseyenko](http://blog.techmagic.co/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development/)

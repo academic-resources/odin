@@ -1,5 +1,7 @@
 # TOP Markdown Style Guide** [Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)** TOP uses Markdown for its lessons to be easily read and edited, and get properly formatted HTML for the TOP website. ** ** The two goals of this style guide are to help create:** ** *   Simple Markdown for readability and editability.   
-*   Consist Markdown for consistency on the TOP site and to guide in the creation of new content.** 
+*   Consist Markdown for consistency on the TOP site and to guide in the creation of new content :**
+
+
 
 ** Contents:** ** 1.  [Lesson layout](#lesson-layout)
 1.  [Project layout](#Project-layout)
@@ -20,7 +22,9 @@
 
 
 ### ** Exerpt
->A brief summary about what this lesson is about and why the topics or concepts it covers are important.** 
+>A brief summary about what this lesson is about and why the topics or concepts it covers are important :**
+
+
 
 ---
 
@@ -40,14 +44,20 @@ The list of resources the user will go through to learn about the topic of this 
 ---
 
 
-### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered.** 
+### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered :**
+
+
 
 ---
 
 
-### ** Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.** 
+### ** Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers :**
 
-*Should repeat  Topics with answers.** <details markdown="block">
+
+
+*Should repeat  Topics with answers :**
+
+<details markdown="block">
   <summary>Learning outcome 1.</summary>
   
   *   Learning outcome 1 answer
@@ -73,7 +83,9 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** Student Solutions** Submit a solution with a pull request to this...** <details markdown="block">
+### ** Student Solutions** Submit a solution with a pull request to this.. :**
+
+<details markdown="block">
   <summary> Show Student Solutions </summary>**   *   Add your solution below this line!** </details>** ```
 ** ## Headings** 
 
@@ -90,7 +102,9 @@ Describe the requirements or users stories for the project in detail.
 
 ### ** Add spacing to headings** Prefer spacing after `###` and newlines before and after:** ** 
 ```markdown
-...text before.** 
+...text before :**
+
+
 
 ---
 
@@ -102,9 +116,15 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** Sub-Headers** Use `####` for sub-headers that are on their own line and `** Sub-header** ` for inline.** ```markdown
-...text before.** 
-#### ** ** Sub Header** Text after...** 
+### ** Sub-Headers** Use `####` for sub-headers that are on their own line and `** Sub-header** ` for inline :**
+
+```markdown
+...text before :**
+
+
+#### ** ** Sub Header** Text after.. :**
+
+
 
 ** Sub-header:**  Some text defining this sub-header...
 ```
@@ -140,7 +160,9 @@ numbered lists, because it's nicer to read in source:** **
 ```markdown
 1.  2 spaces after a numbered list.
     4 space indent for wrapped text.
-2.  2 spaces again.** 
+2.  2 spaces again :**
+
+
 
 *   3 spaces after a bullet.
     4 space indent for wrapped text.
@@ -157,8 +179,12 @@ numbered lists, because it's nicer to read in source:** **
 ### ** Mulit-line list items** When list items, wrap into multiple lines consider adding newlines per item 
 to make it more readable:** ** 
 ```markdown** 1.  This is a long long long long long long long long long long long long long 
-    long long long long long long list item.** 2.  This is another long long long long long long long long long long long long
-    long long long long long long long list item.** ```
+    long long long long long long list item :**
+
+2.  This is another long long long long long long long long long long long long
+    long long long long long long long list item :**
+
+```
 ** This will add a paragraph tag to your list item `<li><p></p></li>`** ## Code** 
 
 ---
@@ -167,7 +193,9 @@ to make it more readable:** **
 ### ** Inline** &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
 literally. Use them for short code quotations and field names:** ** 
 ```markdown
-Write these in the `script` tag of a skeleton html file.** ...which is why we can call `taco.printString()` but not `taco.capitalizeString()`. 
+Write these in the `script` tag of a skeleton html file :**
+
+...which is why we can call `taco.printString()` but not `taco.capitalizeString()`. 
 ```
 ** Use inline code when referring to file types in an abstract sense, rather than a
 specific file:** ** 
@@ -190,11 +218,15 @@ const obj = {
 }
 ```
 </pre>** #### ** ** Declare the language** It is best practice to explicitly declare the language, so that neither the
-syntax highlighter nor the next editor must guess.** 
+syntax highlighter nor the next editor must guess :**
+
+
 #### ** ** Nest codeblocks within lists** If you need a codeblock within a list, make sure to indent it so as to not break
 the list:** ** 
 ```markdown
-*   Bullet.**     ```ruby
+*   Bullet :**
+
+    ```ruby
     puts foo;
     ```
 ** *   Next bullet.

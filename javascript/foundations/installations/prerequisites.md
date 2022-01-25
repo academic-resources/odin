@@ -24,7 +24,9 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 ** IMPORTANT** 
 
-Once you have completed these instructions, ** you are expected to work entirely in the VM.**  Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, ** you are expected to work entirely in the VM :**
+
+ Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### ** NOTICE FOR WINDOWS 11 USERS:
 
@@ -59,11 +61,15 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
 <img style="border-style: solid; border-width: thin; padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">
 
-1. Memory size: Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!<br/>** Note:**  Difficulty converting your ** G** iga** B** ytes into ** M** ega** B** ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that ** 8 GB = 8 x 1024 = 8192 MB.** 
+1. Memory size: Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!<br/>** Note:**  Difficulty converting your ** G** iga** B** ytes into ** M** ega** B** ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that ** 8 GB = 8 x 1024 = 8192 MB :**
+
+
 
    <img style="border-style: solid; border-width: thin; padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
 
-2. Hard disk: Click ** “Create a virtual hard disk now”.** 
+2. Hard disk: Click ** “Create a virtual hard disk now” :**
+
+
 
    <img style="border-style: solid; border-width: thin; padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png" alt="The VirtualBox Create Hard Disk window 1" title="This is the default selection">
 
@@ -87,13 +93,17 @@ After completing the last step, click the ** “Create”**  button. Your new vi
  
 <img style="padding: 0em width: auto;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
-If you have more than one monitor, you can create additional monitors by increasing the ** "Monitor Count"**  attribute in the ** "Display"**  tab. Please be sure to increase the ** "Video Memory"**  slider until it is in the green. ** All other settings should remain default.** 
+If you have more than one monitor, you can create additional monitors by increasing the ** "Monitor Count"**  attribute in the ** "Display"**  tab. Please be sure to increase the ** "Video Memory"**  slider until it is in the green. ** All other settings should remain default :**
+
+
 
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/10.png" alt="The Xubuntu System Settings Display window" title="This feature works surprisingly well">
 
 With all that complete, click ** "OK"**  to save the changes.
 
-You cannot install Xubuntu without mounting the ISO you downloaded earlier. We will do that now. Click on the section labeled ** [Optical Drive] Empty**  to the right of the text labeled ** IDE Secondary Master**  under ** Storage**  at the main VirtualBox screen, while Xubuntu is selected. This will open up a dropdown menu, click ** Choose/Create a disk image...** .
+You cannot install Xubuntu without mounting the ISO you downloaded earlier. We will do that now. Click on the section labeled ** [Optical Drive] Empty**  to the right of the text labeled ** IDE Secondary Master**  under ** Storage**  at the main VirtualBox screen, while Xubuntu is selected. This will open up a dropdown menu, click ** Choose/Create a disk image.. :**
+
+.
 
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/12.png" alt="The VirtualBox Home Screen again" title="This is much easier now">
 

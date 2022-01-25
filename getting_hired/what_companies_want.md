@@ -5,7 +5,9 @@ Now that you've figured your own situation out, the fact is that you can't get h
 
 ### ** Life Behind the Curtain
 
-Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can ** add value as soon as possible**  and who will be able to ** grow with the organization.** 
+Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can ** add value as soon as possible**  and who will be able to ** grow with the organization :**
+
+
 
 The second characteristic, growth, is something you shouldn't have much trouble selling if you've come this far and learned web development on your own.  The key is to present yourself as a growth curve, not just a static line (i.e. you'll continue learning and improving very rapidly and not stop).  You have real career goals and you've learned incredibly fast so far to get to where you are (right?).
 

@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see  but it should help with understanding variables for now.** 
+Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see  but it should help with understanding variables for now :**
+
+
 
 ---
 
@@ -9,7 +11,9 @@ Variables are a way of assigning data to names in your programs. You can think o
   do the following:** ** 
  - Describe what a variable is and how to assign it a value or expression.
  - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
- - Describe the naming conventions for variables.** 
+ - Describe the naming conventions for variables :**
+
+
 
 ---
 
@@ -19,22 +23,30 @@ This is how to create a variable in Ruby:** **
 ```ruby
 age = 18 #=> 18
 ```
-** You can also assign the result of an expression to a variable.** ```ruby
+** You can also assign the result of an expression to a variable :**
+
+```ruby
 age = 18 + 5 #=> 23
 ```
-** Variable names are reusable, so you can assign a new value to a variable at any point in your program. Naturally, doing so will override the original value.** ```ruby
+** Variable names are reusable, so you can assign a new value to a variable at any point in your program. Naturally, doing so will override the original value :**
+
+```ruby
 age = 18
 age #=> 18
 age = 33
 age #=> 33
 ```
-** There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable.** ```ruby
+** There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable :**
+
+```ruby
 age = 18
 age #=> 18
 age = age + 4
 age #=> 22
 ```
-** Because this is a common scenario, <span id="add-assignment-operator">Ruby provides a nice shorthand assignment operator for doing this: `+=`</span>.** ```ruby
+** Because this is a common scenario, <span id="add-assignment-operator">Ruby provides a nice shorthand assignment operator for doing this: `+=`</span> :**
+
+```ruby
 age = 18
 age += 4 #=> 22
 ```
@@ -46,8 +58,16 @@ cash *= 2 #=> 20** temperature = 40
 temperature /= 10 #=> 4
 ```
 ** #### ** ** How to Name Variables
-Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents.** Naming variables clearly will pay dividends when you review your code months after you've written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:** ** 
-> Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.** The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.** Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as ** snake_case** .** ```ruby
+Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents :**
+
+Naming variables clearly will pay dividends when you review your code months after you've written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:** ** 
+> Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live :**
+
+The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you :**
+
+Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as ** snake_case**  :**
+
+```ruby
 # bad
 a = 19
 string = "John"** # good
@@ -56,7 +76,11 @@ name = "John"
 can_swim = false
 ```
 ** #### ** ** Variables are References
-The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code.** Let's look at an example of this unexpected behavior, with two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.** ```ruby
+The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code :**
+
+Let's look at an example of this unexpected behavior, with two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory :**
+
+```ruby
 desired_location = "Barcelona"
 johns_location = desired_location** desired_location  #=> "Barcelona"
 johns_location    #=> "Barcelona"
@@ -79,18 +103,24 @@ johns_location          #=> "BARCELONA"
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
 * To dive deeper into how variables point to memory locations on your computer, go through these short sections:** **   * [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
   * [A visual guide to variables](http://ruby.bastardsbook.com/chapters/variables/#visual-guide) from the [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter of *The Bastards Book of Ruby*
-* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.** 
+* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there :**
+
+
 
 ---
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+
 
 * <a class="knowledge-check-link" href="#introduction">What is a variable?</a>
 * <a class="knowledge-check-link" href="#declaring-a-variable">How do you assign a value or an expression to a variable?</a>

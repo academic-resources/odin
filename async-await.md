@@ -1,6 +1,10 @@
 ### ** Intro :
 >
-Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.** For example, the two code blocks below do the exact same thing, they both get information from a server, process it, and return a promise.** 
+Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code :**
+
+For example, the two code blocks below do the exact same thing, they both get information from a server, process it, and return a promise :**
+
+
 ```js
 
 function getPersonsInfo(name) {
@@ -23,8 +27,8 @@ async function getPersonsInfo(name) {
 ---
 
 
-### ** Topics
- :** ** 
+### ** Topics :**
+ ** 
  - Explain how you declare an `async` function
  - Explain what the `async` keyword does
  - Explain what the `await` keyword does
@@ -36,7 +40,13 @@ async function getPersonsInfo(name) {
 
 
 ### ** The async keyword
-The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function, this is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise, returning in an `async` function is the same as resolving a promise, likewise, throwing an error will reject the promise.** An important thing to understand is `async` functions are just syntactical sugar for `promises`.** The `async` keyword can also be used with any of the ways a function can be created, said differently: it is valid to use an `async` function anywhere you can use a normal function. Below you will see some examples that may not be intuitive, if you don't understand them, come back and take a look when you are done with the assignments.** 
+The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function, this is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise, returning in an `async` function is the same as resolving a promise, likewise, throwing an error will reject the promise :**
+
+An important thing to understand is `async` functions are just syntactical sugar for `promises` :**
+
+The `async` keyword can also be used with any of the ways a function can be created, said differently: it is valid to use an `async` function anywhere you can use a normal function. Below you will see some examples that may not be intuitive, if you don't understand them, come back and take a look when you are done with the assignments :**
+
+
 ```js
 
   const yourAsyncFunction = async () => {
@@ -69,13 +79,17 @@ server.getPeople().then(async people => {
 
 
 ### ** The await keyword
-`await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`, then you can use the result in your code as you would in your synchronous code.** 
+`await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`, then you can use the result in your code as you would in your synchronous code :**
+
+
 
 ---
 
 
 ### ** Error Handling
-Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.** 
+Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end :**
+
+
 ```js
 
 asyncFunctionCall().catch(err => {
@@ -83,7 +97,9 @@ asyncFunctionCall().catch(err => {
 });
 
 ```
-** But there is another way: the mighty `try/catch` block! If you want to handle the error directly inside the `async` function, you can use `try/catch` just like you would inside synchronous code.** 
+** But there is another way: the mighty `try/catch` block! If you want to handle the error directly inside the `async` function, you can use `try/catch` just like you would inside synchronous code :**
+
+
 ```js
 
 async function getPersonsInfo(name) {
@@ -96,7 +112,9 @@ async function getPersonsInfo(name) {
   }
 }
 ```
-** Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors.** 
+** Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors :**
+
+
 
 ---
 
@@ -117,7 +135,9 @@ Remember the Giphy API practice project? (If not, you should go back and complet
     });
 </script>
 ```
-** Since `await` does not work on the global scope, we will have to create an `async` function that wraps our API call to Giphy.** 
+** Since `await` does not work on the global scope, we will have to create an `async` function that wraps our API call to Giphy :**
+
+
 ```js
 
 <script>
@@ -145,7 +165,9 @@ Remember the Giphy API practice project? (If not, you should go back and complet
   }
 </script>
 ```
-** Since `response` is still the same object we have passed to the `.then()` block at the start, we still need to use the `.json()` method, which in turn returns a promise. Because `.json()` returns a promise, we can use `await` to assign the response to a variable.** 
+** Since `response` is still the same object we have passed to the `.then()` block at the start, we still need to use the `.json()` method, which in turn returns a promise. Because `.json()` returns a promise, we can use `await` to assign the response to a variable :**
+
+
 ```js
 
 <script>
@@ -156,7 +178,9 @@ Remember the Giphy API practice project? (If not, you should go back and complet
   }
 </script>
 ```
-** To use this function, we just simply need to call it with `getCats()` in our code.** 
+** To use this function, we just simply need to call it with `getCats()` in our code :**
+
+
 ```js
 
 <script>
@@ -179,10 +203,16 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
-2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
+2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await :**
+
+
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.**  - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+ - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
  - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>
  - <a class="knowledge-check-link" href="#the-await-keyword">What does the `await` keyword do?</a>
  - <a class="knowledge-check-link" href="https://javascript.info/async-await#summary">What is returned from an `async` function?</a>

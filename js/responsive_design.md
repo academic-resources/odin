@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-Responsive design is creating websites that respond to the user's context, whether that is the device they are viewing on, the size of their browser, or their accessibility needs.  Lucky for you, there are lots of good tools that help you easily start making websites responsive.  It's not rocket science to do a pretty good job at a responsive site, though it's a lot more work to get one that really nails it.** ## Topics:** * What is responsive design?
+Responsive design is creating websites that respond to the user's context, whether that is the device they are viewing on, the size of their browser, or their accessibility needs.  Lucky for you, there are lots of good tools that help you easily start making websites responsive.  It's not rocket science to do a pretty good job at a responsive site, though it's a lot more work to get one that really nails it :**
+
+## Topics:** * What is responsive design?
 * Why is responsive design important to your users?
 * How do you make a "fluid" layout?
 * What are Media Queries?
@@ -14,7 +16,9 @@ Responsive design is creating websites that respond to the user's context, wheth
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [Responsive Grids Tutorial from TutsPlus](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-basic-responsive-grid-plus-handy-css3-media-query-reporter/)
 * [Responsive Navigation Patterns from Brad Frost](https://bradfrost.com/blog/post/responsive-nav-patterns/)

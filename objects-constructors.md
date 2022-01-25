@@ -1,6 +1,8 @@
 ### ** Intro :
 >
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.** There are multiple ways to define objects but in most cases, it is best to use the __object literal__ syntax as follows:** ** 
+In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher :**
+
+There are multiple ways to define objects but in most cases, it is best to use the __object literal__ syntax as follows:** ** 
 
 ```js
 
@@ -12,7 +14,9 @@ const myObject = {
  }
 }
 ```
-** There are also 2 ways to get information out of an object: dot notation and bracket notation.** 
+** There are also 2 ways to get information out of an object: dot notation and bracket notation :**
+
+
 ```js
 
 // dot notation
@@ -25,7 +29,9 @@ myObject["obnoxious property"] // [Function]
 
 const variable = 'property'** myObject.variable // this gives us 'undefined' because it's looking for a property named 'variable' in our object** myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
 ```
-** If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) from our JavaScript Basics course.** 
+** If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) from our JavaScript Basics course :**
+
+
 
 ---
 
@@ -36,7 +42,9 @@ const variable = 'property'** myObject.variable // this gives us 'undefined' bec
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
 - Understand the basic do's and don't's of prototypical inheritance.
-- Explain what `Object.create` does.** 
+- Explain what `Object.create` does :**
+
+
 
 ---
 
@@ -81,7 +89,9 @@ function gameOver(winningPlayer){
   console.log(winningPlayer.name + " is the winner!")
 }
 ```
-** Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...** 
+** Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to.. :**
+
+
 
 ---
 
@@ -95,7 +105,9 @@ function Player(name, marker) {
   this.marker = marker
 }
 ```
-** and which you use by calling the function with the keyword `new`.** 
+** and which you use by calling the function with the keyword `new` :**
+
+
 ```js
 
 const player = new Player('steve', 'X')
@@ -121,7 +133,9 @@ player2.sayName() // logs 'also steve'
 ---
 
 
-### ** Exercise** Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.** Put a function into the constructor that can report the book info like so:** ** 
+### ** Exercise** Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book :**
+
+Put a function into the constructor that can report the book info like so:** ** 
 
 ```js
 
@@ -139,8 +153,12 @@ console.log(theHobbit.info());
 ---
 
 
-### ** The Prototype** Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.** This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!** 1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
-2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.** If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!** 
+### ** The Prototype** Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties :**
+
+This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!** 1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
+2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype :**
+
+If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!** 
 ```js
 
 function Student(name, grade) {
@@ -153,7 +171,9 @@ Student.prototype.goToProm = function() {
   console.log("Eh.. go to prom?")
 }
 ```
-** If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.** 
+** If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference :**
+
+
 #### ** ** Recommended Method for Prototypal Inheritance** So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:** ** 
 
 ```js
@@ -168,7 +188,9 @@ function Student() {
 carl.sayName() // console.logs "carl"
 carl.grade // 8
 ```
-** You can probably figure out what's going on here. After creating the constructor for EighthGrader, we set its prototype to a new object that has a copy of `Student.prototype`.** A warning... this doesn't work:** ** 
+** You can probably figure out what's going on here. After creating the constructor for EighthGrader, we set its prototype to a new object that has a copy of `Student.prototype` :**
+
+A warning... this doesn't work:** ** 
 
 ```js
 
@@ -192,25 +214,33 @@ EighthGrader.prototype = Student.prototype** function NinthGrader(name) {
 NinthGrader.prototype = Student.prototype** NinthGrader.prototype.sayName = function() {console.log("HAHAHAHAHAHA")}** const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ```
-** If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.** 
+** If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well :**
+
+
 
 ---
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
 * [This Video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [This Video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith to understand another point of view of extending objects from others by `Object.create`.
 * [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by 
 Nicholas C. Zakas is really great to understand OOP in javascript, which explains concepts simply and in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
-* [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.** 
+* [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor :**
+
+
 
 ---
 
 
 ### ** Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** - <a class="knowledge-check-link" href='#object-constructors'>Write an object constructor and instantiate the object.</a>
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+- <a class="knowledge-check-link" href='#object-constructors'>Write an object constructor and instantiate the object.</a>
 - <a class="knowledge-check-link" href='#the-prototype'>Describe what a prototype is and how it can be used.</a>
 - <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
 - <a class="knowledge-check-link" href='#recommended-method-for-prototypal-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>

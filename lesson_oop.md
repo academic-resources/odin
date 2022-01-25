@@ -1,5 +1,9 @@
 ### ** Exerpt
->You've got the building blocks of Ruby out of the way, great! Now it's time to get into the fun stuff... how do we combine those building blocks in the most efficient and elegant ways to produce the programs we'd like to write?** The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.** There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, which are interspersed with their projects so you'll get a chance to apply what you're learning.  The Launch School's OOP book will help you understand the material a bit deeper, which will be important when you start creating your own projects.** 
+>You've got the building blocks of Ruby out of the way, great! Now it's time to get into the fun stuff... how do we combine those building blocks in the most efficient and elegant ways to produce the programs we'd like to write?** The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section :**
+
+There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, which are interspersed with their projects so you'll get a chance to apply what you're learning.  The Launch School's OOP book will help you understand the material a bit deeper, which will be important when you start creating your own projects :**
+
+
 ### **  Topics** - You will learn about classes.
 - You will learn about Methods.
 - You will learn about scope.
@@ -24,25 +28,35 @@
   "rubocop": true,
 },
 ```
-** ** If the above instructions do not work** , explore the initial configuration options in the extension's [documentation](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby). Another alternative is to try the [ruby-rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop) extension, but be aware of the potential problems listed in their documentation.** As you begin to use rubocop, you will be inundated with multiple offenses that seem minor. At this point in your Ruby knowledge, make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. Research the offenses that you do not understand. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.** </div>** 
+** ** If the above instructions do not work** , explore the initial configuration options in the extension's [documentation](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby). Another alternative is to try the [ruby-rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop) extension, but be aware of the potential problems listed in their documentation :**
+
+As you begin to use rubocop, you will be inundated with multiple offenses that seem minor. At this point in your Ruby knowledge, make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. Research the offenses that you do not understand. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file :**
+
+</div>** 
 
 ---
 
 
 ### ** Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.** 
+This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+
+
 
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 * Both of the below books are paid and optional, and not everyone agrees on exactly when you should read them. However, it ** is**  agreed that the resources are extremely valuable, therefore some guidelines have been set as to when you should attempt to (optionally) read them:** **   * Once you have gotten a few OOP projects completed (Tic-Tac-Toe, Mastermind, Hangman, and Custom Enumerables at minimum) you should be ready to read [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, to start learning how to refactor your code in a more OOP way.
-  * Once you feel comfortable after learning to refactor existing code with 99 Bottles, the next logical step would be learning [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz.** 
+  * Once you feel comfortable after learning to refactor existing code with 99 Bottles, the next logical step would be learning [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz :**
+
+
 
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.** - <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects">What is a class?</a>
+### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+
+- <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects">What is a class?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What are getters and setters?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is inheritance?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">What is a scope?</a>

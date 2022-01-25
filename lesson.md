@@ -4,7 +4,9 @@
 
 
 ### ** Exerpt
->A brief summary about what this lesson is about and why the topics or concepts it covers are important.** 
+>A brief summary about what this lesson is about and why the topics or concepts it covers are important :**
+
+
 
 ---
 
@@ -24,14 +26,20 @@ The list of resources the user will go through to learn about the topic of this 
 ---
 
 
-### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered.** 
+### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered :**
+
+
 
 ---
 
 
-### ** Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.** 
+### ** Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers :**
 
-*Should repeat  Topics with answers.** <details markdown="block">
+
+
+*Should repeat  Topics with answers :**
+
+<details markdown="block">
   <summary>Learning outcome 1.</summary>**   *   Learning outcome 1 answer
   *   Learning outcome 1 answer** </details>** <details markdown="block">
   <summary>Learning outcome 2.</summary>**   *   Learning outcome 2 answer** </details>
