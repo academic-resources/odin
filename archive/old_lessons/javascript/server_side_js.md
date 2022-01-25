@@ -17,7 +17,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 * What are advantages of Node vs Rails?
 * What are the downsides of Node vs Rails?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Why I Chose Node.js Over Ruby on Rails by Sagi Isha](https://medium.com/what-i-learned-building/905b0d7d15c3)
@@ -25,7 +25,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 3. Dive in with a hands-on [tutorial in your terminal](https://github.com/workshopper/learnyounode)
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * ["Useful Node.js Tools, Tutorials and Resources" by Luca Degasperi via Smashing Magazine](http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/)

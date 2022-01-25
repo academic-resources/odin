@@ -18,7 +18,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is the role of CSS in a web page?
 * What is the role of JavaScript in a web page?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -29,14 +29,14 @@ Look through these now and then use them to test yourself after doing the assign
   5. Bookmark [DevDocs.io](https://devdocs.io/). Read the "Welcome" message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://www.freecodecamp.org/))
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Watch [this awesome video](https://www.youtube.com/watch?v=gT0Lh1eYk78) explaining the big picture of the three core web technologies: HTML, CSS and JavaScript.
 * [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.
 * [Skills of a Successful Front-End Web Developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Which language is responsible for the semantic structure of a document?

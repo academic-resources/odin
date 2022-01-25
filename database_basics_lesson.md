@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's :**
 
 Databases are kind of hidden in the back of the web application so people treat them with a sort of suspicion and awe.  ** That's nonsense and you should get over its**  _** your database and you are going to become very good friends (or at least frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  This lesson is a teaser for that :**
@@ -10,7 +10,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment** * What is a database?
 * What are relational databases?
 * How are relational databases different from XML?
@@ -27,7 +27,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -42,7 +42,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#structureddata">What is a database?</a>

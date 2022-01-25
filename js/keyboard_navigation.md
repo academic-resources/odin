@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Some users aren't able to use a mouse to navigate or operate their computer, and by extension the websites they visit. These users may instead rely on using a keyboard or another assistive technology that can simulate keyboard inputs, such as voice recognition software. Other users may even just prefer using a keyboard over a mouse, or may use a mix of both. These users require proper keyboard navigation, something that can easily be overlooked when developing a website :**
 
 ## Topics:
@@ -12,7 +12,7 @@
 ---
 
 
-### ** Focus** Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from the... well, Semantic HTML lesson? Another issue with using `<div>` and `<span>` elements is that, by default, they aren't focusable and they don't have any event handling by default. In order to fix our non-semantic Rock, Paper, Scissors example for keyboard users, we would need to take some extra steps, similar to the below code snippets:** ```html
+### Focus** Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from the... well, Semantic HTML lesson? Another issue with using `<div>` and `<span>` elements is that, by default, they aren't focusable and they don't have any event handling by default. In order to fix our non-semantic Rock, Paper, Scissors example for keyboard users, we would need to take some extra steps, similar to the below code snippets:** ```html
 <!-- The `tabindex` attribute makes the `<div>` elements focusable. -->
 
 <div class='button-container'>
@@ -44,7 +44,7 @@ The point is that you need to make sure that any interactive elements are focusa
 ---
 
 
-### ** Focus Styles** Another aspect of focusable elements is their focus styles, which are usually an outline or border surrounding the element when it receives focus. One of the things you may have done, or may still do, is completely remove these focus styles by using CSS rules similar to the example below:** ```css
+### Focus Styles** Another aspect of focusable elements is their focus styles, which are usually an outline or border surrounding the element when it receives focus. One of the things you may have done, or may still do, is completely remove these focus styles by using CSS rules similar to the example below:** ```css
 /* These are so ugh-ly! Let's get rid of them. */
 *:focus {
   outline: none;
@@ -58,7 +58,7 @@ Why? Completely removing focus styles can make a page impossible for keyboard us
 ---
 
 
-### ** Tab Order** The tab order is the order in which elements on the page will receive focus when pressing the Tab key, and is by default in the same order as the order of elements listed in the HTML file:** ```html
+### Tab Order** The tab order is the order in which elements on the page will receive focus when pressing the Tab key, and is by default in the same order as the order of elements listed in the HTML file:** ```html
 <!-- This element is first in the tab order. -->
 
 <div tabindex='0'>This is the first element listed in the HTML.</div>** <!-- This element is second in the tab order. -->
@@ -72,7 +72,7 @@ Why? Completely removing focus styles can make a page impossible for keyboard us
 ---
 
 
-### ** Hidden Content** Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible. ** If you don't properly hide such content, then keyboard users would be able to tab into that content before they're meant to, but in doing so they would lose track of any visual focus on the page. These users would be left confused or even frustrated when they're trying to tab through a page, only for their focus indicator to disappear into that hidden content :**
+### Hidden Content** Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible. ** If you don't properly hide such content, then keyboard users would be able to tab into that content before they're meant to, but in doing so they would lose track of any visual focus on the page. These users would be left confused or even frustrated when they're trying to tab through a page, only for their focus indicator to disappear into that hidden content :**
 
 One way to prevent this frustrating behavior is to give each individual item in that hidden content a `tabindex` value of -1, since that prevents an element from receiving focus via the keyboard (though you can still give it focus with JavaScript's `focus()` method). While this fixes the issue for keyboard users, other assistive technologies would still have access to and could still announce this hidden content :**
 
@@ -84,7 +84,7 @@ A better solution is giving the container for the hidden content itself either t
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 
@@ -98,7 +98,7 @@ This section contains questions for you to check your understanding of this less
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

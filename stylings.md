@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 CSS3 offers a whole lot of interesting functionality that you didn't know about but will really help you make your sites into something special.  Just be conscious of browser compatibility issues -- some of these aren't available on older browsers :**
 
@@ -7,7 +7,7 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 ---
 
 
-### ** Topics** * How do you round corners of a box?
+### Topics** * How do you round corners of a box?
 * How do you add a shadow to a box?
 * How do you rotate an element a specified amount?
 * What interesting animations can you use in CSS3?
@@ -22,7 +22,7 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

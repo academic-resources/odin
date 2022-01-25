@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Understanding server-side Javascript is not a requirement for getting hired as a full stack junior developer because your Ruby and Rails skills are more than up to the task and in demand.  If you're short on time, consider this section supplemental :**
 
@@ -11,7 +11,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 ---
 
 
-### ** Topics** * What is Node.js?
+### Topics** * What is Node.js?
 * How do you download Node?
 * How do you get a Node server running?
 * How does Node manage its packages similarly to Ruby?
@@ -26,7 +26,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

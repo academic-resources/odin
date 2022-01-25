@@ -7,7 +7,7 @@ If you remember from our earlier lessons, the controller is the code that sits b
 ---
 
 
-### ** Topics**   do the following:** ** 
+### Topics**   do the following:** ** 
 - Create simple routes.
 - Create route-handler callback functions.
 - Create a catalog route module.
@@ -19,7 +19,7 @@ If you remember from our earlier lessons, the controller is the code that sits b
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules'>How do you define a route function in Express?</a>

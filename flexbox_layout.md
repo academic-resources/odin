@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? vertical centering?) :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** * How do you define a flex container?
+### Topics** * How do you define a flex container?
 * What items will become a flex-item?
 * Can a flex item also be a flex container?
 * When to use Flexbox?
@@ -23,7 +23,7 @@ Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layo
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

@@ -13,7 +13,7 @@ When you make commits on a specific branch those changes only exist on ** that**
 
 This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*
 
-### ** Using Branches
+### Using Branches
 
 You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
 
@@ -27,7 +27,7 @@ Sometimes the same lines in a file will have been changed by two different branc
 
 When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main` or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
-### ** Sharing Code
+### Sharing Code
 
 Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all. 
 
@@ -40,7 +40,7 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 <img width="602" alt="Dropdown menu of branches on GitHub" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/32a651388da10d018d4143b066badf2c9f27dc93/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png">
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 

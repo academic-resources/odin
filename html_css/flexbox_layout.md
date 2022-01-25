@@ -13,11 +13,11 @@ Floats were never intended for layout, however clever developers found ways in w
 * How can you change the direction of the axis of Flexbox. What will this do to `justify-content` and `align items`?
 * How do you change the display order of content with Flexbox. What is a drawback with this (for screen readers)?
 
-### ** Overview
+### Overview
 
 Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layouts. There were 3 different iterations of the flex property, the final 2012 spec — `display: flex` has excellent [browser support](https://caniuse.com/#search=flex).  The current Flexbox spec is fully supported in all modern browsers, including mobile, IE11 and Edge.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 * Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). This course consists of 20 videos covering Flexbox and are all available to [watch on YouTube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid). 
@@ -25,7 +25,7 @@ Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layo
 * Read through [Interneting is hard's](https://www.internetingishard.com/html-and-css/flexbox/) tutorial to see how to use Flexbox to help create flexible layouts.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

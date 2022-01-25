@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something critical in your app or, as importantly, when exactly it actually stopped working :**
 
 This lesson is meant to give you a head start so you can begin experimenting with testing on your own :**
@@ -17,7 +17,7 @@ This lesson is meant to give you a head start so you can begin experimenting wit
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

@@ -1,4 +1,4 @@
-### ** What Do Web Developers Do?** In short, web developers build and maintain websites :**
+### What Do Web Developers Do?** In short, web developers build and maintain websites :**
 
 Web developers often work for clients who are trying to get their product or service onto the web.
 The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development :**
@@ -13,7 +13,7 @@ For more details, Wikipedia describes the breadth of the web development profess
 ---
 
 
-### ** Types of Web Developers** Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?** The ** front end**  is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar.
+### Types of Web Developers** Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?** The ** front end**  is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar.
 Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience :**
 
 The ** back end**  refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
@@ -28,7 +28,7 @@ For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers
 ---
 
 
-### ** Types of Careers** Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with :**
+### Types of Careers** Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with :**
 
 Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities :**
 
@@ -45,7 +45,7 @@ Finally, large, older companies still need web developers. These companies offer
 ---
 
 
-### ** Tools of the Trade** These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward._** 
+### Tools of the Trade** These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward._** 
 
 * ** Computer** 
 * ** [Google](https://www.google.com/)** 
@@ -58,7 +58,7 @@ Finally, large, older companies still need web developers. These companies offer
 ---
 
 
-### ** Motivation** Learning to code is incredibly rewarding but can also be difficult and frustrating.
+### Motivation** Learning to code is incredibly rewarding but can also be difficult and frustrating.
 The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks :**
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually ** built**  than how you got there :**
@@ -70,7 +70,7 @@ Read [this comprehensive blog post from Happy Bear Software](https://web.archive
 ---
 
 
-### ** Why Odin?** I want you to know that this will not be easy :**
+### Why Odin?** I want you to know that this will not be easy :**
 
 There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment and cover only a specific topic :**
 
@@ -85,7 +85,7 @@ Once you start to feel comfortable with the tools, start hacking on open source 
 ---
 
 
-### ** Conclusion** Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development :**
+### Conclusion** Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development :**
 
 In this course, "Foundations" you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on :**
 
@@ -104,7 +104,7 @@ And it might even be life changing, too :**
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

@@ -1,4 +1,4 @@
-### ** Style Guides
+### Style Guides
 
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer.
 
@@ -10,7 +10,7 @@ Code style is important! Having a consistent set of style rules for things such 
 
 - Set up a linter and prettier to make your code better.
 
-### ** Linting
+### Linting
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a _lot_ of rules - it can be difficult to internalize them all. ** Linters**  are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
@@ -26,7 +26,7 @@ There are multiple options for linting your JavaScript, but the most popular (an
    3. Atom - [The Plugin](https://atom.io/packages/linter-eslint) and [a tutorial](https://medium.freecodecamp.org/how-to-set-up-eslint-in-atom-to-contribute-to-freecodecamp-3467dee86e2c).
    4. Vim - [Use the ALE plugin](https://github.com/w0rp/ale). If you use vim you already know what you're getting into. ALE is a great plugin, but the setup and configuration can be a little tricky.
 
-### ** Prettier
+### Prettier
 
 Prettier is _awesome_. It is similar to a linter, but serves a slightly different function. Prettier will take your JS code and then automatically format it according to a set of rules. Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
@@ -36,7 +36,7 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
-### ** Knowledge check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

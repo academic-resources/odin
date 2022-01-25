@@ -15,7 +15,7 @@ There are a few extremely common types of data that you will encounter in JavaSc
 * Understand what nesting is.
 * Understand what truthy and falsy values are.
 
-### ** Strings
+### Strings
 
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
 
@@ -23,7 +23,7 @@ Depending on what kind of work you're doing, you might end up working more with 
 2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
 3. Vocabulary time: a __method__ is a bit of functionality that is built into the language or into specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you learned a few methods that can be used on strings, such as `indexOf` and `search`. An exhaustive list of methods that can be used on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
-### ** Conditionals
+### Conditionals
 
 Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
 
@@ -34,7 +34,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
-### ** Practice
+### Practice
 
 To give you a good bit of practice, we have created some repl.it exercises for you to play with. We believe that it's best to practice programming on your _own_ computer, rather than in an online environment, but we'll get to that soon enough.
 
@@ -52,12 +52,12 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 - [Exercise 4](https://repl.it/@I3uckwheat/direction-follow#follow.js)
   * You will be working out of follow.js
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>

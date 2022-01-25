@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together :**
 
 
@@ -6,13 +6,13 @@
 ---
 
 
-### ** Topics** - How to write the basic boilerplate for an HTML document
+### Topics** - How to write the basic boilerplate for an HTML document
 - How to open HTML documents in your browser** 
 
 ---
 
 
-### ** Creating a HTML File** To demonstrate HTML boilerplate, we first need an HTML file to work with :**
+### Creating a HTML File** To demonstrate HTML boilerplate, we first need an HTML file to work with :**
 
 Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html` :**
 
@@ -27,7 +27,7 @@ It is worth noting that we named our HTML file `index`. We should always name th
 ---
 
 
-### ** The DOCTYPE** Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>` :**
+### The DOCTYPE** Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>` :**
 
 The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:** ** 
 ```html
@@ -42,7 +42,7 @@ Open the `index.html` file created earlier in your text editor and add `<!DOCTYP
 ---
 
 
-### ** HTML Element** After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it :**
+### HTML Element** After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it :**
 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the HTML element should be included on every HTML document :**
 
@@ -54,24 +54,24 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 
 </html>
 ```
-** #### ** ** What is the `lang` attribute? ** `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation :**
+** ####  What is the `lang` attribute? ** `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation :**
 
 
 
 ---
 
 
-### ** Head Element** The `<head>` element is where we put important meta-information ** about**  our webpages, and stuff required for our webpages to render correctly in the browser.
+### Head Element** The `<head>` element is where we put important meta-information ** about**  our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we ** should not**  use any element that displays content on the webpage :**
 
 
-#### ** ** Title Element** One element we should always include in the head of an HTML document is the title element:** ** 
+####  Title Element** One element we should always include in the head of an HTML document is the title element:** ** 
  `<title>My First Webpage</title>`** The title element is used to give webpages a human-readable title which is displayed in our webpage's browser tab :**
 
 If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open :**
 
 
-#### ** ** The Charset Meta Element** Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8">` :**
+####  The Charset Meta Element** Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8">` :**
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser :**
 
@@ -92,7 +92,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ---
 
 
-### ** Body Element** The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on :**
+### Body Element** The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on :**
 
 To complete the boilerplate, add a body element to the `index.html` file. The body element also goes within the HTML element and is always below the head element, like so:** ** 
 ```html
@@ -112,7 +112,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 ---
 
 
-### ** Viewing HTML Files in the Browser** The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:** ** 
+### Viewing HTML Files in the Browser** The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:** ** 
 > A note:** ** > In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to google chrome.  We ** strongly**  suggest that you use Google Chrome for all of your testing going forward.  ** 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 3. You can use the terminal to open the file in your browser.
@@ -140,7 +140,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 ---
 
 
-### ** VSCode Shortcut
+### VSCode Shortcut
 VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the'.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you :**
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory of how to write the boilerplate code.
@@ -153,7 +153,7 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
@@ -165,7 +165,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>

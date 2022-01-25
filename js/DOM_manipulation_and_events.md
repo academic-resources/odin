@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >One of the most unique and useful abilities of JavaScript is its ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in.. :**
 
 ## Topics:
@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:** * Explain w
 ---
 
 
-### ** DOM - Document Object Model** 
+### DOM - Document Object Model** 
 The DOM \(or Document Object Model\) is a tree-like representation of the contents of a webpage -  a tree of "nodes" with different relationships depending on how they're arranged in the HTML document :**
 
 
@@ -33,7 +33,7 @@ In the above example, the `<div class="display"></div>` is a "child" of `<div id
 ---
 
 
-### ** Targeting Nodes with Selectors** When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:** * div.display
+### Targeting Nodes with Selectors** When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:** * div.display
 * .display
 * \#container &gt; .display
 * div\#container &gt; div.display** You can also use relational selectors \(i.e. `firstElementChild` or `lastElementChild` etc.\) with special properties owned by the nodes :**
@@ -54,11 +54,11 @@ const container = document.querySelector('#container');
 ---
 
 
-### ** DOM methods** When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes :**
+### DOM methods** When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes :**
 
 
-#### ** ** Query Selectors** * _** element_.querySelector\(_selector_\) returns reference to the first match of _selector_
-* _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_** \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._** It's important to note that when using querySelectorAll, the return value is ** not**  an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)** #### ** ** Element Creation** * document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point :**
+####  Query Selectors** * _** element_.querySelector\(_selector_\) returns reference to the first match of _selector_
+* _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_** \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._** It's important to note that when using querySelectorAll, the return value is ** not**  an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)** ####  Element Creation** * document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point :**
 
 
 ```js
@@ -69,8 +69,8 @@ const div = document.createElement('div');
 ** This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods :**
 
 
-#### ** ** Append Elements** * _** parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
-* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_** #### ** ** Remove Elements** * _** parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns reference to _child_** #### ** ** Altering Elements** When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more :**
+####  Append Elements** * _** parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
+* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_** ####  Remove Elements** * _** parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns reference to _child_** ####  Altering Elements** When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more :**
 
 
 ```js
@@ -78,7 +78,7 @@ const div = document.createElement('div');
 const div = document.createElement('div');                     
 // creates a new div referenced in the variable 'div'
 ```
-** #### ** ** Adding inline style** 
+** ####  Adding inline style** 
 ```js
 
 div.style.color = 'blue';                                      
@@ -98,7 +98,7 @@ div.style.backgroundColor // accesses the divs background-color style
 div.style['background-color'] // also works
 div.style.cssText = "background-color: white" // ok in a string
 ```
-** #### ** ** Editing Attributes** 
+** ####  Editing Attributes** 
 ```js
 
 div.setAttribute('id', 'theDiv');                              
@@ -111,7 +111,7 @@ div.setAttribute('id', 'theDiv');
 ** See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes :**
 
 
-#### ** ** Working with classes** 
+####  Working with classes** 
 ```js
 
 div.classList.add('new');                                      
@@ -123,14 +123,14 @@ div.classList.add('new');
 ** It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS :**
 
 
-#### ** ** Adding text content** 
+####  Adding text content** 
 ```js
 
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and
 // inserts it in div
 ```
-** #### ** ** Adding HTML content** 
+** ####  Adding HTML content** 
 ```js
 
 div.innerHTML = '<span>Hello World!</span>';                   
@@ -180,7 +180,7 @@ content.textContent = 'This is the glorious text-content!';** container.appendCh
 ---
 
 
-### ** Important note:
+### Important note:
 > Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 >
 > Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
@@ -198,7 +198,7 @@ content.textContent = 'This is the glorious text-content!';** container.appendCh
 ---
 
 
-### ** Exercise** Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!** Add the following elements to the container using ONLY javascript and the DOM methods shown above :**
+### Exercise** Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!** Add the following elements to the container using ONLY javascript and the DOM methods shown above :**
 
 1. a `<p>` with red text that says "Hey I'm red!"
 2. an `<h3>` with blue text that says  "I'm a blue h3!"
@@ -212,20 +212,20 @@ content.textContent = 'This is the glorious text-content!';** container.appendCh
 ---
 
 
-### ** Events** Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events :**
+### Events** Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events :**
 
 There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three :**
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/) :**
 
 
-#### ** ** method 1** ```html
+####  method 1** ```html
 <button onclick="alert('Hello World')">Click Me</button>
 ```
 ** This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element :**
 
 
-#### ** ** method 2** ```HTML
+####  method 2** ```HTML
 <!-- the html file -->
 
 <button id="btn">Click Me</button>
@@ -238,10 +238,10 @@ const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 
 ```
-** #### ** ** \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)** This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property :**
+** ####  \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)** This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property :**
 
 
-#### ** ** method 3** ```html
+####  method 3** ```html
 <!-- the html file -->
 
 <button id="btn">Click Me Too</button>
@@ -303,7 +303,7 @@ btn.addEventListener('click', function (e) {
 });
 
 ```
-** pretty cool eh?** #### ** ** Attaching listeners to groups of nodes** This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:** ```HTML
+** pretty cool eh?** ####  Attaching listeners to groups of nodes** This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:** ```HTML
 <div id="container">
     <button id="1">Click Me</button>
     <button id="2">Click Me</button>
@@ -334,7 +334,7 @@ buttons.forEach((button) => {**   // and for each one we add a 'click' listener
 ---
 
 
-### ** Practice** Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!** 1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
+### Practice** Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!** 1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
 2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above :**
 
 
@@ -342,7 +342,7 @@ buttons.forEach((button) => {**   // and for each one we add a 'click' listener
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -361,7 +361,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

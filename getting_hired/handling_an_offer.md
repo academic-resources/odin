@@ -12,7 +12,7 @@ What's the best thing you can do?  GET ANOTHER OFFER!  There's nothing nearly as
 Not only that, but remember all those companies that dragged their feet and you hadn't heard back from?  Send every one of them (who you are realistically interested in) an email explaining that you have an offer and need to make a decision relatively quickly.  See if that doesn't help them speed you along in the process and maybe get you that other offer.  As soon as you have an offer to work with, you suddenly have all that social proof you never had before since you haven't worked anywhere else.  Use it.  
 Once you've worked through your negotiation and hopefully had the chance to rank multiple offers, the decision must be made.  That's a good choice to have to make.  Congratulations!  Now you get paid to keep learning.
 
-### ** Links
+### Links
 
 * [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) - Long blog but worth the read to get in the right mindset.
 * [Negotiating your Startup Offer from Rob.by](https://web.archive.org/web/20180626035838/http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Forms are one of the most critical parts of your site. They are your user's gateway into your backend – the user provides data in a form, and you do stuff with it :**
 
 You need to specify the proper types of inputs for each possible data item since there are often multiple ways to collect a piece of data, but only one way is easiest for your user :**
@@ -10,14 +10,14 @@ In this lesson, we will explore the basics of HTML forms and some of the differe
 ---
 
 
-### ** Topics**  :** ** 
+### Topics**  :** ** 
 - Create forms with HTML
 - Have a basic idea of how to style forms** 
 
 ---
 
 
-### ** The Form Element** The form element is a container element like the div element we learned earlier in the curriculum. The form element wraps all of the inputs a user will interact with on a form :**
+### The Form Element** The form element is a container element like the div element we learned earlier in the curriculum. The form element wraps all of the inputs a user will interact with on a form :**
 
 The form element accepts two essential attributes; the first is the `action` attribute which takes a URL value that tells the form where it should send its data to be processed.
 Later in the curriculum, we will learn to hook backend systems up to frontend forms using this attribute. For now, it's only essential to know what the action attribute is used for :**
@@ -38,14 +38,14 @@ The markup for creating a form element looks like this:** **
 ---
 
 
-### ** Form Controls** To start collecting user data, we need to use form control elements. These are all the elements users will interact with on the form, such as text boxes, dropdowns, checkboxes and buttons. In the following few sections, we will explore some of the form controls you will use most commonly :**
+### Form Controls** To start collecting user data, we need to use form control elements. These are all the elements users will interact with on the form, such as text boxes, dropdowns, checkboxes and buttons. In the following few sections, we will explore some of the form controls you will use most commonly :**
 
 
 
 ---
 
 
-### ** The Input Element** The input element is the most versatile of all the form control elements. It accepts a `type` attribute which tells the browser what *type* of data it should expect and how it should render the input element :**
+### The Input Element** The input element is the most versatile of all the form control elements. It accepts a `type` attribute which tells the browser what *type* of data it should expect and how it should render the input element :**
 
 A text input looks like this:** ** 
 ```html
@@ -185,7 +185,7 @@ To create a text area, we use the `<textarea>` element:** **
 ---
 
 
-### ** Selection Elements** Sometimes you will want users to select a value from a predefined list. This is where select elements will come in useful :**
+### Selection Elements** Sometimes you will want users to select a value from a predefined list. This is where select elements will come in useful :**
 
 
 
@@ -316,7 +316,7 @@ To create a checkbox, we use the input element with a type attribute of "checkbo
 ---
 
 
-### ** Buttons** The button element creates clickable buttons that the user can interact with to submit forms and trigger other actions :**
+### Buttons** The button element creates clickable buttons that the user can interact with to submit forms and trigger other actions :**
 
 To create a button, we use the `<button>`  element. The content or text we want to have displayed inside the button will go within the opening and closing tags:** ** 
 ```html
@@ -349,7 +349,7 @@ To create a generic button, we use the button element with a type attribute of "
 ---
 
 
-### ** Organizing Form Elements** Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in :**
+### Organizing Form Elements** Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in :**
 
 Luckily, HTML provides a couple of elements that help us make organizing forms into visually distinct and manageable to digest sections a breeze :**
 
@@ -403,7 +403,7 @@ To create a legend, we use the `<legend>` element with the text we want to displ
 ---
 
 
-### ** A Note on Styling Forms** We will provide resources that go deep into styling forms in the assignment section that comes next. However, before we get to the assignment, we should talk about some of the challenges with styling HTML forms and how we can get around them:** ** 
+### A Note on Styling Forms** We will provide resources that go deep into styling forms in the assignment section that comes next. However, before we get to the assignment, we should talk about some of the challenges with styling HTML forms and how we can get around them:** ** 
 ** Default Browser Styles** ** Each browser has its own default styles for form controls, making your forms visually different for users depending on what browser they are using :**
 
 To have a consistent design among all browsers, we have to override these default styles and style them ourselves :**
@@ -422,12 +422,12 @@ Certain aspects of other elements are downright impossible to style, for example
 ---
 
 
-### ** Additional Resources** - [Web.dev's Form Course](https://web.dev/learn/forms/)** 
+### Additional Resources** - [Web.dev's Form Course](https://web.dev/learn/forms/)** 
 
 ---
 
 
-### ** Knowledge Check** - <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
+### Knowledge Check** - <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
 - <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
 - <a class="knowledge-check-link" href='#the-name-attribute'>What is the name attribute for?</a>
 - <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>

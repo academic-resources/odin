@@ -14,17 +14,17 @@ This is a catch-all section for helpful resources like Style Guides (so your cod
 * How do you access this awesome feature?
 * What are the limitations of using LocalStorage?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-#### ** Style Guides
+#### Style Guides
 Javascript lets you do so many different things that it's easy to feel like you have no organizational structure.  Check out these style guides from industry leading companies to improve your stylistic instincts.
 
 1. Read [Organizing your Code from learn.jquery.com](http://learn.jquery.com/code-organization/)
 2. Browse through [AirBnB's JS Style Guide](https://github.com/airbnb/javascript) is very readable and helpful
 3. If you want some more examples of style guides, check out [GitHub's JS Style Guide](https://web.archive.org/web/20160219161525/https://github.com/styleguide/javascript), and the [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
 
-#### ** Other Helpful Stuff
+#### Other Helpful Stuff
 Consider merely browsing the following resources instead of reading with a fine-tooth comb.  The idea is to get the concepts and just know that you can always come back when you'd like to know more.
 
 1. Read [Local Storage and How to Use It On Websites from Smashing Magazine](http://coding.smashingmagazine.com/2010/10/11/local-storage-and-how-to-use-it/) to get introduced to a powerful new resource browsers are offering.
@@ -35,7 +35,7 @@ Consider merely browsing the following resources instead of reading with a fine-
 6. Watch [Principles of Security by Douglas Crockford (video)](http://www.youtube.com/watch?v=zKuFu19LgZA) for a security primer
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Test your regular expressions in JS with RegexPal](http://regexpal.com/)

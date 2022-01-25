@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe how environment variables are handled in version control.
 - Have familiarity with `nconf`'s hierarchical configuration.
 
-### ** Keep it secret, keep it safe
+### Keep it secret, keep it safe
 
 Essentially, in addition to using encryption to secure user passwords we need to make sure that important sensitive information such as our Express sessions secret, our MongoDB url (especially if it includes your username and password!) and any API keys that you might be using stay hidden. Details such as these should never get committed to a git repo or otherwise published.
 
@@ -19,7 +19,7 @@ A more robust option is the package [nconf](https://github.com/indexzero/nconf).
 
 Digging into this package can be useful when creating bigger projects where app configuration needs to be a little more involved. This package makes it easy to configure things such as separate production and development databases, logging and debugging options, or anything else.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -29,13 +29,13 @@ Digging into this package can be useful when creating bigger projects where app 
 
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What special kind of variable can be used on a server to store secrets?</a>

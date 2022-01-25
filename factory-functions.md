@@ -1,4 +1,4 @@
-### ** What's wrong with constructors?** Object constructors are one of about a million ways to start organizing your code. They are fairly common in the wild and are a fundamental building block of the JavaScript language :**
+### What's wrong with constructors?** Object constructors are one of about a million ways to start organizing your code. They are fairly common in the wild and are a fundamental building block of the JavaScript language :**
 
 _However..._** There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions) :**
 
@@ -11,7 +11,7 @@ The main takeaway is that while constructors aren't necessarily _evil_, they are
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Describe common bugs you might run into using constructors.
 - Write a factory method that returns an object.
@@ -28,7 +28,7 @@ The main takeaway is that while constructors aren't necessarily _evil_, they are
 ---
 
 
-### ** Factory function introduction** The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:** ** 
+### Factory function introduction** The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:** ** 
 
 ```js
 
@@ -48,7 +48,7 @@ const Person = function(name, age) {
 };** const jeff = new Person('jeff', 27);
 
 ```
-** #### ** ** Object Shorthand** A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:** ** 
+** ####  Object Shorthand** A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:** ** 
 
 ```js
 
@@ -80,7 +80,7 @@ console.log(name, color, number, food); // Maynard red 34 rice** // if you simpl
 ---
 
 
-### ** Scope and Closure** From simply reading the above example, you are probably already in pretty good shape to start using factory functions in your code. Before we get there though, it's time to do a somewhat deep dive into an incredibly important concept: __closure__ :**
+### Scope and Closure** From simply reading the above example, you are probably already in pretty good shape to start using factory functions in your code. Before we get there though, it's time to do a somewhat deep dive into an incredibly important concept: __closure__ :**
 
 However, before we're able to make sense of closure, we need to make sure you have a _really_ good grasp on __scope__ in JavaScript. Scope is the term that refers to where things like variables and functions can be used in your code.  ** In the following example, do you know what will be logged on the last line?** 
 ```js
@@ -101,7 +101,7 @@ let a = 17;** const func = x => {
 ---
 
 
-### ** Private Variables and Functions** Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:** ** 
+### Private Variables and Functions** Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:** ** 
 
 ```js
 
@@ -144,7 +144,7 @@ The concept of private functions is very useful and should be used as often as i
 ---
 
 
-### ** Back to Factory Functions** Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!) :**
+### Back to Factory Functions** Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!) :**
 
 
 ```js
@@ -183,7 +183,7 @@ jimmie.attack(badGuy);
 What would happen here if we tried to call `jimmie.die()`? What if we tried to manipulate the health: `jimmie.health -= 1000`? Well, those are things that we have NOT exposed publicly so we would get an error. This is a very good thing! Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information. In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it. In the long run, this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place :**
 
 
-#### ** ** Inheritance with factories** In the constructors lesson, we looked fairly deeply into the concept of prototypes and inheritance, or giving our objects access to the methods and properties of another object. There are a few easy ways to accomplish this while using factories. Check this one out:** ** 
+####  Inheritance with factories** In the constructors lesson, we looked fairly deeply into the concept of prototypes and inheritance, or giving our objects access to the methods and properties of another object. There are a few easy ways to accomplish this while using factories. Check this one out:** ** 
 
 ```js
 
@@ -214,7 +214,7 @@ const Nerd = (name) => {
 ---
 
 
-### ** The Module Pattern** > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here :**
+### The Module Pattern** > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here :**
 
 Modules are actually very similar to factory functions. The main difference is how they're created :**
 
@@ -253,7 +253,7 @@ In our calculator example above, the function inside the IIFE is a simple factor
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -263,7 +263,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/'> Describe common bugs you might run into using constructors.</a>

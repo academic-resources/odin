@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about *problem solving*: the most important skill a developer needs :**
 
@@ -17,7 +17,7 @@ In this lesson we will walk through a few techniques that can be used to help wi
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 * Explain the three steps in the problem solving process.
 * Explain what pseudo code is and be able to use it to solve problems.
@@ -28,7 +28,7 @@ In this lesson we will walk through a few techniques that can be used to help wi
 ---
 
 
-### ** Understand the Problem
+### Understand the Problem
 <span id="problem-solving-stages"></span>
 The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span> :**
 
@@ -37,7 +37,7 @@ The first step to solving a problem is understanding exactly what the problem is
 ---
 
 
-### ** Plan
+### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 <span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:** ** 
@@ -49,7 +49,7 @@ Some of the questions you should answer at this stage of the process:** **
 ---
 
 
-### ** Pseudo Code
+### Pseudo Code
 <span id="pseudo">Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>** Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:** ** 
 ```
 When the user inputs a number
@@ -64,7 +64,7 @@ Print the value of the counter variable
 ---
 
 
-### ** Divide and Conquer
+### Divide and Conquer
 From your planning, you should have identified some subproblems of the big problem you're solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding :**
 
 It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it's often simpler with the first subproblem solved :**
@@ -76,11 +76,11 @@ Many beginners try to solve the big problem in one go. ** Don't do this** . <spa
 ---
 
 
-### ** Solving Fizz Buzz
+### Solving Fizz Buzz
 To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) :**
 
 
-#### ** ** Understanding The Problem
+####  Understanding The Problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz` :**
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it :**
@@ -88,7 +88,7 @@ This is the big picture problem we will be solving. It's pretty simple so we may
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz` :**
 
 
-#### ** ** Plan
+####  Plan
 Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number :**
 
@@ -108,7 +108,7 @@ If the current number is divisible by 5 then print "Buzz"
 If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
 ```
-** #### ** ** Divide and Conquer (Implement)
+** ####  Divide and Conquer (Implement)
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number :**
 
 With JavaScript, we'll use the "prompt" method :**
@@ -240,7 +240,7 @@ Buzz
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -253,7 +253,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

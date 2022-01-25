@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.  ** From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm):** ** 
 > In computer science, divide and conquer (D&C) is an important algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem :**
 
@@ -11,7 +11,7 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment** * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
 * What types of problems are more suited for simple loops than recursion?
@@ -28,14 +28,14 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Test Yourself** <div class="lesson-content__panel" markdown="1">
+### Test Yourself** <div class="lesson-content__panel" markdown="1">
   1. Solve each of the questions from this [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion. You are not expected to answer them from memory at this point.
 </div>** 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -45,7 +45,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Natashatherobot's blog post on Recursion in Ruby](https://web.archive.org/web/20210121055221/http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
 * [Functional Programming Techniques with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
 * [A breakdown of the recursive Fibonacci method](https://youtu.be/zg-ddPbzcKM) from Khan Academy** 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

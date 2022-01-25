@@ -14,7 +14,7 @@ Let's dive right into it. Feel free to code along with this lesson. Typing the c
 - Differentiate between class and functional components and the syntax with which they use props
 - Demonstrate how to attach event listeners to elements in React components
 
-### ** Props
+### Props
 
 In the previous lesson, you learned a lot about components and how to structure your application in a "React way". But how do we share values or even functionality between those components? Yes, you guessed it right, the answer is `props`. Props are one of the two major pillars of React, the very heart of what the framework was built on.
 
@@ -183,7 +183,7 @@ Here, we are destructuring `title` and `onButtonClicked` from `this.props`, whic
 
 Great! Hopefully, you have a better understanding of the purpose and usage of `props` in React. Not too shabby! At this point, if you're feeling overwhelmed, don't fret! Once you start using props in your projects, you'll understand them much better. Soon enough, you'll be a props master!
 
-### ** State
+### State
 
 The other main pillar of React is `state`. State is simply what we use to handle values that can change over time. For example, consider a very simple application that has a button and a counter. When the user clicks the button, the counter is incremented by 1. Since `count` will need to change on every click, we want to hold that value in `state`.
 
@@ -232,7 +232,7 @@ As we mentioned before, our `countUp()` method needs to be bound in our construc
 
 In the `render` method, we access the current state through `this.state.count`. This syntax should look familiar to you by now because it is the same way we accessed props. And yes, you can also destructure state.
 
-### ** What about passing state as a prop? Is that even legal?
+### What about passing state as a prop? Is that even legal?
 
 Yes! One of the greatest and most powerful features of React is the ability to pass one component's state down to multiple children. When that piece of state is changed, each child component that uses it is automatically re-rendered with the new value!
 
@@ -254,7 +254,7 @@ return (
 
 Now, when the user logs in, both the `NavBar` and `Forum` components will update, but the `Footer` component (which doesn't need to know about that data) will not re-render. Pretty cool, right?
 
-### ** State and props in functional components
+### State and props in functional components
 
 As we learned in the previous lesson, and repeatedly made reference to in this lesson, React provides the ability to create components as _functions_ instead of classes. We call these functional components. They use somewhat different syntax than the class components we've discussed thus far, but they essentially do that same thing. In functional components, we don't pass `props` as an argument to the constructor, but instead just pass it as an argument to the component itself. Another major difference between functional and class components concerning props is the way you reference the props. You learned that in a class component, the props that have been passed down from the parent component can be used with this syntax: `this.props.someFunction`, however in functional components, we don't need to reference `this`, so we access `props` simply with: `props.someFunction`. That's the main difference with `props` between class and functional components. Let consider a quick example to solidify this:
 
@@ -305,20 +305,20 @@ function MyComponent({ title }) {
 
 Using state in functional components is a bit different. Before the end of 2018, developers were not able to access state in functional components at all. Functional components were therefore just used for returning JSX logic with props. However, with the introduction of ** React Hooks** , this changed. Now we can set and access state in functional components, and in the modern React landscape, they are often preferred over class components. React developers will be exposed to both kinds of components on the job, so it's imperative for us to be very familiar with both. The way React hooks work is the topic of one of the following lessons, so don't worry about it right now. We are setting you up to say "Hey! I remember that" when it's introduced.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the lifecycle methods for now, we will discuss them in a future lesson. However, if you are excited and want to learn more, feel free to explore that on your own.
 2. Starting with [this lesson on props,](https://www.geeksforgeeks.org/reactjs-props-set-1/) continue through each of the lessons relating to state and props to build a good foundation for the upcoming lessons. Once again, you're welcome to explore more on your own if you wish.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
 - An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based application.
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 

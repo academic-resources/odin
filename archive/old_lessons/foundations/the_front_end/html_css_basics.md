@@ -26,7 +26,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is the "default stylesheet" or "user agent stylesheet"?
 * Why use a CSS reset file?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
  
@@ -39,7 +39,7 @@ Look through these now and then use them to test yourself after doing the assign
   2. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](https://www.youtube.com/watch?v=14Vb6tZCjEY) (resets are mentioned starting at the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](https://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * A good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/) from CSS Tricks.
@@ -52,7 +52,7 @@ This section contains helpful links to other content. It isn't required, so cons
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
     * Hop on over to [Flexbox Froggy](https://flexboxfroggy.com/) or dig into [Grid Garden](https://cssgridgarden.com/) to learn some concepts with a fun game!
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is the difference between HTML and CSS?

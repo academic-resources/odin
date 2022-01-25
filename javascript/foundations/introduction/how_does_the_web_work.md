@@ -13,7 +13,7 @@ At the end of this lesson, you should be able to do the following:
 * Explain what IP addresses are.
 * Explain what DNS servers are.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
   1. Watch this [BBC short](https://www.youtube.com/watch?v=eHp1l73ztB8) for an overview of how the internet works.
@@ -24,7 +24,7 @@ At the end of this lesson, you should be able to do the following:
   6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Listen to [Part 1](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
@@ -33,7 +33,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
 * Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work">What is a network?</a>

@@ -10,7 +10,7 @@ By the end of this lesson, you should be able to do the following:
 - Use some of emmets most useful shortcuts.
 - Set up custom emmet keybindings in vscode.
 
-### ** Emmet
+### Emmet
 
 Emmet is a really useful tool for anyone that works with HTML and CSS a lot and luckily does not have that big of a learning curve because if you already know how to write HTML and CSS you'll have no trouble picking up emmet abbreviations.
 
@@ -31,7 +31,7 @@ After entering the keyboard shortcuts window, you should be able to access all o
 You can now add a shortcut to it by clicking the plus sign and entering whichever key combination you would like for that specific action.
 You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on emmet. Go ahead and watch it.
@@ -39,9 +39,9 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a> Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

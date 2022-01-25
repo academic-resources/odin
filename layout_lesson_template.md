@@ -1,7 +1,7 @@
-### ** Intro :
+### Intro :
 >
 Introduction to the topic. When it was introduced, the problems it was created to address** 
-### **  Topics
+###  Topics
 List any  Topics here in bullet point format. Knowledge the student should have a better understanding of once they have read through the assignments :**
 
 
@@ -10,5 +10,5 @@ Why use this over other positioning layout options.
 Common gotchas to be aware of.
 Any limitations to the layout?** ---** # Challenge:
 List of up to 3 reading resources that cover the  Topics** 
-### ** Additional Resources
+### Additional Resources
 Any additional resources worth reading.

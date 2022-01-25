@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >The last lesson was a lot of theory, but there is just a little bit more you have to learn in order to write your first React application. If you've done all the steps in the previous lesson, you should now have a great foundation for the concepts you will learn next. Make sure to pay close attention to this lesson because it covers two of the most important features of React :**
 
 Let's dive right into it. Feel free to code along with this lesson. Typing the code out will help you remember it significantly better :**
@@ -8,7 +8,7 @@ Let's dive right into it. Feel free to code along with this lesson. Typing the c
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 - Demonstrate how to pass functions, state, or other values between components as `props`
 - Describe the purpose of `state` in a React component
@@ -19,7 +19,7 @@ Let's dive right into it. Feel free to code along with this lesson. Typing the c
 ---
 
 
-### ** Props** In the previous lesson, you learned a lot about components and how to structure your application in a "React way". But how do we share values or even functionality between those components? Yes, you guessed it right, the answer is `props`. Props are one of the two major pillars of React, the very heart of what the framework was built on :**
+### Props** In the previous lesson, you learned a lot about components and how to structure your application in a "React way". But how do we share values or even functionality between those components? Yes, you guessed it right, the answer is `props`. Props are one of the two major pillars of React, the very heart of what the framework was built on :**
 
 Let's take the following example:** ** 
 
@@ -135,7 +135,7 @@ Great! Hopefully, you have a better understanding of the purpose and usage of `p
 ---
 
 
-### ** State** The other main pillar of React is `state`. State is simply what we use to handle values that can change over time. For example, consider a very simple application that has a button and a counter. When the user clicks the button, the counter is incremented by 1. Since `count` will need to change on every click, we want to hold that value in `state` :**
+### State** The other main pillar of React is `state`. State is simply what we use to handle values that can change over time. For example, consider a very simple application that has a button and a counter. When the user clicks the button, the counter is incremented by 1. Since `count` will need to change on every click, we want to hold that value in `state` :**
 
 The following example of our simple counter app shows how to define `state` in React:** ** 
 
@@ -177,7 +177,7 @@ In the `render` method, we access the current state through `this.state.count`. 
 ---
 
 
-### ** What about passing state as a prop? Is that even legal?** Yes! One of the greatest and most powerful features of React is the ability to pass one component's state down to multiple children. When that piece of state is changed, each child component that uses it is automatically re-rendered with the new value!** Consider a webpage such as a forum where the "main" component of the site (we'll call that component `Forum`) needed to know the user's username so that when they are viewing a post or reply they wrote, the author is shown as "me" instead of "user123". You'd probably want to keep that username as a piece of data in `state` so each user that visited the site and logged in could have this functionality. Now let's say on that same site, you want the login button on the navigation bar to change into the user's username to visually indicate to them that they are logged in. Instead of keeping this piece of state in both the `NavBar` and `Forum` component, we can keep it in their parent, `App`, and pass it down as a prop to both like so:** ** 
+### What about passing state as a prop? Is that even legal?** Yes! One of the greatest and most powerful features of React is the ability to pass one component's state down to multiple children. When that piece of state is changed, each child component that uses it is automatically re-rendered with the new value!** Consider a webpage such as a forum where the "main" component of the site (we'll call that component `Forum`) needed to know the user's username so that when they are viewing a post or reply they wrote, the author is shown as "me" instead of "user123". You'd probably want to keep that username as a piece of data in `state` so each user that visited the site and logged in could have this functionality. Now let's say on that same site, you want the login button on the navigation bar to change into the user's username to visually indicate to them that they are logged in. Instead of keeping this piece of state in both the `NavBar` and `Forum` component, we can keep it in their parent, `App`, and pass it down as a prop to both like so:** ** 
 
 ```js
 
@@ -196,7 +196,7 @@ return (
 ---
 
 
-### ** State and props in functional components** As we learned in the previous lesson, and repeatedly made reference to in this lesson, React provides the ability to create components as _functions_ instead of classes. We call these functional components. They use somewhat different syntax than the class components we've discussed thus far, but they essentially do that same thing. In functional components, we don't pass `props` as an argument to the constructor, but instead just pass it as an argument to the component itself. Another major difference between functional and class components concerning props is the way you reference the props. You learned that in a class component, the props that have been passed down from the parent component can be used with this syntax: `this.props.someFunction`, however in functional components, we don't need to reference `this`, so we access `props` simply with: `props.someFunction`. That's the main difference with `props` between class and functional components. Let consider a quick example to solidify this:** ** 
+### State and props in functional components** As we learned in the previous lesson, and repeatedly made reference to in this lesson, React provides the ability to create components as _functions_ instead of classes. We call these functional components. They use somewhat different syntax than the class components we've discussed thus far, but they essentially do that same thing. In functional components, we don't pass `props` as an argument to the constructor, but instead just pass it as an argument to the component itself. Another major difference between functional and class components concerning props is the way you reference the props. You learned that in a class component, the props that have been passed down from the parent component can be used with this syntax: `this.props.someFunction`, however in functional components, we don't need to reference `this`, so we access `props` simply with: `props.someFunction`. That's the main difference with `props` between class and functional components. Let consider a quick example to solidify this:** ** 
 
 ```js
 
@@ -235,7 +235,7 @@ function MyComponent({ title }) {
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
@@ -246,7 +246,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
 - <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>

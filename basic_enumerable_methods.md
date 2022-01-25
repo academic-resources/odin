@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy. Remember the ** DRY (Don't Repeat Yourself)**  approach to programming that we talked about in the lesson on Methods? Well, Ruby keeps iterating DRY through something called enumerables :**
 
@@ -15,7 +15,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Explain how the `#each` and `#each_with_index` methods work and how they differ.
  - Explain how the `#map` method works.
@@ -29,7 +29,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** Life Before Enumerables
+### Life Before Enumerables
 Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of a nutcase at parties and always drinks way too much :**
 
 With the loops you've learned so far, you might do something like this:** ** 
@@ -60,7 +60,7 @@ friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']** friends.reject { |friend
 ---
 
 
-### ** The each Method
+### The each Method
 `#each` is the granddaddy of the enumerable methods. It's a bit like Chuck Norris: it can do anything. As you'll see throughout this lesson, though, just because you can use `#each` to do just about anything doesn't mean it's always the best or most efficient tool for the job :**
 
 Calling `#each` on an array will iterate through that array and will yield each element to a code block, where a task can be performed:** ** 
@@ -107,7 +107,7 @@ friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']** friends.each { |friend| 
 ---
 
 
-### ** The each_with_index Method
+### The each_with_index Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two ** block variables**  instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex :**
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:** ** 
@@ -123,7 +123,7 @@ fruits = ["apple", "banana", "strawberry", "pineapple"]** fruits.each_with_index
 ---
 
 
-### ** The map Method
+### The map Method
 Remember when we tried to use `#each` to write all of your friends' names in all caps? For reference, this is the code that we tried:** ** 
 ```ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']** friends.each { |friend| friend.upcase }** #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -158,7 +158,7 @@ salaries = [1200, 1500, 1100, 1800]** salaries.map { |salary| salary - 700 }
 ---
 
 
-### ** The select Method
+### The select Method
 You've already seen the `#select` method in action at the beginning of this lesson in our quest to make Brian an outcast :**
 
 The `#select` method (also called `#filter`) passes every item in an array to a block and returns a new array with only the items for which the condition you set in the block evaluated to `true` :**
@@ -188,7 +188,7 @@ responses.select { |person, response| response == 'yes'}
 ---
 
 
-### ** The reduce Method
+### The reduce Method
 The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces an array or hash down to a single object. You should use `#reduce` when you want to get an output of a single value :**
 
 A classic example of when `#reduce` is useful is obtaining the sum of an array of numbers. First, let's explore how we would achieve this using `#each`:** ** 
@@ -257,7 +257,7 @@ hundreds["new"]           #=> 99
 ---
 
 
-### ** Bang Methods
+### Bang Methods
 Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidentally lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our invitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend :**
 
 To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:** ** 
@@ -285,7 +285,7 @@ It's best practice to avoid using these methods, however, as you or a future dev
 ---
 
 
-### ** Return Values of Enumerables
+### Return Values of Enumerables
 So if it's not a good idea to use bang methods but we need to re-use the result of an enumerable method throughout our program, what can we do instead?** One option is to put the result of an enumerable method into a local variable:** ** 
 ```ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']** invited_friends = friends.select { |friend| friend != 'Brian' }** friends
@@ -310,7 +310,7 @@ end** friends
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -324,7 +324,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  * <a class="knowledge-check-link" href="#the-each-method">What does the `#each` method do? What does it return?</a>

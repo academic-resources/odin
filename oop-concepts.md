@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 By this point, you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript. But that is just the _tip_ of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively :**
 
@@ -9,7 +9,7 @@ This whole series of lessons has been about the "Object Oriented Programming" pa
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Explain the "Single Responsibility Principle".
 - Briefly explain the additional SOLID principles.
@@ -22,7 +22,7 @@ Luckily there are several concepts and principles that can guide us into making 
 ---
 
 
-### ** Single Responsibility** As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility :**
+### Single Responsibility** As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility :**
 
 Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate your DOM stuff from the application logic :**
 
@@ -50,7 +50,7 @@ function isGameOver() {**   // game over logic goes here!**   if (gameOver){
 ** In fact - the function `isGameOver` shouldn't be calling the DOM function anyway. That should go elsewhere (directly in the game-loop) :**
 
 Another way to think about the Single Responsibility Principle is that a given method/class/component should have a single reason to change. Otherwise, if an object is trying to have multiple responsibilities, changing one aspect might affect another. ** The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. You will read more about these principles in the assignment articles below. ** 
-### ** Loosely Coupled Objects** Obviously, all of our objects are intended to work together to form our final application. You should take care, however, to make sure that your individual objects can stand alone as much as possible. __Tightly coupled__ objects are objects that rely so heavily on each other that removing or changing one will mean that you have to completely change another one - a real bummer :**
+### Loosely Coupled Objects** Obviously, all of our objects are intended to work together to form our final application. You should take care, however, to make sure that your individual objects can stand alone as much as possible. __Tightly coupled__ objects are objects that rely so heavily on each other that removing or changing one will mean that you have to completely change another one - a real bummer :**
 
 This one is related pretty strongly to 'Single Responsibility' but takes a different angle. As an example, if we were writing a game and wanted to completely change how the User Interface worked, we should be able to do that without completely reworking the game logic. So we should be able to start off writing our game using primarily `console.logs()` and then add in a bunch of `DOM` functions later without touching the game logic :**
 
@@ -64,7 +64,7 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -78,7 +78,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#single-responsibility">Explain the "Single Responsibility Principle".</a>

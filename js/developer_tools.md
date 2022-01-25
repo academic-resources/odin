@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >All of the most popular modern web browsers include a suite of tools designed to help
 with the development of websites. They are sometimes referred to as the web
 inspector. These tools allow you to inspect the HTML, CSS, JavaScript and much
@@ -9,7 +9,7 @@ more on websites you visit and build :**
 ---
 
 
-### ** Why do you need to know how to use developer tools?** Knowing how to use your browser's developer tools is an indispensable skill for a web
+### Why do you need to know how to use developer tools?** Knowing how to use your browser's developer tools is an indispensable skill for a web
 developer. They allow you to easily and quickly track down the cause of issues and
 bugs, like problems with layout or other CSS hiccups. What might have taken an hour
 or even a few hours to track down and fix without the use of these tools often takes
@@ -39,7 +39,7 @@ Make sure you can do each of the following once you have finished the assignment
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

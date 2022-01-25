@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 A *very* brief look back into the idea that browser loading matters (maybe) :**
 
@@ -12,7 +12,7 @@ A *very* brief look back into the idea that browser loading matters (maybe) :**
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

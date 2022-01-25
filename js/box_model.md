@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 To do CSS correctly, you need to have a model in your head for how everything fits together on the page.  Otherwise, you're just randomly guessing and checking what works to move things around.  The Box Model is that model.  It defines how every element on the page gets placed and how they relate to each other :**
 
@@ -20,7 +20,7 @@ You can't be shaky on how it works if you want to be efficient with your work fl
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

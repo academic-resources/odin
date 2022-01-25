@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your DevTools and how to audit your web pages for any outstanding a11y issues :**
 
 ## Topics:
@@ -10,14 +10,14 @@
 ---
 
 
-### ** Accessibility DevTools** Using your browser's DevTools is beyond useful for several things, from checking the styles applied to a page to debugging code, but you already know that! Here's something you may not know: you can even use the DevTools to look at various accessibility features as well, which can be great as a sort of "quick audit". You can check contrast ratios (as we mentioned in a previous lesson), view various accessibility properties, and view the accessibility tree, to name a few features :**
+### Accessibility DevTools** Using your browser's DevTools is beyond useful for several things, from checking the styles applied to a page to debugging code, but you already know that! Here's something you may not know: you can even use the DevTools to look at various accessibility features as well, which can be great as a sort of "quick audit". You can check contrast ratios (as we mentioned in a previous lesson), view various accessibility properties, and view the accessibility tree, to name a few features :**
 
 
 
 ---
 
 
-### ** Accessibility Auditing** There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on fixing issues related to the concepts introduced in these lessons only for now :**
+### Accessibility Auditing** There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on fixing issues related to the concepts introduced in these lessons only for now :**
 
 
 
@@ -43,7 +43,7 @@ Of course, one of the best ways to check the accessibility of your websites is t
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/introduction-to-html-and-css), but if you're unable to answer the questions posed below in the " Topics" section, you could probably benefit from the review of the basic stuff :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** * What are selectors?
+### Topics** * What are selectors?
 * In general, how specific should you be when targeting elements using selectors?
 * What's the difference between using `%`, `em` and `rem` to specify sizes?
 * How do you select an element inside another element?
@@ -29,7 +29,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

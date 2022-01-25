@@ -7,7 +7,7 @@ If you haven't finished our [front-end javascript course](https://www.theodinpro
 ---
 
 
-### ** Topics**   do or answer the following:** ** 
+### Topics**   do or answer the following:** ** 
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how supertest handles our express application.
 - Explain the functionality `superagent` provides to supertest.
@@ -133,7 +133,7 @@ test("testing route works", done => {
 ---
 
 
-### ** Knowledge Checks
+### Knowledge Checks
  
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 

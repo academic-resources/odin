@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >The basic idea of a ** data structure**  is to store data in a way that meets the needs of your particular application.  You might be inclined to store a particular kind of data in one giant array, but it would be rather time consuming to locate a specific value if you had a significant number and depth of items.  So you need to look to other options :**
 
 Depending on the application, there are a batch of other basic data structures available to help you out.  The differences between them typically have to do with trade-offs between how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory :**
@@ -14,7 +14,7 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * What is a data structure?
 * What is a stack?
@@ -44,7 +44,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -63,7 +63,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

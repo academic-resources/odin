@@ -15,14 +15,14 @@ Backgrounds are usually ignored until they become a problem and then you're left
 * How do you make a background image repeat?
 * How do you get your page's background image to fill the page even when you resize the browser?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Backgrounds & Gradients](http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
 2. Skim through this [CSS Tricks article](https://css-tricks.com/css3-gradients/) on the different types of gradients
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CSS Backgrounds](http://www.w3schools.com/css/css_background.asp)

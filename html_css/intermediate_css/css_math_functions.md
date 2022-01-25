@@ -10,7 +10,7 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 - Recognize the basic parts of a CSS function
 - Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
 
-#### ** What is a function and how are they used in CSS?
+#### What is a function and how are they used in CSS?
 
 As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
@@ -28,7 +28,7 @@ Besides defining colors, there are several CSS functions that are useful when de
 
 Let’s go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()`.
 
-#### ** calc()
+#### calc()
 
 The most powerful use cases for calc include:
 
@@ -63,7 +63,7 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">
 
-#### ** min()
+#### min()
 
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
@@ -88,7 +88,7 @@ If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
 <br>You are able to do basic bath inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
-#### ** max()
+#### max()
 
 Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses.
 
@@ -104,7 +104,7 @@ From this list of given sizes, max will select the largest that will possibly fi
 
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important.
 
-#### ** clamp()
+#### clamp()
 
 `clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values.
@@ -114,13 +114,13 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 
 You can find more about clamp from this interactive website [here](https://web.dev/min-max-clamp/).
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 [Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
@@ -128,7 +128,7 @@ This section contains helpful links to other content. It isn’t required, so co
 
 [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
 
-### ** Knowledge Check
+### Knowledge Check
 
 - What are the four CSS math functions we covered above?
 - How do we use CSS math functions in our CSS?

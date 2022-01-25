@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >HTML (Hypertext markup language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work :**
 
 ## Topics:
@@ -8,7 +8,7 @@
 ---
 
 
-### ** Elements and Tags** Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags :**
+### Elements and Tags** Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags :**
 
 Opening tags tell the browser this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>` :**
 
@@ -29,7 +29,7 @@ Using the correct elements for content is called semantic HTML. We will explore 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)** 
@@ -37,7 +37,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>

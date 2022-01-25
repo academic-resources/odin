@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Before we go any further, we'll dive into an assignment that will test our knowledge thus far. You ** should**  attempt to do the assignment on your own first. You can then proceed further along in this lesson to see the walkthrough of how we approached it.  Don't be discouraged if you find yourself stuck. The previous material should equip you to solve or search for the right things. However, once you've given it an honest effort (you'd only be cheating yourself if you didn't!), continue with the lesson to achieve enlightenment on how things can be done :**
 
 If you feel uneasy about what we've learned so far, go back and review the concepts of `state` and `props` from the previous lessons :**
@@ -8,14 +8,14 @@ If you feel uneasy about what we've learned so far, go back and review the conce
 ---
 
 
-### ** Topics** - Understanding how to render lists in React
+### Topics** - Understanding how to render lists in React
 - Understanding how to handle input fields and forms in React.
 ---** # Challenge:** 
 
 ---
 
 
-### ** Do-It-Yourself Guide** Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button, you can add the content from your input to a "tasks array" that is managed in state. (We will use class components for this example because we haven't introduced hooks in this section yet). Finally, for each task in the tasks array, an HTML list element should be rendered :**
+### Do-It-Yourself Guide** Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button, you can add the content from your input to a "tasks array" that is managed in state. (We will use class components for this example because we haven't introduced hooks in this section yet). Finally, for each task in the tasks array, an HTML list element should be rendered :**
 
 1. Run `npx create-react-app task-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all of the boilerplate `create-react-app` provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `serviceWorker` in the two remaining files. If you aren't familiar with what code or files we are referring to, go back to the first lesson of this section.
 2. Create a `components` folder in your `src` directory and create a file for your component called `Overview.js`. `Overview.js` should just render  our tasks, while `App.js` is going to handle the input field with the logic.
@@ -27,7 +27,7 @@ If you feel uneasy about what we've learned so far, go back and review the conce
 ---
 
 
-### ** Detailed Guide** 1. Let's get started! First, run `npx create-react-app task-app` in your terminal, and open the project in your text editor :**
+### Detailed Guide** 1. Let's get started! First, run `npx create-react-app task-app` in your terminal, and open the project in your text editor :**
 
 2. Delete all files in the src directory and just leave `index.js` and `App.js` :**
 
@@ -320,14 +320,14 @@ import uniqid from "uniqid";** class App extends Component {
 ---
 
 
-### ** Optional Tasks / Ideas to play around** Here are a few optional tasks for you to practice. Try them out, if you can't solve them, continue with the curriculum and make sure to come back later to give them another try and see how you advanced :**
+### Optional Tasks / Ideas to play around** Here are a few optional tasks for you to practice. Try them out, if you can't solve them, continue with the curriculum and make sure to come back later to give them another try and see how you advanced :**
 
 
 
 ---
 
 
-### ** ** Easy** ** 1. Instead of displaying unordered list items, manage the amount of tasks in state and let each task display its number. Yes, you could also do that with a simple ordered list, but where's the fun in that? Try using state.
+###  Easy** ** 1. Instead of displaying unordered list items, manage the amount of tasks in state and let each task display its number. Yes, you could also do that with a simple ordered list, but where's the fun in that? Try using state.
 2. Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. If you want you can use [Font Awesome](https://fontawesome.com/) for the icon.
    ** Tip** : You can remove each task by its id, but for that you have to save the task id together with the task title :**
 
@@ -336,14 +336,14 @@ import uniqid from "uniqid";** class App extends Component {
 ---
 
 
-### ** ** Hard:** ** 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button :**
+###  Hard:** ** 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button :**
 
 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!** 
@@ -351,7 +351,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#render-list">How do you render lists in React?</a>
 - <a class="knowledge-check-link" href="#handle-input-field">How do you handle input field changes in React?</a>

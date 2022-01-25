@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >So far, you've learned how to create a grid, adjust the sizes of the tracks, and position grid elements in specific rows and columns. Right now, you have all the tools you need to be able to create any kind of static grid layout, but what do you do when you want your grid to be more responsive, dynamic, or reusable?** In this lesson, you will learn about some more advanced Grid properties that can help you do this :**
 
 ## Topics:** By the end of this lesson, you will be able to:** - Create multiple grid tracks more easily using the `repeat` function
@@ -10,7 +10,7 @@
 ---
 
 
-### ** Setup** We're going to approach this lesson hands-on. Let's set up a grid with five columns and two rows and apply some styling so everything is easy to see :**
+### Setup** We're going to approach this lesson hands-on. Let's set up a grid with five columns and two rows and apply some styling so everything is easy to see :**
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="wvrBBXK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvrBBXK">
@@ -22,10 +22,10 @@
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used :**
 
 
-##### ** ** `.grid-item, p, img` selectors** All the properties here are simply to make our grid items look a bit nicer. They are all relatively straightforward, so no need to dive into specifics :**
+#####  `.grid-item, p, img` selectors** All the properties here are simply to make our grid items look a bit nicer. They are all relatively straightforward, so no need to dive into specifics :**
 
 
-##### ** ** `.grid-container`** For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom left corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x :**
+#####  `.grid-container`** For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom left corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x :**
 
 We use `overflow: auto` to enable scrolling if we resize the container to be smaller than our grid can accommodate :**
 
@@ -47,7 +47,7 @@ Ugh, so tedious!** Okay, so maybe it wasn't THAT tedious. But in this case, we o
 ---
 
 
-### ** Repeat** `repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:** ```css
+### Repeat** `repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:** ```css
 .grid-container {
   grid-template-rows: 150px 150px;
   grid-template-columns: 150px 150px 150px 150px 150px;
@@ -71,7 +71,7 @@ Ugh, so tedious!** Okay, so maybe it wasn't THAT tedious. But in this case, we o
 ---
 
 
-### ** Fractional units** Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid :**
+### Fractional units** Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid :**
 
 The most basic way to make our grid items dynamic is by using ** fractional units** , also known as `fr` :**
 
@@ -113,7 +113,7 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):** <p cl
 ---
 
 
-### ** Minimum and Maximum Track Sizes: `min()` and `max()`** When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations :**
+### Minimum and Maximum Track Sizes: `min()` and `max()`** When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations :**
 
 We learned about `min()` and `max()` in our previous lesson on CSS functions, but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time :**
 
@@ -143,7 +143,7 @@ Conversely, the grid column size will be calculated based on the larger of the t
 ---
 
 
-### ** Dynamic minimum and maximum sizes** #### ** ** `minmax()`** `minmax()` is a CSS function that is specifically used with Grid. It can only be used with the following CSS properties:** - `grid-template-columns`
+### Dynamic minimum and maximum sizes** ####  `minmax()`** `minmax()` is a CSS function that is specifically used with Grid. It can only be used with the following CSS properties:** - `grid-template-columns`
 - `grid-template-rows`
 - `grid-auto-columns`
 - `grid-auto-rows`** It is a relatively straightforward function that only takes in two arguments:** 1. The minimum size the grid track can be
@@ -160,7 +160,7 @@ Conversely, the grid column size will be calculated based on the larger of the t
 
 </p>
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** #### ** ** `clamp()`** Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not just within a grid container. As with `min()` and `max()`, we learned about it in a previous lesson, but let's do a quick review. The syntax is as follows:** `clamp(minimum-size, ideal-size, maximum-size)`** What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values :**
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** ####  `clamp()`** Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not just within a grid container. As with `min()` and `max()`, we learned about it in a previous lesson, but let's do a quick review. The syntax is as follows:** `clamp(minimum-size, ideal-size, maximum-size)`** What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values :**
 
 Since `clamp()`'s purpose it to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too :**
 
@@ -190,7 +190,7 @@ Okay, now back to our grid:** ```css
 ---
 
 
-### ** `auto-fit` and `auto-fill`** These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!** According to the W3 specification, both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:** ```css
+### `auto-fit` and `auto-fill`** These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!** According to the W3 specification, both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:** ```css
 .simple-example {
   display: grid;
   width: 1000px;
@@ -211,7 +211,7 @@ The real magic of `auto-fit` and `auto-fill` comes when we incorporate `minmax()
 
 </p>
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think _that's_ cool, you better check your pulse!** So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Simple! Remember that `auto-fit` will return the ** highest positive integer**  without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!** #### ** ** What about `auto-fill`?** In most cases, `auto-fill` is going to work exactly the same way as `auto-fit`. The difference is only noticeable when there are fewer items than can fill up the entirety of the grid row once. When the grid is expanded to a size where another grid item _could_ fit, but there aren't any left, `auto-fit` will keep the grid items at their `max` size. Using `auto-fill`, the grid items will snap back down to their `min` size once the space becomes available to add another grid item, even if there isn't one to be rendered. They will continue their pattern of growing to `max` and snapping back to their `min` as the grid expands and more room becomes available for new grid tracks :**
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>** Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think _that's_ cool, you better check your pulse!** So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Simple! Remember that `auto-fit` will return the ** highest positive integer**  without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!** ####  What about `auto-fill`?** In most cases, `auto-fill` is going to work exactly the same way as `auto-fit`. The difference is only noticeable when there are fewer items than can fill up the entirety of the grid row once. When the grid is expanded to a size where another grid item _could_ fit, but there aren't any left, `auto-fit` will keep the grid items at their `max` size. Using `auto-fill`, the grid items will snap back down to their `min` size once the space becomes available to add another grid item, even if there isn't one to be rendered. They will continue their pattern of growing to `max` and snapping back to their `min` as the grid expands and more room becomes available for new grid tracks :**
 
 To see this in action, look at the following 2 examples, the first with `auto-fit` and the second with `auto-fill` and see what happens when you resize the grid horizontally:** <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdByJyJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdByJyJ">
@@ -235,7 +235,7 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 ---
 
 
-### ** Practice** > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done :**
+### Practice** > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done :**
 
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:** 1. grid-layout-2
 2. grid-layout-3** 
@@ -243,7 +243,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 ---
 
 
-### ** Additional Resources** - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
+### Additional Resources** - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54) :**
 
 
@@ -251,7 +251,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#repeat">How do you create several grid tracks of the same size without manually typing each one out?</a>

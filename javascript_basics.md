@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >As we [saw before](http://skillcrush.com/2012/04/05/javascript/), JavaScript code is run in your browser to make things move on your web page and allow users to interact with it. Examples of the functionality that JavaScript offers include drop-down menus and hover effects, which you see on web pages all the time. It's time to dive deeper and start getting your hands dirty with some code :**
 
 This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  JavaScript just happens to let you implement them to do fun things in the browser :**
@@ -10,7 +10,7 @@ This lesson will tend to focus on understanding the programming side of JavaScri
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment** * What is a scripting language?
 * What is a variable?
 * What are strings, arrays and booleans?
@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Announcement
+### Announcement
 We are in the process of completely revamping and rewriting our JavaScript content. The material that would replace the lessons found here in the WebDev101 course is pretty much complete.  Right now, we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested, [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">**   1. Do [Codecademy's JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of JavaScript.
   2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool. It lets you type out some HTML, CSS and JavaScript, and see the result displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Hit the "Run" button at the top to run your JavaScript.
@@ -34,7 +34,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 ---
 
 
-### ** Student Solutions
+### Student Solutions
 Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution :**
 
 <details markdown="block">
@@ -561,7 +561,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:** ** 
 * A straight-to-the-point [primer on JavaScript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
 * More videos about [JavaScript functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)

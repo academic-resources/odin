@@ -1,11 +1,11 @@
-### ** Writing Clean Code** Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code :**
+### Writing Clean Code** Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code :**
 
 
 
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Know how to distinguish hard to read code from easy to read code.
 - Use programming principles to make your code cleaner.
@@ -48,7 +48,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 ---
 
 
-### ** Rules of Thumb** 1. Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation :**
+### Rules of Thumb** 1. Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation :**
 
 2. Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!** 3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:** ** 
    
@@ -85,7 +85,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -98,7 +98,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#writing-clean-code">Why is it important to write clean code?</a>

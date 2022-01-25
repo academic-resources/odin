@@ -1,4 +1,4 @@
-### ** Functions
+### Functions
 Things are about to get _really_ exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be. Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used _constantly_ in JavaScript :**
 
 
@@ -6,7 +6,7 @@ Things are about to get _really_ exciting. So far you have been writing an impre
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Define and invoke different kinds of functions.
 - Use the return value.
@@ -32,7 +32,7 @@ Things are about to get _really_ exciting. So far you have been writing an impre
 ---
 
 
-### ** Practice** Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Fundamentals Part 1](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-1#practice) :**
+### Practice** Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Fundamentals Part 1](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-1#practice) :**
 
 For now, just write each function and test the output with `console.log` :**
 
@@ -44,7 +44,7 @@ For now, just write each function and test the output with `console.log` :**
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>

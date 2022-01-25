@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You should be familiar with forms, both as a normal Internet user and as an HTML coder who has done the [Foundations course](https://www.theodinproject.com/courses/foundations). But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once :**
 
 Up until now, we've been thinking about Models in Rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time :**
@@ -10,7 +10,7 @@ Now think about a web form to buy an airline ticket.  You probably need to enter
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * How can you view what was submitted by a form?
 * What is a CSRF Token and why is it necessary?
@@ -28,7 +28,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Forms in HTML** Step one is to be able to create a form in HTML.  Remember how that looks?** ```html
+### Forms in HTML** Step one is to be able to create a form in HTML.  Remember how that looks?** ```html
   <form action="/somepath" method="post">
     <input type="text">
     <!-- other inputs here -->
@@ -42,7 +42,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Viewing What Your Form Submits** If you want to see what your forms are submitting to your Rails app, look through the output that gets printed into your console when you run your `$ rails server`.  Whenever you submit a very basic form for a user email signup, it should include lines that look something like:** ** 
+### Viewing What Your Form Submits** If you want to see what your forms are submitting to your Rails app, look through the output that gets printed into your console when you run your `$ rails server`.  Whenever you submit a very basic form for a user email signup, it should include lines that look something like:** ** 
 ```bash
   Started POST "/user" for 127.0.0.1 at 2013-11-21 19:10:47 -0800
   Processing by UsersController#create as HTML
@@ -57,7 +57,7 @@ You'll find yourself looking at this server output a lot when you start building
 ---
 
 
-### ** Railsifying Your Form** The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work.  You'll either get an error or your user session will get zeroed out (depending on your Rails version).  That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated.  In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application :**
+### Railsifying Your Form** The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work.  You'll either get an error or your user session will get zeroed out (depending on your Rails version).  That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated.  In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application :**
 
 You'll notice the token in the server output from above:** ** 
 ```bash
@@ -74,7 +74,7 @@ You'll notice the token in the server output from above:** **
 ---
 
 
-### ** Making Forms into params** What about the other form inputs, the ones we actually care about?** Each one of these inputs is structured slightly differently, but there are some commonalities.  One important thing to note is the `name` attribute that you can give to an input tag.  In Rails, that's very important.  The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash.  For instance,** ```html
+### Making Forms into params** What about the other form inputs, the ones we actually care about?** Each one of these inputs is structured slightly differently, but there are some commonalities.  One important thing to note is the `name` attribute that you can give to an input tag.  In Rails, that's very important.  The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash.  For instance,** ```html
   ...
   <input type="text" name="description">
   ...
@@ -102,7 +102,7 @@ This is cool stuff that you'll get a chance to play with in the project :**
 ---
 
 
-### ** Form Helpers: form_with** Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms.  That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks :**
+### Form Helpers: form_with** Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms.  That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks :**
 
 Start by making a form using the `form_with` helper, which takes a block representing all the inputs to the form.  It takes care of the CSRF security token we talked about above by automatically creating the hidden input for it so you don't have to.  You pass it arguments to tell it which path to submit to (the default is the current page) and which method to use.  Then there are tag helpers that create the specified tags for you, like `text_field_tag` below.  All you need to specify there is what you want to call the field when it is submitted :**
 
@@ -143,7 +143,7 @@ There are a few things to take note of when using the `form_with` helper :**
 ---
 
 
-### ** Using models with the form_with helper** More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article :**
+### Using models with the form_with helper** More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article :**
 
 Just pass `form_with` a model object, and it will make the form submit to the URL for that object, e.g. `@article` will submit to the correct URL for creating an Article.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_with` forms!** From the Rails Guide:** ** 
 ```ruby
@@ -172,14 +172,14 @@ Just pass `form_with` a model object, and it will make the form submit to the UR
 ---
 
 
-### ** Deprecated form helpers: form_tag and form_for** Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases. The difference between them is that [form_for](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [form_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model). The [form_with](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper can be used with either a model `form_with(model: @user)` or a URL `form_with(url: users_path)`. ** You can read about the `form_tag` and `form_for` helpers in an older version of the [Rails Guides](https://guides.rubyonrails.org/v5.2/form_helpers.html) :**
+### Deprecated form helpers: form_tag and form_for** Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases. The difference between them is that [form_for](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [form_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model). The [form_with](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper can be used with either a model `form_with(model: @user)` or a URL `form_with(url: users_path)`. ** You can read about the `form_tag` and `form_for` helpers in an older version of the [Rails Guides](https://guides.rubyonrails.org/v5.2/form_helpers.html) :**
 
 
 
 ---
 
 
-### ** Forms and Validations** What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some JavaScript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form :**
+### Forms and Validations** What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some JavaScript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form :**
 
 You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `your_object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:** ** 
 ```erb
@@ -200,7 +200,7 @@ The best part about Rails form helpers... they handle errors automatically too! 
 ---
 
 
-### ** Making PATCH and DELETE Submissions** Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">` :**
+### Making PATCH and DELETE Submissions** Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">` :**
 
 You get Rails to add this to your form by passing an option to `form_with` called `:method`, e.g.:** ** 
 ```ruby
@@ -211,7 +211,7 @@ You get Rails to add this to your form by passing an option to `form_with` calle
 ---
 
 
-### ** Controller-Side Refresher** Just as a refresher, here's a very basic controller setup for handling `#new` actions and `#create` actions :**
+### Controller-Side Refresher** Just as a refresher, here's a very basic controller setup for handling `#new` actions and `#create` actions :**
 
 ```ruby
   # app/controllers/users_controller.rb
@@ -246,12 +246,12 @@ If the `@user` cannot be saved, like because the `first_name` contains numbers, 
 ---
 
 
-### ** Conclusion** At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you.  You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet.  Seeing it in action will make things click :**
+### Conclusion** At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you.  You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet.  Seeing it in action will make things click :**
 
 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.

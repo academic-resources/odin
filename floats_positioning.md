@@ -1,11 +1,11 @@
-### ** Exerpt
+### Exerpt
 >A major question all CSS-ers have again and again is "how can I get this stupid element exactly where I want it to go on the page!?!?!". Traditionally, the answer lied in using floats and/or position attributes in combination with margins. You may still see this in use and may find it useful in some situations so we'll start by learning about float based layouts.  You'll need to develop a mental model for what's happening on the page when you float elements and when you use the different positioning types.
 Pay particular attention to which element acts as the parent of the element you're messing with -- there are some rules about that which get a bit confusing and can cause hair-pulling frustration.  If you absolutely position an element inside an absolutely positioned element, where does the first element go?** 
 
 ---
 
 
-### ** Topics** * What is the DOM?
+### Topics** * What is the DOM?
 * How do elements get placed in the DOM by default?
 * How can you override element positioning using the `position` attribute?
 * When are you able to use the `top` `left` `right` and `bottom` attributes?
@@ -26,7 +26,7 @@ Pay particular attention to which element acts as the parent of the element you'
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

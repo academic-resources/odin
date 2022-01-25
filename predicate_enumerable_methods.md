@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 In the previous lesson, you learned about some really handy enumerable methods like `#each`, `#map`, and `#select`. In this lesson, we're going to learn about *even more* enumerable methods! Woohoo! The party never ends here at The Odin Project!** This time, we're focusing on a particular subset of enumerable methods: the ** predicate enumerable methods** . You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers :**
 
@@ -9,7 +9,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Describe what a predicate enumerable method is.
  - Explain how the `#include?` method works.
@@ -22,7 +22,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** The include? Method
+### The include? Method
 The `#include?` method works exactly like you think it should. If we want to know whether a particular element exists in an array, we can use the `#include?` method. This method will return `true` if the element you pass as an argument to `#include?` exists in the array or hash; otherwise, it will return `false` :**
 
 First, let's explore how we would achieve this with the `#each` method:** ** 
@@ -58,7 +58,7 @@ friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']** invited_list = friends.s
 ---
 
 
-### ** The any? Method
+### The any? Method
 You might also be able to guess what the `#any?` method does. It returns `true` if *any* elements in your array or hash match the condition within the block; otherwise, it will return `false` :**
 
 Let's say we want to see if there is any number greater than 500 or less than 20 in an array of numbers. First, let's see how we could achieve this using `#each` :**
@@ -89,7 +89,7 @@ numbers = [21, 42, 303, 499, 550, 811]** numbers.any? { |number| number > 500 }
 ---
 
 
-### ** The all? Method
+### The all? Method
 The `all?` method is also fairly intuitive. It only returns `true` if *all* the elements in your array or hash match the condition you set within the block; otherwise, it will return `false` :**
 
 Let's say that we want to check whether all the words in our list are more than 6 characters long. First,let's see how we could achieve this using `#each`:** ** 
@@ -123,7 +123,7 @@ fruits = ["apple", "banana", "strawberry", "pineapple"]** fruits.all? { |fruit| 
 ---
 
 
-### ** The none? Method
+### The none? Method
 As you might expect, `#none?` performs the opposite function of `#all?`. It returns `true` only if the condition in the block matches *none* of the elements in your array or hash; otherwise, it returns `false` :**
 
 First, let's see how this could be achieved using `#each`. You'll notice that this approach is very similar to what we did for `#all?` :**
@@ -160,7 +160,7 @@ fruits = ["apple", "banana", "strawberry", "pineapple"]** fruits.none? { |fruit|
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -172,7 +172,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  * <a class="knowledge-check-link" href="#introduction">Why is there a question mark after some method names?</a>

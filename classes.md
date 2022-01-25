@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 JavaScript does _not_ have classes in the same sense as other Object Oriented languages like Java or Ruby. ES6, however, _did_ introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the _exact_ same thing as the object constructors and prototypes we learned about in the constructor lesson :**
 
@@ -11,7 +11,7 @@ Since we've already gone fairly in-depth with Constructors, you don't have too m
 ---
 
 
-### ** Topics
+### Topics
 After this lesson and completing the assignments, you will be able to:** ** 
 - Describe the pros and cons of using classes in JavaScript.
 - Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
@@ -30,12 +30,12 @@ After this lesson and completing the assignments, you will be able to:** **
 ---
 
 
-### ** Practice** Go back to your "Library" example and refactor it to use `class` instead of plain constructors.  Don't forget to use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!** 
+### Practice** Go back to your "Library" example and refactor it to use `class` instead of plain constructors.  Don't forget to use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!** 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -47,7 +47,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

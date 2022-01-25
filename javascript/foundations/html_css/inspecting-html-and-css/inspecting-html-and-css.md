@@ -9,7 +9,7 @@ Being able to inspect and debug your HTML and CSS is critical to frontend develo
 - You will know how to select and inspect specific elements.
 - You will know how to test out HTML and CSS in the inspector.
 
-### ** The Inspector
+### The Inspector
 
 To open up the inspector, you can right click on any element of a webpage and click "Inspect Element" or press F12. For example, if you navigate to [our homepage](https://theodinproject.com/) and open the inspector, you might see something that looks a little bit like the image below. (Note that if you are already logged in to TOP you will not see the page shown below. If you want to stay logged in, use Incognito mode or your browser's equivalent to separately view the page.)
 
@@ -17,7 +17,7 @@ To open up the inspector, you can right click on any element of a webpage and cl
 
 Don't get overwhelmed with all of the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
 
-### ** Inspecting Elements
+### Inspecting Elements
 
 In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
@@ -28,7 +28,7 @@ In the Elements pane, you can see the entire HTML structure of your page. You ca
 ![Styles Pane](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/02.png)
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png" alt="Overwritten style">
 
-### ** Testing Styles In The Inspector
+### Testing Styles In The Inspector
 
 The Styles pane also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule, or click on an existing attribute or value to alter it.
 
@@ -36,7 +36,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 
 ![Changed styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/04.png)
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
@@ -47,10 +47,10 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>

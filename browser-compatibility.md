@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Internet Explorer, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider the mobile versions of different browsers :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics**  you should:** ** 
+### Topics**  you should:** ** 
 - Understand browser compatibility and its history.
 - Know how new CSS features make their way into browsers.
 - Know how to check for compatibility :**
@@ -16,7 +16,7 @@
 ---
 
 
-### ** Browser History** The history of modern browsing began back in December of 1990 with the release of WorldWideWeb browser. It was written by Tim Berners-Lee while working for the European nuclear research agency known as CERN. It was later renamed to Nexus, to avoid confusion with the World Wide Web :**
+### Browser History** The history of modern browsing began back in December of 1990 with the release of WorldWideWeb browser. It was written by Tim Berners-Lee while working for the European nuclear research agency known as CERN. It was later renamed to Nexus, to avoid confusion with the World Wide Web :**
 
 Nexus was the first of its kind, and allowed users to view basic style sheets, read newsgroups, and even had spellcheck! It might not seem like a lot today, but at that time it was truly groundbreaking :**
 
@@ -31,7 +31,7 @@ You're most likely familiar with most, if not all these names. There is a lot of
 ---
 
 
-### ** What is Browser Compatibility** Today, it is impossible to imagine the Web without the use of browsers. We have witnessed a shift from standalone applications to HTML5 and Progressive Web Apps that allow applications to fully function within a browser. For example, Microsoft Word and Excel for the longest time could only be executed via a standalone application. Now, you can utilize those applications through any browser without the need to install any files :**
+### What is Browser Compatibility** Today, it is impossible to imagine the Web without the use of browsers. We have witnessed a shift from standalone applications to HTML5 and Progressive Web Apps that allow applications to fully function within a browser. For example, Microsoft Word and Excel for the longest time could only be executed via a standalone application. Now, you can utilize those applications through any browser without the need to install any files :**
 
 As companies compete for the market share, different browsers are using different engines to display information on the web page. For example, Chrome and Chromium utilize Blink, while Safari uses its proprietary WebKit :**
 
@@ -44,7 +44,7 @@ For your web development projects to have a broader reach, you must make sure th
 ---
 
 
-### ** Browser Releases and New CSS Features** W3C [World Wide Web Consortium](https://www.w3.org/) is the authority behind developing web standards to maximize accessibility and consistency of the web experience. W3C is also the authority to develop new features in the CSS. This is a closely collaborative approach with the Web as a community as well as the companies developing the web browsers :**
+### Browser Releases and New CSS Features** W3C [World Wide Web Consortium](https://www.w3.org/) is the authority behind developing web standards to maximize accessibility and consistency of the web experience. W3C is also the authority to develop new features in the CSS. This is a closely collaborative approach with the Web as a community as well as the companies developing the web browsers :**
 
 When the web browsers such as Nexus and Netscape were released, there was no such organization as W3C to help create more compatibility. Your application could look and function differently in each browser. Even worse, your application could've been completely unusable. Web developers had to make specific adjustments for each browser, and not every developer had enough resources to make that work for everyone :**
 
@@ -55,7 +55,7 @@ Today, as the standards around the web evolve and change, and web developers beg
 ---
 
 
-### ** When Is It Safe to Use New Features** As exciting as it is to implement new features, there is a risk of rushing. It would not be a positive experience for your users to find that, for example, your application used to work well in Firefox, but due to the changes in the codebase it is now unusable in Firefox but works well in Safari. Thankfully, there is a tool that can help you prevent this situation :**
+### When Is It Safe to Use New Features** As exciting as it is to implement new features, there is a risk of rushing. It would not be a positive experience for your users to find that, for example, your application used to work well in Firefox, but due to the changes in the codebase it is now unusable in Firefox but works well in Safari. Thankfully, there is a tool that can help you prevent this situation :**
 
 ["Can I Use"](https://caniuse.com/) is a great resource to help you validate if new features are supported by the browsers. It provides statistics on which browsers and platforms are supporting new technologies, and even which versions of the browsers support specific features :**
 
@@ -66,7 +66,7 @@ It is generally good advice to implement new features when they are supported by
 ---
 
 
-### ** Mobile Browsers** Traditionally, the Web was desktop computer first. The application was successful if it worked well on desktop browsers. But as smartphones became more popular, each year more and more users are using mobile devices as their main Web-facing device. In some areas of the world, mobile users are a vast majority :**
+### Mobile Browsers** Traditionally, the Web was desktop computer first. The application was successful if it worked well on desktop browsers. But as smartphones became more popular, each year more and more users are using mobile devices as their main Web-facing device. In some areas of the world, mobile users are a vast majority :**
 
 Mobile devices mostly consist of smartphones and tablets. The most popular mobile operating systems are [Android](<https://en.wikipedia.org/wiki/Android_(operating_system)>) and Apple's [iOS](https://en.wikipedia.org/wiki/IOS) :**
 
@@ -84,7 +84,7 @@ Important to remember, that since mobile browsers are not a one to one compariso
 ---
 
 
-### ** Additional Resources** - Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
+### Additional Resources** - Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
 - Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) :**
 
 
@@ -92,7 +92,7 @@ Important to remember, that since mobile browsers are not a one to one compariso
 ---
 
 
-### ** Knowledge Check** - What is the most used browser currently?
+### Knowledge Check** - What is the most used browser currently?
 - What was the original name of the first web browser?
 - How are mobile browsers different on Apple mobile operating systems from Android?
 - What is Chromium?

@@ -11,7 +11,7 @@ Since Angular's release, it has ensured no further groundbreaking changes with b
 
 At the time of writing version 6 has just been released.
 
-### ** Overview
+### Overview
 
 The first thing to know if you want to give Angular a try is that it's built with [Typescript](https://www.typescriptlang.org/), a superset of Javascript that gives you static typing, interfaces, classes, namespaces and many other features that Javascript doesn't natively support. All valid Javascript is valid Typescript so it's not a completely new language to learn but it does have some differences from traditional Javascript. If you want to learn Angular you should get familiar with Typescript.
 
@@ -37,19 +37,19 @@ Aside from Angular's coupling to Typescript all those other drawbacks can be fou
 
 Probably the biggest drawback is that Angular is a huge and complex framework (think Rails compared to Sinatra) so it can have a long learning curve to master and may feel like overkill for small projects you'll make yourself.
 
-### ** Getting Started
+### Getting Started
 
 The easiest way to get started is to follow the guide on the [Angular Site](https://angular.io/guide/quickstart). That will take you through installation and editing your first components.
 
 You will need node and npm installed. I personally prefer to use [nvm](https://github.com/creationix/nvm) to manage my node versions but however you want to do it is up to you.
 
-### ** Assignment
+### Assignment
 
 1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
 2. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture of an Angular app to get a high-level overview of how an app is put together
 3. Try this [Angular 8 Tutorial](https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course) to get an idea of the power of using a framework like Angular
 
-### ** Additional Resources
+### Additional Resources
 
 - Angular has their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >This section aims to provide you with all you need to know to get started with React, to feel the power of a frontend framework, and to help you create highly scalable React applications. Before we jump into it, one question must be answered :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 - Understand the benefits of learning React
 - Explain what JSX is
@@ -19,7 +19,7 @@
 ---
 
 
-### ** Why React?** React is one of the most powerful, widely used frontend frameworks :**
+### Why React?** React is one of the most powerful, widely used frontend frameworks :**
 
 The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be worried about choosing the "wrong" one.
 [This article](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation) :**
@@ -37,7 +37,7 @@ _Convinced and excited? Great, because it's going to change your life! Let's div
 ---
 
 
-### ** Components** Applications built with React are made with (reusable) components. Components are your "building blocks." To gain confidence using React, you should learn to divide your application or project into these separate components. The following picture gives you an idea of how to do that with a very basic app :**
+### Components** Applications built with React are made with (reusable) components. Components are your "building blocks." To gain confidence using React, you should learn to divide your application or project into these separate components. The following picture gives you an idea of how to do that with a very basic app :**
 
 ![Simple Homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/javascript/react-js/react-introduction/imgs/00.png)** For example, this simple website could be divided into the following components:** ** 
 - `App`, which represents your main application and will be the parent of all other components. This would be the larger box surrounding the smaller ones.
@@ -183,7 +183,7 @@ For further understanding of the difference between functional and class based c
 ---
 
 
-### ** Create-react-app** Developers at Facebook came up with a great tool called `create-react-app`, which sets up a complete React application for you. By running one command, it does all the necessary setup and configuration for you to immediately start working on your project :**
+### Create-react-app** Developers at Facebook came up with a great tool called `create-react-app`, which sets up a complete React application for you. By running one command, it does all the necessary setup and configuration for you to immediately start working on your project :**
 
 If you want to see all the things we have discussed in action, go ahead and run `npx create-react-app my-first-react-app` in your terminal, `cd` into the project by typing `cd my-first-react-app`, and then open it in your text editor of choice. If you want, you can view the project in the browser via the command `npm start` :**
 
@@ -192,7 +192,7 @@ If you want to see all the things we have discussed in action, go ahead and run 
 ---
 
 
-### ** Index.js and App.js** Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this line:** ** 
+### Index.js and App.js** Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this line:** ** 
 `ReactDOM.render(<App />, document.getElementById('root'))`** In short, this line of code tells React to render the App component into the DOM, and more specifically, into the element with the id "root". Every create-react-app project has a root div, which is visible in the index.html file in your public directory. If you decide to name your main application component something other than `App.js`, make sure to change its name in `index.js` as well :**
 
 If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you :**
@@ -202,14 +202,14 @@ If you want to get a better understanding of how create-react-app works and whic
 ---
 
 
-### ** Testing** Often React testing is done with `react-testing-library`. Taking your learnings from the Battleship project, you should apply these concepts going forward in all your future projects, even with React :**
+### Testing** Often React testing is done with `react-testing-library`. Taking your learnings from the Battleship project, you should apply these concepts going forward in all your future projects, even with React :**
 
 
 
 ---
 
 
-### ** React Developer Tools** React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
+### React Developer Tools** React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
 1. Read the first couple of pages of the react.js documentation. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. Once again, don't worry too much about those yet.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React, and then watch these: ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
@@ -219,7 +219,7 @@ If you want to get a better understanding of how create-react-app works and whic
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
@@ -231,7 +231,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>

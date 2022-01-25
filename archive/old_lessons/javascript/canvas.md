@@ -13,14 +13,14 @@ Canvas is a great tool in HTML5 -- it basically provides a panel in which you ca
 * How would you make two balls that bounce off walls or each other?
 * What happens if you refresh too many calculations or too rapidly?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Do chapters 1-6 in the [Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html), which is the best explanation I've seen.
 2. Browse through the [No Tears Guide to HTML5 Games from html5rocks.com](http://www.html5rocks.com/en/tutorials/canvas/notearsgame/) in preparation for your next project.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html) chapters 7-14 get deep into how you can use Canvas as a sweet graphics and gaming tool.  Out of scope for this course, but could be fun if that's your thing.

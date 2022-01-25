@@ -13,7 +13,7 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 }
 ```
 
-### ** Axes
+### Axes
 
 <span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In _most_ circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
 
@@ -40,7 +40,7 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>

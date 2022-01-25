@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 To create programs that are user friendly and interactive, you'll need to know how to ** output**  data to a screen and how to get ** input**  from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful :**
 
@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:**  - Differen
 ---
 
 
-### ** Output Commands
+### Output Commands
 To output information, such as into your irb or REPL environment or into the command line, we can use the `print` command. To better show the differences between what Ruby is printing to the terminal and returning, the examples in this lesson use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session :**
 
 ```ruby
@@ -45,7 +45,7 @@ I love drinking coffee
 ---
 
 
-### ** Input Commands
+### Input Commands
 To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses `Enter`, the program will continue its execution :**
 
 Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:** ```ruby
@@ -75,7 +75,7 @@ This is a sentence.
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

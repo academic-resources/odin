@@ -15,14 +15,14 @@ By the end of this lesson, you should be able to do the following:
 - Query database using models.
 - Describe date handling using luxon.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async" title="Asynchronous flow control using async">Why do we use the async module?"</a>

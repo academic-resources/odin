@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >The first step for building any website is having the right tools. For us, that means setting up a development environment for writing good code :**
 
 Many online development courses use in-browser code editors or "sandboxes," which give you the tools and programs needed to accomplish the task at hand and nothing else. You'll use some of these sandboxes throughout the early stages of The Odin Project since they're great for getting started quickly. However, the best way to set yourself up for long-term success is to operate in a real development environment. ** We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career :**
@@ -8,7 +8,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 ---
 
 
-### ** The Installation Plan** In the following sections, we'll go over the steps for setting up your environment. These sections are ** the most important steps**  in the entire curriculum. Please take the extra time to ** double check what you're typing**  or you may cause more headaches for yourself down the road. ** In the next few lessons, we will walk through these installation steps together:** ** 
+### The Installation Plan** In the following sections, we'll go over the steps for setting up your environment. These sections are ** the most important steps**  in the entire curriculum. Please take the extra time to ** double check what you're typing**  or you may cause more headaches for yourself down the road. ** In the next few lessons, we will walk through these installation steps together:** ** 
 * Installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice
 * Installing Google Chrome web browser
 * Installing a code editor
@@ -22,12 +22,12 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 ---
 
 
-### ** OS Options** #### ** ** macOS** If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!** #### ** ** Linux (Official Ubuntu Flavors)** [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. ** if you don't use a Mac, we recommend that you use Linux :**
+### OS Options** ####  macOS** If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!** ####  Linux (Official Ubuntu Flavors)** [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. ** if you don't use a Mac, we recommend that you use Linux :**
 
  It's that simple :**
 
 
-#### ** ** Windows** Windows ** is not natively supported**  by The Odin Project, or on our Discord server; however, if you're currently using Windows you can use either a virtual machine or dual boot to keep your Windows install while creating your development environment in Linux :**
+####  Windows** Windows ** is not natively supported**  by The Odin Project, or on our Discord server; however, if you're currently using Windows you can use either a virtual machine or dual boot to keep your Windows install while creating your development environment in Linux :**
 
 A ** virtual machine**  is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly :**
 
@@ -36,7 +36,7 @@ A ** virtual machine**  is an emulation of a computer that runs within your exis
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world :**
 
 
-#### ** ** NOTICE FOR WINDOWS 11 USERS:** ** 
+####  NOTICE FOR WINDOWS 11 USERS:** ** 
 Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
 system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
 crashes :**
@@ -48,7 +48,7 @@ You can see the currently supported operating systems for VirtualBox hosting [in
 ---
 
 
-### ** Concerned About Installing A New OS?** "Woah, woah, woah! I like my OS just fine the way it is!"** If you don't have an Apple computer, you are likely using Windows. Don't worry! The options above don't mean you need to get rid of Windows. Linux will gladly share the hard drive with Windows. We know you've probably learned a lot of tips and tricks for your favorite OS and don't want to lose everything you have on your computer. However, most OSs are developed with non-technical folks in mind, so they hide or make it difficult to use many of the languages and frameworks we'll need to install. Having to work around these difficulties causes many new developers to give up before they've even started their journey to full-stack nirvana :**
+### Concerned About Installing A New OS?** "Woah, woah, woah! I like my OS just fine the way it is!"** If you don't have an Apple computer, you are likely using Windows. Don't worry! The options above don't mean you need to get rid of Windows. Linux will gladly share the hard drive with Windows. We know you've probably learned a lot of tips and tricks for your favorite OS and don't want to lose everything you have on your computer. However, most OSs are developed with non-technical folks in mind, so they hide or make it difficult to use many of the languages and frameworks we'll need to install. Having to work around these difficulties causes many new developers to give up before they've even started their journey to full-stack nirvana :**
 
 Modifying or dual booting a computer to work with the tools you'll need will make it much easier to start programming, can help create a distraction-free environment, and will look good on your resume. Take a deep breath, and let's look at your options :**
 

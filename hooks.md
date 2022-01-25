@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >As mentioned in the previous lesson, the lifecycle methods such as `componentDidMount`, `componentDidUpdate` and also the `render` method can only be called in class components. This was a reason why functional components were for long referred to as "dumb" or "stateless" components. They were usually just used to return some JSX because of their inability to have a state or lifecycle methods. Since the introduction of Hooks, this has changed completely :**
 
 
@@ -16,7 +16,7 @@ Now we will discuss the most basic hooks.  Create a `create-react-app` and use t
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 - Explain how state is managed in a functional component
 - Explain how lifecycle methods work in a functional component** 
@@ -24,7 +24,7 @@ Now we will discuss the most basic hooks.  Create a `create-react-app` and use t
 ---
 
 
-### ** useState** So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:** ** 
+### useState** So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:** ** 
 
 ```js
 
@@ -51,7 +51,7 @@ Afterwards we are declaring a function, which right now just sets a new count. I
 ---
 
 
-### ** useEffect** Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look :**
+### useEffect** Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look :**
 
 
 ```js
@@ -149,7 +149,7 @@ return () => {
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -163,7 +163,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Checks
+### Knowledge Checks
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#declare-state">How do you declare state in a functional component?</a>

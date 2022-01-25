@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models, and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson :**
 
@@ -11,7 +11,7 @@ The MDN box model article linked in the previous lesson mentions that different 
 ---
 
 
-### ** Block vs Inline
+### Block vs Inline
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line :**
 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. ([Like this...](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) The link's text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements :**
@@ -23,7 +23,7 @@ Inline-block elements behave like inline elements, but with block-style padding 
 ---
 
 
-### ** Divs and Spans
+### Divs and Spans
 We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser the text it contains is to be displayed as a paragraph, and strong elements tell the browser the text within is important etc. Divs and spans, on the other hand, give no particular meaning to their content. They are just generic boxes that can contain anything :**
 
 Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements we can give an id or class so we can target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to position them on the page correctly. Divs and spans provide us with the ability to do this :**
@@ -57,11 +57,11 @@ Div is a block-level element by default. It is commonly used as a container elem
 ---
 
 
-### ** Practice
+### Practice
 <div class="lesson-content__panel" markdown="1">
 1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "margin-and-padding-1" and "margin-and-padding-2".
 </div>** 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -73,7 +73,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

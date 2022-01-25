@@ -24,13 +24,13 @@ By the end of this lesson, you should be able to do the following:
 * Explain what pseudo code is and be able to use it to solve problems.
 * Be able to break a problem down into subproblems.
 
-### ** Understand the Problem
+### Understand the Problem
 <span id="problem-solving-stages"></span>
 The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
 
 <span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
-### ** Plan
+### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 <span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:
@@ -42,7 +42,7 @@ Some of the questions you should answer at this stage of the process:
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.</span>
 
-### ** Pseudo Code
+### Pseudo Code
 <span id="pseudo">Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
 Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
@@ -56,7 +56,7 @@ Print the value of the counter variable
 
 This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
 
-### ** Divide and Conquer
+### Divide and Conquer
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
 It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
@@ -65,17 +65,17 @@ Many beginners try to solve the big problem in one go. ** Don’t do this** . <s
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
-### ** Solving Fizz Buzz
+### Solving Fizz Buzz
 To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
-#### ** Understanding The Problem
+#### Understanding The Problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz`.
 
-#### ** Plan
+#### Plan
 Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
@@ -97,7 +97,7 @@ If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
 ```
 
-#### ** Divide and Conquer (Implement)
+#### Divide and Conquer (Implement)
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 With JavaScript, we'll use the "prompt" method.
@@ -240,7 +240,7 @@ Fizz
 Buzz
 ```
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
@@ -248,13 +248,13 @@ Buzz
   3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
 * Watch this [video on repetitive programming techniques](https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/).
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>

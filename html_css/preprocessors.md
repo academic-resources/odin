@@ -15,7 +15,7 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 * What is LESS and how is it different from SASS?
 * What other preprocessors are out there?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Introduction to CSS Preprocessors from Steven Bradley](http://www.vanseodesign.com/css/css-preprocessors/)
@@ -25,7 +25,7 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 5. [A List Apart walks through specifically how you should be using SASS (lots of best practices in there)](http://alistapart.com/article/getting-started-with-sass) so read up and enjoy!
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [SASS's main website](http://sass-lang.com/)

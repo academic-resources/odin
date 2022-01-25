@@ -5,7 +5,7 @@ It's another long multi-part tutorial, with plenty of useful information scatter
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Describe form handling process.
 - Describe validation and sanitization.

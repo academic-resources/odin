@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 This lesson is going to build on your knowledge of arrays and hashes. As you have seen, arrays and hashes are great ways to store data. However, sometimes the data is more complex and needs more structure than a basic array or hash offers. ** Let's take a look at how you can use nested arrays and nested hashes to store more complex data :**
 
@@ -7,7 +7,7 @@ This lesson is going to build on your knowledge of arrays and hashes. As you hav
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Describe a nested array and hash.
 - Explain what data is useful to store in a nested array and hash.
@@ -23,7 +23,7 @@ This lesson is going to build on your knowledge of arrays and hashes. As you hav
 ---
 
 
-### ** Nested Arrays
+### Nested Arrays
 Arrays can contain any type of data, including other arrays. An array that contains other arrays is called a nested array, or a multidimensional array :**
 
 Nested arrays can be useful to store groups of similar data or positional data. The following nested array of test scores is storing groups of similar data and the teacher mailboxes is storing groups of positional data :**
@@ -45,7 +45,7 @@ test_scores = [
 ---
 
 
-### ** Accessing Elements
+### Accessing Elements
 You already know that every element in an array has an index. Accessing a specific element within a nested array is as simple as calling `array[x][y]`, where `x` is the index of the nested element and `y` is the index inside of the nested element :**
 
 ```ruby
@@ -87,7 +87,7 @@ teacher_mailboxes.dig(0, 4)
 ---
 
 
-### ** Creating a new nested array
+### Creating a new nested array
 Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [documentation](https://ruby-doc.org/core-2.7.2/Array.html) the second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to ** one**  of the elements will change ** all**  of the elements in the array :**
 
 To create an array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object :**
@@ -119,7 +119,7 @@ immutable
 ---
 
 
-### ** Adding and Removing Elements
+### Adding and Removing Elements
 You can add another element to the end of nested array using the `#push` method or the shovel operator `<<`. If you want to add an element to a specific nested array, you will need to specify the index of the nested array :**
 
 ```ruby
@@ -143,7 +143,7 @@ test_scores
 ---
 
 
-### ** Iterating over a nested array
+### Iterating over a nested array
 Let's break down how to iterate over a nested array using the `#each_with_index` method. I find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row :**
 
 ```ruby
@@ -219,7 +219,7 @@ end
 ---
 
 
-### ** Nested Hashes
+### Nested Hashes
 The hashes that you've seen so far have single key/value pairs. However, just like arrays, they can be nested, or multidimensional. Nested hashes are very common way to store complex associated data :**
 
 ```ruby
@@ -234,7 +234,7 @@ vehicles = {
 ---
 
 
-### ** Accessing Data
+### Accessing Data
 Accessing a specific element in a nested hash is very similar to a nested array. It is as simple as calling `hash[:x][:y]`, where `:x` is the key of the hash and `:y` is the key of the nested hash :**
 
 ```ruby
@@ -262,7 +262,7 @@ vehicles.dig(:alice, :color)
 ---
 
 
-### ** Adding and Removing Data
+### Adding and Removing Data
 You can add more nested hashes, just like a regular hash. Let's say Dave just bought a new vehicle and we want to add it to the list :**
 
 ```ruby
@@ -300,7 +300,7 @@ vehicles
 ---
 
 
-### ** Methods
+### Methods
 There are many helpful methods to use with nested hashes. Once you know what data you need from a nested hash, I have found that browsing through the documentation and experimenting with them in IRB is the best way for me to understand how they work :**
 
 Let's look at an example using the vehicles nested hash. Let's say that we want to know who owns vehicles that are from 2020 or newer. At first glance in the documentation, it looks like `#select` would be a great method to use :**
@@ -340,7 +340,7 @@ vehicles.filter_map { |name, data| name if data[:year] >= 2020 }
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -348,7 +348,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#nested-arrays'>What is a nested array? What data is useful to store in a nested array?</a>

@@ -22,7 +22,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 * What is the design hierarchy pyramid?
 * What are the CRAP factors of effective layout and what are they used for?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Startups, This is How Design Works](http://startupsthisishowdesignworks.com/)
@@ -32,7 +32,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 5. Read about the [C.R.A.P Design Principles](http://www.presentationzen.com/chapter6_spread.pdf), which you've been subconsciously aware of for years.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 For if you just can't get enough UX/Design.  Don't get too sidetracked... eye on the prize! Eye on the prize!
 
 * [Hack Design's full 52-week free design course](http://hackdesign.org)

@@ -16,7 +16,7 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 * What is the difference between front-end and back-end development?
 * Why are we required to install back-end languages on our computer (besides to run them)?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -26,7 +26,7 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://techterms.com/definition/backend">What is back-end development?</a>

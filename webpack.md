@@ -7,7 +7,7 @@ In our last lesson, we covered the first half of what webpack can do for you: bu
 ---
 
 
-### ** Topics
+### Topics
 After completing this lesson, you will be able to:** ** 
  - Use webpack by following its documentation.
  - Load assets with webpack.
@@ -21,7 +21,7 @@ After completing this lesson, you will be able to:** **
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-css">How do you load CSS using webpack?</a>

@@ -21,7 +21,7 @@
 ---
 
 
-### ** Exerpt
+### Exerpt
 >A brief summary about what this lesson is about and why the topics or concepts it covers are important :**
 
 
@@ -29,7 +29,7 @@
 ---
 
 
-### ** Topics** *Look through these now and then use them to test yourself after doing the assignment** *what the student is expected to know or be able to do by the end of this lesson** *   Learning outcome 1
+### Topics** *Look through these now and then use them to test yourself after doing the assignment** *what the student is expected to know or be able to do by the end of this lesson** *   Learning outcome 1
 *   Learning outcome 2
 *   Learning outcome 3
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
@@ -39,19 +39,19 @@ The list of resources the user will go through to learn about the topic of this 
 ---
 
 
-### ** Exercises** A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. ** 
+### Exercises** A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. ** 
 
 ---
 
 
-### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered :**
+### Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *Link to no more than three additional resources to avoid this section becoming too cluttered :**
 
 
 
 ---
 
 
-### ** Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers :**
+### Knowledge Check** *This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers :**
 
 
 
@@ -69,7 +69,7 @@ The list of resources the user will go through to learn about the topic of this 
 ---
 
 
-### ** Intro :
+### Intro :
 > ** A brief introduction to the project and an over view of what the student will be building.
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
 Describe the requirements or users stories for the project in detail.
@@ -78,12 +78,12 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** Helpful Links** Links that may help with the project if any** 
+### Helpful Links** Links that may help with the project if any** 
 
 ---
 
 
-### ** Student Solutions** Submit a solution with a pull request to this.. :**
+### Student Solutions** Submit a solution with a pull request to this.. :**
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>**   *   Add your solution below this line!** </details>** ```
@@ -92,15 +92,15 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** ATX-style headings** ```markdown
-### ** Section Header
+### ATX-style headings** ```markdown
+### Section Header
 ```
 ** Use Heading 3 for section titles with Title Case** 
 
 ---
 
 
-### ** Add spacing to headings** Prefer spacing after `###` and newlines before and after:** ** 
+### Add spacing to headings** Prefer spacing after `###` and newlines before and after:** ** 
 ```markdown
 ...text before :**
 
@@ -109,20 +109,20 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** Section Header** Text after...
+### Section Header** Text after...
 ```
 ** 
 
 ---
 
 
-### ** Sub-Headers** Use `####` for sub-headers that are on their own line and `** Sub-header** ` for inline :**
+### Sub-Headers** Use `####` for sub-headers that are on their own line and `** Sub-header** ` for inline :**
 
 ```markdown
 ...text before :**
 
 
-#### ** ** Sub Header** Text after.. :**
+####  Sub Header** Text after.. :**
 
 
 
@@ -134,7 +134,7 @@ Describe the requirements or users stories for the project in detail.
 ---
 
 
-### ** Use lazy numbering for long lists** Markdown is smart enough to let the resulting HTML render your numbered lists
+### Use lazy numbering for long lists** Markdown is smart enough to let the resulting HTML render your numbered lists
 correctly. For longer lists that may change, especially long nested lists, use
 "lazy" numbering:** ** 
 ```markdown
@@ -156,7 +156,7 @@ numbered lists, because it's nicer to read in source:** **
 ---
 
 
-### ** Nested list spacing** When nesting lists, use a 4 space indent for both numbered and bulleted lists:** ** 
+### Nested list spacing** When nesting lists, use a 4 space indent for both numbered and bulleted lists:** ** 
 ```markdown
 1.  2 spaces after a numbered list.
     4 space indent for wrapped text.
@@ -176,7 +176,7 @@ numbered lists, because it's nicer to read in source:** **
 ---
 
 
-### ** Mulit-line list items** When list items, wrap into multiple lines consider adding newlines per item 
+### Mulit-line list items** When list items, wrap into multiple lines consider adding newlines per item 
 to make it more readable:** ** 
 ```markdown** 1.  This is a long long long long long long long long long long long long long 
     long long long long long long list item :**
@@ -190,7 +190,7 @@ to make it more readable:** **
 ---
 
 
-### ** Inline** &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
+### Inline** &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
 literally. Use them for short code quotations and field names:** ** 
 ```markdown
 Write these in the `script` tag of a skeleton html file :**
@@ -207,7 +207,7 @@ Be sure to update your `README.md`!
 ---
 
 
-### ** Codeblocks** For code quotations longer than a single line, use a codeblock with tilde marks:** ** 
+### Codeblocks** For code quotations longer than a single line, use a codeblock with tilde marks:** ** 
 <pre>
 
 ```js
@@ -217,11 +217,11 @@ const obj = {
   marker: "X"
 }
 ```
-</pre>** #### ** ** Declare the language** It is best practice to explicitly declare the language, so that neither the
+</pre>** ####  Declare the language** It is best practice to explicitly declare the language, so that neither the
 syntax highlighter nor the next editor must guess :**
 
 
-#### ** ** Nest codeblocks within lists** If you need a codeblock within a list, make sure to indent it so as to not break
+####  Nest codeblocks within lists** If you need a codeblock within a list, make sure to indent it so as to not break
 the list:** ** 
 ```markdown
 *   Bullet :**

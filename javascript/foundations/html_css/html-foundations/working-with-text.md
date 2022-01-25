@@ -14,7 +14,7 @@ In this lesson, we will learn about the text-based elements you are likely to us
 - The relationships between nested elements
 - How to create HTML comments
 
-### ** Paragraphs
+### Paragraphs
 
 What would you expect the following text to output on an HTML page?
 
@@ -55,7 +55,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### ** Headings
+### Headings
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
@@ -74,7 +74,7 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 
 Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
-### ** Strong Element
+### Strong Element
 
 The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on a screen reader will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag.
 
@@ -102,7 +102,7 @@ But you will probably find yourself using the strong element much more in combin
 
 Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
 
-### ** Em Element
+### Em Element
 
 The em element makes text italic. It also semantically places emphasis on the text, which again affects things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
 
@@ -128,7 +128,7 @@ Again, like the strong element, you will find yourself mostly using the em eleme
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### ** Nesting and Indentation
+### Nesting and Indentation
 
 You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
 
@@ -162,7 +162,7 @@ We use indentation to make the level of nesting clear and readable for ourselves
 
 The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
-### ** HTML Comments
+### HTML Comments
 
 HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
@@ -177,7 +177,7 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
@@ -185,12 +185,12 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) as the dummy text for the article content and headings.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Note: In the examples, you have probably noticed that we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/). It is used to generate dummy text you can use in place of real text as you build your sites.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
  
 - <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>

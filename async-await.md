@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code :**
 
@@ -27,7 +27,7 @@ async function getPersonsInfo(name) {
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
  - Explain how you declare an `async` function
  - Explain what the `async` keyword does
@@ -39,7 +39,7 @@ async function getPersonsInfo(name) {
 ---
 
 
-### ** The async keyword
+### The async keyword
 The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function, this is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise, returning in an `async` function is the same as resolving a promise, likewise, throwing an error will reject the promise :**
 
 An important thing to understand is `async` functions are just syntactical sugar for `promises` :**
@@ -78,7 +78,7 @@ server.getPeople().then(async people => {
 ---
 
 
-### ** The await keyword
+### The await keyword
 `await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`, then you can use the result in your code as you would in your synchronous code :**
 
 
@@ -86,7 +86,7 @@ server.getPeople().then(async people => {
 ---
 
 
-### ** Error Handling
+### Error Handling
 Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end :**
 
 
@@ -119,7 +119,7 @@ async function getPersonsInfo(name) {
 ---
 
 
-### ** Practice
+### Practice
 Remember the Giphy API practice project? (If not, you should go back and complete the API lesson) We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:** ** 
 
 ```js
@@ -202,14 +202,14 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await :**
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>

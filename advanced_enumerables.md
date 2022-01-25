@@ -1,11 +1,11 @@
-### ** Intro :
+### Intro :
 >
 In Ruby, Enumerable is a module that provides a set of methods that are available to collection classes, such as Array or Hash. The basic requirement to use enumerable methods is that the collection class in question must have an #each method :**
 
 Collection classes that want to take advantage of Enumerable methods must implement an `#each` method. This method must yield successive members of the collection, which allows Enumerable to do it's thing. Therefore, while `#each` is *not* an Enumerable method, it is the basis for how they work :**
 
 
-### ** The `#count` method
+### The `#count` method
 The `#count` method returns the total number of elements in a collection. Additionally, when passed a block, it can also return the number of elements that yield a true value. Like `#each`, this method takes a block with one parameter (or two&mdash;`key` and `value`&mdash;when called on a hash) :**
 
 ```ruby
@@ -18,7 +18,7 @@ my_hash.count { |key, value| key.is_a?(Symbol) }  #=> 1
 ---
 
 
-### ** The `#sort` method
+### The `#sort` method
 `#sort` is a method that can operate with or without a block being passed to it. By default, it sorts elements in ascending order, both numerically and alphabetically, by using the elements' `<=>` operator (a.k.a., the spaceship operator). This implies that the items being compared are of the same type, naturally (you'll get `nil` otherwise). This operator returns ** -1** , ** 0** , or ** 1**  depending on the whether the first item is less than, equal to, or greater than the second element, respectively :**
 
 ```ruby
@@ -39,7 +39,7 @@ my_array = ["strawberry", "apple", "banana"]** my_array.sort
 ---
 
 
-### ** The `#find` method
+### The `#find` method
 The `#find` method is similar to `#select`, except it returns only the first item which meets the given criteria. If no such item exists, it returns `nil`. Using the same example as above:** ** 
 ```ruby
 my_array = ["strawberry", "apple", "banana"]** my_array.find { |word| word.length > 5 && word.length < 10 }

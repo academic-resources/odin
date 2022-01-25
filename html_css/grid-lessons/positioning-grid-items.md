@@ -11,7 +11,7 @@ In this lesson we will examine the different parts of a grid and explore common 
 * Position items by defining their start and end lines
 * Use shorthand notation
 
-### ** Reviewing Tracks
+### Reviewing Tracks
 
 Before we dive straight into positioning, let's establish some terminology to better understand the different parts of a grid. In the previous lesson you learned that when you define a grid using `grid-template`, you are defining the *tracks* the grid will have. You can think of a grid track as any single row or column on a grid.
 
@@ -30,7 +30,7 @@ You will notice two CSS lines have been commented out in this CodePen. Uncomment
 
 Next, uncomment the property in the `.last-column` class selector to see the grid track between the third and fourth-column grid lines.
 
-### ** Lines
+### Lines
 
 Whenever we create grid tracks, grid lines are created *implicitly*. This is important. Grid lines are only created after our grid tracks have been defined. We can not explicitly create grid lines.
 
@@ -42,13 +42,13 @@ If you open up developer tools in Chrome, you can navigate to the Layout pane an
 
 Notice that the developer tools also show negative lines opposite from the positive lines. You don't have to worry about the negative lines for now, but know that this gives you another option to use when positioning the grid items.
 
-### ** Cells
+### Cells
 
 Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3.
 
 But what happens if we wanted to change the order of our grid items? Or we want items to occupy more than one cell?
 
-### ** Positioning
+### Positioning
 
 To get a feel for how items can be positioned we will create a mock floor plan for an apartment. Let's start with a total area of our apartment (the grid container) divided into a 5x5 grid. To make this example a little clearer, we'll use a background color to distinguish our container space. Note that we're also using `display: inline-grid` here so that our container does not stretch to take up space the way a block-level box would. This will just help us better visualize the space.
 
@@ -93,7 +93,7 @@ Now we have the blueprints for our full apartment. If you take a look at the `#k
 
 One problem with our floor plan is that the bathroom and kitchen are on opposite ends of the apartment. We would save money on the plumbing by placing these two rooms back to back. Take a minute now and see if you can change the starting and ending positions for the bathroom, bedroom and closet so that the bathroom is right next to the kitchen. You can use either the long or shorthand properties here.
 
-### ** `grid-area`
+### `grid-area`
 
 You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. 
 
@@ -149,17 +149,17 @@ We can even use `.` to indicate empty cells. Say our apartment might be getting 
 
 So now you know two very different ways of using `grid-area` on a grid item. You might even see the term "grid area" refer to a group of cells. For example, all the grid cells of the living room together is a grid area. The apartment analogy should help. A grid item can take up multiple cells forming an area of the grid much like a room with four walls in an apartment.
 
-### ** Wrapping Up
+### Wrapping Up
 
 As you go through the assignments you will come across more terminology like `span` and `auto` when positioning grid items across tracks. There are also properties to justify and align grid items similar to Flexbox. The best way to learn all this terminology and how to position items is with lots of practice!
 
-### ** Assignment
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 - Read MDN's [Line-based Placement with CSS Grid.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
 - Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks. 
 </div>
 
-### ** Practice
+### Practice
 
 > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
@@ -167,12 +167,12 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 
 1. grid-layout-1
 
-### ** Additional Resources
+### Additional Resources
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
 - If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas) 
 - To learn more about alignment and centering items read through these MDN Docs on [Box Alignment in CSS Grid Layout.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout)
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#reviewing-tracks'>Explain the difference between a track and a line.</a>

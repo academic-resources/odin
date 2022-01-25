@@ -11,7 +11,7 @@ In this lesson, we will learn what exactly SVGs are, what they're used for, and 
 2. How to create simple SVGs and add them to your websites
 3. When to use SVGs, and when a different image format would be more appropriate
 
-### ** What are SVGs?
+### What are SVGs?
 
 SVGs are a _scalable_ image format, which means they will easily scale to any size and retain their quality without increasing their filesize. They're also very useful if you need to create or modify your images programmatically, because you can change their properties through CSS and JavaScript.
 
@@ -23,7 +23,7 @@ SVGs are often used for:
 4. Patterned backgrounds
 5. Applying effects to other elements via svg filters
 
-### ** Okay, but what are they?
+### Okay, but what are they?
 
 "SVG" stands for "Scalable Vector Graphic." Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
 
@@ -47,11 +47,11 @@ It might still be confusing, but hey--those are words! Tags! Attributes! Compare
 
 The second benefit of XML is that it's designed to be interoperable with HTML, which means you can put the above code directly in an HTML file, without any changes, and it should display the image. And because these can become elements in the DOM just like HTML elements, you can target them with CSS and create them using the [Element WebAPI](https://developer.mozilla.org/en-US/docs/Web/API/Element) you've already been using!
 
-### ** Drawbacks
+### Drawbacks
 
 So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right? Well, not quite. SVGs are _great_ for relatively simple images, but because every single detail of the image needs to be written out as XML, they are extremely inefficient at storing complex images. If your image is supposed to be photo-realistic, or it has fine detail or texture ("[grunge textures](https://unsplash.com/s/photos/grunge-texture)" are a great example), then SVGs are the wrong tool for the job.
 
-### ** Anatomy of an SVG
+### Anatomy of an SVG
 
 Typically, you will not want to create SVGs from scratch in your code. Most often you will download the file or copy the code either from a website, or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
 
@@ -72,7 +72,7 @@ Typically, you will not want to create SVGs from scratch in your code. Most ofte
 
 Play around with the code above and try to get a feel for what's happening. What happens when you change the viewBox dimensions? Or the attributes of an element?
 
-### ** Embedding SVGs
+### Embedding SVGs
 
 There are two main approaches when deciding how to actually place the SVG in your document: linked, and inline.
 
@@ -86,7 +86,7 @@ Some of the drawbacks of inlining svg code can be avoided once you've learned a 
 
 For now, just do which ever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak on the SVG code alongside your HTML.
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
@@ -100,7 +100,7 @@ This section contains helpful links to other content. It isn’t required, so co
 5. For data visualization, [d3](https://d3js.org/) has been the standard for many, many years.
 6. If you're interested in some of the more advanced things you can do with SVGs, check out [this video on SVG animation](https://www.youtube.com/watch?v=UTHgr6NLeEw), and this article on [SVG Filters, and Why They're Awesome](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)!
 
-### ** Knowledge Check
+### Knowledge Check
 
 - What is the `xmlns` attribute?
 - What are some situations where you _wouldn't_ want to use SVG?

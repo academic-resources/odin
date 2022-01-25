@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX :**
 
@@ -9,7 +9,7 @@ You've already got all the tools you need to use Javascript to validate your use
 ---
 
 
-### ** Topics** * How do you select a particular form input with jQuery?
+### Topics** * How do you select a particular form input with jQuery?
 * How do you select the currently active (focused) form input?
 * How do you activate the next form input?
 * How do you determine whether a checkbox or radio button is checked using jQuery?
@@ -28,7 +28,7 @@ You've already got all the tools you need to use Javascript to validate your use
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

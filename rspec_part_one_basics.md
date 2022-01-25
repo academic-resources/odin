@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >In this lesson we will learn all about RSpec, a testing framework for Ruby that provides tools to help you structure and write automated tests :**
 
 In the Ruby sphere there are a [few different options](https://www.ruby-toolbox.com/categories/testing_frameworks.html) when it comes to testing frameworks. But RSpec is by far the most popular, having at the time of writing over half a billion downloads since it was created :**
@@ -12,7 +12,7 @@ This lesson is designed to be a guide through all the basic RSpec features you w
 ---
 
 
-### ** Topics** - How to install RSpec
+### Topics** - How to install RSpec
 - What is an example group and how do you define one?
 - What is an `it` block for?
 - What is an expectation?
@@ -23,7 +23,7 @@ This lesson is designed to be a guide through all the basic RSpec features you w
 ---
 
 
-### ** Project Setup and Installing RSpec** To kick things off, we need to create a new project where we can install RSpec and start using it :**
+### Project Setup and Installing RSpec** To kick things off, we need to create a new project where we can install RSpec and start using it :**
 
 Fire up a terminal, create a new directory and then navigate into it:** ** 
 ```bash
@@ -127,7 +127,7 @@ The second file was the `spec_helper.rb` file, this is where we would add config
 ---
 
 
-### ** Structure of a RSpec test file** Open up the `todo_list_spec.rb` file we created earlier. The first thing we need to do is require a couple of dependencies. The first is the `spec_helper` file RSpec generated for us :**
+### Structure of a RSpec test file** Open up the `todo_list_spec.rb` file we created earlier. The first thing we need to do is require a couple of dependencies. The first is the `spec_helper` file RSpec generated for us :**
 
 The second file is the `todo_list.rb` file in lib so we can create an instance of the `TodoList` class in the our test file so we can invoke its methods and test what they do :**
 
@@ -135,7 +135,7 @@ The second file is the `todo_list.rb` file in lib so we can create an instance o
 # spec/todo_list_spec.rb** require "spec_helper"
 require "todo_list"
 ```
-** #### ** ** Example Groups** Now let's create the top level example group. Example groups serve two purposes, they are how we organize our test file by grouping related tests together and they allow us to *describe* the behaviour we are testing within them :**
+** ####  Example Groups** Now let's create the top level example group. Example groups serve two purposes, they are how we organize our test file by grouping related tests together and they allow us to *describe* the behaviour we are testing within them :**
 
 We define an example group using the `describe` method. In the case of the following example group we are creating an example group for all the tests related to the `TodoList` Class :**
 
@@ -163,7 +163,7 @@ Structuring your test files and providing descriptive labels like this makes it 
 The describe method also takes a block ( `do..end`). As we have already seen, nested example groups can go within the block. But we can also put individual examples within the block. Or in other words, our actual tests :**
 
 
-#### ** ** It blocks** `it` blocks are used to define the individual examples within our example groups. Much like the describe method,  `it` is also a method that accepts an argument that allows us to express what we expect to happen in that individual test, for example `it "returns the users name"` :**
+####  It blocks** `it` blocks are used to define the individual examples within our example groups. Much like the describe method,  `it` is also a method that accepts an argument that allows us to express what we expect to happen in that individual test, for example `it "returns the users name"` :**
 
 However unlike the `describe` method, the argument ** must**  always be a string and we cannot nest anything within an `it` block. This is because `it` blocks are reserved for our actual test code :**
 
@@ -190,14 +190,14 @@ TodoList
     returns the name with 2 tasks remaining** Finished in 0.00247 seconds (files took 0.1574 seconds to load)
 3 examples, 0 failures
 ```
-** #### ** ** Test Order** You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configired the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file :**
+** ####  Test Order** You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configired the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file :**
 
 We did this because each of our tests should be deterministic, meaning that they should be independent of each other and execute the same way every-time no matter what order they are in :**
 
 If the tests did execute in the same order every-time. It would be possible to write tests that depend on that order to succeed. This would eventually lead to a very brittle and hard to maintain test suite :**
 
 
-#### ** ** Pending Tests** The output also shows us our three individual `it` blocks in green. In testing terms green means the test is passing. But that's not quite right, we aren't testing anything in our examples yet :**
+####  Pending Tests** The output also shows us our three individual `it` blocks in green. In testing terms green means the test is passing. But that's not quite right, we aren't testing anything in our examples yet :**
 
 By default RSpec will treat empty `it` blocks as passing tests. Let's instead set them to pending to signify that they still need to completed :**
 
@@ -229,7 +229,7 @@ Pending: (Failures listed here are expected and do not affect your suite's statu
 ---
 
 
-### ** Making Expectations** Now that we have the basic structure in place, its time to write some actual test code. To test something in RSpec we make *expectations* about what the code does :**
+### Making Expectations** Now that we have the basic structure in place, its time to write some actual test code. To test something in RSpec we make *expectations* about what the code does :**
 
 To demonstrate this, let's write the test for the first `it` block. Remove the x from the `it` method to stop it from being a pending test and put the following within the block:** ** 
 ```ruby
@@ -251,11 +251,11 @@ TodoList
      # ./spec/todo_list_spec.rb:10** Finished in 0.00179 seconds (files took 0.06131 seconds to load)
 3 examples, 0 failures, 2 pending** Randomized with seed 3657
 ```
-** #### ** ** Parts of an Expectation** An RSpec expectation is made up of two distinct parts. The first part is the actual value we want to make the expectation on: `expect(todo_list.name).to`** The second part is a matcher, which is used to verify that the actual value ** matches**  our expected value: `eq("My List (0 tasks)")`** These two parts together make up a full expectation in RSpec:** ** 
+** ####  Parts of an Expectation** An RSpec expectation is made up of two distinct parts. The first part is the actual value we want to make the expectation on: `expect(todo_list.name).to`** The second part is a matcher, which is used to verify that the actual value ** matches**  our expected value: `eq("My List (0 tasks)")`** These two parts together make up a full expectation in RSpec:** ** 
 ```ruby
 expect(actual_value).to eq(expected_value)
 ```
-** #### ** ** Negative Expectations** Suppose you want to expect something is not to equal to something else. RSpec has you covered. You can use the `expect(actual_value).not_to` expectation, which does the opposite of `expect(actual_value).to` and will fail if the expectation ** does**  match :**
+** ####  Negative Expectations** Suppose you want to expect something is not to equal to something else. RSpec has you covered. You can use the `expect(actual_value).not_to` expectation, which does the opposite of `expect(actual_value).to` and will fail if the expectation ** does**  match :**
 
 To see this in action, let's add a negative expectation to the first test case we created for the name method. In this expectation we will expect the todo list name ** not to**  equal `"Barrys List (0 tasks)"`** ```ruby
 # spec/todo_list_spec.rb** it "returns the name with 0 tasks remaining" do
@@ -266,7 +266,7 @@ end
 ** Run your tests once again with `$ rspec` .  The first test case should still be passing :**
 
 
-#### ** ** Failing Tests** So far we've seen pending and passing tests, but what does a failing test look like? to find out. Remove the `x` from the second test cases  `it` method we wrote earlier and put the following within its block:** ** 
+####  Failing Tests** So far we've seen pending and passing tests, but what does a failing test look like? to find out. Remove the `x` from the second test cases  `it` method we wrote earlier and put the following within its block:** ** 
 ```ruby
 # spec/todo_list_spec.rb** it "returns the name with 1 task remaining" do
   todo_list = TodoList.new("My List")**   expect(todo_list.name).to eq("My List (1 task)")
@@ -304,12 +304,12 @@ end
 ---
 
 
-### ** Matchers** So far we have been using `eq` matcher in our expectations. But RSpec has a wide selection of different matchers we can use to make the tests more expressive in all sorts of different scenarios :**
+### Matchers** So far we have been using `eq` matcher in our expectations. But RSpec has a wide selection of different matchers we can use to make the tests more expressive in all sorts of different scenarios :**
 
 We'll cover a few matchers that you are likely to find the most useful here. But we encourage you to have a browse through the [RSpec matchers documentation](https://relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) to see what other matchers are at your disposal :**
 
 
-#### ** ** The Eq Matcher** The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It simply compares the actual value against the expected value and will return true if it ** matches** . Otherwise it will return false :**
+####  The Eq Matcher** The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It simply compares the actual value against the expected value and will return true if it ** matches** . Otherwise it will return false :**
 
 Lets see this matcher in action once again by finishing off the tests for the todo list name method:** ** 
 ```ruby
@@ -320,7 +320,7 @@ end
 ** Run all the tests in the terminal once again with `$ rspec` to see all of our todo list name method tests now passing :**
 
 
-#### ** ** The Be Matcher** We'll often need to test predicate methods in our classes that return either true or false. We could use the `eq` matcher to test these methods :**
+####  The Be Matcher** We'll often need to test predicate methods in our classes that return either true or false. We could use the `eq` matcher to test these methods :**
 
 But RSpec has a more expressive `be` matcher which is better suited to the job and will make the tests much nicer to read as you can expect the result to *be true* or *be false* rather than equal to true or equal to false which doesn't quite read as well :**
 
@@ -358,7 +358,7 @@ end
 ** Finally run all the tests once again with `$ rspec` and everything should still be passing :**
 
 
-#### ** ** The Include Matcher** The include matcher functions much like the  `include?` method you've already been using with Ruby collections. It passes the expectation if the actual value *includes* the expected value :**
+####  The Include Matcher** The include matcher functions much like the  `include?` method you've already been using with Ruby collections. It passes the expectation if the actual value *includes* the expected value :**
 
 To see how the include matcher works, we will write some tests for yet another one of the todo lists methods. This time the `add_task` method :**
 
@@ -384,7 +384,7 @@ You've likely noticed that the tests for the `add_task` method look quite a bit 
 ---
 
 
-### ** Anatomy of a Test** Each test is generally made up of three distinct phases, these are:** ** 
+### Anatomy of a Test** Each test is generally made up of three distinct phases, these are:** ** 
 1. ** Arrange** 
 2. ** Act** 
 3. ** Assert** ** Lets write a test for the `complete_task` method to examine each of these phases in more detail:** ** 
@@ -407,7 +407,7 @@ end
 3. ** Assert**  - In the final phase we assert that the behaviour did what we expected it to do. In the assert phase of our test we made an expectation that the todo list no longer included the task which we just completed :**
 
 
-#### ** ** Style** Some of our earlier tests combined the act and assert phases. For instance, in our `completed?` method tests. We both acted and asserted in the expectation:** ** 
+####  Style** Some of our earlier tests combined the act and assert phases. For instance, in our `completed?` method tests. We both acted and asserted in the expectation:** ** 
 ```ruby
 # spec/todo_list_spec.rb** it "returns true when all tasks are completed" do
   # arrange
@@ -427,7 +427,7 @@ end
 ** Which version of these you use is up to you. Many find the terser syntax of the first version more readable. It's also a common practice to separate each phase using a newline so it is easy to distinguish the different phases from each other at a glance :**
 
 
-#### ** ** Teardown Phase** There is an extra phase which is sometimes needed when we need to undo something that was done in the arrange or act phases to change the global state in our system. This phase is called the teardown phase :**
+####  Teardown Phase** There is an extra phase which is sometimes needed when we need to undo something that was done in the arrange or act phases to change the global state in our system. This phase is called the teardown phase :**
 
 To see how this phase works, create a new file in the lib directory named `counter.rb` and paste the following code into it:** ** 
 ```ruby
@@ -506,7 +506,7 @@ But later on in the curriculum you will be working with things that persist data
 ---
 
 
-### ** Conclusion** We've covered a lot of ground here, you now know all of the basic building blocks of how to write tests using RSpec. In the coming lessons we will explore what we should test :**
+### Conclusion** We've covered a lot of ground here, you now know all of the basic building blocks of how to write tests using RSpec. In the coming lessons we will explore what we should test :**
 
 But before that, in the next lesson we will explore a few more RSpec features that allow us to share common code between our tests :**
 
@@ -519,7 +519,7 @@ We will once again be using the `odin_rspec` project we set up in this lesson to
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/](https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/)

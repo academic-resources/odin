@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Callbacks are a common way for you to execute code at specific times in the life cycle of an Active Record object, for instance just before it is created, after it is saved, or after it is destroyed.  These can be very useful if you've got something to execute whenever an object hits one of those lifecycle points, like modifying the user's email to be lowercase when creating her account.  Callbacks are a way of saying something like "Hey Active Record, when you've finished creating a new User object, give me a call so I can run this method before anything else happens."** This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so my summary will be necessarily brief :**
 
 ## Topics:
@@ -10,7 +10,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** The Life Cycle of an Active Record Object** Callbacks provide hooks into specific points (either before, after, or sometimes "around") in the life cycle of an object.  Those life cycle moments are:**     ** Initializations**  _** When the object is first built OR whenever it is reloaded from the database and into memory (so any time you find it in a query).
+### The Life Cycle of an Active Record Object** Callbacks provide hooks into specific points (either before, after, or sometimes "around") in the life cycle of an object.  Those life cycle moments are:**     ** Initializations**  _** When the object is first built OR whenever it is reloaded from the database and into memory (so any time you find it in a query).
 * ** Validations**  _** Whenever Rails checks if the object is valid. That could be when you're trying to save it or if you've manually run the `#valid?` method.
 * ** Savings**  _** The actual act of saving an already-built object to the database. This is triggered any time the object is saved, not just the first time it is created.
 * ** Creatings**  _** The creation and saving of a new object.
@@ -26,7 +26,7 @@ You often get three choices for callbacks.  Not all object lifecycle steps suppo
 ---
 
 
-### ** Using Callbacks** To use a callback, you need to "register" it at the top of your Model by using the appropriate method (e.g. `before_create`).  You pass that method either a symbol which corresponds to a method name or you could just write the callback as a block then and there.  Rails will hang onto that method and call it at the appropriate time.  For example:** ```ruby
+### Using Callbacks** To use a callback, you need to "register" it at the top of your Model by using the appropriate method (e.g. `before_create`).  You pass that method either a symbol which corresponds to a method name or you could just write the callback as a block then and there.  Rails will hang onto that method and call it at the appropriate time.  For example:** ```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base**     before_create do |user|
       puts "about to create #{user.name}"
@@ -40,7 +40,7 @@ You often get three choices for callbacks.  Not all object lifecycle steps suppo
 ---
 
 
-### ** Specifying Callback Characteristics** Callbacks give you several options for narrowing down or selecting specifically when you want them to run.  If you only want to run a callback when a particular controller action calls it, use the `:on` option, which takes either a single symbol or a full array, e.g. `before_create :run_code, :on => [:create, :update]` :**
+### Specifying Callback Characteristics** Callbacks give you several options for narrowing down or selecting specifically when you want them to run.  If you only want to run a callback when a particular controller action calls it, use the `:on` option, which takes either a single symbol or a full array, e.g. `before_create :run_code, :on => [:create, :update]` :**
 
 You can also use conditional logic options `:if` and `:unless` to try a method before running callbacks, for instance:** ```ruby
   before_create :run_code, :unless => :method_is_true**   private**   def method_is_true
@@ -52,7 +52,7 @@ You can also use conditional logic options `:if` and `:unless` to try a method b
 ---
 
 
-### ** Transaction Callbacks** Sometimes your Rails app will need to interact with an external application (which is inherently imperfect) as a part of the save process.  Other times your save will involve juggling several balls at once and, if one fails, they all need to be rolled back.  Typically these cases will involve wrapping your database save operation in a "transaction," which means that either all the steps work or they all fail and are rolled back :**
+### Transaction Callbacks** Sometimes your Rails app will need to interact with an external application (which is inherently imperfect) as a part of the save process.  Other times your save will involve juggling several balls at once and, if one fails, they all need to be rolled back.  Typically these cases will involve wrapping your database save operation in a "transaction," which means that either all the steps work or they all fail and are rolled back :**
 
 The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `before_rollback`.  This is uncommon, so consider it another one of those "just remember that it's an option" type things.
 # Challenge** <div class="lesson-content__panel" markdown="1">
@@ -63,14 +63,14 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 ---
 
 
-### ** Conclusion** Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept :**
+### Conclusion** Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept :**
 
 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

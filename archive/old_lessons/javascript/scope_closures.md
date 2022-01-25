@@ -14,7 +14,7 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 * Functions should always return the same thing... or..?
 * How does the way you call a function (e.g. function style, method style...) affect its scope (and `this`)?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [What you Need To Know About Javascript Scope from Smashing Magazine](http://coding.smashingmagazine.com/2009/08/01/what-you-need-to-know-about-javascript-scope/)
@@ -25,7 +25,7 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 6. Read [Understanding Javascript Function.prototype.bind from Smashing Magazine](http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/) to learn about binding in greater depth.  This may be one you need to come back to a bit later because it gets deep.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 * [Understanding JS Variable Scope and Hoisting from JSIS](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >This lesson is all about getting YOUR shit together because if you don't understand yourself then you won't be happy with where you end up.  Take a minute to think inwards, it's worth it :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Where You Are Now** Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:** ** 
+### Where You Are Now** Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:** ** 
 * Why do I *need* a job?
 * What kind of salary level do I need to sustain myself and my family?
 * What kind of job security level do I need to sustain myself and my family?
@@ -15,7 +15,7 @@
 ---
 
 
-### ** Where You Want To Be** Once you've been honest with yourself about your needs, it's time to figure out what you *want*.  What will your future needs be?  What kinds of companies do you want to work at?  ** * Why do I *want* a job in web development?
+### Where You Want To Be** Once you've been honest with yourself about your needs, it's time to figure out what you *want*.  What will your future needs be?  What kinds of companies do you want to work at?  ** * Why do I *want* a job in web development?
 * What kind of career path do I want to have?
 * Do I want to work in a developer-led organization (vs sales- or business-led)?
 * Do I prefer working in a team environment or remotely?
@@ -30,14 +30,14 @@
 ---
 
 
-### ** Prioritizing Needs and Wants** You should have at least an informal list of the things that matter to you.  Now ruthlessly rank them.  What are your non-negotiables and what are your nice-to-haves?  Every company and opportunity will fall somewhere on the spectrum defined by those questions and they are the criteria you will later use to evaluate them.  This will help you stay focused when considering opportunities and not spread yourself too thin chasing things that you wouldn't really choose anyway :**
+### Prioritizing Needs and Wants** You should have at least an informal list of the things that matter to you.  Now ruthlessly rank them.  What are your non-negotiables and what are your nice-to-haves?  Every company and opportunity will fall somewhere on the spectrum defined by those questions and they are the criteria you will later use to evaluate them.  This will help you stay focused when considering opportunities and not spread yourself too thin chasing things that you wouldn't really choose anyway :**
 
 Make sure you know every one of your "must-haves" and your top 5 priorities for "nice-to-haves" in a job.  ** 
 
 ---
 
 
-### ** What Are Your Assets and Liabilities?** It's time to be honest with yourself... what do you bring to the table?  If you're early in your career (which you probably are), you'll have to work hard to distinguish yourself from the flood of unqualified candidates out there.  You need to strike the line between being honest with yourself and not selling yourself short.  Everyone, especially those just starting out, feels unqualified.  That's natural, so don't worry about it.  This is about figuring out your strengths and weaknesses so you can tailor your story to play to your strengths and honestly address your weaknesses :**
+### What Are Your Assets and Liabilities?** It's time to be honest with yourself... what do you bring to the table?  If you're early in your career (which you probably are), you'll have to work hard to distinguish yourself from the flood of unqualified candidates out there.  You need to strike the line between being honest with yourself and not selling yourself short.  Everyone, especially those just starting out, feels unqualified.  That's natural, so don't worry about it.  This is about figuring out your strengths and weaknesses so you can tailor your story to play to your strengths and honestly address your weaknesses :**
 
 Some questions to ask (which you'll probably hear again in your early interviews):** ** 
 1. How hungry am I?

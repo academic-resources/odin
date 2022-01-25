@@ -18,7 +18,7 @@ Look through these now and then use them to test yourself after doing the assign
 * How do you get all the records from a table in SQL?
 * How do you insert a record in SQL?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -28,7 +28,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
@@ -36,7 +36,7 @@ This section contains helpful links to other content. It isn’t required, so co
 * Hunter Ducharme created [an e-book](https://hunter-ducharme.gitbook.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 * Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out [this artcle](https://circleci.com/blog/SQL-vs-NoSQL-databases/) to learn the difference between SQL and NoSQL.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#structureddata">What is a database?</a>

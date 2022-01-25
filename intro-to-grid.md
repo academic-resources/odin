@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Over the next few lessons we will cover CSS Grid and make page layouts much easier. First we'll take a quick look back at Flexbox (remember Flexbox!?) and then learn about Grid. ** The following lessons will show you how to create a grid, position grid items and use some advanced properties. We are ultimately working towards building a Grid project and then we will wrap up with a deeper comparison between Flex and Grid :**
 
 
@@ -6,14 +6,14 @@
 ---
 
 
-### ** Topics**  :** ** 
+### Topics**  :** ** 
 * Compare the basics between Flexbox and Grid
 * Describe a situation for using Grid over Flexbox** 
 
 ---
 
 
-### ** A Look Back at Flex** In the Foundations course you learned a lot about Flexbox. If you've been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you're completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-flexbox) again to get up to speed :**
+### A Look Back at Flex** In the Foundations course you learned a lot about Flexbox. If you've been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you're completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-flexbox) again to get up to speed :**
 
 The Flex lessons covered positioning items along the two [axes](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/axes) (main and cross) and how to set their [alignment.](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/alignment) You also learned how to make your flex items [grow, shrink or change their size.](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/growing-and-shrinking) This is the real beauty of Flexbox as items can, well, "flex" to stretch out or shrink down. ** You'll remember you can line up a nice row of flex items like this:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWeJbRy" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -46,7 +46,7 @@ For two-dimensional layouts, you learned a little bit about `flex-wrap`, which a
 ---
 
 
-### ** What the Grid?** Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (yes, Wes Bos' dad!) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017 :**
+### What the Grid?** Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (yes, Wes Bos' dad!) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017 :**
 
 As shown above, Grid is often praised for easy placement of items in a two-dimensional layout. But Grid can be used for one-dimensional layouts too. One advantage for developers is if they start off with only one row of items, they can simply add additional rows later :**
 
@@ -59,14 +59,14 @@ While some people thought CSS Grid was here to replace Flexbox, you will learn b
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 - Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)** 
 
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='#a-look-back-at-flex'>How can you use Flex to make a two-dimensional layout?</a>

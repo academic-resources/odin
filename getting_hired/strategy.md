@@ -16,12 +16,12 @@ You'll notice that it's quite structured.  Some things are more optional than ot
 
 We'll also cover some alternate paths you can take like finishing up your education at a coding bootcamp and how you can contribute to open source projects (like this one) to boost your "real world" experience.
 
-### ** Assignment
+### Assignment
 A fantastic place to start your "getting hired" journey is this ** [very thorough article from Happy Bear Software on How to Get A Programmer Job](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html)** .
 
 Now get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Getting your first IT job from InformationWeek](https://www.informationweek.com/team-building-and-staffing/how-to-land-your-first-it-job/d/d-id/1111584)

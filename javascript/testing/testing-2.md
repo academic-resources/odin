@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe a pure function and how it relates to TDD
 - Explain what mocking is
   
-### ** Pure Functions
+### Pure Functions
 
 There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`</span>.  
 
@@ -63,11 +63,11 @@ If we had written this program with TDD it is very likely that it would have loo
 
 - Read [this quick article](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) about the value of 'Pure Functions'.
 
-### ** Mocking
+### Mocking
 
 <span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
@@ -77,7 +77,7 @@ If we had written this program with TDD it is very likely that it would have loo
 5. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://facebook.github.io/jest/docs/en/webpack.html#content).
 </div>
 
-### ** Knowledge Check 
+### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>

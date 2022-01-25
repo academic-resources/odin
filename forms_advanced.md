@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You learned about the basics of building forms in HTML and Rails in previous lessons and you can do a whole lot with that knowledge.  But there are also cases when crafting a good user experience demands building a form that handles multiple things (e.g. model objects) at once.  Users only like clicking the submission button once so you'd better be able to give them the simple experience they demand :**
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects :**
@@ -8,7 +8,7 @@ In this section, we'll take a look at some of the options you have to make a for
 ---
 
 
-### ** Topics**  :** ** 
+### Topics**  :** ** 
 * Build dropdown menus
 * Work with model objects
 * Make nested forms
@@ -18,7 +18,7 @@ In this section, we'll take a look at some of the options you have to make a for
 ---
 
 
-### ** Prepopulating `select` Tags with Collections** Rails provides you with a few handy ways of making dropdown menus which already contain data when the form is loaded (otherwise they're not that useful) :**
+### Prepopulating `select` Tags with Collections** Rails provides you with a few handy ways of making dropdown menus which already contain data when the form is loaded (otherwise they're not that useful) :**
 
 Let's say you want to build a New Post form for your blog but you want to be able to select who the author is from among your list of users.  You will need to make a dropdown which submits the user's ID as a part of your `params` hash.  So you might populate `@users` in your posts controller:** ** 
 ```ruby
@@ -93,7 +93,7 @@ You'll use dropdowns a lot to populate the association of a model, e.g. the auth
 ---
 
 
-### ** Nested Forms** You've got a form for creating one of your User objects (say for your Amazon.com clone application) but you also want to make that form create one or more ShippingAddress objects (which a User can have many of).  How do you get that one form to create both so your user doesn't get stuck clicking a bunch of form submits?** This is a multi-part process.  It involves your controller, view, models and routes... the whole MVC team!  The gist of it is that your form will submit the main object (e.g. the User) as normal but it will sneak in a bunch of attributes for the other object(s) you want to create (e.g. ShippingAddress object(s)).  Your model will have to be ready for this.  It will create not just the original User object but also the nested objects at the same time :**
+### Nested Forms** You've got a form for creating one of your User objects (say for your Amazon.com clone application) but you also want to make that form create one or more ShippingAddress objects (which a User can have many of).  How do you get that one form to create both so your user doesn't get stuck clicking a bunch of form submits?** This is a multi-part process.  It involves your controller, view, models and routes... the whole MVC team!  The gist of it is that your form will submit the main object (e.g. the User) as normal but it will sneak in a bunch of attributes for the other object(s) you want to create (e.g. ShippingAddress object(s)).  Your model will have to be ready for this.  It will create not just the original User object but also the nested objects at the same time :**
 
 As you can imagine, it's important to get the names and parameters properly listed so all this magic can happen behind the scenes :**
 
@@ -134,21 +134,21 @@ The reading will cover more about whitelisting the nested parameters :**
 ---
 
 
-### ** Deleting Nested Form Objects** You can also have your form destroy nested forms by first setting the `:allow_destroy` option to `true` for the `#accepts_nested_attributes_for` method, e.g. `accepts_nested_attributes_for :shipping_addresses, :allow_destroy => true`.  Now, any time you want to destroy a ShippingAddress object from a User's form, just include the key `_destroy => 1` in the submitted parameters for that ShippingAddress :**
+### Deleting Nested Form Objects** You can also have your form destroy nested forms by first setting the `:allow_destroy` option to `true` for the `#accepts_nested_attributes_for` method, e.g. `accepts_nested_attributes_for :shipping_addresses, :allow_destroy => true`.  Now, any time you want to destroy a ShippingAddress object from a User's form, just include the key `_destroy => 1` in the submitted parameters for that ShippingAddress :**
 
 
 
 ---
 
 
-### ** Many-to-Many Relationships** If you've got a `has_many :through` relationship, you'll likely need to go one additional step further by specifying that each side of your relationship is the inverse of the other.  It's detailed in [this blog post from ThoughtBot](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through) :**
+### Many-to-Many Relationships** If you've got a `has_many :through` relationship, you'll likely need to go one additional step further by specifying that each side of your relationship is the inverse of the other.  It's detailed in [this blog post from ThoughtBot](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through) :**
 
 
 
 ---
 
 
-### ** Designing Your Own Forms** Sometimes, despite all the nice helpers Rails gives you, you just want to do something that's not standard.  You should first wonder whether this is the easiest and most straightforward way to do things.  If it passes the smell test, then go ahead and build your form :**
+### Designing Your Own Forms** Sometimes, despite all the nice helpers Rails gives you, you just want to do something that's not standard.  You should first wonder whether this is the easiest and most straightforward way to do things.  If it passes the smell test, then go ahead and build your form :**
 
 It's often easiest (and good practice while you're learning) to start with the most basic of HTML forms.  If you don't understand what's going on in the basic HTML (and remember to include your CSRF token), then you'll be hopeless trying to use helpers.  Once you've got a good handle on things, gradually bring in the Rails helpers like `#form_tag` and `#form_with` :**
 
@@ -159,7 +159,7 @@ Don't get discouraged if you get some real head-scratcher moments when building 
 ---
 
 
-### ** Simple Form** `simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today :**
+### Simple Form** `simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today :**
 
 It's up to you to check out [the documentation](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired :**
 
@@ -168,7 +168,7 @@ It's up to you to check out [the documentation](https://github.com/plataformatec
 ---
 
 
-### ** Miscellania: Blank Submissions That Mean Delete** Sometimes, for a record that already exists, you want to either deselect a dropdown or check none of your checkboxes but you want this to indicate that the associated fields should actually be set to `nil`.  Usually, though, if you submit the form it will include none of the fields and your back end won't know that you actually wanted to remove those fields so nothing will happen.  How do you get around it?** Try making a hidden field in your form (or nested form) that has the same name as your checkboxes or dropdown but only contains the value `""`.  Now you'll get that attribute to show up in your `params` hash no matter what and you can handle deleting the records however you'd like appropriate :**
+### Miscellania: Blank Submissions That Mean Delete** Sometimes, for a record that already exists, you want to either deselect a dropdown or check none of your checkboxes but you want this to indicate that the associated fields should actually be set to `nil`.  Usually, though, if you submit the form it will include none of the fields and your back end won't know that you actually wanted to remove those fields so nothing will happen.  How do you get around it?** Try making a hidden field in your form (or nested form) that has the same name as your checkboxes or dropdown but only contains the value `""`.  Now you'll get that attribute to show up in your `params` hash no matter what and you can handle deleting the records however you'd like appropriate :**
 
 Sometimes Rails helper methods will do it for you, but make sure you know what your form is actually submitting (if anything) if you deselect all options!
 ---** # Challenge:
@@ -182,7 +182,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 ---
 
 
-### ** Conclusion** We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear :**
+### Conclusion** We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear :**
 
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make :**
 
@@ -191,7 +191,7 @@ The best part?  This is more or less the most complicated conceptual stuff with 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -206,7 +206,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>

@@ -1,10 +1,10 @@
-### ** Exerpt
+###  Exerpt
 >Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why *you* need or deserve the job.  You have to think about things from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?** 
 
 ---
 
 
-### ** Life Behind the Curtain** Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can ** add value as soon as possible**  and who will be able to ** grow with the organization :**
+###  Life Behind the Curtain** Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can ** add value as soon as possible**  and who will be able to ** grow with the organization :**
 
 
 
@@ -27,7 +27,7 @@ So to summarize, hiring managers are usually looking for 3 main things:** **
 ---
 
 
-### ** Internships** A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping you succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above :**
+###  Internships** A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping you succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above :**
 
 The hiring process for internships is usually similar to but not quite as rigorous as full-time positions.  Internships are basically just long interviews by that company to see if they want to bring you on full-time :**
 

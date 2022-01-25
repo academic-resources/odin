@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >In this lesson we will examine the different parts of a grid and explore common properties that can be used to position grid items :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics**  :** ** 
+### Topics**  :** ** 
 * Describe the differences between tracks, lines and cells
 * Position items by defining their start and end lines
 * Use shorthand notation** 
@@ -14,7 +14,7 @@
 ---
 
 
-### ** Reviewing Tracks** Before we dive straight into positioning, let's establish some terminology to better understand the different parts of a grid. In the previous lesson you learned that when you define a grid using `grid-template`, you are defining the *tracks* the grid will have. You can think of a grid track as any single row or column on a grid :**
+### Reviewing Tracks** Before we dive straight into positioning, let's establish some terminology to better understand the different parts of a grid. In the previous lesson you learned that when you define a grid using `grid-template`, you are defining the *tracks* the grid will have. You can think of a grid track as any single row or column on a grid :**
 
 To give an example, if we wanted to create a 3x3 grid with 100 pixel rows and 100 pixel columns, we need to define 3 horizontal tracks with a height of 100 pixels and 3 vertical tracks with a width of 100 pixels:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWvJXQ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -31,7 +31,7 @@ To give an example, if we wanted to create a 3x3 grid with 100 pixel rows and 10
 ---
 
 
-### ** Lines** Whenever we create grid tracks, grid lines are created *implicitly*. This is important. Grid lines are only created after our grid tracks have been defined. We can not explicitly create grid lines :**
+### Lines** Whenever we create grid tracks, grid lines are created *implicitly*. This is important. Grid lines are only created after our grid tracks have been defined. We can not explicitly create grid lines :**
 
 Every track has a start line and an end line. The lines are numbered from left to right and top to bottom starting at 1. So our 3x3 grid above has vertical lines for columns ranging from 1 to 4 and horizontal lines for rows ranging from 1 to 4 :**
 
@@ -44,14 +44,14 @@ If you open up developer tools in Chrome, you can navigate to the Layout pane an
 ---
 
 
-### ** Cells** Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3 :**
+### Cells** Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3 :**
 
 But what happens if we wanted to change the order of our grid items? Or we want items to occupy more than one cell?** 
 
 ---
 
 
-### ** Positioning** To get a feel for how items can be positioned we will create a mock floor plan for an apartment. Let's start with a total area of our apartment (the grid container) divided into a 5x5 grid. To make this example a little clearer, we'll use a background color to distinguish our container space. Note that we're also using `display: inline-grid` here so that our container does not stretch to take up space the way a block-level box would. This will just help us better visualize the space :**
+### Positioning** To get a feel for how items can be positioned we will create a mock floor plan for an apartment. Let's start with a total area of our apartment (the grid container) divided into a 5x5 grid. To make this example a little clearer, we'll use a background color to distinguish our container space. Note that we're also using `display: inline-grid` here so that our container does not stretch to take up space the way a block-level box would. This will just help us better visualize the space :**
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="rNGaOxB" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/rNGaOxB">
@@ -89,7 +89,7 @@ One problem with our floor plan is that the bathroom and kitchen are on opposite
 ---
 
 
-### ** `grid-area`** You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. ** There is an even shorter shorthand for positioning grid items with start and end lines. You can combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area` :**
+### `grid-area`** You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. ** There is an even shorter shorthand for positioning grid items with start and end lines. You can combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area` :**
 
 Our living room above can be written out like this:** ** 
 ```css
@@ -129,7 +129,7 @@ So our living room can be written just like this:** **
 ---
 
 
-### ** Wrapping Up** As you go through the assignments you will come across more terminology like `span` and `auto` when positioning grid items across tracks. There are also properties to justify and align grid items similar to Flexbox. The best way to learn all this terminology and how to position items is with lots of practice!
+### Wrapping Up** As you go through the assignments you will come across more terminology like `span` and `auto` when positioning grid items across tracks. There are also properties to justify and align grid items similar to Flexbox. The best way to learn all this terminology and how to position items is with lots of practice!
 ---** # Challenge:
 <div class="lesson-content__panel" markdown="1">
 - Read MDN's [Line-based Placement with CSS Grid.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
@@ -139,7 +139,7 @@ So our living room can be written just like this:** **
 ---
 
 
-### ** Practice** > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done :**
+### Practice** > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done :**
 
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the first exercise in the 'grid' directory:** ** 
 1. grid-layout-1** 
@@ -147,7 +147,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
 - If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas) 
 - To learn more about alignment and centering items read through these MDN Docs on [Box Alignment in CSS Grid Layout.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout)** 
@@ -155,7 +155,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='#reviewing-tracks'>Explain the difference between a track and a line.</a>

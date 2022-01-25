@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Floats are used predominantly for wrapping text around images, or various shapes as we will see later on in this lesson. It's also worth understanding what they were previously used for before the creation of CSS Grid and Flexbox. ** ## Topics:
 * You'll learn how to properly use floats. 
@@ -8,7 +8,7 @@ Floats are used predominantly for wrapping text around images, or various shapes
 ---
 
 
-### ** The Basics
+### The Basics
 The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is a box and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the box, will now wrap around the right side of the box. ** Let's say we want a second paragraph in the same container to *not* wrap around the box, but to be displayed beneath ** both**  the first paragraph and the floated box. We can then use `clear: left;` to allow this second paragraph to clear the box that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions. Let's have a look at what this will look like below :**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWgoPdY" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -39,7 +39,7 @@ The `float` property works by taking an element out of the normal document flow,
 ---
 
 
-### ** Shapes
+### Shapes
 Wrapping text around boxes with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). ** While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extension](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor :**
 
 
@@ -47,7 +47,7 @@ Wrapping text around boxes with float is relatively straightforward, but you can
 ---
 
 
-### ** History of Float
+### History of Float
 While `float` was first used to wrap text around an image, developers soon realized that you can float almost *anything*, and the property quickly became a commonplace tool for creating webpage layouts. However, this led to problems such as the one we previously discussed, which before the time of `display: flow-root` was fixed by various hacks. This is part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods). When working with layouts, stick with Flexbox or Grid.
 # Challenge
 <div class="lesson-content__panel" markdown="1">
@@ -57,7 +57,7 @@ While `float` was first used to wrap text around an image, developers soon reali
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 * [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation :**
 
@@ -66,7 +66,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

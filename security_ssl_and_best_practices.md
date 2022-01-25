@@ -12,7 +12,7 @@ You'll do some brief reading/viewing here but the main takeaway should be that S
 ---
 
 
-### ** Points to Ponder** *Look through these now and then use them to test yourself after doing the assignment** **  Why is security for an application important?
+### Points to Ponder** *Look through these now and then use them to test yourself after doing the assignment** **  Why is security for an application important?
 * What are the major areas where a web application is vulnerable?
 * How is HTTPS different from HTTP?
 * What does SSL stand for?
@@ -27,6 +27,6 @@ You'll do some brief reading/viewing here but the main takeaway should be that S
 ---
 
 
-### ** Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *
+### Additional Resources** *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something** *
 * If you're curious about how HTTPS secures connections, check out [this article from Hartley Brody](http://blog.hartleybrody.com/https-certificates/).
 * Browse through the [HTTPs Wiki](http://en.wikipedia.org/wiki/HTTP_Secure) and ignore the jargon.

@@ -7,7 +7,7 @@ Far be it from us to try and get you over that psychological hurdle but it's def
 
 The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
 
-### ** How the process works once you're in the funnel
+### How the process works once you're in the funnel
 
 Just a quick overview of the process a typical tech company will go through when hiring developers:
 
@@ -19,7 +19,7 @@ Just a quick overview of the process a typical tech company will go through when
 6. Offer Negotiation
 7. Offer Acceptance
 
-### ** The Phone Screen
+### The Phone Screen
 
 Congratulations! Your resume wasn't a total train-wreck and they've invited you for a phone screen (note -- sometimes you actually do the tech challenge first).  The real purpose of this screen, which is often roughly a half hour with someone from Human Resources (not the actual hiring manager), is to make sure you've got a good chance of passing their technical interview and fit interviews.  So consider it a light version of each of these.
 
@@ -31,7 +31,7 @@ FINAL NOTE -- this is not one-size-fits-all and many companies skip the light st
 * [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
 * [A much more technical phone screen from Coding Horror](http://www.codinghorror.com/blog/2008/01/getting-the-interview-phone-screen-right.html)
 
-### ** The Tech Interview
+### The Tech Interview
 
 The technical interview is usually the most terrifying part of the interview process. It's where they will assess whether you've got the technical chops to make it.  That means you'll not only be asked very specifically about the work you've done, but also to solve logic problems or code live or whiteboard some new features.
 
@@ -45,7 +45,7 @@ And if you don't know something, it's better to say so and work with your interv
 
 You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
-### ** Links
+### Links
 
 * [Cracking the Coding Interview](https://www.academia.edu/36175368/Cracking_the_Coding_Interview_6th_Edition?auto=download) is ** REQUIRED READING**  and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
@@ -58,7 +58,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
 
-### ** Coding Test Questions:
+### Coding Test Questions:
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
@@ -66,29 +66,29 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data scructures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
-### ** Algorithms Training:
+### Algorithms Training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
 * [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
-### ** Architecture:
+### Architecture:
 
 * [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
-### ** The tech challenge
+### The tech challenge
 
 The take-home tech challenge may occur before or after the in-person screen, depending on the company.  They will give you an application or problem which will take up to a full day to complete on your own time.  Examples of take-home tech challenges include building out a sample web app with tests or solving a challenging algorithmic problem using code.
 
 They'll evaluate you on the completeness of your solution and the quality of your code.  If it occurred before the technical interview, it's a good mechanism for them to test your commitment (up to half of people never even turn in a solution).
 
-### ** The Final Step: "Fit"
+### The Final Step: "Fit"
 
 The final step before the final decision is usually to meet the whole team and get put through the paces at their offices over the period of several hours.  They'll probably test you technically but the goal is also to make sure you'd be a good person to work with.  If any one member of the team doesn't think you'd be a good fit, you usually won't be hired.  Advice?  Don't be weird or awkward even if you are at home :)
 
 It's also a chance for you to test them out.  If you've gotten this far in the process, there's a reasonable likelihood that you've got a good match.  You'll need to figure out if this is the kind of company you want to work for so bring a list of questions and make sure they get answered.
 
-### ** A Note on Compensation
+### A Note on Compensation
 
 Do. Not. Provide. Compensation. Expectations.
 

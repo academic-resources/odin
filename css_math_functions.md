@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You may have noticed that some property values you've worked with in CSS have a slightly different syntax. When the value is a word followed by a pair of parentheses () containing information between them - as in background-color: `rgb(0, 0, 0)` - you're using CSS functions :**
 
 In this lesson, we'll cover the basics of what a function is and some common ways they're used in CSS :**
@@ -8,8 +8,8 @@ In this lesson, we'll cover the basics of what a function is and some common way
 ---
 
 
-### ** Topics** - Recognize the basic parts of a CSS function
-- Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one** #### ** ** What is a function and how are they used in CSS?** As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed "arguments" between parentheses, each of which is used by the function in a specific way. Some common examples are:** ** 
+### Topics** - Recognize the basic parts of a CSS function
+- Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one** ####  What is a function and how are they used in CSS?** As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed "arguments" between parentheses, each of which is used by the function in a specific way. Some common examples are:** ** 
 ```css
 color: hsl(230, 100%, 50%);
 background: linear-gradient(90deg, blue, red);
@@ -24,7 +24,7 @@ Besides defining colors, there are several CSS functions that are useful when de
 Let's go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()` :**
 
 
-#### ** ** calc()** The most powerful use cases for calc include:** ** 
+####  calc()** The most powerful use cases for calc include:** ** 
 - Mixing units
 - The ability to nest `calc( calc () - calc () )`** <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="OJxNxya" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/OJxNxya">
@@ -50,7 +50,7 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 ** Note:**  The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons :**
 
-I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">** #### ** ** min()** `min()` does an excellent job of helping us create responsive websites. Take a look at this example:** ** 
+I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">** ####  min()** `min()` does an excellent job of helping us create responsive websites. Take a look at this example:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
   min() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
@@ -66,7 +66,7 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 ```
 ** Focus on this line `width: min(150px, 100%);` we can make several observations:** ** If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
-<br>You are able to do basic bath inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`** #### ** ** max()** Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses :**
+<br>You are able to do basic bath inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`** ####  max()** Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses :**
 
 The max function is most useful when the viewing window is either exceptionally large, or the user increases the content size by using the browser's zoom feature. Specifying the maximum possible size of a given element, for example, will prevent that element from infinitely filling the page as it expands :**
 
@@ -79,7 +79,7 @@ width: max(100px, 1rem, 4em, 50%)
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important :**
 
 
-#### ** ** clamp()** `clamp()` is a great way to make elements fluid and responsive.
+####  clamp()** `clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values.
 `font-size: clamp(320px, 80vw, 60rem);`** 1. `the smallest value`, 2. `the ideal value`, 3. `the largest value`** You can find more about clamp from this interactive website [here](https://web.dev/min-max-clamp/).
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
@@ -89,7 +89,7 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 [Check out this article](https://web.dev/min-max-clamp/) for a more in-depth look `min`, `max`, and `clamp` in action, with animated examples :**
 
@@ -100,6 +100,6 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 ---
 
 
-### ** Knowledge Check** - What are the four CSS math functions we covered above?
+### Knowledge Check** - What are the four CSS math functions we covered above?
 - How do we use CSS math functions in our CSS?
 - How can CSS functions help make websites and applications more responsive?

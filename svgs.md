@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >SVGs are a very common image format on the web. They can be a little confusing at first, but once you know how to use them, they are an incredibly powerful tool for creating high-quality, dynamic images for your website :**
 
 In this lesson, we will learn what exactly SVGs are, what they're used for, and how you can embed them in your websites :**
@@ -8,14 +8,14 @@ In this lesson, we will learn what exactly SVGs are, what they're used for, and 
 ---
 
 
-### ** Topics** 1. What SVGs, Vector Graphics, and XML are
+### Topics** 1. What SVGs, Vector Graphics, and XML are
 2. How to create simple SVGs and add them to your websites
 3. When to use SVGs, and when a different image format would be more appropriate** 
 
 ---
 
 
-### ** What are SVGs?** SVGs are a _scalable_ image format, which means they will easily scale to any size and retain their quality without increasing their filesize. They're also very useful if you need to create or modify your images programmatically, because you can change their properties through CSS and JavaScript :**
+### What are SVGs?** SVGs are a _scalable_ image format, which means they will easily scale to any size and retain their quality without increasing their filesize. They're also very useful if you need to create or modify your images programmatically, because you can change their properties through CSS and JavaScript :**
 
 SVGs are often used for:** ** 
 1. Icons
@@ -27,7 +27,7 @@ SVGs are often used for:** **
 ---
 
 
-### ** Okay, but what are they?** "SVG" stands for "Scalable Vector Graphic." Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows :**
+### Okay, but what are they?** "SVG" stands for "Scalable Vector Graphic." Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows :**
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file :**
 
@@ -52,14 +52,14 @@ The second benefit of XML is that it's designed to be interoperable with HTML, w
 ---
 
 
-### ** Drawbacks** So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right? Well, not quite. SVGs are _great_ for relatively simple images, but because every single detail of the image needs to be written out as XML, they are extremely inefficient at storing complex images. If your image is supposed to be photo-realistic, or it has fine detail or texture ("[grunge textures](https://unsplash.com/s/photos/grunge-texture)" are a great example), then SVGs are the wrong tool for the job :**
+### Drawbacks** So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right? Well, not quite. SVGs are _great_ for relatively simple images, but because every single detail of the image needs to be written out as XML, they are extremely inefficient at storing complex images. If your image is supposed to be photo-realistic, or it has fine detail or texture ("[grunge textures](https://unsplash.com/s/photos/grunge-texture)" are a great example), then SVGs are the wrong tool for the job :**
 
 
 
 ---
 
 
-### ** Anatomy of an SVG** Typically, you will not want to create SVGs from scratch in your code. Most often you will download the file or copy the code either from a website, or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful :**
+### Anatomy of an SVG** Typically, you will not want to create SVGs from scratch in your code. Most often you will download the file or copy the code either from a website, or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful :**
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWaGdmL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/NWaGdmL">
@@ -79,7 +79,7 @@ Play around with the code above and try to get a feel for what's happening. What
 ---
 
 
-### ** Embedding SVGs** There are two main approaches when deciding how to actually place the SVG in your document: linked, and inline :**
+### Embedding SVGs** There are two main approaches when deciding how to actually place the SVG in your document: linked, and inline :**
 
 Linking SVGs works basically the same way as linking any other image. You can use an HTML image element such as `<img>`, or link it in your CSS using `background-image: url(./my-image.svg)`. They will still scale properly, but the contents of the SVG will not be accessible from the webpage :**
 
@@ -96,7 +96,7 @@ For now, just do which ever works best for your use-case. Linking is generally c
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 1. There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
 2. If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
@@ -111,6 +111,6 @@ For now, just do which ever works best for your use-case. Linking is generally c
 ---
 
 
-### ** Knowledge Check** - What is the `xmlns` attribute?
+### Knowledge Check** - What is the `xmlns` attribute?
 - What are some situations where you _wouldn't_ want to use SVG?
 - What are the benefits of "inlining" your SVGs? What are the drawbacks?

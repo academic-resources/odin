@@ -9,7 +9,7 @@ Reading and understanding error messages is a requirement as a developer. At fir
 - Identify two parts of an error message that help you find where the error originates
 - Be able to understand how to research and resolve errors
 
-### ** The Anatomy of an Error
+### The Anatomy of an Error
 
 An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. ** Note** : For all examples in this lesson, you should run the code in the browser's console.
 
@@ -59,11 +59,11 @@ The stack trace tells us that:
 
 Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
 
-### ** Common Types of Errors
+### Common Types of Errors
 
 These are some of the most common errors you will encounter, so it’s important to understand them.
 
-#### ** Syntax Error
+#### Syntax Error
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
@@ -77,13 +77,13 @@ will throw the following error, because we forgot the parentheses for `console.l
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/02.png">
 [MDN - SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
-#### ** Reference Error
+#### Reference Error
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelt incorrectly!
 
 [MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
-#### ** Type Error
+#### Type Error
 
 These errors are thrown for a few different reasons:
 
@@ -107,7 +107,7 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 [MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
-### ** Tips for Resolving Errors
+### Tips for Resolving Errors
 
 At this point, you might be wondering how we can resolve these errors.
 
@@ -117,20 +117,20 @@ At this point, you might be wondering how we can resolve these errors.
 4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 
-### ** Errors VS. Warnings
+### Errors VS. Warnings
 
 Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. Though these colors are not a rule, frequently there will be a visual differentiation between the two, regardless of the platform you are encountering them on.
 
-### ** Exercise
+### Exercise
 
 Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>

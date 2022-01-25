@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 One of the biggest frustrations beginners have with learning Rails is getting their head around all the 'magic' that Rails seems to do :**
 
@@ -15,7 +15,7 @@ There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as yo
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * What are routes?
 * What are views?
@@ -42,7 +42,7 @@ If you use [cloud9](https://c9.io) instead of a local environment then you can f
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something :**
 
 

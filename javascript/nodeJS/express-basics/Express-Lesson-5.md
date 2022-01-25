@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 - Write forms to create, update, and delete records from the database.
 - Add basic forms and form-handling code to Node websites.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 

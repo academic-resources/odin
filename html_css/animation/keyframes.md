@@ -9,7 +9,7 @@ Now let's explore CSS animations using keyframes. This will expand upon your enc
 * How to configure animation sub-properties
 * How to sequence an animation using keyframes
 
-### ** Animations vs Transitions
+### Animations vs Transitions
 
 Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:
 
@@ -21,7 +21,7 @@ Animations let you animate elements from one style configuration to another. Doe
 
 All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgement. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need. 
 
-### ** Animation Properties
+### Animation Properties
 
 Let's see an animation in action to see what we've been talking about.
 
@@ -56,7 +56,7 @@ This is known as the configuration stage where we define our animation propertie
 
 * Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to it's original color instead of "jumping" straight back to red.
 
-### ** Keyframes
+### Keyframes
 
 Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule. 
 
@@ -117,14 +117,14 @@ Here we added another keyframe for when the `animation-duration` is at 50%, or 1
 
 Hopefully this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Code along with the the MDN article for [using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 2. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
 </div>
 
-### ** Practice
+### Practice
 
 Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:
 
@@ -132,13 +132,13 @@ Now let's make some cool animations! Go to the [CSS exercises repository](https:
 2. drop-down
 3. pop-up
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">What are the long and short-hand notations for CSS animations?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes">How do you add keyframes to an animation?</a>
 - <a class="knowledge-check-link" href="#animations-vs-transitions">When would you use an animation over a transition (and vice versa)?</a>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

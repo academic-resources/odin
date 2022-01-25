@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 A *very* brief look back into the idea that browser loading matters (maybe) :**
 
@@ -7,7 +7,7 @@ A *very* brief look back into the idea that browser loading matters (maybe) :**
 ---
 
 
-### ** Topics** * Why is it important which order you load scripts?
+### Topics** * Why is it important which order you load scripts?
 * What does it mean if something "blocks the browser"?
 * How can you use Asynchronous loading to reduce user wait times?
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
@@ -17,7 +17,7 @@ A *very* brief look back into the idea that browser loading matters (maybe) :**
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

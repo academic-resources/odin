@@ -1,21 +1,21 @@
-### ** Exerpt
+### Exerpt
 >In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the ** basic Git workflow** . When you're using Git, these are the commands that you'll use 70-80% of the time, so if you can get these down, you'll be more than halfway done mastering Git!** 
 
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - How to create a repository on GitHub
  - How to get files to and from GitHub
  - How to take "snapshots" of your code
----** # Challenge:** <div class="lesson-content__panel" markdown="1">** #### ** ** Before you start!
+---** # Challenge:** <div class="lesson-content__panel" markdown="1">** ####  Before you start!
 - Recent changes to the way Github names the default branch means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:** ** `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:** ** `git config --global init.defaultBranch main`
 - For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming) :**
 
 
-#### ** ** Create the Repository** 1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/) :**
+####  Create the Repository** 1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/) :**
 
 2. Create a new repository by clicking the button shown in the screenshot below :**
 
@@ -27,7 +27,7 @@
 
 **     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png" title="Copy SSH link using GitHub" /></a>** 5. In the command line on your local machine, let's make a new directory for all your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. If you're not sure you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command :**
 
-    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png" title="Creating a new directory" /></a>** 6. <span id="github-to-local"></span>Now it's time to clone your repository from GitHub onto your computer with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. If your URL looks like `https://github.com/USER-NAME/REPOSITORY-NAME.git`, you have selected the HTTPS option, not the required SSH option. **     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png" title="Clone the repo using CLI" /></a>** 7. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, you can `cd` into the new ** git_test**  folder that was downloaded and then enter `git remote -v` in your command line. This will display the URL of the repository you created in GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word ** origin**  at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)**     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/05.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/05.png" title="Check repo remotes using CLI" /></a>** #### ** ** Use the Git Workflow** 1. Create a new file in the `git_test` folder called "hello_world.txt" with the command `touch hello_world.txt` :**
+    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png" title="Creating a new directory" /></a>** 6. <span id="github-to-local"></span>Now it's time to clone your repository from GitHub onto your computer with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. If your URL looks like `https://github.com/USER-NAME/REPOSITORY-NAME.git`, you have selected the HTTPS option, not the required SSH option. **     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/04.png" title="Clone the repo using CLI" /></a>** 7. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, you can `cd` into the new ** git_test**  folder that was downloaded and then enter `git remote -v` in your command line. This will display the URL of the repository you created in GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word ** origin**  at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)**     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/05.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/05.png" title="Check repo remotes using CLI" /></a>** ####  Use the Git Workflow** 1. Create a new file in the `git_test` folder called "hello_world.txt" with the command `touch hello_world.txt` :**
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/06.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/06.png" title="Create hello_world.txt using CLI" /></a>** 2. <span id="git-status"></span>Type `git status` in your terminal. In the output, notice that your hello_world.txt file is shown in red, which means that this file is not staged :**
 
@@ -39,7 +39,7 @@
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png" title="Commit hello_world and check repo status again using CLI" /></a>** 5. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see details on the author who made the commit and the date and time for when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now :**
 
-    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png" title="Commit hello_world and check repo status again using CLI" /></a>** #### ** ** Modify a file or two** 1. Open README.md in your text editor of choice. In this example, we will open the directory in Visual Studio Code by using the command `code .` inside your repository :**
+    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png" title="Commit hello_world and check repo status again using CLI" /></a>** ####  Modify a file or two** 1. Open README.md in your text editor of choice. In this example, we will open the directory in Visual Studio Code by using the command `code .` inside your repository :**
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png" title="Add text file and check repo status again using CLI" /></a>
     
@@ -56,7 +56,7 @@
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/16.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/16.png" title="Commit repo changes again and check repo status again using CLI" /></a>** 8. Take one last look at your commit history by typing `git log`. You should now see three entries :**
 
-    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/17.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/17.png" title="Git Log" /></a>** #### ** ** Push Your Work to GitHub** Finally, let's upload your work to the GitHub repository you created at the start of this tutorial :**
+    <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/17.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/17.png" title="Git Log" /></a>** ####  Push Your Work to GitHub** Finally, let's upload your work to the GitHub repository you created at the start of this tutorial :**
 
 1. <span id="git-push"></span>Type `git push`. If you want to be more specific, you can type `git push origin main`, but since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. ** NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow [these steps](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github :**
 
@@ -73,7 +73,7 @@
 ---
 
 
-### ** Cheatsheet** This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:** ** 
+### Cheatsheet** This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:** ** 
 * Commands related to a remote repository:** **   * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
   * `git push` or `git push origin main` (Both accomplish the same goal in this context)
 * Commands related to workflow:** **   * `git add .`
@@ -91,7 +91,7 @@ For example,** * `git add .` is read as `git | add | .`, where the period repres
 ---
 
 
-### ** Git Best Practices
+### Git Best Practices
 There's a lot to learn about using Git, but it is worth taking the time to highlight some best practices so that you can be a better collaborator. Git is not only helpful when collaborating with others, but is helpful when working independently as you will be relying on your own commit history in the future when revisiting old code :**
 
 Two helpful best practices to consider are ** atomic commits**  and leveraging those atomic commits to make your commit messages more useful to future collaborators :**
@@ -105,7 +105,7 @@ As for writing better commit messages, this [Chris Beams](https://github.com/cbe
 ---
 
 
-### ** Conclusion
+### Conclusion
 You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it :**
 
 The main thing to take away from this lesson is the ** basic workflow** . The commands you've learned here are the ones you will be using the most often with Git :**
@@ -119,7 +119,7 @@ For now, concentrate on using the basics of Git that you've learned here with al
 ---
 
 
-### ** Bonus: Changing the Git Commit Message Editor
+### Bonus: Changing the Git Commit Message Editor
 As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. ** There will be no confirmation or any output on the terminal after entering this command. When you want to make a commit with Visual Studio Code as the text editor, make sure to use the `git commit` command without the `-m` flag. Just type `git commit` and no message after that. Once you do this, a new tab will open, and you will be able to write your message, and optionally you will be able to provide more information below your message. When you are done with your commit message, save and exit the tab :**
 
 With that out of the way, now you can choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!** 
@@ -127,7 +127,7 @@ With that out of the way, now you can choose to use either `git commit -m <your 
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

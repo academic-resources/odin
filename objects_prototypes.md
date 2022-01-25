@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Javascript doesn't really have "classes", per se, like Ruby -- instead they use "prototypes" to DRY ("Don't Repeat Yourself") up code :**
 
@@ -9,7 +9,7 @@ You'll also find ** Objects**  used a whole lot.  They're basically containers t
 ---
 
 
-### ** Topics** * How are JS objects similar to Ruby objects?
+### Topics** * How are JS objects similar to Ruby objects?
 * Can JS functions be defined inside of objects?
 * What is a `ConstructorFunction`?
 * What is a prototype?
@@ -25,7 +25,7 @@ You'll also find ** Objects**  used a whole lot.  They're basically containers t
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

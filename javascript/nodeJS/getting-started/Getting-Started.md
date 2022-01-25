@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
  - Understand how to use NPM.
  - Create, fire and listen for your own events.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -42,7 +42,7 @@ By the end of this lesson, you should be able to do the following:
 
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -53,7 +53,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!

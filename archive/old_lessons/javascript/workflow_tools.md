@@ -15,7 +15,7 @@ You may need these things now, you may not.  At least learn what they are so you
 * What is Yeoman?
 * What is Bower?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Overwhelmed by Javascript Dependencies? from Startifact.com](http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html)
@@ -25,7 +25,7 @@ You may need these things now, you may not.  At least learn what they are so you
 5. Glance over the docs for [Bower, a front-end package manager](http://bower.io/)
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Grunt.js task runner documentation](http://gruntjs.com/)

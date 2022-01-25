@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Links are the glue holding the web together, so make sure you understand how to properly link to external websites AND internal files :**
 
 ## Topics:** * What's the difference between internal links (/somepage) and external links (http://www.somesite.com/somepage)?
@@ -15,7 +15,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

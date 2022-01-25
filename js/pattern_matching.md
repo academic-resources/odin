@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Introduced in Ruby 2.7, pattern matching uses specified patterns to match against some data. If the data conforms to the pattern there is a match and the data is deconstructed accordingly. If there is no match either you can supply a default value to return or else a `NoMatchingPatternError` is raised :**
 
 With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end :**
@@ -22,7 +22,7 @@ If you want to play with the examples make sure you're on at least Ruby 2.7. Unf
 ---
 
 
-### ** Basics** The basic format for a pattern match is a case statement. This is not too different from the case statement you will already be familiar with for matching conditions in Ruby, except now instead of `when` we use `in`. If your use case is very basic, you will find there is no difference between using either `in` or `when` as the below example illustrates :**
+### Basics** The basic format for a pattern match is a case statement. This is not too different from the case statement you will already be familiar with for matching conditions in Ruby, except now instead of `when` we use `in`. If your use case is very basic, you will find there is no difference between using either `in` or `when` as the below example illustrates :**
 
 ```ruby
 grade = 'C'** case grade
@@ -56,7 +56,7 @@ The case/in format is best used when there are multiple conditionals you could p
 ---
 
 
-### ** Patterns** There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be**  - Any Ruby object which is matched using `===`. The Object Pattern.
+### Patterns** There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be**  - Any Ruby object which is matched using `===`. The Object Pattern.
  - A variable capture / Variable Pattern
  - An As Pattern
  - An Alternative Pattern
@@ -72,7 +72,7 @@ When we say pattern we aren't talking about design patterns which you may have c
 ---
 
 
-### ** Return values** There are two possible return values from a pattern match statement. The first is `true` which is returned whenever there is a match, even when the match is the else clause in a statement. The second possible return value is a `NoMatchingPatternError` whenever no match can be found. In our examples below when we `puts` something inside a case statement we'll use `# =>` to show the value that will be printed by this. In your terminal though you'll see the value printed followed by `=> true` below. We'll omit that because it's not relevant to what we're trying to show you. Just be aware that the `true` you see is just the return value of the last thing evaluated. Standard Ruby behaviour :**
+### Return values** There are two possible return values from a pattern match statement. The first is `true` which is returned whenever there is a match, even when the match is the else clause in a statement. The second possible return value is a `NoMatchingPatternError` whenever no match can be found. In our examples below when we `puts` something inside a case statement we'll use `# =>` to show the value that will be printed by this. In your terminal though you'll see the value printed followed by `=> true` below. We'll omit that because it's not relevant to what we're trying to show you. Just be aware that the `true` you see is just the return value of the last thing evaluated. Standard Ruby behaviour :**
 
 As you'll see though the point of a pattern match usually is to not only match against a pattern but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression :**
 
@@ -81,7 +81,7 @@ As you'll see though the point of a pattern match usually is to not only match a
 ---
 
 
-### ** Object Pattern Match** Any object can be used in a pattern match. It is matched using `===` to compare the two objects and is the same basis for matches in the case/when format. This pattern is usually used within other patterns such as the array pattern :**
+### Object Pattern Match** Any object can be used in a pattern match. It is matched using `===` to compare the two objects and is the same basis for matches in the case/when format. This pattern is usually used within other patterns such as the array pattern :**
 
 The grade example provided earlier was one such use of the Ruby object pattern match. On each check Ruby compared the grade with the specified letter and when there was a match it executed the then clause of that match. `'A' === 'A' #=> true` :**
 
@@ -107,7 +107,7 @@ With Ruby pattern matching you can match against the following literal types**  
 ---
 
 
-### ** Variable Pattern** The variable pattern binds a variable or variables to the values that match the pattern :**
+### Variable Pattern** The variable pattern binds a variable or variables to the values that match the pattern :**
 
 The basic format is** ```ruby
 age = 15** case age
@@ -140,7 +140,7 @@ end** #=> NoMatchingPatternError
 ---
 
 
-### ** As Pattern Match** The as pattern is similar to the variable pattern but can be used to manage more complex assignments. This will make most sense when using Arrays and Hashes so examples will be shown when covering those patterns but the general pattern is written as follows** ```ruby
+### As Pattern Match** The as pattern is similar to the variable pattern but can be used to manage more complex assignments. This will make most sense when using Arrays and Hashes so examples will be shown when covering those patterns but the general pattern is written as follows** ```ruby
 case 3
 in 3 => a
   puts a
@@ -153,7 +153,7 @@ end** # => 3
 ---
 
 
-### ** Alternative Pattern Match** The alternative pattern allow you to check if multiple options match the input :**
+### Alternative Pattern Match** The alternative pattern allow you to check if multiple options match the input :**
 
 ```ruby
 case 0
@@ -168,7 +168,7 @@ end** # => match
 ---
 
 
-### ** Guard Conditions** This isn't a pattern per se but a way to make sure the pattern is only matched if the guard condition holds true** ```ruby
+### Guard Conditions** This isn't a pattern per se but a way to make sure the pattern is only matched if the guard condition holds true** ```ruby
 some_other_value = true** case 0
 in 0 if some_other_value
   puts :match
@@ -181,7 +181,7 @@ end** # => match
 ---
 
 
-### ** Array Pattern Match** Matching against arrays can be done in a few different ways. At its most basic you can match against the exact elements in the array :**
+### Array Pattern Match** Matching against arrays can be done in a few different ways. At its most basic you can match against the exact elements in the array :**
 
 ```ruby
 arr = [1 ,2]** case arr
@@ -289,7 +289,7 @@ end** # => match
 ---
 
 
-### ** Hash Pattern Matching** Pattern Matching with Hashes works in a similar way to arrays with a couple of important differences. The first is that pattern matching only works for symbol keys, not string keys. The reason for this is to do with how Ruby matches against a hash. This may change in future Ruby versions. The second important difference is that unlike with arrays, you can match against parts of a Hash without having to handle the fact there may be additional key;value pairs :**
+### Hash Pattern Matching** Pattern Matching with Hashes works in a similar way to arrays with a couple of important differences. The first is that pattern matching only works for symbol keys, not string keys. The reason for this is to do with how Ruby matches against a hash. This may change in future Ruby versions. The second important difference is that unlike with arrays, you can match against parts of a Hash without having to handle the fact there may be additional key;value pairs :**
 
 We can match against the actual values of a hash** ```ruby
 case { a: 'apple', b: 'banana' }
@@ -360,14 +360,14 @@ end** #=> { :a => 'ant', :b => 'ball' }
 ---
 
 
-### ** Ruby 3 patterns** With Ruby 3 came a couple of new patterns. If you aren't using Ruby 3 at the time of writing you can install it if you like or just skim the below patterns and know they exist. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code :**
+### Ruby 3 patterns** With Ruby 3 came a couple of new patterns. If you aren't using Ruby 3 at the time of writing you can install it if you like or just skim the below patterns and know they exist. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code :**
 
 
 
 ---
 
 
-### ** Rightward assignment :**
+### Rightward assignment :**
 
 Usually with Ruby you place variables on the left of an expression that binds a value to that variable. With rightward assignment you deconstruct an object and assign values to variables on the right of the expression. Instead of using `=` to assign you use a hash rocket `=>` :**
 
@@ -383,7 +383,7 @@ login = { username: 'hornby', password: 'iliketrains' }** login => { username: u
 ---
 
 
-### ** Find Pattern** As we saw earlier we can match against only part of a hash, but not an array using the array pattern match. So what do you do if that's what you need to do? The as pattern would capture all of the array and the variable pattern captures individual parts of it. To address this Ruby added the find pattern :**
+### Find Pattern** As we saw earlier we can match against only part of a hash, but not an array using the array pattern match. So what do you do if that's what you need to do? The as pattern would capture all of the array and the variable pattern captures individual parts of it. To address this Ruby added the find pattern :**
 
 It works by placing a `*` either side of the part you want to match. You can even use the variable pattern to give each `*` a variable name to reference later. Let's look at some examples :**
 
@@ -455,7 +455,7 @@ end** puts first_language** # => italian
 ---
 
 
-### ** Wrapping Up** Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in every use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
+### Wrapping Up** Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in every use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
 # Challenge
 <div class="lesson-content__panel" markdown="1">** 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
@@ -464,7 +464,7 @@ end** puts first_language** # => italian
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>

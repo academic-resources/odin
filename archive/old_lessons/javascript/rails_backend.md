@@ -14,7 +14,7 @@ Note that you can actually outsource your back end functionality to a Backend-as
 * How can you pass data from your Rails app to your Javascript?
 * Why would you want to use AJAX to load large batches of data
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html).  It is long and covers a lot of ground, but it's got great content.  Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
@@ -22,7 +22,7 @@ Note that you can actually outsource your back end functionality to a Backend-as
 3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Grabbing your Rails form CSRF token with Javascript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)

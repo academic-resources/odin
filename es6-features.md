@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 We've been throwing around the term __ES6__ since our very first lessons, but we haven't taken the time to properly explain what it means or to investigate the implications of it in our code :**
 

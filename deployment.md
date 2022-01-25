@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You've had a good overview of how your browser will be interacting with your web application but how do you actually get your application onto the web?  Up until now, you've built everything in the local environment, perhaps accessing the application server in your browser via `http://localhost:3000` or something similar.  That's not nearly as fun as seeing the application live on the Internet, so in this lesson we'll cover that final push to deploy your apps to [Heroku](http://heroku.com).  Deployment can sometimes be a frustrating process because the errors can be a pain to diagnose and fix, but there are a lot of Stack Overflow posts out there which will help you find your way if you get stuck :**
 
 We won't be digging into the advanced issues of deployment in this lesson... that's well outside the scope of this course.  The point here is to familiarize you with the basic deployment process and help you get your apps online in the first place.  Adding bells and whistles or speed optimizing your application will be left to your own curiosity.  You'll likely read through this now, get a sense for what's coming in the future, and then refer back to it when it's time to actually deploy some of your apps later on :**
@@ -8,12 +8,12 @@ We won't be digging into the advanced issues of deployment in this lesson... tha
 ---
 
 
-### ** Heroku Overview** It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2 :**
+### Heroku Overview** It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2 :**
 
 Heroku is great for beginners because it's a free and "simple" push-to-deploy system.  Their system is actually built on EC2 but it saves you a lot of hassle.  Because of this, when you DO get to the paid tiers, it will be more expensive than EC2 but should be worth it for a while.  The best part is that you get free high quality hosting for any number of new apps :**
 
 
-#### ** ** Instances and Traffic** Heroku works by giving you virtual "Dynos" which run your app.  Basically, one dyno means one instance of your application running at one time.  That's sort of like having a single computer run your app, like you do on Localhost.  Multiple dynos is like having several copies of your app running simultaneously, which allows you to handle more traffic.  The cool thing about Rails is that you can always fire up more instances of your application if you start getting too much traffic and users start having to wait for their requests to be filled :**
+####  Instances and Traffic** Heroku works by giving you virtual "Dynos" which run your app.  Basically, one dyno means one instance of your application running at one time.  That's sort of like having a single computer run your app, like you do on Localhost.  Multiple dynos is like having several copies of your app running simultaneously, which allows you to handle more traffic.  The cool thing about Rails is that you can always fire up more instances of your application if you start getting too much traffic and users start having to wait for their requests to be filled :**
 
 For most of your apps, one dyno is plenty enough.  You can support a lot of traffic using just a single dyno, and Heroku gives you your first one for free. Unfortunately, if you don't visit your app for a while, Heroku will "shut down" the dyno and basically stop running your app continuously.  They don't want to waste resources supporting the thousands of apps that no one visits :**
 
@@ -22,7 +22,7 @@ This means that, the first time someone visits your site in a while, it will tak
 Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.  Pretty much all the functions are available in both places, which is handy :**
 
 
-#### ** ** Domains and Naming** Heroku will give you a random application name when you first deploy, something zen like "afternoon-falls-4209".  If you want to visit the app, you can either type `$ heroku open` on the command line or just go directly to `http://afternoon-falls-4209.herokuapp.com`.  You can change that name to whatever you want, e.g. "my-cool-app", which becomes `http://my-cool-app.herokuapp.com` :**
+####  Domains and Naming** Heroku will give you a random application name when you first deploy, something zen like "afternoon-falls-4209".  If you want to visit the app, you can either type `$ heroku open` on the command line or just go directly to `http://afternoon-falls-4209.herokuapp.com`.  You can change that name to whatever you want, e.g. "my-cool-app", which becomes `http://my-cool-app.herokuapp.com` :**
 
 
 
@@ -37,7 +37,7 @@ Once you have your own domain, you will need to go in and point it to your `hero
 You'll also need to tell Heroku that you'd like to point your app to a custom domain.  See the [Heroku Custom Domains Help File](https://devcenter.heroku.com/articles/custom-domains) for detailed instructions :**
 
 
-#### ** ** Addons** Another great feature of Heroku is add-ons.  These are third party applications which have been designed to seamlessly add onto your own.  You can view the ones you have via the command line using `$ heroku addons` or add a new one using something like `$ heroku addons:create newrelic:standard`.  You can also work from the web interface :**
+####  Addons** Another great feature of Heroku is add-ons.  These are third party applications which have been designed to seamlessly add onto your own.  You can view the ones you have via the command line using `$ heroku addons` or add a new one using something like `$ heroku addons:create newrelic:standard`.  You can also work from the web interface :**
 
 [This article on Heroku Help](https://devcenter.heroku.com/articles/managing-add-ons) talks about how to work with addons :**
 
@@ -54,7 +54,7 @@ Note that you'll probably be prompted for your billing information when installi
 ---
 
 
-### ** Deploying to Heroku** If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later :**
+### Deploying to Heroku** If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later :**
 
 We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 6.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails6).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console` :**
 
@@ -68,7 +68,7 @@ We'll do a quick overview of how it will work. It's not meant to be a step-by-st
 * But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now :**
 
 
-#### ** ** What's Going On?** There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku main`, Git will just ship your code up to Heroku :**
+####  What's Going On?** There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku main`, Git will just ship your code up to Heroku :**
 
 From there, Heroku more or less does what you do for your own localhost.  First, it will take the "slug" of code and files that you uploaded, identify your Ruby version, and run a `$ bundle install`.  It sets up your database connection and then runs the asset pipeline :**
 
@@ -79,7 +79,7 @@ So it doesn't have to run this part of the asset pipeline (which won't actually 
 Once precompilation is complete, Heroku will fire up a dyno with your application on it and  visit it within 30 seconds or so by running `$ heroku open` or just navigating directly to the application's address :**
 
 
-#### ** ** Essential Heroku Commands** A brief list of Heroku commands you should know:** ** 
+####  Essential Heroku Commands** A brief list of Heroku commands you should know:** ** 
 * `$ heroku run rails db:migrate`
 * `$ heroku run console` gives you a Rails console, though in Production (so don't mess around with things, this is real data!)
 * `$ heroku logs -t` shows you your server logs (like you're used to when running `$ rails server`) on a streaming basis (which is the result of the `-t`, or "tail" flag).  See [this Heroku post](https://devcenter.heroku.com/articles/logging) for more information on logging.
@@ -90,7 +90,7 @@ Once precompilation is complete, Heroku will fire up a dyno with your applicatio
 ---
 
 
-### ** Learning to Love Heroku: Errors** You will have errors.  The two main places where errors pop up are during the deployment process and when you try to actually run your app (e.g. by getting a 500 server error).  The key is, as usual, not to panic and to follow a calm, step-by-step debugging process.  Especially when you're first starting out, it's probably a simple problem so if you check the logs or error output you can usually figure it out directly or Google the message to find a helpful Stack Overflow post :**
+### Learning to Love Heroku: Errors** You will have errors.  The two main places where errors pop up are during the deployment process and when you try to actually run your app (e.g. by getting a 500 server error).  The key is, as usual, not to panic and to follow a calm, step-by-step debugging process.  Especially when you're first starting out, it's probably a simple problem so if you check the logs or error output you can usually figure it out directly or Google the message to find a helpful Stack Overflow post :**
 
 If you're several deployments deep and something broke, backtrack to the last working deploy and figure out what you changed before running around willy-nilly and changing config files based on Internet advice.  Sometimes it's unavoidable, but not knowing *why* something broke can come back to bite you later :**
 
@@ -101,7 +101,7 @@ We'll cover a few common cases below, but see [Heroku's brief guide on diagnosin
 ---
 
 
-### ** On Deployment** Your very first few times, you'll probably run into relatively straightforward errors.  Some may have to do with setting up Heroku properly, which should be obvious if the error messages are something to the effect of "we can't actually find this command that you typed" or "you're not authorized to do this" :**
+### On Deployment** Your very first few times, you'll probably run into relatively straightforward errors.  Some may have to do with setting up Heroku properly, which should be obvious if the error messages are something to the effect of "we can't actually find this command that you typed" or "you're not authorized to do this" :**
 
 Another common early mistake is forgetting to include a gem (or forgetting to put it in the correct section of your gemfile -- remember we're in the `production` section, not the `development` section) :**
 
@@ -116,7 +116,7 @@ For fixing a precompilation issue, you may also be prompted to manually precompi
 ---
 
 
-### ** 500's While Running the Application** No one likes getting that bland "We're sorry but something went wrong" message from Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output :**
+### 500's While Running the Application** No one likes getting that bland "We're sorry but something went wrong" message from Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output :**
 
 If this is your first deployment and your very first page served up a 500, did you remember to migrate your database?  That's a common one :**
 
@@ -127,7 +127,7 @@ Remember Environment Variables (aka "Config vars")?  If you've got any gems or a
 To get your environment variables to Heroku, you can either manage them using a gem like `figaro` (see [docs here](https://github.com/laserlemon/figaro)) or [directly upload them](https://devcenter.heroku.com/articles/config-vars) with a command like `$ heroku config:set YOUR_VARIABLE=some_value`.  This will make that variable available to all instances of your application running on Heroku (you won't need to reset it each time either) :**
 
 
-#### ** ** Localhost Tricks and Tips** Dialing things back to the local environment, here are a few useful things to know to help you work more efficiently in development:** ** 
+####  Localhost Tricks and Tips** Dialing things back to the local environment, here are a few useful things to know to help you work more efficiently in development:** ** 
 * Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app :**
 
 ## Assignment** We won't have too much reading here because many of the links are interspersed with the sections above and, ** if you're a complete beginner, you can safely skip this until later** .  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it :**
@@ -140,7 +140,7 @@ To get your environment variables to Heroku, you can either manage them using a 
 ---
 
 
-### ** Conclusion** Deployment is one of the most satisfying parts of building an application... once you get it actually working!  Now you can show your friends what you've built or get your business online.  Pretty cool stuff.  You just need to accept that you'll probably run into various errors during the process and you're not the first person to do so :**
+### Conclusion** Deployment is one of the most satisfying parts of building an application... once you get it actually working!  Now you can show your friends what you've built or get your business online.  Pretty cool stuff.  You just need to accept that you'll probably run into various errors during the process and you're not the first person to do so :**
 
 Best of all, once you can deploy an app to the interwebs, you're officially free to go into the world and build applications of your own :**
 
@@ -149,7 +149,7 @@ Best of all, once you can deploy an app to the interwebs, you're officially free
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

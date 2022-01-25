@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Forms are a crucial part of most websites. Almost every major site has sign-up forms, contact forms, search forms and more!  Luckily HTML5 and JavaScript have some handy built-in methods :**
 
@@ -10,7 +10,7 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Understand the importance of validation in HTML forms.
 - Add validation attributes in HTML forms.
@@ -23,19 +23,19 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 ---
 
 
-### ** Practice** 
+### Practice** 
 
 ---
 
 
-### ** Warmup** Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done :**
+### Warmup** Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done :**
 
 
 
 ---
 
 
-### ** Project** Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly :**
+### Project** Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly :**
 
 The form doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields.  If all is well and the form is "submitted", give the user a high five :**
 
@@ -50,7 +50,7 @@ The form doesn't need to actually submit, but you should give an error message i
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation'>Understand the importance of validating HTML forms before submitting them to a server.</a>

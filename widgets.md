@@ -1,4 +1,4 @@
-### ** Intro :
+###  Intro :
 >
 Working with jQuery is a whole lot of fun... and here's why.  jQuery basically drives all the nifty tooltips, modals, lightboxes, sliders, and other widgets you see on a webpage.  Just about everything you've ever seen on the web can be done with a combination of the Javascript and jQuery you now know.  Let's take a look at some of them in greater depth :**
 
@@ -9,7 +9,7 @@ We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which m
 ---
 
 
-### ** Topics** * What is jQuery UI and why is it particularly useful for you?
+###  Topics** * What is jQuery UI and why is it particularly useful for you?
 * How do you include jQuery UI in your project?
 * How do you use jQuery UI?
 * Where are the docs for jQuery UI?
@@ -22,7 +22,7 @@ We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which m
 ---
 
 
-### ** Additional Resources
+###  Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Canvas is a great tool in HTML5 -- it basically provides a panel in which you can use Javascript and math to draw pretty much anything.  It's useful for everything from gaming to image optimization.  In our case, we'll focus on games because it gives you a chance to flex your pure Javascript muscles creatively.  For the first time so far, you'll get to build games that operate dynamically in 2-D space (not confined to a grid).  Use that power only for good.. :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** * What is Canvas?
+### Topics** * What is Canvas?
 * How do you set up a Canvas element?
 * How do you draw a 5 pixel black square with a red outline?
 * How can you use refreshes to animate things?
@@ -21,7 +21,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

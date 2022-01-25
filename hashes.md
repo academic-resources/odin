@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Now that you've learned about arrays, it's time to get into the array's supercharged cousin: ** the hash** . Ruby hashes are more advanced collections of data and are similar to objects in JavaScript and dictionaries in Python if you're familiar with those :**
 
@@ -7,7 +7,7 @@ Now that you've learned about arrays, it's time to get into the array's supercha
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Explain what a hash is.
  - Describe how to create a new hash and how to add information to it.
@@ -20,7 +20,7 @@ Now that you've learned about arrays, it's time to get into the array's supercha
 ---
 
 
-### ** Arrays vs. Hashes
+### Arrays vs. Hashes
 You're sitting in your cubicle, diligently working away (because you would never dream of slacking off at work), when lunch time rolls around. You need to grab a bite to eat, but how are you going to go about requesting food? For the purposes of this parable, you have two options: a vending machine or a nice restaurant. ** If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with a number. These labels are the indices of the vending machine array. It's important to note that the indices are not interchangeable: "12" will always come before "13" and after "11". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all :**
 
 Your other option is to sit yourself down at a table covered with a nice white tablecloth, where a pleasant waiter will see to your every need. The first thing they will do is bring you a menu, which for those of you that have only been eating out of vending machines so far in your life, lists out all of your dining options labeled with the name of the dish, such as ["sublimated artichoke frittata" or "whole pork belly, market acorns, and activated shell bean"](http://www.brooklynbarmenus.com/). In this menu hash, the dish names are called ** keys** : they are the labels that are used to identify your dining options. The food that those dish names represent are the ** values**  that the keys point to. To order your food, you give your waiter the key (you tell him the name of the dish you want), and he returns the value of that key (food that matches the description on the menu). Mmmmm, nothing like a lunch of free-range bison with corn and peach compote and an IPA! You are a programmer, after all :**
@@ -30,7 +30,7 @@ There are two important differences to note between the vending machine array an
 ---
 
 
-### ** Creating Hashes
+### Creating Hashes
 Let's dive in and create a hash! ** ```ruby
 my_hash = { 
   "a random word" => "ahoy", 
@@ -57,7 +57,7 @@ hash = { 9 => "nine", :six => 6 }
 ---
 
 
-### ** Accessing Values
+### Accessing Values
 You can access values in a hash the same way that you access elements in an array. When you call a hash's value by key, the key goes inside a pair of brackets, just like when you're calling an array by index :**
 
 ```ruby
@@ -83,7 +83,7 @@ shoes.fetch("hiking", "hiking boots") #=> "hiking boots"
 ---
 
 
-### ** Adding and Changing Data
+### Adding and Changing Data
 You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable :**
 
 ```ruby
@@ -100,7 +100,7 @@ shoes     #=> {"summer"=>"flip-flops", "winter"=>"boots", "fall"=>"sneakers"}
 ---
 
 
-### ** Removing Data
+### Removing Data
 Deleting data from a hash is simple with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash :**
 
 ```ruby
@@ -112,7 +112,7 @@ shoes                     #=> {"winter"=>"boots", "fall"=>"sneakers"}
 ---
 
 
-### ** Methods
+### Methods
 Hashes respond to many of the same methods as arrays do since they both employ Ruby's ** Enumerable**  module. In the next lesson, we'll go into far more detail on the Enumerable module, including the differences in how the Enumerable methods behave for arrays and hashes :**
 
 A couple of useful methods that are specific to hashes are the `#keys` and `#values` methods, which very unsurprisingly return the keys and values of a hash, respectively. Note that both of these methods return *arrays* :**
@@ -129,7 +129,7 @@ books.values    #=> ["David Foster Wallace", "Jon Krakauer"]
 ---
 
 
-### ** Merging Two Hashes
+### Merging Two Hashes
 Occasionally, you'll come across a situation where two hashes wish to come together in holy union. Luckily, there's a method for that. (No ordained minister required!)** ```ruby
 hash1 = { "a" => 100, "b" => 200 }
 hash2 = { "b" => 254, "c" => 300 }
@@ -140,7 +140,7 @@ hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ---
 
 
-### ** Symbols as Hash Keys
+### Symbols as Hash Keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:** ** 
 ```ruby
 # 'Rocket' syntax 
@@ -165,7 +165,7 @@ japanese_cars[:honda]   #=> "Accord"
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">** 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
 </div>** 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -177,7 +177,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#arrays-vs-hashes'>What are the differences between hashes and arrays?</a>

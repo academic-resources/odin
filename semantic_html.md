@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >As useful as `<div>` and `<span>` elements can be as generic containers, they're not always the most a11y friendly elements to use. While it may be tempting or easier to just use them for everything, from containers to interactive areas, you should not only check whether there is a more appropriate element to use in certain situations, but also whether you're using an element correctly :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 * Explain why semantic HTML is important for accessibility.
 * Name the seven HTML elements that define landmarks on a page :**
@@ -16,7 +16,7 @@
 ---
 
 
-### ** The Importance of Semantics** In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a *semantic meaning*, but don't really provide any *context* when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning *and* are announced with some sort of context to help users perceive or operate them, like a `<button>`. ** The `<div>` and `<span>` elements, most likely two of the more common elements you use, are semantically neutral. That is, they themselves have no semantic meaning and provide no context on their own to assistive technologies, which can make it more difficult for users of such technologies to perceive, operate, and understand them. Don't let this lack of semantics and context make you feel like you can never use a `<div>` or `<span>` ever again, though. They still have their uses as generic containers, such as for layouts or for generic text :**
+### The Importance of Semantics** In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a *semantic meaning*, but don't really provide any *context* when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning *and* are announced with some sort of context to help users perceive or operate them, like a `<button>`. ** The `<div>` and `<span>` elements, most likely two of the more common elements you use, are semantically neutral. That is, they themselves have no semantic meaning and provide no context on their own to assistive technologies, which can make it more difficult for users of such technologies to perceive, operate, and understand them. Don't let this lack of semantics and context make you feel like you can never use a `<div>` or `<span>` ever again, though. They still have their uses as generic containers, such as for layouts or for generic text :**
 
 Okay, let's look at an actual example to help better understand this whole semantics and context thing. Think of any project you may have completed so far that required a user to click on something: Rock, Paper, Scissors; Calculator; Tic-Tac-Toe. If you used `<div>` or `<span>` elements for any clickable areas, things most likely worked as intended for you. For example, perhaps you had something similar to the HTML below for your Rock, Paper, Scissors UI back in Foundations:** ** 
 ```html
@@ -45,7 +45,7 @@ This issue can be easily fixed by using semantic HTML:** **
 ** Because the `<button>` element has a semantic meaning and provides context, a screen reader would announce the text content as well as the role of the element: "Rock, button" :**
 
 
-#### ** ** Using Semantic HTML Correctly** When it comes to using semantic HTML correctly, you want to think about what your intent for users is and what context you want (or need) to provide to them. This can vary depending on the situation, but there are some things you should absolutely be checking for moving forward:** ** 
+####  Using Semantic HTML Correctly** When it comes to using semantic HTML correctly, you want to think about what your intent for users is and what context you want (or need) to provide to them. This can vary depending on the situation, but there are some things you should absolutely be checking for moving forward:** ** 
 * If a user is meant to click something, whether it's an actual button or not, you will usually want to use a `<button>` element. This will let the user know that they can interact with the element by clicking on it.
 * If you want to provide some sort of tabular data to a user, use a `<table>` element along with the elements related to it. This will allow a user to more easily navigate and understand the data being presented.
 * When you use an input element, you should always create a relationship between it and a `<label>` element. A `<label>` provides context for what an input actually means to assistive technologies, announcing the label contents each time the input is announced. Not only that, but a proper `<label>` increases the clickable area of the input itself, which is useful for users who have trouble clicking on smaller items. There are two ways you can create this relationship:** ** 
@@ -70,7 +70,7 @@ This issue can be easily fixed by using semantic HTML:** **
 ---
 
 
-### ** Headings and Landmarks** Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are seven native HTML elements that define these landmark regions:** ** 
+### Headings and Landmarks** Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are seven native HTML elements that define these landmark regions:** ** 
 * `<aside>`
 * `<footer>`
 * `<form>`
@@ -88,7 +88,7 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 
@@ -99,7 +99,7 @@ This section contains questions for you to check your understanding of this less
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Tables used to be pretty much the only game in town -- when you had data of any sort, you pretty much had to use one to display it.  You also had to use tables to wrangle the layout of your page into some semblance of order.  Thankfully, those days are behind us (thanks to CSS) and now tables can often be more of a hindrance than a benefit for any but the core use cases.  That said, they are still the go-to way to get structured data onto the page :**
 
@@ -16,7 +16,7 @@ Tables used to be pretty much the only game in town -- when you had data of any 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

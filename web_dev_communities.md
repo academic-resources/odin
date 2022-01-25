@@ -6,7 +6,7 @@
 ---
 
 
-### ** In-Person**     ** [Meetups](http://www.meetup.com)s**  _** Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city._** 
+### In-Person**     ** [Meetups](http://www.meetup.com)s**  _** Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city._** 
 
 * ** Hack Nightss**  _** Hack nights are a type of in-person meetup designed to cater to casual collaboration.  They're all run differently, but often you'll introduce yourself and what you're hoping to work on.  Then you're free to work with or ask questions of others and enjoy the pizza, beer, and maybe even foosball while getting to know your fellow techies._** 
 
@@ -25,7 +25,7 @@
 ---
 
 
-### ** Online
+### Online
 * ** [Hacker News](http://news.ycombinator.com)s**  _** HN is the community around the Y Combinator startup accelerator and it's a link-submission board that's got some of the best quality startup- and tech-related discourse on the web.
 * ** [GitHub](http://www.github.com)s**  _** Less an active community than a gathering place, github is the place where you can find and contribute to almost any of the open-source projects out there.
 * ** [Stack Overflow](http://www.stackoverflow.com)s**  _** Stack, mentioned above, is a great community where you're encouraged to ask and answer questions about a wide variety of programming topics.
@@ -41,7 +41,7 @@
 ---
 
 
-### ** Specialty
+### Specialty
 * ** [RailsBridge](http://railsbridge.org/)s**  _** An outreach for aspiring Ruby-on-Rails developers that is emphatically female and LGBTQ friendly.  Their weekend workshops are rapidly spreading.
 * ** [Women Who Code](http://www.meetup.com/Women-Who-Code-SF/)**  is a large Meetup-based (for now) women's community that's spreading out across the country.
 * ** [GirlDevelopIt](http://www.girldevelopit.com/)**  is another women-focused community that puts on events all over the place.

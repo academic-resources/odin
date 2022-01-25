@@ -22,7 +22,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a primary key?
 * What is a foreign key?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -32,7 +32,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com

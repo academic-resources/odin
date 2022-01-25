@@ -8,21 +8,21 @@ This course is designed to follow that introductory material with more depth so 
 
 If you've completed the Ruby on Rails course already, you can safely skip to the CSS3 section.
 
-### ** This is a Work In Progress!
+### This is a Work In Progress!
 
 This course is currently under construction, which means that the explanations may not be as rich as you're used to from the other courses and some stuff may still be marked "TO-DO".  That said, we teach mostly by showing you the best places to learn a given subject on the internet anyway, and luckily there are tons of great resources out there for learning HTML and CSS.  If you find anything out there which should be included, let us know!
 
-### ** Format
+### Format
 
 We'll start by covering all the building blocks of HTML from lists to forms before diving deeper into CSS, Design, and Frameworks.
 
 There's a lot to cover but it's been broken up into bite-sized lessons and their accompanying projects.  The projects will give you a chance to apply what you've learned and to show what you're capable of.  After a few of them, you'll really start getting the hang of things.  If you've already completed the courses for Ruby and Ruby on Rails, you'll find that these lessons go much quicker.
 
-### ** In each lesson:
+### In each lesson:
 
 1. We'll introduce the topic briefly and provide you with a list of things you should pay attention to.
 2. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
 4. Every few lessons you will be asked to build a larger project, in this case they are almost exclusively rebuilding sites that you're probably familiar with.  These are best done with a friend.
 5. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
 
-### ** Enough talk, get learning!
+### Enough talk, get learning!

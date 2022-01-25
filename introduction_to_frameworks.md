@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework :**
 
 In addition to preventing repetition, frameworks provide great organization.  They tend to force you to organize your files and code in a way that keeps it highly modular and really clean.  When you start a new app with any framework, you're given dozens of folders already organized in a hierarchy which makes sense and follows good practice such as Model-View-Controller (MVC) separation principles.  It's not quite "color-by-numbers" for code, but it certainly keeps things ordered :**
@@ -12,7 +12,7 @@ A final thing to note is about licensing -- frameworks are typically (though not
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * What is a framework?
 * What's the difference between a programming language and a framework?
@@ -25,7 +25,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -35,7 +35,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

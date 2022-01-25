@@ -1,4 +1,4 @@
-### ** Exerpt
+###  Exerpt
 >Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit :**
 
 In this lesson, we will learn about the text-based elements you are likely to use the most :**
@@ -8,7 +8,7 @@ In this lesson, we will learn about the text-based elements you are likely to us
 ---
 
 
-### ** Topics** - How to create paragraphs
+###  Topics** - How to create paragraphs
 - How to create headings
 - How to create bold text
 - How to create italicized text
@@ -18,7 +18,7 @@ In this lesson, we will learn about the text-based elements you are likely to us
 ---
 
 
-### ** Paragraphs** What would you expect the following text to output on an HTML page?** ```html
+###  Paragraphs** What would you expect the following text to output on an HTML page?** ```html
 <body>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua :**
@@ -53,7 +53,7 @@ Changing our example from before to use paragraph elements fixes the issue:** **
 ---
 
 
-### ** Headings** Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings :**
+###  Headings** Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings :**
 
 <span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.</span>** Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag :**
 
@@ -71,7 +71,7 @@ Changing our example from before to use paragraph elements fixes the issue:** **
 ---
 
 
-### ** Strong Element** The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on a screen reader will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag :**
+###  Strong Element** The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on a screen reader will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag :**
 
 You can use strong on its own:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjWXrB" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -96,7 +96,7 @@ You can use strong on its own:** **
 ---
 
 
-### ** Em Element** The em element makes text italic. It also semantically places emphasis on the text, which again affects things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag :**
+###  Em Element** The em element makes text italic. It also semantically places emphasis on the text, which again affects things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag :**
 
 To use em on its own:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqpp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -119,7 +119,7 @@ To use em on its own:** **
 ---
 
 
-### ** Nesting and Indentation** You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements :**
+###  Nesting and Indentation** You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements :**
 
 <span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>** In the following example, the body element is the parent and the paragraph is the child:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -146,7 +146,7 @@ The parent, child, and sibling relationships between elements will become much m
 ---
 
 
-### ** HTML Comments** HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code :**
+###  HTML Comments** HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code :**
 
 Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of the comment. For example:** ** 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -166,7 +166,7 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 ---
 
 
-### ** Additional Resources
+###  Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - Note: In the examples, you have probably noticed that we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/). It is used to generate dummy text you can use in place of real text as you build your sites :**
@@ -176,7 +176,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+###  Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
  
 - <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>

@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Everything that a user does in a browser creates events, whether it's moving the mouse around or clicking or typing or just loading the page.  These and other events are at the heart of Javascript -- they are how you turn that user interaction with your website into helpful responsive actions.  The key to working with events is just building a model in your head for how the browser "listens" for events by default and how you can use that to your advantage :**
 
 Effects are like window-dressing for your user experience.  They represent the neat transitions (like fades or slides) that you can easily apply to elements using jQuery.  Often you'll make certain events trigger certain effects, e.g. user moves mouse over shopping cart and it slides down the shopping cart mini-window :**
@@ -22,7 +22,7 @@ Effects are like window-dressing for your user experience.  They represent the n
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [480 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails) :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** _Look through these now and use them to guide your learning.  expect to:_** - Know what RSpec is
+### Topics** _Look through these now and use them to guide your learning.  expect to:_** - Know what RSpec is
 - Know how to install RSpec
 - Understand the basic RSpec syntax:** **   - `describe`
   - `it`** 
@@ -14,15 +14,15 @@
 ---
 
 
-### ** Intro :
-> to RSpec** #### ** ** What is RSpec, and why RSpec?** At the most basic level, RSpec is a Domain Specific Language written in Ruby, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec`, `rspec-core`, `rspec-expectations`, `rspec-mocks`, and `rspec-support` :**
+### Intro :
+> to RSpec** ####  What is RSpec, and why RSpec?** At the most basic level, RSpec is a Domain Specific Language written in Ruby, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec`, `rspec-core`, `rspec-expectations`, `rspec-mocks`, and `rspec-support` :**
 
 At this point, you may be wondering, _Why RSpec? Surely, there are other frameworks out there_, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit](https://github.com/test-unit/test-unit) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic (I'm sorry, I meant _realistic_), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills. RSpec's wider adoption, especially in the Rails community, is certainly reason enough to warrant familiarity with it, but implementing tests should be the end-all and be-all, rather than choosing a particular framework :**
 
 But enough [proselytizing](https://www.dictionary.com/browse/proselytizing). Strap your helmet and buckle up; we're going to jump right in :**
 
 
-#### ** ** Installing RSpec** Boot up your terminal and punch in `gem install rspec` to install RSpec. Once that's done, you can verify your version of RSpec with `rspec --version`, which will output the current version of each of the packaged gems. Take a minute also to hit `rspec --help` and look through the various options available :**
+####  Installing RSpec** Boot up your terminal and punch in `gem install rspec` to install RSpec. Once that's done, you can verify your version of RSpec with `rspec --version`, which will output the current version of each of the packaged gems. Take a minute also to hit `rspec --help` and look through the various options available :**
 
 Finally, `cd` into a project directory that you wish to configure for use with RSpec and type `rspec --init` to initialize RSpec within the project. This will generate two files, `.rspec` and `spec/spec_helper.rb`, such that your project might look like:** ** 
 ```bash
@@ -35,7 +35,7 @@ project
   |
   |__.rspec
 ```
-** That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?** #### ** ** Basic syntax** How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec :**
+** That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?** ####  Basic syntax** How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec :**
 
 ```
 $ mkdir ruby_testing && cd ruby_testing
@@ -85,7 +85,7 @@ end
 4. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span> :**
 
 
-#### ** ** Passing code** Let's move on. Run `rspec` from the directory root, and watch the output :**
+####  Passing code** Let's move on. Run `rspec` from the directory root, and watch the output :**
 
 ```bash
 An error occurred while loading ./spec/calculator_spec.rb.
@@ -174,7 +174,7 @@ Finished in 0.0032 seconds (files took 0.14864 seconds to load)
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
@@ -189,7 +189,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Checks 
+### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#tests-folder'>What do you name the folder that contains your test files?</a>

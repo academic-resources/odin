@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Since JavaScript is the language of the web, there are some functions that by necessity are going to take a decent amount of time to complete, such as fetching data from a server to display on your site.  For this reason, JavaScript includes support for asynchronous functions, or to put it another way, functions that can happen in the background while the rest of your code executes :**
 
@@ -11,7 +11,7 @@ Since JavaScript is the language of the web, there are some functions that by ne
 ---
 
 
-### ** Callbacks
+### Callbacks
 In the recent past, the way that these were most commonly handled were with __callbacks__, and even now they are still used quite a lot in certain circumstances :**
 
 > A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)** Callbacks are simply functions that get passed into other functions. For example:** 
@@ -32,7 +32,7 @@ Take a moment to skim through [this article](https://github.com/maxogden/art-of-
 ---
 
 
-### ** Promises
+### Promises
 There are multiple ways that you can handle asynchronous code in JavaScript, and they all have their use cases.  Promises are one such mechanism, and they're one you will see somewhat often when using other libraries or frameworks.  Knowing what they are and how to use them is quite useful :**
 
 Essentially, a promise is an object that might produce a value at some point in the future.  Here's an example:** Lets say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:** 
@@ -73,7 +73,7 @@ myData.then(function(data){ // .then() tells it to wait until the promise is res
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 1. [This](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/) is another useful article about Callback functions in JavaScript.
@@ -86,7 +86,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function">What is a callback?</a>

@@ -13,13 +13,13 @@ You'll also get the chance to review what was covered in previous sections by ch
 * What are good situations for breaking out styles into multiple classes?
 * How can you use margins for alignment?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Do the exercises for [Learning CSS Layouts at LearnLayout](http://learnlayout.com/)
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CSS Style Guide](http://codeguide.co/#css) by [Mark Otto](https://github.com/mdo), one of the creators of Bootstrap.

@@ -17,7 +17,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are assignment operators?
 * What is the "Unary +" Operator?
 
-### ** How to Run JavaScript Code
+### How to Run JavaScript Code
 
 All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
@@ -58,7 +58,7 @@ Another way to include JavaScript in a webpage is through an external script. Th
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
-### ** Variables
+### Variables
 
 You can think of variables as simply "storage containers" for data in your code. <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
@@ -66,7 +66,7 @@ You can think of variables as simply "storage containers" for data in your code.
 
 The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span> The precise differences between `var` and `let` will be explained later.
 
-### ** Numbers
+### Numbers
 
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
@@ -74,7 +74,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
-### ** Assignment
+### Assignment
 
 Try the following exercises (and don't forget to use `console.log()`!):
 
@@ -96,12 +96,12 @@ Try the following exercises (and don't forget to use `console.log()`!):
 
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that an assignment (such as `b = 7 * a`) returns `undefined` and so you cannot assign a value to a variable and read its value in the same line.`_
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>

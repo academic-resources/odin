@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Grids are another extension of the design world.  There's just something much more pleasing about navigating through a site that properly uses a grid to lay out the content than one which has ignored all the C.R.A.P principles and put things in place willy-nilly :**
 
@@ -18,7 +18,7 @@ In this section, you'll get a look at how to use CSS to lay out the elements of 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

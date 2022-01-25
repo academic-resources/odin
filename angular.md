@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >First released back in 2012 by Google, AngularJS was the first big-hitter in Single Page Application(SPA) frameworks. A big appeal of AngularJS was its unobtrusive approach as you could control which parts of your page interacted with the AngularJS framework :**
 
 In 2016 Angular 2 was released simply named Angular. The reasoning was that this was a groundbreaking update with no backwards compatibility with AngularJS and therefore represented a new version that would be taken forwards :**
@@ -36,7 +36,7 @@ Probably the biggest drawback is that Angular is a huge and complex framework (t
 ---
 
 
-### ** Getting Started** The easiest way to get started is to follow the guide on the [Angular Site](https://angular.io/guide/quickstart). That will take you through installation and editing your first components :**
+### Getting Started** The easiest way to get started is to follow the guide on the [Angular Site](https://angular.io/guide/quickstart). That will take you through installation and editing your first components :**
 
 You will need node and npm installed. I personally prefer to use [nvm](https://github.com/creationix/nvm) to manage my node versions but however you want to do it is up to you.
 ---** # Challenge:** 1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
@@ -46,6 +46,6 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 ---
 
 
-### ** Additional Resources** - Angular has their [own tutorial](https://angular.io/tutorial) you can try
+### Additional Resources** - Angular has their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
 - These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin take you from beginner to advanced to help you gain a solid understanding of the Angular framework

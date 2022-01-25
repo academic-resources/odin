@@ -15,10 +15,10 @@ Look through these now and then use them to test yourself after doing the assign
 * What are strings, arrays and booleans?
 * What are events?
 
-### ** Announcement
+### Announcement
 We are in the process of completely revamping and rewriting our JavaScript content. The material that would replace the lessons found here in the WebDev101 course is pretty much complete.  Right now, we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested, [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -33,7 +33,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 
 </div>
 
-### ** Student Solutions
+### Student Solutions
 Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
@@ -561,7 +561,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 
 </details>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
 
 * A straight-to-the-point [primer on JavaScript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Emmet is a plugin, built into VSCode, that helps you write HTML and CSS more efficiently by providing a bunch of clever shortcuts. By now, you have written a good amount of HTML and CSS, and if you have been using vscode there's a big chance that you have already encountered emmet in some way :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics**   do the following:** ** 
+### Topics**   do the following:** ** 
 - Use some of emmets most useful shortcuts.
 - Set up custom emmet keybindings in vscode :**
 
@@ -15,7 +15,7 @@
 ---
 
 
-### ** Emmet** Emmet is a really useful tool for anyone that works with HTML and CSS a lot and luckily does not have that big of a learning curve because if you already know how to write HTML and CSS you'll have no trouble picking up emmet abbreviations :**
+### Emmet** Emmet is a really useful tool for anyone that works with HTML and CSS a lot and luckily does not have that big of a learning curve because if you already know how to write HTML and CSS you'll have no trouble picking up emmet abbreviations :**
 
 Let's start off by generating an HTML boilerplate with emmet. Opening up an empty html file in vscode and entering `!` should trigger emmet suggestions like so:** ** 
 <img src="https://i.imgur.com/pUgPS0S.png">
@@ -38,12 +38,12 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 ---
 
 
-### ** Additional Resources** 
+### Additional Resources** 
 
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#emmet">Why should you use emmet?</a>
 - <a class="knowledge-check-link" href="#emmet">What are some useful emmet abbreviations?</a>

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Meaningful text is pretty straight forward: when a user reads text or has it announced to them, they should be able to immediately understand what it means even without any surrounding context. A lack of meaningful text can affect all users, but especially those who rely on assistive technologies. In this lesson we'll be going over a few instances where you should start making sure you provide meaningful text to users :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 * Know how to provide meaningful links.
 * Know how to provide meaningful text in forms.
@@ -17,7 +17,7 @@
 ---
 
 
-### ** Links
+### Links
 Let's take a look at two different examples of a link:** ** 
 ```html
 <!-- Example 1: Where's "here"? -->
@@ -43,7 +43,7 @@ The link in Example 2, however, not only makes sense in context for all users, b
 ---
 
 
-### ** Forms** Providing meaningful errors to users when they are filling out or submitting a form can turn the experience from frustrating to... well, maybe not fun, but at the very least just a bit less frustrating. Let's take a look at a few error examples, ranging from not helpful at all to very helpful:** ** 
+### Forms** Providing meaningful errors to users when they are filling out or submitting a form can turn the experience from frustrating to... well, maybe not fun, but at the very least just a bit less frustrating. Let's take a look at a few error examples, ranging from not helpful at all to very helpful:** ** 
 ```html
 <!-- Example 1: Huh? -->
 
@@ -66,7 +66,7 @@ Another way to provide meaningful text in forms is with instructions, such as wh
 ---
 
 
-### ** Alternative Text** At this point you should be pretty familiar with the `alt` attribute on `img` elements. Whether you are or not, let's see if you can tell which of the following examples is valid:** ** 
+### Alternative Text** At this point you should be pretty familiar with the `alt` attribute on `img` elements. Whether you are or not, let's see if you can tell which of the following examples is valid:** ** 
 ```html
 <!-- Example 1 -->
 
@@ -83,7 +83,7 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 
@@ -95,7 +95,7 @@ This section contains questions for you to check your understanding of this less
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

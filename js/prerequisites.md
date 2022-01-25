@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >If you are already using ** MacOS** , ** Ubuntu** , or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) and ** Google Chrome** , you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions :**
 
 
@@ -10,7 +10,7 @@
 ---
 
 
-### ** OS Installation** ** IMPORTANT** ** This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device :**
+### OS Installation** ** IMPORTANT** ** This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device :**
 
 <details markdown="block">
 
@@ -22,7 +22,7 @@
 ---
 
 
-### ** Step 1: Download VirtualBox and Xubuntu** Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation :**
+### Step 1: Download VirtualBox and Xubuntu** Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation :**
 
 
 
@@ -31,25 +31,25 @@
  Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below :**
 
 
-#### ** ** NOTICE FOR WINDOWS 11 USERS:** Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
+####  NOTICE FOR WINDOWS 11 USERS:** Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
 system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
 crashes. It is recommended that you remain on Windows 10 until VirtualBox is supported or consider installing Linux using Dual-Boot with the assistance
 of the second guide on this lesson page :**
 
-You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)** #### ** ** Step 1.1: Download VirtualBox** [Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts :**
+You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)** ####  Step 1.1: Download VirtualBox** [Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts :**
 
 
-#### ** ** Step 1.2: Download Xubuntu** There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 20.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.3-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines :**
+####  Step 1.2: Download Xubuntu** There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 20.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.3-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines :**
 
 
 
 ---
 
 
-### ** Step 2: Install VirtualBox and set up Xubuntu** #### ** ** Step 2.1: Install VirtualBox** Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. During the installation, you'll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish :**
+### Step 2: Install VirtualBox and set up Xubuntu** ####  Step 2.1: Install VirtualBox** Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. During the installation, you'll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish :**
 
 
-#### ** ** Step 2.2: Prepare VirtualBox for Xubuntu** Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen :**
+####  Step 2.2: Prepare VirtualBox for Xubuntu** Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen :**
 
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png" alt="The VirtualBox start screen" title="A new start">** Click on the "New" button to create a virtual operating system. Give it a name of "Xubuntu", leave the "Machine Folder" as is, set the "Type" to "Linux" and be sure "Version" is set to "Ubuntu (64-bit)". If the 64-bit option is not present, you'll likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). Continue by pressing "Next", and choose the following options in the next steps:** <img style="border-style: solid; border-width: thin; padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">** 1. Memory size: Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer's maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM's operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!<br/>** Note:**  Difficulty converting your ** G** iga** B** ytes into ** M** ega** B** ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that ** 8 GB = 8 x 1024 = 8192 MB :**
 
@@ -96,7 +96,7 @@ When the installation is finished and asks you to ** "Please remove the installa
 ---
 
 
-### ** Step 3: Install and Enable Guest Additions** Your regular operating system (Windows in this case) is called the ** Host** , and all other operating systems that run as VMs are called ** Guests** . To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode :**
+### Step 3: Install and Enable Guest Additions** Your regular operating system (Windows in this case) is called the ** Host** , and all other operating systems that run as VMs are called ** Guests** . To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode :**
 
 While your VM is running, do the following steps:**   1. Click the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
@@ -131,7 +131,7 @@ While your VM is running, do the following steps:**   1. Click the ** Whisker Me
 ---
 
 
-### ** Step 4: Understand Your New VM** Here are some tips to help you get started in a virtual environment:** * All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed :**
+### Step 4: Understand Your New VM** Here are some tips to help you get started in a virtual environment:** * All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed :**
 
 
 
@@ -158,19 +158,19 @@ While your VM is running, do the following steps:**   1. Click the ** Whisker Me
 ---
 
 
-### ** Step 5: Safely shutting down your VM** You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM :**
+### Step 5: Safely shutting down your VM** You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM :**
 
 
-#### ** ** Option 1 - Shutting down from inside the VM with UI** Clicking on the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down :**
+####  Option 1 - Shutting down from inside the VM with UI** Clicking on the ** Whisker Menu**  <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down :**
 
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png" title="Power Icon" alt="Power Icon">
 
 <br/>
 
-<img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_02.png" title="User Session Popup" alt="User Session Popup">** #### ** ** Option 2 - Shutting down from inside the VM with the Terminal** Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown :**
+<img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_02.png" title="User Session Popup" alt="User Session Popup">** ####  Option 2 - Shutting down from inside the VM with the Terminal** Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown :**
 
 
-#### ** ** Option 3 - Shutting down from outside the VM** The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled "Close Virtual Machine". This popup asks if you want to "Save the machine state", "Send the shutdown signal", or "Power off the machine" :**
+####  Option 3 - Shutting down from outside the VM** The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled "Close Virtual Machine". This popup asks if you want to "Save the machine state", "Send the shutdown signal", or "Power off the machine" :**
 
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_03.png" title="VM File Menu" alt="VM File Menu">
 
@@ -186,14 +186,14 @@ While your VM is running, do the following steps:**   1. Click the ** Whisker Me
 ---
 
 
-### ** Step 1: Download Ubuntu** First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/20.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/20-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](https://xubuntu.org/release/20-04/) :**
+### Step 1: Download Ubuntu** First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/20.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/20-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](https://xubuntu.org/release/20-04/) :**
 
 
 
 ---
 
 
-### ** Step 2: Create a Bootable Flash Drive** Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD :**
+### Step 2: Create a Bootable Flash Drive** Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD :**
 
 Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive :**
 
@@ -202,20 +202,20 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 ---
 
 
-### ** Step 3: Install Ubuntu** #### ** ** Step 3.1: Boot from the Flash Drive** First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:** * Insert the flash drive into the computer.
+### Step 3: Install Ubuntu** ####  Step 3.1: Boot from the Flash Drive** First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:** * Insert the flash drive into the computer.
 * Reboot the computer.
 * Select the flash drive as the bootable device instead of the hard drive :**
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out :**
 
 
-#### ** ** Step 3.2: Install Ubuntu** If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step :**
+####  Step 3.2: Install Ubuntu** If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step :**
 
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to ** "Install Ubuntu alongside Windows"**  and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can) :**
 
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
    
-### ** Intel RST (Rapid Storage Technology)** If you encounter an error requesting you to disable ** Intel RST**  while attempting to install Ubuntu, [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically ** Choice #2** . The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again :**
+### Intel RST (Rapid Storage Technology)** If you encounter an error requesting you to disable ** Intel RST**  while attempting to install Ubuntu, [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically ** Choice #2** . The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again :**
 
 </details>** <details markdown="block">
 
@@ -232,30 +232,30 @@ For step-by-step instructions, please follow this [installation guide](https://t
 ---
 
 
-### ** Google Chrome Installation** Choose your Operating System:** <details markdown="block">
+### Google Chrome Installation** Choose your Operating System:** <details markdown="block">
 
-<summary class="dropDown-header">Linux</summary>** #### ** ** Step 1: Download Google Chrome**    - Open your ** Terminal** 
+<summary class="dropDown-header">Linux</summary>** ####  Step 1: Download Google Chrome**    - Open your ** Terminal** 
    - Run the following command to download latest ** Google Chrome**  `.deb` package** ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
-** #### ** ** Step 2: Install Google Chrome**    - Enter the following command in your terminal to install ** Google Chrome**  `.deb` package** ```bash
+** ####  Step 2: Install Google Chrome**    - Enter the following command in your terminal to install ** Google Chrome**  `.deb` package** ```bash
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
-**    - Enter your password, if needed** #### ** ** Step 3: Delete the installer file** ```bash
+**    - Enter your password, if needed** ####  Step 3: Delete the installer file** ```bash
 rm google-chrome-stable_current_amd64.deb
 ```
-** #### ** ** Step 4: Using Google Chrome
+** ####  Step 4: Using Google Chrome
 You can start chrome in two ways,**    - Click ** Google Chrome**  from the Applications menu
    - ** Or** , use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)** *```bash
 google-chrome
 ```
 ** </details>** <details markdown="block">
 
-<summary class="dropDown-header">MacOS</summary>** #### ** ** Step 1: Download Google Chrome**    - [Visit](https://www.google.com/chrome/) Google Chrome download page
-   - Click ** Download Chrome for Mac** ** #### ** ** Step 2: Install Google Chrome**    - Open the ** Downloads**  folder
+<summary class="dropDown-header">MacOS</summary>** ####  Step 1: Download Google Chrome**    - [Visit](https://www.google.com/chrome/) Google Chrome download page
+   - Click ** Download Chrome for Mac** ** ####  Step 2: Install Google Chrome**    - Open the ** Downloads**  folder
    - Double click the file ** googlechrome.dmg**  
-   - Drag the Google Chrome icon to the ** Applications**  folder icon** #### ** ** Step 3: Delete the installer file**    - Open ** Finder** 
+   - Drag the Google Chrome icon to the ** Applications**  folder icon** ####  Step 3: Delete the installer file**    - Open ** Finder** 
    - Click the ** arrow**  next to Google Chrome in the sidebar
    - Go to the ** Downloads**  folder
-   - Drag ** googlechrome.dmg**  to the trash** #### ** ** Step 4: Using Google Chrome**    - Go to your ** Applications**  folder
+   - Drag ** googlechrome.dmg**  to the trash** ####  Step 4: Using Google Chrome**    - Go to your ** Applications**  folder
    - Double click ** Google Chrome** ** </details>

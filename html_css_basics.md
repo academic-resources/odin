@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page you're reading right now lives inside HTML tags that tell your browser how to order the content on the page.  Go on, right click any element on the page and choose "Inspect Element" to open up your browser's Developer Tools and it will show you the structure of the page :**
 
 [CSS](https://skillcrush.com/2012/04/03/css/) tells the browser if you want to display any of those tags a particular way, for instance, turning its background blue and pushing it a little to the left.  In your Developer Tools, you can see the CSS styles in another panel, usually showing which specific properties were inherited from which lines of CSS :**
@@ -8,7 +8,7 @@
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * Why do we separate HTML and CSS?
 * What are classes and IDs (and how are they different)?
@@ -41,7 +41,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -59,7 +59,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

@@ -14,7 +14,7 @@ In this lesson, we will explore the basics of HTML forms and some of the differe
 - Create forms with HTML
 - Have a basic idea of how to style forms
 
-### ** The Form Element
+### The Form Element
 
 The form element is a container element like the div element we learned earlier in the curriculum. The form element wraps all of the inputs a user will interact with on a form.
 
@@ -36,11 +36,11 @@ The markup for creating a form element looks like this:
 </form>
 ```
 
-### ** Form Controls
+### Form Controls
 
 To start collecting user data, we need to use form control elements. These are all the elements users will interact with on the form, such as text boxes, dropdowns, checkboxes and buttons. In the following few sections, we will explore some of the form controls you will use most commonly.
 
-### ** The Input Element
+### The Input Element
 
 The input element is the most versatile of all the form control elements. It accepts a `type` attribute which tells the browser what *type* of data it should expect and how it should render the input element.
 
@@ -215,7 +215,7 @@ Text area elements accept a couple of unique attributes that other form controls
 <textarea rows="20" cols="60"></textarea>
 ```
 
-### ** Selection Elements
+### Selection Elements
 
 Sometimes you will want users to select a value from a predefined list. This is where select elements will come in useful.
 
@@ -379,7 +379,7 @@ We can set a checkboxes to be checked by default on page load by giving them a `
 </div>
 ```
 
-### ** Buttons
+### Buttons
 
 The button element creates clickable buttons that the user can interact with to submit forms and trigger other actions.
 
@@ -421,7 +421,7 @@ To create a generic button, we use the button element with a type attribute of "
 <button type="button">Click to Toggle</button>
 ```
 
-### ** Organizing Form Elements
+### Organizing Form Elements
 
 Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
@@ -504,7 +504,7 @@ A common use-case for these elements is using a fieldset to group radio buttons 
 </fieldset>
 ```
 
-### ** A Note on Styling Forms
+### A Note on Styling Forms
 
 We will provide resources that go deep into styling forms in the assignment section that comes next. However, before we get to the assignment, we should talk about some of the challenges with styling HTML forms and how we can get around them:
 
@@ -522,7 +522,7 @@ Things get more tricky when creating custom styles for radio buttons and checkbo
 
 Certain aspects of other elements are downright impossible to style, for example, calendar of date pickers. If we want custom styles for these, we will have to build custom form control with JavaScript or use one of the many JavaScript libraries that provide us with ready-made solutions.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -538,11 +538,11 @@ Certain aspects of other elements are downright impossible to style, for example
 
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 - [Web.dev's Form Course](https://web.dev/learn/forms/)
 
-### ** Knowledge Check
+### Knowledge Check
 
 - <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
 - <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>

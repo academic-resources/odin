@@ -9,13 +9,13 @@ By the end of this lesson, you should be able to do the following:
  - Understand what Middleware is.
  - Understand `req`, `res` and `next` in the context of middleware.
 
-### ** Templating Engines
+### Templating Engines
 
 A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses Pug (formerly known as Jade) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
 
 It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs to Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
 
-### ** Middleware
+### Middleware
 
 This step of the MDN tutorial mentions middleware, but does not clearly define it. Middleware is a complicated word for a simple concept. <span id='middleware'>A middleware is just a plain JavaScript function that Express will call for you between the time it receives a network request and the time it fires off a response (i.e. it's a function that sits in the _middle_)</span>. You will eventually be using several of these functions that will run in a specific sequence for every request. 
 
@@ -25,7 +25,7 @@ It is possible and common to write your own middleware functions (you'll be doin
 
 The three middleware function arguments are: `req`, `res`, and `next`. Technically, these are just variables, so you could call them anything, but convention (and the express documentation) almost always give them these names.
 
-#### ** A middleware function:
+#### A middleware function:
 
 
 ```js
@@ -47,7 +47,7 @@ When someone visits your site, their web-browser sends a request to your server.
 
 <span id='next'>`next`</span> is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function.  The next function simply tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
 
-#### ** An example middleware
+#### An example middleware
 
 As a quick example, if you wanted to create a simple logging middleware you could write a function like this:
 
@@ -69,13 +69,13 @@ app.use(myLogger)
 
 As a final detail, the order that middleware gets executed in your app matters!  Middleware functions will always run in the order that they are instantiated using `app.use()`.
 
-### ** Using git
+### Using git
 
 if you choose to use git when completing this tutorial (you should!) then you will want to add a  `.gitignore` file to make sure you do not commit/upload your `node_modules` folder to GitHub. `node_modules` is the directory where all of your project's dependencies are installed (it's where the code for express is downloaded) and it can get quite large. References to all of these dependencies are stored in the `package.json` file anyway, so anyone that wants to clone and work on the project simply has to run `npm install` to download and install all those dependencies anyway, so uploading them to GitHub is a waste of time and space.
 
 - [This article](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) explains the process. You just need to create a file called `.gitignore` and put `node_modules` on a line inside that file.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -84,7 +84,7 @@ if you choose to use git when completing this tutorial (you should!) then you wi
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>
 
-### ** Knowledge Checks 
+### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>

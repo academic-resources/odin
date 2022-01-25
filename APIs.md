@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics :**
+### Topics :**
 
  - Explain what an API is
  - Explain broadly how access to an API works
@@ -16,7 +16,7 @@
 ---
 
 
-### ** APIs** Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY) :**
+### APIs** Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY) :**
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also add a state code or a country code) as a URL query string parameter, like so:** ** 
 ```
@@ -49,7 +49,7 @@ Back to OpenWeatherMap. Go ahead and create an account to obtain an API key from
 ---
 
 
-### ** Fetching Data** So how do we actually get the data from an API into our code?** A couple of years ago the main way to access API data in your code was using an `XMLHttpRequest`. This function still works in all browsers, but unfortunately, it is not particularly nice to use. The syntax looks something like this:** ** 
+### Fetching Data** So how do we actually get the data from an API into our code?** A couple of years ago the main way to access API data in your code was using an `XMLHttpRequest`. This function still works in all browsers, but unfortunately, it is not particularly nice to use. The syntax looks something like this:** ** 
 
 ```js
 
@@ -105,7 +105,7 @@ Giphy has several methods for searching and finding gifs which you can read abou
 ---
 
 
-### ** CORS** A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points :**
+### CORS** A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points :**
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:** ** 
 
@@ -123,7 +123,7 @@ fetch('url.url.com/api', {
 ---
 
 
-### ** Let's Do This
+### Let's Do This
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body :**
 
 ```HTML
@@ -216,7 +216,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>

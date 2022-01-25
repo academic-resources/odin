@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You're probably here because you want to learn the [Ruby on Rails](http://rubyonrails.org/) framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about :**
 
 Rails uses, as you'll often hear, "convention over configuration".  That means that the creators of Rails have made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob) :**
@@ -18,7 +18,7 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment :**
 
 
@@ -47,7 +47,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

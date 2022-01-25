@@ -5,7 +5,7 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 
 So before we get into the meat of the curriculum, we're going to go over the following to help you get the most out of The Odin Project: the things that will help you succeed in your goal of learning to code and the pitfalls that you should try to avoid.
 
-### ** Motivation
+### Motivation
 
 Take a moment to think about why you have decided to learn programming.
 
@@ -22,7 +22,7 @@ To give your motivation a bit of a boost, you can read about the success of othe
 * [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
 
 
-### ** Growth Mindset
+### Growth Mindset
 
 Your mindset is very important when teaching yourself *any* new skills, not just programming. Your mindset will have more of an impact on your chances of success than just about anything else.
 
@@ -45,7 +45,7 @@ To learn more about the growth mindset, check out these resources:
 * [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
 * [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
-### ** The Learning Process
+### The Learning Process
 
 Learning concepts and then practicing them will help you to more fully understand how things work and fit together. Projects are the ultimate method for ensuring that your theoretical understanding aligns with how the programming concepts and techniques actually operate.
 
@@ -63,7 +63,7 @@ You can practice this method of learning by helping others in our community.
 
 * The Ruby Rogues have a [podcast on How to Learn](https://devchat.tv/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
-### ** What To Do When You're Stuck
+### What To Do When You're Stuck
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
@@ -71,7 +71,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 * Take a break: Allow your diffuse learning state to work on the problem.
 * Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
-### ** Managing Your Study Time
+### Managing Your Study Time
 
 You will have more success with Odin by putting ** consistent**  time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
 
@@ -83,10 +83,10 @@ Deadlines cause un-needed stress. Since The Odin Project is a free and open plat
 
 Long story short: Don't worry, just go learn
 
-### ** Pitfalls to Avoid 
+### Pitfalls to Avoid 
 The following are some of the pitfalls that beginners often encounter when learning how to program. Try your best to avoid these.
 
-#### ** Procrastination
+#### Procrastination
 Procrastination will be your biggest enemy when trying to make progress.
 
 ** Solution:**  The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break. 
@@ -97,7 +97,7 @@ To learn more about the Pomodoro Technique, read this [great article](https://me
 
 If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
 
-#### ** Not Taking Breaks
+#### Not Taking Breaks
 As you get into the material, you may feel compelled to continuously study for long periods of time. It might seem like you are getting more work done at first, but this often leads to burnout, which consequently results in lower productivity.
 
 It may seem counterintuitive, but you will actually get more done if you regularly step back to recharge your brain and body. Studies show that performance increases after breaks of all durations: from extended vacations down to microbreaks of 30 seconds. John Trougakos, Associate Professor of Management at the University of Toronto, says that mental concentration is similar to a muscle. Our focus becomes fatigued after sustained use and needs a rest period to recover, just like a bodybuilder resting between sets at the gym.
@@ -115,32 +115,32 @@ What to do during your break:
 
 Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
 
-#### ** Digital Distractions
+#### Digital Distractions
 Digital distractions are email and Facebook notifications and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
 
 ** Solution:**  Turn off notifications and add a blocker to your internet to limit your time on distracting sites.
 
-#### ** Physical Distractions
+#### Physical Distractions
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
 ** Solution:**  Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
 
-#### ** Rabbit Holes
+#### Rabbit Holes
 Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for students to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. ** We have put a lot of effort into structuring the curriculum**  so that all of the important things that you need to know about web development are covered exactly when you need to know them.
 
 ** Solution:**  Stick to the path laid out as much as possible. Try to limit time spent going down rabbit holes as these sidetracks can really ruin your momentum.
 
-#### ** Comparing Yourself to Others
+#### Comparing Yourself to Others
 Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
 
 ** Solution:**  Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
-### ** Conclusion
+### Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and to get the most out of The Odin Project.
 
 Without further ado, let's jump in to learning web development!
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Managing inspiration and motivation](https://markmanson.net/do-something)

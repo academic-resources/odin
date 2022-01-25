@@ -7,7 +7,7 @@ So that's it, you're more than ready to go ahead and take on Rails.  ** Congratu
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

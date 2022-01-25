@@ -21,14 +21,14 @@ This again should represent a review from what you've already covered in the [Fo
 * Which stylesheet has preference if you import multiple ones and there are overlapping styles?
 * What is the order of priority of selectors (e.g. if you specify that the `<body>` has color `black` but `<h1>` tags have the color `blue` but class `main-title` has the color `red`, which will be used by `<body style="color:yellow"><h1 class="main-title" style="color:green">Howdy!</h1><body>`?)
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on the Basics of HTML/CSS](https://learn.shayhowe.com/html-css/getting-to-know-css/).
 2. Read [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/).
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Learn CSS Selectors Interactively Using CSS Diner](http://flukeout.github.io/)

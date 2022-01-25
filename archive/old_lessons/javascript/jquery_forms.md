@@ -17,7 +17,7 @@ You've already got all the tools you need to use Javascript to validate your use
 * How do you add an error message directly above the input field that's wrong?
 * What is the jQuery Validate plugin and how do you include it in your project?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Smashing Magazine on Web Form Validation Best Practices and Tutorials](http://www.smashingmagazine.com/2009/07/07/web-form-validation-best-practices-and-tutorials/) to learn just about everything you need to know here.
@@ -25,7 +25,7 @@ You've already got all the tools you need to use Javascript to validate your use
 3. Read [An approach to form validation using jQuery from Scratch](http://www.techliance.com/blog/form-validation-with-jquery-from-scratch/) to see this stuff in action.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Smashing Magazine on an approach to Form Field Validation Errors](http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/)

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Until now you've mostly been working with self-contained command line programs.  It's time to start branching out and interacting with files.  Files are basically just collections of bits and bytes that you'll somehow need to open, read into your program, modify, and save.  Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes.  Your script will read them in from top to bottom, performing whatever operations you specify along the way :**
 
 Lucky for you, Ruby makes your life pretty easy with regards to dealing with files.  It has the tools necessary to read those long streams of bytes into your program and then allow you to work with them using the objects you're familiar with.  As long as you remember that the files are just a long stream of words/characters/bytes being read in from top to bottom, it should be fairly intuitive.  If you want to do more detailed stuff like write to a specific point in a file, you'll need to figure out what position you're at first, since you may be in the middle of it somewhere :**
@@ -14,7 +14,7 @@ Finally, files and serialization overlap in a lot of ways with the idea and purp
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment :**
 
 
@@ -36,7 +36,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -48,7 +48,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check**   * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>How would you go through the lines of a file using the IO object in the command line?</a>
+### Knowledge Check**   * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>How would you go through the lines of a file using the IO object in the command line?</a>
   * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>How would you take the Array `[1,2,3]` and serialize it into a JSON string format?</a>
   * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of YAML vs JSON vs MessagePack serialization formats?</a>
   * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would you check if a file exists using the File object in the command line?</a>

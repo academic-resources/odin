@@ -163,7 +163,7 @@ test("testing route works", done => {
 
 If we were using a real database here, then we would want to do something similar using either a test or a mock database. We'll talk about setting something like that up in a separate lesson. Suffice it to say for now that you do not want to run test code on your production database!
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -171,7 +171,7 @@ If we were using a real database here, then we would want to do something simila
 2. Supertest actually pulls from another related project called Superagent.  Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
 </div>
 
-### ** Knowledge Checks
+### Knowledge Checks
  
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

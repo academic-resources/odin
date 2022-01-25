@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >If you went through the [Ruby course](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) as you will need Ruby installed before we tackle installing Rails :**
 
 With Ruby installed, you're all set to install Rails and create our first Rails app to ensure everything went smoothly :**
@@ -18,15 +18,15 @@ In this project, we're going to build a fully functional Rails application. The 
 ---
 
 
-### ** Your First Rails App** 
+### Your First Rails App** 
 
 ---
 
 
-### ** Step 1: Create Your First Ruby on Rails Web Application** Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured :**
+### Step 1: Create Your First Ruby on Rails Web Application** Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured :**
 
 
-#### ** ** Step 1.1: Install Rails** * At the time of writing this version 7 of Rails has just shipped so and we're currently updating our course. Until that is ready we're going to specify the using Rails 6. None of the Rails fundamentals have changed so you won't have to relearn everything once our course is updated** *We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!** ```bash
+####  Step 1.1: Install Rails** * At the time of writing this version 7 of Rails has just shipped so and we're currently updating our course. Until that is ready we're going to specify the using Rails 6. None of the Rails fundamentals have changed so you won't have to relearn everything once our course is updated** *We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!** ```bash
 gem install rails -v '6.1.4'
 ```
 ** Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:** ** 
@@ -36,7 +36,7 @@ rails -v
 ** This should display the version of Rails installed on your system indicating the installation went smoothly :**
 
 
-#### ** ** Step 1.2: Install Yarn** With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript module bundler, with Rails :**
+####  Step 1.2: Install Yarn** With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript module bundler, with Rails :**
 
 Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks :**
 
@@ -53,7 +53,7 @@ yarn --version
 You won't need to use Yarn for this tutorial but you do need it installed for Rails to set up Webpack correctly :**
 
 
-#### ** ** Step 1.3: Create the Application** This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point :**
+####  Step 1.3: Create the Application** This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point :**
 
 We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us :**
 
@@ -85,7 +85,7 @@ rails generate scaffold car make:string model:string year:integer
 ```bash
 rails db:migrate
 ```
-** #### ** ** Step 1.4: Start Up Your App** Now that you have created a Rails application, you can start it up and see if it works!** In the terminal, type** ```bash
+** ####  Step 1.4: Start Up Your App** Now that you have created a Rails application, you can start it up and see if it works!** In the terminal, type** ```bash
 rails server
 ```
 ** Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! ** Note:**  If you're using a VM, you will need to open the browser inside of your VM in order for this to work :**
@@ -97,17 +97,17 @@ Go ahead and create a new car, and then refresh the page to verify it is working
 ---
 
 
-### ** Step 2: Git Groundwork** Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes :**
+### Step 2: Git Groundwork** Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes :**
 
 
-#### ** ** Step 2.1 Stage and Commit Local Changes
+####  Step 2.1 Stage and Commit Local Changes
 Rails will already have initialized Git for you when it was doing its thing, so just stage and commit all of the work it's done so far :**
 
 ```bash
 git add .
 git commit -m "initial commit"
 ```
-** #### ** ** Step 2.2 Initialize on GitHub, add the remote, and Push
+** ####  Step 2.2 Initialize on GitHub, add the remote, and Push
 Make a repo on Github and make sure you ** do not**  initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do :**
 
 REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and everything between them with the URL that you copied from GitHub :**
@@ -116,7 +116,7 @@ REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and e
 git remote add origin <SSH URL from GitHub>
 git push -u origin main
 ```
-** #### ** ** Step 2.3 Confirm Git is Working Correctly
+** ####  Step 2.3 Confirm Git is Working Correctly
 Confirm that the push was successful and on GitHub you see all the folders and files made locally by Rails, starting with a folder called "app" :**
 
 This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!** 
@@ -124,10 +124,10 @@ This marks the start of your Rails journey! Later on, you'll be able to look bac
 ---
 
 
-### ** Step 3: Deploy Your Rails Application** Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working. ** Recall, in the [previous lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson :**
+### Step 3: Deploy Your Rails Application** Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working. ** Recall, in the [previous lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson :**
 
 
-#### ** ** Step 3.1: Create a Heroku Application** First, run** ```bash
+####  Step 3.1: Create a Heroku Application** First, run** ```bash
 heroku create
 ```
 ** Then, run** ```bash
@@ -136,10 +136,10 @@ git remote
 ** Verify that you see `heroku` in the output :**
 
 
-#### ** ** Step 3.2: Prepare Rails for Heroku Deployment** Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both :**
+####  Step 3.2: Prepare Rails for Heroku Deployment** Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both :**
 
 
-#### ** ** Step 3.2.1: Configure the Gemfile** To deploy a Rails application, we need to change some settings :**
+####  Step 3.2.1: Configure the Gemfile** To deploy a Rails application, we need to change some settings :**
 
 First, we need to open the `Gemfile` and edit it :**
 
@@ -159,7 +159,7 @@ end
 ** Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal :**
 
 
-#### ** ** Step 3.2.2: Install the new gems :**
+####  Step 3.2.2: Install the new gems :**
 
 Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. When we deploy the app, Heroku will install the gems in the `:production` group and ignore the ones in the `:development` and `:test` groups. Conversely, we don't need to install the gems in the `:production` group on our local machine, since they aren't being used for development. To accomplish this, we need to tell `Bundler` to ignore the `:production` group gems in this project by running** ```bash
 bundle config set --local without production
@@ -169,7 +169,7 @@ bundle config set --local without production
 Now we can install only the gems in the `:development` and `:test` groups on our local machine by simply running** ```bash
 bundle install
 ```
-** #### ** ** Step 3.2.3: Configure the Root Route** The next thing we need to edit is the `routes.rb` file to set our root route. We're going to do this so that we can see the application without having to append `/cars` at the end of the URL :**
+** ####  Step 3.2.3: Configure the Root Route** The next thing we need to edit is the `routes.rb` file to set our root route. We're going to do this so that we can see the application without having to append `/cars` at the end of the URL :**
 
 Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:** ** 
 ```ruby
@@ -181,7 +181,7 @@ end
 ** Save the file. You can close VSCode now; the rest of the steps take place in the terminal :**
 
 
-#### ** ** Step 3.3: Add Changes to Git and GitHub** Stage and commit your changes so that the repo is ready for prime time when we push it to Heroku next!** ```bash
+####  Step 3.3: Add Changes to Git and GitHub** Stage and commit your changes so that the repo is ready for prime time when we push it to Heroku next!** ```bash
 git add .
 git commit -m 'updates for heroku deployment'
 ```
@@ -189,7 +189,7 @@ git commit -m 'updates for heroku deployment'
 ```bash
 git push origin main
 ```
-** #### ** ** Step 3.4: Push to Heroku** Now that we've committed the files, we can push to Heroku:** ** 
+** ####  Step 3.4: Push to Heroku** Now that we've committed the files, we can push to Heroku:** ** 
 ```bash
 git push heroku main
 ```
@@ -204,7 +204,7 @@ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish :**
 
 
-#### ** ** Step 3.5: Migrate the Database on Heroku** Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI :**
+####  Step 3.5: Migrate the Database on Heroku** Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI :**
 
 Run this command:** ** 
 ```bash
@@ -213,7 +213,7 @@ heroku run rails db:migrate
 ** You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application!** If you have an error, come to our [chat room](https://discord.gg/fbFCkYabZB), and ask for help. Be sure to include the entire output from your terminal when you ask your question :**
 
 
-#### ** ** Step 3.6: Visit Your New Application** It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below :**
+####  Step 3.6: Visit Your New Application** It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below :**
 
 ```bash
 heroku open

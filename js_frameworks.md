@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end :**
 
@@ -13,7 +13,7 @@ In this lesson, we've laid out resources for learning several different framewor
 ---
 
 
-### ** Topics** * What is a Javascript framework good for?
+### Topics** * What is a Javascript framework good for?
 * How do frameworks provide similar functionality to Rails' MVC architecture from the front end?
 * How do models stay up to date with your database?
 * How does clicking a link to another "page" in a single-page web app actually render a different "page" without making an HTTP request to the server?
@@ -28,7 +28,7 @@ In this lesson, we've laid out resources for learning several different framewor
 ---
 
 
-### ** Backbone.js Resources** * [Learn Backbone Completely from JSIS](http://javascriptissexy.com/learn-backbone-js-completely/)
+### Backbone.js Resources** * [Learn Backbone Completely from JSIS](http://javascriptissexy.com/learn-backbone-js-completely/)
 * [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
 * [Backbone.js Tips and Patterns from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/backbone-js-tips-patterns/)
 * [Backbone.js tutorials](https://cdnjs.com/libraries/backbone.js/tutorials)
@@ -39,19 +39,19 @@ In this lesson, we've laid out resources for learning several different framewor
 ---
 
 
-### ** Angular.js Resources** * [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
+### Angular.js Resources** * [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
 * [Angular.js video training resources](http://www.egghead.io)
 * [Angular.js and Ruby on Rails, Ruby on Rails screencasts](https://www.youtube.com/watch?v=R96rw9vEtiQ)** 
 
 ---
 
 
-### ** Ember.js Resources** * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)** 
+### Ember.js Resources** * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)** 
 
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

@@ -5,7 +5,7 @@ NodeJS (or just 'Node') has been steadily gaining popularity since its creation 
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Describe the purpose of a server.
  - Describe the differences between static and dynamic sites.
@@ -28,7 +28,7 @@ To facilitate this, Node has some added functionality that is not found in brows
 ---
 
 
-### ** Event Driven
+### Event Driven
 Back to the definition from Node's website: Node is an ** asynchronous event driven**  JavaScript runtime. In this context ** asynchronous**  means that when you write your code you do not try to predict the exact sequence in which every line will run. Instead you write your code as a collection of smaller functions that get called in response to specific events such as a network request (** event driven** ) :**
 
 For example, let's say you are writing a program and you need it to do the following. It should read some text from a file, print that text to the console, query a database for a list of users and filter the users based on their age :**
@@ -64,7 +64,7 @@ http.createServer(function (req, res) {
 ---
 
 
-### ** A word of advice** While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
+### A word of advice** While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">** 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
 3. What is the Node Event Loop? Check out this long, but *really* [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
@@ -74,7 +74,7 @@ http.createServer(function (req, res) {
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js) :**
@@ -84,7 +84,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#what-is-node">What is Node?</a>** 

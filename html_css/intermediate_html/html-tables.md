@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do the following:
 
 - Create advanced HTML tables.
 
-### ** HTML Tables
+### HTML Tables
 
 Some data just really needs to be displayed in a table. HTML tables might be less commonly used than buttons, links, lists and everything else you've learned so far, but there are some cases where they're the _perfect_ tool. Some of the more advanced features can get a little tricky to set up correctly but getting started with tables is pretty easy. You create a table with `<table></table>` tags and then put the elements for rows, columns, headers, or anything else that's possible inside those table elements.
 
@@ -26,15 +26,15 @@ For example:
 
 In this codepen example we created a table element, containing two table row elements. The first row has two headings while the second row has 2 data cells.
 
-### ** Assignment 
+### Assignment 
 <div class="lesson-content__panel" markdown="1">
 1. Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">this basic</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced">this advanced</a> tutorial from MDN. It should teach you all the syntax behind it. It's pretty straightforward. Make sure to code along!
 2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learned skills to practice!
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

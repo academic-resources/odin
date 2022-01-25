@@ -7,7 +7,7 @@ This lesson will take you through a tutorial that will teach you the basic modul
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Explain some things that Node.js is commonly used for.
  - Create and use modules in Node.js (both built-in and user created). 
@@ -44,14 +44,14 @@ This lesson will take you through a tutorial that will teach you the basic modul
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 
 - <a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
 - <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
 - <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
 - <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>** 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!

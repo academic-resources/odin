@@ -14,7 +14,7 @@ To counter this, many developers start their projects with a "CSS Reset"; a file
 
 You don't _have_ to use a css reset. In many cases you're going to end up undoing, or redoing a lot of the styles that a reset will provide for you. You can decide whether or not you want to use one on a regular basis, but it's worth taking the time to dig through a couple now. Understanding exactly how they're doing what they're doing is a useful exercise!
 
-### ** Assignment
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. [The Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) is almost certainly the most popular. It's very simple and basically removes every default style.
 2. [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) is another popular one. It's a little different in that it doesn't remove all the default styles, but tweaks them slightly to ensure that browsers are consistent.
@@ -22,12 +22,12 @@ You don't _have_ to use a css reset. In many cases you're going to end up undoin
 4. Maybe more trivial than useful, this [Browser Default Styles](https://browserdefaultstyles.com/) site is fun to play with.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 * [A Look at CSS Resets in 2018](https://bitsofco.de/a-look-at-css-resets-in-2018/) is another article that talks about the various resets out there.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Why would you want to use a CSS reset?

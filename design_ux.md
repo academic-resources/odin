@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You can't code the front end and ignore design and user experience (UX).  Not everyone is cut out to be an artist and you don't have to be.  But you do have to actually use your design brain a little bit if you want a site your users actually care about visiting.  That doesn't mean just having beautiful graphics, which is a common misconception about design :**
 
 User Experience is really about focusing on three things -- can the user get done what they are trying to do ** effectively** , ** efficiently** , and with ** satisfaction** .  Half the battle is just having the mindset of trying to optimize those three things by talking to your users.  The other half is about actually building and measuring those things :**
@@ -14,7 +14,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 ---
 
 
-### ** Topics** * What is design?
+### Topics** * What is design?
 * What is user experience?
 * What's the difference between UX and UI?
 * What are the three things UX is meant to focus on?
@@ -33,7 +33,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 For if you just can't get enough UX/Design.  Don't get too sidetracked... eye on the prize! Eye on the prize!** * [Hack Design's full 52-week free design course](http://hackdesign.org)
 * [52 Weeks of UX's free 52 weeks of UX articles](http://52weeksofux.com/)
 * [Introduction to Visual Hierarchy from Formed Function](https://web.archive.org/web/20170223060444/http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)

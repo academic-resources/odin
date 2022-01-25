@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Callbacks, with which you should be pretty familiar by now, are very useful for things like browser events but they're essential when using AJAX (Asynchronous JavaScript and XML).  AJAX sends data (or a request for data) to your server backend without blocking the browser from doing other activities while you wait for a response.  You pass the AJAX function a callback and, when the server response is finally received, you will activate the callback with whatever has been returned and continue on your way :**
 
@@ -24,7 +24,7 @@ The best part of AJAX is that it doesn't actually require a full page refresh li
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

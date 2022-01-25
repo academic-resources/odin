@@ -10,7 +10,7 @@ Now that you understand the basic syntax of HTML and CSS, we're going to get ser
 
 Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately many learners race through learning HTML and CSS to get to JavaScript, and end up missing these fundamental concepts. This leads to frustration, pain ([and funny gifs](https://giphy.com/gifs/css-13FrpeVH09Zrb2)), because all of the JavaScript skills in the world are meaningless if you can't stick your elements on the page where you need them to be. So with that in mind, let's get started.
 
-### ** The Box Model
+### The Box Model
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now will cause you much frustration down the line.
 
@@ -34,7 +34,7 @@ The only real complication here is that there are multiple ways to manipulate th
 
 ![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/box-model.png)
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. [This video](https://www.youtube.com/watch?v=rIO5326FgPE) is a straightforward overview of the box model, padding and margin. Go ahead and watch this now; it informs everything else.
@@ -42,10 +42,10 @@ The only real complication here is that there are multiple ways to manipulate th
 3. [This CSS Tricks page](https://css-tricks.com/almanac/properties/m/margin/) has some further information about the `margin` property that you'll find useful. Specifically, the sections about `auto` and margin collapsing contain things you'll want to know.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#the-box-model'>From inside to outside, what is the order of box-model properties?</a>

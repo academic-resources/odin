@@ -5,7 +5,7 @@ After setting up the skeleton for your project it's time to set up the database.
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Explain CRUD and how it correlates to HTTP methods in Express.
 - Describe MVC and how it correlates to Express.
@@ -19,7 +19,7 @@ After setting up the skeleton for your project it's time to set up the database.
 ---
 
 
-### ** CRUD** CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept :**
+### CRUD** CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept :**
 
 CRUD stands for: <span id="crud">_Create, Read, Update_ and _Delete_</span>. These are the four basic functions that you will be building into your database driven apps.  Put simply, if you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course) :**
 
@@ -28,7 +28,7 @@ In your library example then this simply means that we are going to be building 
 Of course, this is simply a concept and not some sort of rule that must be followed.  You may not want to allow users to do all of these actions, or you may want to limit which users can do what at any given time.  For example, if you are creating a social networking site, you might only allow users to `read` the profile information of their friends or connections, and you might not want to allow people to `delete` things at all :**
 
 The CRUD operations roughly correlate to the HTTP methods that you can employ in an express app.  This definition can be somewhat flexible, but in general `create` correlates to `POST` (or `app.post()` in an express app), `read` correlates to `GET` (`app.get()`), `update` to `PUT` (`app.put()`) and `delete` to `DELETE` (`app.delete()`)** 
-### ** MVC** MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers :**
+### MVC** MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers :**
 
 <span id="model">** Models** </span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers :**
 
@@ -37,7 +37,7 @@ The CRUD operations roughly correlate to the HTTP methods that you can employ in
 <span id="controller">** Controllers** </span> are the components that decide what view to display and what information is going to be put into it :**
 
 
-#### ** ** MVC Example** Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos that are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the database (DB).  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field :**
+####  MVC Example** Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos that are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the database (DB).  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field :**
 
 We'll need two views, 1) the index, and 2) the display-photo view which will just display a single photo :**
 
@@ -50,7 +50,7 @@ If this is a little confusing at this point, don't worry about it too much.  You
 ---
 
 
-### ** Which database should I choose?** One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else,  pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now :**
+### Which database should I choose?** One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else,  pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now :**
 
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">** 1. Continue where we left off with the [MDN library tutorial (Part 3)!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 </div>** 
@@ -58,14 +58,14 @@ If this is a little confusing at this point, don't worry about it too much.  You
 ---
 
 
-### ** Knowledge Checks 
+### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
 - <a class='knowledge-check-link' href='#model'>What does the Model in "MVC" refer to?</a>
 - <a class='knowledge-check-link' href='#view'>What does the View in "MVC" refer to?</a>
 - <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>** 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - For a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30).

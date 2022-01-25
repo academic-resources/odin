@@ -1,11 +1,11 @@
-### ** Intro :
+### Intro :
 >
 With the limitations of the more traditional CSS layout techniques becoming more apparent with the huge growth in mobile and tablet sized screens, a new way was needed to reduce the current complexity of creating responsive website layouts :**
 
 Grid was introduced to fill this need :**
 
 
-### **  Topics
+###  Topics
 - What is a grid?
 - How do you create a grid container?
 - How do you create a fixed track size?
@@ -45,7 +45,7 @@ One limitation to the current grid specification is that subgrids are not yet wi
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.

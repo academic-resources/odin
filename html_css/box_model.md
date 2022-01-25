@@ -15,14 +15,14 @@ You can't be shaky on how it works if you want to be efficient with your work fl
 * How do box shadows affect element box sizing?
 * How can you check an element's box model in your developer tools (it's a helpful graphic)?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the [CSS Box Model from Shaye Howe (gets into floats and positioning a bit too)](http://learn.shayhowe.com/html-css/box-model)
 2. Read [The CSS Box Model from CSS-Tricks](http://css-tricks.com/the-css-box-model/)
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CSS Box Model Docs](http://www.w3schools.com/css/css_boxmodel.asp)

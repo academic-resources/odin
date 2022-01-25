@@ -1,12 +1,12 @@
-### ** Exerpt
+### Exerpt
 >This lesson gets more into the topics you may have been shaky on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  ** 
 
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
-#### ** ** Conditionals and Flow Control:** ** * What is a "boolean"?
+####  Conditionals and Flow Control:** ** * What is a "boolean"?
 * What are "truthy" values?
 * Are `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1` considered true or false?
 * When do you use `elsif`?
@@ -17,7 +17,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is returned by `puts("woah") || true`?
 * What is `||=`?
 * What is the ternary operator?
-* When should you use a `case` statement?** #### ** ** Iteration:** ** * What does `loop` do?
+* When should you use a `case` statement?** ####  Iteration:** ** * What does `loop` do?
 * What are the two ways to denote a block of code?
 * What is an index variable?
 * How do you print out each item of a simple array `[1,3,5,7]` with:** **   * `loop`?
@@ -30,7 +30,7 @@ Look through these now and then use them to test yourself after doing the assign
 * How do you skip to the next iteration of a loop?
 * How would you start the loop over again?
 * What are the (basic) differences between situations when you would use `while` vs `#times` vs `#each`?
-* What does nesting loops mean and when would you use it?** #### ** ** Blocks, Procs, and Lambdas:** ** * How is a block like a function?
+* What does nesting loops mean and when would you use it?** ####  Blocks, Procs, and Lambdas:** ** * How is a block like a function?
 * How is a block different from a function?
 * What are the two ways to declare a block?
 * How do you return data from a block?
@@ -46,7 +46,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a lambda?
 * What's different between a lambda and a proc?
 * What is a Method (capital "M")?
-* What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?** #### ** ** Enumerable and Modules:** ** * What is a module?
+* What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?** ####  Enumerable and Modules:** ** * What is a module?
 * Why are modules useful?
 * What does `#each` do?
 * What does `#each` return?
@@ -60,7 +60,7 @@ Look through these now and then use them to test yourself after doing the assign
 * When might you use `#inject`?
 * How do you check if every item in a hash fulfills a certain criteria?
 * What about if none of the elements fulfill that criteria?
-* What (basically) is an `enumerator`?** #### ** ** Writing Methods:** ** * How many things should a method ideally do?
+* What (basically) is an `enumerator`?** ####  Writing Methods:** ** * How many things should a method ideally do?
 * What types of things should a method modify?
 * What should you name a method?
 * What does `self` mean?
@@ -97,7 +97,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Test Yourself** Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on :**
+### Test Yourself** Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on :**
 
 <div class="lesson-content__panel" markdown="1">
   1. [Beginner Ruby Quiz #2](http://www.codequizzes.com/ruby/beginner/arrays-conditionals-loops)
@@ -110,7 +110,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

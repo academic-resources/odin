@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you group functions and variables logically to keep your code organized and maintainable :**
 
@@ -7,7 +7,7 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 ---
 
 
-### ** Topics** * How do you call a function "method-style"?
+### Topics** * How do you call a function "method-style"?
 * How do you call a function "function-style"?
 * What do `#apply` and `#call` do?
 * When should you use a constructor?
@@ -27,7 +27,7 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

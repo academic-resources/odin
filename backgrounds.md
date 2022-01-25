@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Backgrounds are usually ignored until they become a problem and then you're left trying to figure out why your elements are coming out looking so odd.  This brief section should get you thinking properly about backgrounds and the kinds of things you can do with them by just using regular old CSS :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics
+### Topics
 * How do you set the background color?
 * Which color is used when elements are stacked on top of each other (on the z-axis)?
 * How do you set a partially transparent color? (rgba anyone?)
@@ -25,7 +25,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

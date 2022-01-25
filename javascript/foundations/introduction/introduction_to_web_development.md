@@ -1,4 +1,4 @@
-### ** What Do Web Developers Do?
+### What Do Web Developers Do?
 
 In short, web developers build and maintain websites.
 
@@ -10,7 +10,7 @@ Web developers are in high demand, generally have a good work/life balance, and 
 
 For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
-### ** Types of Web Developers
+### Types of Web Developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
@@ -24,7 +24,7 @@ Back-end developers use programming languages like Java, Python, and Ruby to wor
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
-### ** Types of Careers
+### Types of Careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
@@ -38,7 +38,7 @@ As a consultant for a web consultancy, you would give up some of your freelancin
 
 Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
-### ** Tools of the Trade
+### Tools of the Trade
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
@@ -50,7 +50,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 * ** [Git](https://git-scm.com/)** 
 * ** [GitHub](https://github.com/)** 
 
-### ** Motivation
+### Motivation
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating.
 The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
@@ -59,7 +59,7 @@ The web development industry has a long history of successful developers with va
 
 Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
-### ** Why Odin?
+### Why Odin?
 
 I want you to know that this will not be easy.
 
@@ -73,7 +73,7 @@ The Odin Project is constantly evolving because of people like you who get furth
 
 Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
-### ** Conclusion
+### Conclusion
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
@@ -91,7 +91,7 @@ And it might even be life changing, too.
 
 *What are you waiting for?*
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)

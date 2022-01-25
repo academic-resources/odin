@@ -9,11 +9,11 @@ By now you should feel confident enough to start making your websites a little m
 * Open the accessibility section within your browser's DevTools.
 * Audit a web page with a third party auditing tool.
 
-### ** Accessibility DevTools
+### Accessibility DevTools
 
 Using your browser's DevTools is beyond useful for several things, from checking the styles applied to a page to debugging code, but you already know that! Here's something you may not know: you can even use the DevTools to look at various accessibility features as well, which can be great as a sort of "quick audit". You can check contrast ratios (as we mentioned in a previous lesson), view various accessibility properties, and view the accessibility tree, to name a few features.
 
-### ** Accessibility Auditing
+### Accessibility Auditing
 
 There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on fixing issues related to the concepts introduced in these lessons only for now.
 
@@ -25,7 +25,7 @@ There are plenty of third party tools to audit the accessibility of a web page, 
 
 Of course, one of the best ways to check the accessibility of your websites is to get feedback from users who rely on these accessibility features. Obviously this isn't always an easy option, but when you can it will be worth hearing from those who may be affected by your site's accessibility (or lack of it).
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the following resources:
@@ -35,7 +35,7 @@ Of course, one of the best ways to check the accessibility of your websites is t
     * Although there will be differences between the browsers, such as the value of the role property or how a11y properties are presented, also check out the "Features of the Accessibility panel" section mentioned below for MDN's documentation. There is some useful information that, while more tailored to Firefox, can still be useful to a Chrome user.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

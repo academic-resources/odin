@@ -11,14 +11,14 @@ Tables used to be pretty much the only game in town -- when you had data of any 
 * Why do you need to be careful about your padding and borders in tables?
 * How do you align text within cells in a table?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe's Chapter on Tables](http://learn.shayhowe.com/html-css/organizing-data-tables)
 2. Glance over the [HTML Docs on Tables](http://www.w3schools.com/html/html_tables.asp), which you'll no doubt see again.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [An older tutorial on Tables from HTML Goodies](http://www.htmlgoodies.com/tutorials/tables/article.php/3479851)

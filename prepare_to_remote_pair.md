@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:** ** 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:** **   * A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
   * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
@@ -6,7 +6,7 @@
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:** **   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
   * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
   * Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)** 
-### ** Installing the Software**   To use Live Share for Visual Studio Code, you open up Visual Studio Code and then launch VSCode Quick Open using the command `Ctrl+P`. In there, paste the following command: `ext install MS-vsliveshare.vsliveshare-pack`. Hit `Enter` to install the free plugin. Live Share should show up as an icon on your left-hand menu bar. From there, you can start or join a collaboration session easily :**
+### Installing the Software**   To use Live Share for Visual Studio Code, you open up Visual Studio Code and then launch VSCode Quick Open using the command `Ctrl+P`. In there, paste the following command: `ext install MS-vsliveshare.vsliveshare-pack`. Hit `Enter` to install the free plugin. Live Share should show up as an icon on your left-hand menu bar. From there, you can start or join a collaboration session easily :**
 
   If you're interested in using Teletype for Atom instead, you must first install [Atom](https://atom.io) (you can learn more about this text editor in the [Text Editors](https://www.theodinproject.com/courses/foundations/lessons/text-editors) section) :**
 
@@ -21,14 +21,14 @@
 ---
 
 
-### ** Finding a Partner** Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Forum Category just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/foundations/lessons/join-the-odin-community), now is a good time to do that, and then post in the [Pair Category](https://forum.theodinproject.com/c/pairs). There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well :**
+### Finding a Partner** Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Forum Category just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/foundations/lessons/join-the-odin-community), now is a good time to do that, and then post in the [Pair Category](https://forum.theodinproject.com/c/pairs). There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well :**
 
 
 
 ---
 
 
-### ** Things to keep in mind
+### Things to keep in mind
 * Your pair is a living breathing human being. Don't forget the manners your mama taught you.
 * Follow through with your commitments and communicate when life comes up--don't just not show up.
 * You are not guaranteed to find a good match the first time, don't be afraid to communicate as much--nicely.
@@ -36,7 +36,7 @@
 * The Odin Project is a community. Remember the Golden Rule and we should all get along. Forget it, and you will have a hard time finding people to pair with you :**
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

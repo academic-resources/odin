@@ -1,4 +1,4 @@
-### **  Topics**   do the following:** ** 
+###  Topics**   do the following:** ** 
 - Explain the best practices for Git commits
 - Use a Git workflow to make an open source contribution
 - Explain common Git terms and uses
@@ -7,7 +7,7 @@
 ---
 
 
-### ** Exerpt
+### Exerpt
 >Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around :**
 
 You'll have your share of misadventures, but everyone does. <span id="commit-often">The best remedy is to commit early and often.<span>  <span id="small-commit">The smaller and more modular your commits are, the less that can go wrong if you mess one up.</span>  ** There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: <span id="commit-message">Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".</span>  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent :**
@@ -21,12 +21,12 @@ The thing about Git is that, unless you've got a seriously impressive memory, yo
 ---
 
 
-### ** A Git Workflow For Open Source Contribution** Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)) :**
+### A Git Workflow For Open Source Contribution** Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)) :**
 
 How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an open [issue](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you. ** The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push :**
 
 
-#### ** ** Initial Setup** 1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+####  Initial Setup** 1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
 2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub)
 3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
 4. If this is your first time using git, don't forget to set your username and email using:** ** 
@@ -34,7 +34,7 @@ How do you contribute when you do not have write access to the repository? Below
   $ git config --global user.name "YOUR NAME"
   $ git config --global user.email "YOUR_EMAIL@EXAMPLE.COM"
 ```
-** #### ** ** Ongoing Workflow** We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch :**
+** ####  Ongoing Workflow** We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch :**
 
 4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
 5. Code, commit, code, commit, code, commit (see a pattern?)
@@ -48,7 +48,7 @@ How do you contribute when you do not have write access to the repository? Below
 9. You may have merge conflicts... resolve those with `$ git mergetool` or just manually open up the files that have conflicts.  Basically, merge conflicts will insert markers into your conflicting files to denote what lines are part of the incoming code and which lines are part of your pre-existing code. You'll need to manually edit those files one-by-one (including removing the merge marker text) and then resave them.  Once you've finished fixing all the files that have conflicts, you need to commit your changes to finish the merge :**
 
 
-#### ** ** Sending Your Pull Request** 10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over.  Merge into `main` with `$ git checkout main` followed by `$ git merge your_feature_name`.
+####  Sending Your Pull Request** 10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over.  Merge into `main` with `$ git checkout main` followed by `$ git merge your_feature_name`.
 11. Now you want to send your local version of the `main` branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `$ git push origin main` to ship `main` up to your fork on GitHub.
 12. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to send your forked version of `main` back to the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 13. Shake your moneymaker, you're an OSS contributor!
@@ -61,7 +61,7 @@ How do you contribute when you do not have write access to the repository? Below
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental. :**
 
 
@@ -85,7 +85,7 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#commit-often'>How often should you commit?</a>
 - <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>

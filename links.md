@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Links are the glue holding the web together, so make sure you understand how to properly link to external websites AND internal files :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** * What's the difference between internal links (/somepage) and external links (http://www.somesite.com/somepage)?
+### Topics** * What's the difference between internal links (/somepage) and external links (http://www.somesite.com/somepage)?
 * When on a webpage should you use the full URI (with the `http://yoursite.com/somepath`) and when should you use the relative path (`/somepath`)?
 * How do you navigate the document tree with links (../../someotherpage)?
 * How do you open links in external windows?
@@ -20,7 +20,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

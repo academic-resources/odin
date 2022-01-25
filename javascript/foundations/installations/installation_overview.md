@@ -7,7 +7,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-### ** The Installation Plan
+### The Installation Plan
 
 In the following sections, we'll go over the steps for setting up your environment. These sections are ** the most important steps**  in the entire curriculum. Please take the extra time to ** double check what you're typing**  or you may cause more headaches for yourself down the road. 
 
@@ -26,19 +26,19 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 
 For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
 
-### ** OS Options
+### OS Options
 
-#### ** macOS
+#### macOS
 
 If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!
 
-#### ** Linux (Official Ubuntu Flavors)
+#### Linux (Official Ubuntu Flavors)
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. ** if you don't use a Mac, we recommend that you use Linux :**
 
  It's that simple.
 
-#### ** Windows
+#### Windows
 
 Windows ** is not natively supported**  by The Odin Project, or on our Discord server; however, if you're currently using Windows you can use either a virtual machine or dual boot to keep your Windows install while creating your development environment in Linux.
 
@@ -50,7 +50,7 @@ A ** virtual machine**  is an emulation of a computer that runs within your exis
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-#### ** NOTICE FOR WINDOWS 11 USERS:
+#### NOTICE FOR WINDOWS 11 USERS:
 
 Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
 system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
@@ -60,7 +60,7 @@ If you are using Windows 11 on the computer that you will be installing a Linux 
 
 You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)
 
-### ** Concerned About Installing A New OS?
+### Concerned About Installing A New OS?
 
 "Woah, woah, woah! I like my OS just fine the way it is!"
 

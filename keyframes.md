@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them :**
 
 
@@ -6,14 +6,14 @@
 ---
 
 
-### ** Topics** * The differences between CSS transitions and CSS animations
+### Topics** * The differences between CSS transitions and CSS animations
 * How to configure animation sub-properties
 * How to sequence an animation using keyframes** 
 
 ---
 
 
-### ** Animations vs Transitions** Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:** ** 
+### Animations vs Transitions** Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:** ** 
 * Transitions were designed to animate an element from one state to another. They *can* loop, but they weren't designed for that. Animations, on the other hand, *were* designed with the purpose of explicitly enabling loops :**
 
 
@@ -25,7 +25,7 @@ All in all, both animations and transitions have their use, so in addition to co
 ---
 
 
-### ** Animation Properties** Let's see an animation in action to see what we've been talking about :**
+### Animation Properties** Let's see an animation in action to see what we've been talking about :**
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="jOGENZz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/jOGENZz">
@@ -52,7 +52,7 @@ All in all, both animations and transitions have their use, so in addition to co
 ---
 
 
-### ** Keyframes** Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule. ** ```css
+### Keyframes** Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule. ** ```css
 @keyframes change-color {
   from {
     background-color: red;
@@ -100,7 +100,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
 ---
 
 
-### ** Practice** Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:** ** 
+### Practice** Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:** ** 
 1. button-hover
 2. drop-down
 3. pop-up** 
@@ -108,7 +108,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">What are the long and short-hand notations for CSS animations?</a>
@@ -118,4 +118,4 @@ This section contains questions for you to check your understanding of this less
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

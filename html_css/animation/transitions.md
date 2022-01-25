@@ -9,7 +9,7 @@ It's time to dive into the exciting world of CSS transitions and give your HTML 
 * Know what CSS properties are animatable and which ones are not
 * How to make sure your transitions are smooth and performant
 
-### ** Transitions
+### Transitions
 
 CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white to grey to black over a period of time. This is a CSS transition. Have a look at the Codepen below to see one in action.
 
@@ -60,7 +60,7 @@ button:hover {
 
 The above transition will occur when the user hovers their mouse over the button as indicated by the `:hover` pseudo-class. In addition to `:hover`, or any of the other pseudo-classes, you can also trigger transitions by adding or removing classes with JavaScript. For example, clicking a button could append the "open" class to a dropdown menu, which would trigger the opening transition.
 
-### ** Performance
+### Performance
 
 Generally, keeping your CSS transitions performant will not be an issue. However there are a couple of things you need to keep in mind.
 
@@ -84,14 +84,14 @@ The second thing to keep in mind is that you should keep your animations to only
 
 What's important is that you have a solid understanding of these concepts and can apply them when necessary because hey, if you need to turn a button into a rainbow when it's hovered over, you better be able to transition that rainbow!
 
-### ** Assignment
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), including the links in the [Defining transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#defining_transitions) section of the article. Make sure you code along with any examples to become familiar with the syntax.
 2. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding.
 3. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -100,7 +100,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">What is the stacking context?</a>
 - <a class="knowledge-check-link" href="https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html">Why do you need to keep an eye on repaints?</a>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

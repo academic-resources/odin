@@ -11,7 +11,7 @@ It's not realistic for every website you create to be as simple as plain text on
 
 The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
 
-### ** The Viewport Meta Tag
+### The Viewport Meta Tag
 When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
 
 For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
@@ -22,7 +22,7 @@ For this reason, you should add this snippet into the `<head>` of your HTML file
 
 It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 
-### ** Avoid Fixed Width and Height
+### Avoid Fixed Width and Height
 
 The number one enemy of flexibility is a fixed width on an element. If you put `width: 600px` on anything, then it will never be able to shrink below that width, which ruins your chances of getting that thing to fit on most phone screens. Likewise, sticking a fixed height on an element can cause issues if the contents of that element run out of room.
 
@@ -50,28 +50,28 @@ This example demonstrates the problem with static heights. On a full-sized scree
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### ** Avoid heights all together
+#### Avoid heights all together
 In _most_ cases, you should avoid setting a height altogether. There are some exceptions to this rule (headers and footers perhaps) but you should prefer using margin and padding to increase space around your content. Using margin and padding will keep your elements flexible no matter what the content inside does.
 
-#### ** When fixed widths are appropriate
+#### When fixed widths are appropriate
 Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably _don't_ want it to shrink. Likewise a `250px` sidebar probably needs to _always_ be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
 
-### ** Use Flex and Grid
+### Use Flex and Grid
 Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid don't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
 
-### ** Assignment
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Read ["Using the viewport meta tag"](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag) on MDN to get a little more background and detail about the viewport meta tag and the nature of screen resolutions.
 2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall.
 3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 * []()
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Why should you avoid fixed width?

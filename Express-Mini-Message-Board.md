@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Let's take a quick break from the main Express tutorial to practice what we've already learned.  At this point you should know enough to use Express to make some fun interactive web apps! We're going to create a super simple message board.
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">** 1.   Use `express-generator` to set up a basic project using whichever templating language you prefer. If you want, you can set it all up manually -- it doesn't really take that much longer.
      * Hint: here are links to some of the more popular templating language docs: [PUG](https://pugjs.org/api/getting-started.html), [EJS](https://ejs.co/#docs), [Handlebars](https://handlebarsjs.com/guide/)

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment:** ** 
 * What are singular resources?
 * What are nested routes?
@@ -18,10 +18,10 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Advanced Routing** You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method).  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request :**
+### Advanced Routing** You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method).  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request :**
 
 
-#### ** ** Singular Resources** You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users` :**
+####  Singular Resources** You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users` :**
 
 Sometimes there are also resources where it actually only makes sense for there to be one.  An example would be a User dashboard which displays interesting facts based on whichever user is logged in.  There is only one dashboard template, it just happens to be smart enough to display things that are relevant for the user who is currently logged in :**
 
@@ -48,7 +48,7 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 ---
 
 
-### ** Nested Routes** Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:** ** 
+### Nested Routes** Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:** ** 
 ```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
@@ -79,7 +79,7 @@ Don't nest routes too deeply! If you're more than a layer or two deep, something
 ** If this seems a bit confusing at first, you'll pick it up quickly when you actually run into it in your own coding.  If you find yourself working inside your controller and needing the parent's ID, the route should have been nested.  If you find that you don't need the parent's ID, it doesn't need to be nested.  Easy enough :**
 
 
-#### ** ** Member and Collection Routes** Sometimes you want to add another non-RESTful route to a resource. If you'd like to add a route to just a single member of that resource, use the `#member` method:** ** 
+####  Member and Collection Routes** Sometimes you want to add another non-RESTful route to a resource. If you'd like to add a route to just a single member of that resource, use the `#member` method:** ** 
 ```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
@@ -111,7 +111,7 @@ If you'd like to add a non-RESTful route to the whole collection of your resourc
 If any of this seems confusing, just play around with them and run `$ rake routes` to see what is happening behind the scenes :**
 
 
-#### ** ** Redirects and Wildcard Routes** You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:** ** 
+####  Redirects and Wildcard Routes** You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:** ** 
 ```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
@@ -127,7 +127,7 @@ In the example above, we've also renamed the route for convenience by using an a
 ---
 
 
-### ** Advanced Layouts: Nesting Layouts and Passing Information** We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway :**
+### Advanced Layouts: Nesting Layouts and Passing Information** We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway :**
 
 A better way of doing things is to tell your layout to do some stuff (whatever you might normally have your layout do) and then render *another* layout using the `render :template => "your_layout.html.erb"` method. You are sort of using your layouts like a view might use a view partial :**
 
@@ -172,7 +172,7 @@ In this case, you would tell your `static_pages.html.erb` layout to call the `ap
 ---
 
 
-### ** Metaprogramming Rails** What is "Metaprogramming"?  It's a great and useful concept that's used all over Rails and you can put it to work yourself too.  It's basically the idea that your application or script actually creates functions or methods or classes on the fly while it's running and can dynamically call them as well.  It's one of the great parts of using an interpreted language like Ruby... it's sort of baked into the language.  We'll just skim the surface here but you should definitely look into it more on your own once you feel comfortable with the nuts and bolts of Rails :**
+### Metaprogramming Rails** What is "Metaprogramming"?  It's a great and useful concept that's used all over Rails and you can put it to work yourself too.  It's basically the idea that your application or script actually creates functions or methods or classes on the fly while it's running and can dynamically call them as well.  It's one of the great parts of using an interpreted language like Ruby... it's sort of baked into the language.  We'll just skim the surface here but you should definitely look into it more on your own once you feel comfortable with the nuts and bolts of Rails :**
 
 An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple methods for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!** The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?** Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:** ** 
 ```bash
@@ -222,7 +222,7 @@ Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Prog
 ---
 
 
-### ** Design Patterns** Design patterns have a mixed reputation among software developers.  On the one hand, they represent "best practices" for how to code past a given situation (not specific code, just a template for how to fix something).  On the other, they can be sort of needlessly prescriptive.  See the [Wikipedia article on Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) for an overview.  We won't be covering specific patterns in this course :**
+### Design Patterns** Design patterns have a mixed reputation among software developers.  On the one hand, they represent "best practices" for how to code past a given situation (not specific code, just a template for how to fix something).  On the other, they can be sort of needlessly prescriptive.  See the [Wikipedia article on Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) for an overview.  We won't be covering specific patterns in this course :**
 
 The [Wikipedia article on SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) provides a good overview and good links related to SOLID software design.  If you're looking to write great code, you'll need to know each of the principles the letters represent (paraphrasing):** ** 
 * [** S** ingle Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (A class should only have a single responsibility)
@@ -236,7 +236,7 @@ If you're particularly interested in pursuing design patterns, check out the "Ga
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel :**
 
 
-### ** I18n: Internationalization** [Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates :**
+### I18n: Internationalization** [Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates :**
 
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
   1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) section 2.6 about namespacing.
@@ -251,7 +251,7 @@ There's a useful book written on anti-patterns, which can help you clean up your
 ---
 
 
-### ** Conclusion** In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code :**
+### Conclusion** In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code :**
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things :**
 
@@ -260,7 +260,7 @@ The more general principles like SOLID design and metaprogramming will be useful
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -275,7 +275,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

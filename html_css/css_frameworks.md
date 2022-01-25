@@ -26,7 +26,7 @@ Doing so will make you a better developer in the end.
 - What other frameworks can you find out there?
 - What are the disadvantages of using frameworks?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [From A List Apart, Frameworks for Designers](http://alistapart.com/article/frameworksfordesigners)
@@ -35,7 +35,7 @@ Doing so will make you a better developer in the end.
 4. Take a brief look at [TailwindCSS](https://tailwindcss.com/) for a more unique and modern approach to CSS frameworks.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

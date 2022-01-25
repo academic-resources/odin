@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Test Driven Development, or TDD for short, is a _big_ deal in the modern development landscape.  This is a concept that we introduced way back in our Fundamentals section with our JavaScript Exercises.  The main idea is simply that you start working on your code by writing automated tests _before_ writing the code that is being tested.  There are tons of benefits to working like this, all of which will be discussed in the resources below :**
 
@@ -19,12 +19,12 @@ By the end of this lesson, you should be able to do the following:** - Explain t
 ---
 
 
-### ** Additional Resources** 
+### Additional Resources** 
 
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
 - <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>

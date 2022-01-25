@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Ruby is a strongly object-oriented language, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`) :**
 
@@ -9,7 +9,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - List the basic arithmetic operators and what they do.
  - Describe the difference between an integer and a float and how to convert between the two.
@@ -23,7 +23,7 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ---
 
 
-### ** Numbers
+### Numbers
 You probably already know what numbers are, so there's no need to go into elaborate metaphors here. Ruby has all the typical math operators you would expect:** ** 
 ```ruby
 # Addition
@@ -36,7 +36,7 @@ You probably already know what numbers are, so there's no need to go into elabor
 8 % 2   #=> 0  (8 / 2 = 4; no remainder)
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
 ```
-** #### ** ** Integers and Floats
+** ####  Integers and Floats
 There are two main types of numbers in Ruby. ** Integers**  are whole numbers, such as 10. ** Floats**  are numbers that contain a decimal point, such as 10.5, 10.0, or 0.25 :**
 
 It's important to keep in mind that when doing arithmetic with two integers in Ruby, *the result will always be an integer* :**
@@ -49,7 +49,7 @@ It's important to keep in mind that when doing arithmetic with two integers in R
 ```ruby
 17 / 5.0  #=> 3.4
 ```
-** #### ** ** Converting Number Types
+** ####  Converting Number Types
 Ruby makes it very easy to convert floats to integers and vice versa :**
 
 ```ruby
@@ -59,7 +59,7 @@ Ruby makes it very easy to convert floats to integers and vice versa :**
 ** As shown in the last example above, when Ruby converts a float to an integer, the decimal places are simply cut off. Ruby doesn't do any rounding in this conversion :**
 
 
-#### ** ** Some Useful Number Methods
+####  Some Useful Number Methods
 There are many useful methods for numbers built into Ruby. For example,** ** #even?** ** ```ruby
 6.even? #=> true
 7.even? #=> false
@@ -73,26 +73,26 @@ There are many useful methods for numbers built into Ruby. For example,** ** #ev
 ---
 
 
-### ** Strings
+### Strings
 Strings, strings, wonderful things, use them well and...your app will...grow wings? Or something :**
 
-At first glance, you might think that strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance to play Han Solo, you'd be wrong. Very wrong. What were you thinking, Burt?** #### ** ** Double and Single Quotation Marks
+At first glance, you might think that strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance to play Han Solo, you'd be wrong. Very wrong. What were you thinking, Burt?** ####  Double and Single Quotation Marks
 Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. Specifically, string interpolation and the escape characters that we'll discuss soon both only work inside double quotation marks, not single quotation marks :**
 
 
-#### ** ** Concatenation
+####  Concatenation
 In true Ruby style, there are plenty of ways to concatenate strings :**
 
 ```ruby
 # With the plus operator:** ** "Welcome " + "to " + "Odin!"    #=> "Welcome to Odin!"** # With the shovel operator:** ** "Welcome " << "to " << "Odin!"  #=> "Welcome to Odin!"** # With the concat method:** ** "Welcome ".concat("to ").concat("Odin!")  #=> "Welcome to Odin!"
 ```
-Classic Ruby!** #### ** ** Substrings
+Classic Ruby!** ####  Substrings
 You can access strings inside strings inside strings. Stringception! It's super easy, too :**
 
 ```ruby
 "hello"[0]      #=> "h"** "hello"[0..1]   #=> "he"** "hello"[0, 4]   #=> "hell"** "hello"[-1]     #=> "o"
 ```
-** #### ** ** Escape characters
+** ####  Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks :**
 
 ```ruby
@@ -112,12 +112,12 @@ irb(main):001:0> puts "Hello \n\nHello"
 Hello** Hello
 => nil
 ```
-** #### ** ** Interpolation
+** ####  Interpolation
 String interpolation allows you to evaluate a string that contains placeholder variables. This is a very useful and common technique, so you will likely find yourself using this often. Be sure to use double quotes so that string interpolation will work!** ```ruby
 name = "Odin"** puts "Hello, #{name}" #=> "Hello, Odin"
 puts 'Hello, #{name}' #=> "Hello, #{name}"
 ```
-** #### ** ** Common String Methods
+** ####  Common String Methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES* :**
 
 Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-2.7.1/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you :**
@@ -158,7 +158,7 @@ Below is a quick recap of the more common string methods you might find yourself
 ** The assignments will go much deeper, so go through them thoroughly and be sure to play around in a REPL as you read :**
 
 
-#### ** ** Converting other objects to strings
+####  Converting other objects to strings
 Using the `to_s` method, you can convert pretty much anything to a string. Here are some examples:** ** 
 ```ruby
 5.to_s        #=> "5"** nil.to_s      #=> ""** :symbol.to_s  #=> "symbol"
@@ -168,7 +168,7 @@ Using the `to_s` method, you can convert pretty much anything to a string. Here 
 ---
 
 
-### ** Symbols
+### Symbols
 Symbols are an interesting twist on the idea of a string. The full explanation can be a bit long, but here's the short version:** ** 
 Strings can be changed, so every time a string is used, Ruby has to store it in memory even if an existing string with the same value already exists. Symbols, on the other hand, are stored in memory only once, making them faster in certain situations :**
 
@@ -177,12 +177,12 @@ One common application where symbols are preferred over strings are the keys in 
 You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them :**
 
 
-#### ** ** Create a Symbol
+####  Create a Symbol
 To create a symbol, simply put a colon at the beginning of some text:** ** 
 ```ruby
 :my_symbol
 ```
-** #### ** ** Symbols vs. Strings
+** ####  Symbols vs. Strings
 To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.7.1/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)** ```ruby
 "string" == "string"  #=> true** "string".object_id == "string".object_id  #=> false** :symbol.object_id == :symbol.object_id    #=> true
 ```
@@ -191,15 +191,15 @@ To get a better idea of how symbols are stored in memory, give this a whirl in i
 ---
 
 
-### ** Booleans
+### Booleans
 You will learn about these data types in more detail in the Conditional Logic lesson later in this course. The goal of this lesson is for you to get a basic understanding of what Booleans are :**
 
 
-#### ** ** True and False
+####  True and False
 The Boolean values `true` and `false` represent exactly what you think they do: `true` represents something that is true, and `false` represents something that is false :**
 
 
-#### ** ** Nil
+####  Nil
 In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract, but it will make more sense as you learn and use Ruby more.
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">** 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
 2. [Read Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
@@ -210,7 +210,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -225,7 +225,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

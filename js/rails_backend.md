@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/ruby-on-rails/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests :**
 
@@ -18,7 +18,7 @@ Note that you can actually outsource your back end functionality to a Backend-as
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

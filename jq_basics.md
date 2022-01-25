@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 You should already have completed the [Foundations jQuery lesson](/foundations/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby) :**
 
@@ -7,7 +7,7 @@ jQuery, of course, provides a very easy-to-use model for manipulating the elemen
 ---
 
 
-### ** Topics** * What is a selector?
+### Topics** * What is a selector?
 * What does the `$` symbol mean?
 * Why is it often important to wait for the Document (DOM) to finish loading?
 * How can you select a particular element on the page?
@@ -36,7 +36,7 @@ jQuery, of course, provides a very easy-to-use model for manipulating the elemen
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

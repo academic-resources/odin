@@ -11,12 +11,12 @@ Another source, one that goes over many different ways to help make websites mor
 * Explain the purpose of the Web Content Accessibility Guidelines.
 * Name the 4 principles of the WCAG.
 
-### ** Web Content Accessibility Guidelines
+### Web Content Accessibility Guidelines
 The WCAG exist in order to help create a shared standard when it comes to web accessibility. Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are simply guidelines, and they will only help us make websites *more* accessible.
 
-### ** The Four Principles
+### The Four Principles
 
 The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
 
@@ -28,7 +28,7 @@ The WCAG are organized around four, core principles that should be kept in mind 
 
 4. ** Robust:**  Content must be accessible by current assistive technologies and other user agents, and must remain accessible as those technologies advance.
 
-#### ** Conformance Levels
+#### Conformance Levels
 
 Conformance levels get mentioned at a couple of other points in these lessons, and we're only mentioning them here to briefly explain what they are ahead of time. To put it simply, the WCAG has three different conformance levels, each of which is made up of various success criteria, or rules, that must be followed in order to successfully meet that level of conformance. You don't need to worry about meeting any of these conformance levels completely for the purposes of these lessons, you only need to know that they exist (luckily their naming is pretty easy to remember).
 
@@ -36,7 +36,7 @@ Conformance levels get mentioned at a couple of other points in these lessons, a
 * ** Level AA** , or ideal support, is the level many organizations strive for. Meeting this level also requires meeting Level A.
 * ** Level AAA** , or specialized support, isn't recommended for entire sites to meet in full, as some content may make it impossible to meet this conformance level. Meeting this level would require also meeting both Level A and Level AA.
 
-### ** (Before) Implementing Accessibility
+### (Before) Implementing Accessibility
 
 The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons is just to introduce you to some of the more common or simpler concepts that you should get into the habit of checking for moving forward.
 
@@ -44,19 +44,19 @@ Even though we're only introducing you to some of these a11y concepts, you may s
 
 The second thing to keep in mind is that just taking those first few steps towards creating accessible websites matters just as much as the many more steps you'll take in the future. Even if you only add one a11y feature to your websites for now, what you may think is a minor addition could actually be a huge improvement for more users than you realize. So don't feel like you have to make everything perfect or that you need to add everything at once when implementing accessibility, especially when you're just starting out.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read through the [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) page. Don't worry about all of the other links for now. The goal of reading this page is to understand more of the included overview and to get familiar with the site itself for when you *do* need to visit other pages on it.
 2. Skim through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. For now the goal is just to get an idea of common accessibility issues, some of which you'll be ready to fix by the time you finish this set of lessons, rather than read through every issue listed on the page. Keep this resource bookmarked, though, as using it as your checklist when you start actively implementing accessibility will be really handy.
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is the purpose of the Web Content Accessibility Guidelines?
 * What are the 4 principles of the WCAG?
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.

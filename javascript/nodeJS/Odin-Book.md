@@ -6,7 +6,7 @@ You'll be building Facebook.  As with our previous lessons, how much effort you 
 
 Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.)
 
-### ** Assignment
+### Assignment
 
 Build Facebook!  You'll build a large portion of the core Facebook user functionality in this project. We won't be worrying about some of the more flashy front-end stuff unless you really want to, but you shouldn't need it to get a nice user experience.
 
@@ -28,13 +28,13 @@ This project will give you a chance to take a relatively high level set of requi
 12. The Users Index page lists all users and buttons for sending friend requests to those who are not already friends or who don't already have a pending request.
 13. Deploy your app to Heroku!
 
-#### ** Extra Credit
+#### Extra Credit
 
 1. Make posts also allow images (either just via a url, or by uploading one.)
 2. Allow Users to upload and update their own profile photo.
 3. Make it pretty!
 
-#### ** Getting Started
+#### Getting Started
 
 1. Think through the data architecture required to make this work.  There are lots of models and the relationship between them is more complicated than anything you've done before.  How are you going to model a user's list of friends and friend requests? Posts should be able to have likes and comments associated with them, how are you going to model that? Take some time to plan your approach before diving in.
 2. Start your app however you like, using the express-generator or from scratch.

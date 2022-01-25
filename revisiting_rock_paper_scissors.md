@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Now that we can manipulate the DOM, it's time to revisit [Rock Paper Scissors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors) and add a simple UI to it :**
 
 Before you start making changes to your Rock Paper Scissors project, you need to learn about a concept in Git called ** branching**  so that you can make your changes without having to worry about breaking what you have now :**
@@ -12,7 +12,7 @@ This means that you can keep your `main` branch as a place for only finished fea
 ---
 
 
-### ** Using Branches** You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>` :**
+### Using Branches** You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>` :**
 
 You can see all of your current branches using `git branch` with no other arguments. The branch that you're currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like changing to any other branch using `git checkout main` :**
 
@@ -29,7 +29,7 @@ When you don't need a branch anymore it can be deleted using `git branch -d <bra
 ---
 
 
-### ** Sharing Code** Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all. ** For example: if you have a bug in a new feature you're working on that you can't figure out, and it causes your code to break, you don't want to commit that broken code and have it in your project's "permanent record". Thankfully, branches make it easy to share code on GitHub without having to commit problematic code where it can be seen in the future!** 1. Make a new branch (called `temp`) and change to it with `git checkout -b temp`
+### Sharing Code** Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all. ** For example: if you have a bug in a new feature you're working on that you can't figure out, and it causes your code to break, you don't want to commit that broken code and have it in your project's "permanent record". Thankfully, branches make it easy to share code on GitHub without having to commit problematic code where it can be seen in the future!** 1. Make a new branch (called `temp`) and change to it with `git checkout -b temp`
 2. Commit the current state of your code to your `temp` branch like you normally would
 3. Push your `temp` branch to your GitHub repo with `git push origin temp`
 4. You (or anyone else with the link to your repo!) can now select your `temp` branch using the branch selector dropdown :**

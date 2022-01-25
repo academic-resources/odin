@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript :**
 
@@ -18,7 +18,7 @@ Knowing how to use the Developer Tools inside your browser is an important skill
 ---
 
 
-### ** Opening Dev Tools** There are three ways to open the Developer Tools menu:** 1. From the Browser Menu:
+### Opening Dev Tools** There are three ways to open the Developer Tools menu:** 1. From the Browser Menu:
     - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
 2. Right-click anywhere on a webpage and select `Inspect`
 3. Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
@@ -44,7 +44,7 @@ Knowing how to use the Developer Tools inside your browser is an important skill
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos** 
@@ -52,7 +52,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check 
+### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#opening-dev-tools"> How do you open developer tools? </a>

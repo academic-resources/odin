@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Tracking down and fixing both errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as ** debugging** . The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Etymology) is a classic computer science tale worth reading if you haven't already :**
 
@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to do the following:**  - Describe
 ---
 
 
-### ** Reading the Stack Trace
+### Reading the Stack Trace
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a ** stack trace**  that is then output in your terminal. A stack trace looks something like this:** <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/00.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/00.png" title="source: imgur.com" alt="sample stack trace"/></a>** Don't let the stack trace intimidate you. You don't need to read it all or even know what most of it means :**
 
 The stack trace prints each line of code in your program that was executed before it crashed. <span id='most-useful-stack-trace-line'>The very first line of the stack trace</span> will generally provide the most useful information about the error your program encountered:** <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png" title="source: imgur.com" alt="first line of stack trace" /></a>** <span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-2.7.4/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-2.7.4/Exception.html) are *also* objects.</span>** There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code :**
@@ -25,7 +25,7 @@ But what if you don't know how to fix your code? Then it's time to dive into deb
 ---
 
 
-### ** Debugging with puts
+### Debugging with puts
 The debugging process is all about confirming assumptions about your code until you find something that goes against your assumptions. For example, does a variable or method return what you expect? Does a calculation or iteration over an array or hash give the output you expect?** The easiest and quickest way to confirm your assumptions while debugging is by using `puts` statements to output the return value of variables, methods, calculations, iterations, or even entire lines of code to your terminal :**
 
 Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an ** isogram**  (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a (simple) first draft:** ```ruby
@@ -74,7 +74,7 @@ irb(main):013:0> isogram?("Odin")
 ```
 ** Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-2.7.4/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference :**
 
-Hostage situation resolved! That wasn't so bad, was it?** #### ** ** Debugging with `puts` and `nil`
+Hostage situation resolved! That wasn't so bad, was it?** ####  Debugging with `puts` and `nil`
 Using `puts` is a great way to debug, but there's a ** HUGE**  caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal :**
 
 This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-2.7.4/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:** ```ruby
@@ -88,7 +88,7 @@ p []
 ---
 
 
-### ** Debugging with Pry-byebug
+### Debugging with Pry-byebug
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.  ** To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program :**
 
 To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)** ```ruby
@@ -137,7 +137,7 @@ There is far, far more that you can do with Pry-byebug, but that's beyond the sc
 ---
 
 
-### ** How to Start Debugging
+### How to Start Debugging
 Programs generally go wrong due to two main reasons:** 1. The program encounters an error and won't run. For example, a typo may cause a syntax error to be raised that causes the program to crash. In this case, Ruby provides a stack trace :**
 
 2. The program runs but does not work the way you expect. For example, you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace :**
@@ -151,7 +151,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -166,7 +166,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  * <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>

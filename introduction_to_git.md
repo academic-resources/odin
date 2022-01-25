@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Git is like a really ** epic save button**  for your files and directories. Officially, Git is a version control system :**
 
 <span id="text-editor-and-git"></span>A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):** ** 
@@ -17,7 +17,7 @@ For now, let's learn what Git is and why it's so powerful!**
 ---
 
 
-### ** Topics:** **   do the following:** ** 
+### Topics:** **   do the following:** ** 
  - Explain what Git and GitHub are and the differences between the two.
  - Describe the differences between Git and a text editor in terms of what they save and their record keeping.
  - Describe why Git is useful for an individual developer and a team of developers.
@@ -31,7 +31,7 @@ For now, let's learn what Git is and why it's so powerful!**
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -43,7 +43,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

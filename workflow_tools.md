@@ -1,4 +1,4 @@
-### ** Intro :
+###  Intro :
 >
 Very briefly, managing dependencies is something we've had to deal with many times in the past so far -- for example, you can't load jQuery UI before jQuery since it depends on jQuery being there first.  The same applies to packages in Node.  People have built tools to help you get it right :**
 
@@ -11,7 +11,7 @@ You may need these things now, you may not.  At least learn what they are so you
 ---
 
 
-### ** Topics** * What is a dependency?
+###  Topics** * What is a dependency?
 * What is a build tool?
 * Why would you use a package manager?
 * What is Grunt?
@@ -28,7 +28,7 @@ You may need these things now, you may not.  At least learn what they are so you
 ---
 
 
-### ** Additional Resources
+###  Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

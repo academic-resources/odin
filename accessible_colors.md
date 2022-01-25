@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Although adding color to a page can make it more visually appealing, using the wrong color combination or relying solely on color to convey information can end up making things more difficult to perceive and understand for some users. This doesn't mean you have to limit yourself when choosing color schemes for a website, but it does mean you have to take extra care when actually *using* those colors :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics :**
+### Topics :**
  ** 
 * Understand what a contrast ratio is.
 * Know how to check contrast ratios.
@@ -17,7 +17,7 @@
 ---
 
 
-### ** Color Contrast** ![Contrast ratio issues](https://user-images.githubusercontent.com/70952936/125673709-dd42bdf0-a4bc-4103-9a1b-e73e6c3bc85b.jpg)** Can you easily read the text in all three (yes, three) examples from the image above? If you can't, then that's because the contrast ratio is too low. If you can, then consider me jealous of your eye sight, but you still need to provide an easily perceivable website for visually impaired users :**
+### Color Contrast** ![Contrast ratio issues](https://user-images.githubusercontent.com/70952936/125673709-dd42bdf0-a4bc-4103-9a1b-e73e6c3bc85b.jpg)** Can you easily read the text in all three (yes, three) examples from the image above? If you can't, then that's because the contrast ratio is too low. If you can, then consider me jealous of your eye sight, but you still need to provide an easily perceivable website for visually impaired users :**
 
 A contrast ratio is the difference in brightness between two colors expressed as a ratio. White text on a white background would have lowest ratio (1:1), while black text on a white background would have the highest (21:1). Contrast ratios refer to both normal text as well as images of text :**
 
@@ -40,7 +40,7 @@ You can also check the contrast ratio of the text within an element using your b
 ---
 
 
-### ** Conveying Information** Now that you know to take the contrast ratio into account when adding color for text and backgrounds, let's see if you can tell which of the buttons in the image below is red:** ** 
+### Conveying Information** Now that you know to take the contrast ratio into account when adding color for text and backgrounds, let's see if you can tell which of the buttons in the image below is red:** ** 
 ![Color blindness simulation](https://user-images.githubusercontent.com/70952936/125673910-66b43803-3228-4920-98f8-80ac063ef344.jpg)** The answer, by the way, is button 4. The image above is simulating achromatopsia, which is also known as total color blindness. This illustrates a key point when using color: ** you shouldn't use color alone to convey information** . There may be exceptions where it's necessary to only use color, but generally you want to follow this rule :**
 
 Let's look at another example. Let's say you want to create a form that has an instruction stating that required fields are indicated by red text. If a user is color blind or otherwise has difficulty telling some colors apart, having to rely solely on the color of this text can make it difficult or even impossible to perceive or operate the form. Instead of only using color, your form could indicate all required fields with red text and an asterisk:** ** 
@@ -49,7 +49,7 @@ Let's look at another example. Let's say you want to create a form that has an i
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 
@@ -61,7 +61,7 @@ This section contains questions for you to check your understanding of this less
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

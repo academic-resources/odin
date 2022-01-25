@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >The Asset Pipeline is a great feature for Rails. It makes it easy to write CSS and Javascript and does the heavy lifting of bundling all your stylesheets and Javascript files together. It wasn't without drawbacks though. Often it took time to integrate the latest Javascript language features, and gems that loaded in popular Javascript libraries and frameworks weren't always at the cutting edge. This gave Rails a reputation for being reliable but outdated. Especially with big strides being made in the Javascript community of creating an ecosystem that was much easier to work with than it had a reputation for in the past :**
 
 Webpack was created as a static module bundler for modern Javascript applications which made Javascript much easier to work with, ensuring the code you wrote in development to be easy to read could be processed into something better suited for browsers in production. More importantly Webpack could work with the node package manager, giving access to a huge collection of Javascript libraries and as soon as they were released you could update :**
@@ -14,7 +14,7 @@ With Rails 6 and above Webpack is now the default but could be integrated into R
 ---
 
 
-### ** Topics
+### Topics
 Look through these now and then use them to test yourself after doing the assignment** * What is Webpack?
 * How does Webpack differ from the Asset Pipeline?
 * How do you add libraries to your Rails projects?
@@ -23,7 +23,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Webpacker** As we mentioned above, Webpack is a static module bundler for modern Javascript applications. How this works is when Webpack processes your files, it builds a dependency graph which builds a map of your Javascript code, and the code it relies on such as third party libraries, and then generates bundles of code based on that :**
+### Webpacker** As we mentioned above, Webpack is a static module bundler for modern Javascript applications. How this works is when Webpack processes your files, it builds a dependency graph which builds a map of your Javascript code, and the code it relies on such as third party libraries, and then generates bundles of code based on that :**
 
 With the Asset Pipeline you had Javascript files that lived in `app/assets/javascript` but with Webpack you have what are called "packs". They live in `app/javascript/packs` and are the entry point to Javascript code you want to use in your application :**
 
@@ -61,7 +61,7 @@ As an example we may have some code we use to manage a contact form submission. 
 Going back to our contact_form pack file we might create a directory such as `app/javascript/contact_form/` which contains the actual code we use to manage our contact form and then in our pack file we simply `import` or `require` a file such as `../contact_form/whatever_file_we_need`. Note we use `../` because from our pack directory we will need to move one directory up to find our `contact_form` directory :**
 
 
-#### ** ** Installing libraries** With Rubygems we use a Gemfile and with Webpacker we use a `package.json` to manage your Javascript libraries. The main difference is that with a Gemfile you need to open it and manually add the gem and version and then run `bundle` but with Webpack we can use Yarn from the terminal to add a library. If we wanted to add bootstrap we could use** ```bash
+####  Installing libraries** With Rubygems we use a Gemfile and with Webpacker we use a `package.json` to manage your Javascript libraries. The main difference is that with a Gemfile you need to open it and manually add the gem and version and then run `bundle` but with Webpack we can use Yarn from the terminal to add a library. If we wanted to add bootstrap we could use** ```bash
 yarn add bootstrap
 ```
 ** And it would take care of the rest for us and update the package.json file. Just like with gems where we can install them only for the testing or development groups we can install Javascript packages only to be used in the development environment and not our production one. A good example of this would be adding a testing library such as `jest` which we wouldn't need in production code. To do this just add the `--dev` option when installing the library** ```bash
@@ -76,7 +76,7 @@ Once you have installed a library then you need to reference it in your pack fil
 
 require 'bootstrap/bootstrap'
 ```
-** #### ** ** Other Assets** Although Rails, for now, intends that Webpack is only used for app-like Javascript with other assets handled by the Asset Pipeline it is possible to use Webpack to handle all assets. In this case we can change the `stylesheet_link_tag` to `stylesheet_pack_tag`, such as.. :**
+** ####  Other Assets** Although Rails, for now, intends that Webpack is only used for app-like Javascript with other assets handled by the Asset Pipeline it is possible to use Webpack to handle all assets. In this case we can change the `stylesheet_link_tag` to `stylesheet_pack_tag`, such as.. :**
 
 ```ruby
 <%= stylesheet_pack_tag "application", media: "all", "data-turbolinks-track" => "reload" %>
@@ -88,7 +88,7 @@ require 'bootstrap/bootstrap'
 If you do want to do this yourself then we would recommend you first take a deeper dive into Webpack itself and how it handles different assets. Until then just stick with the Asset Pipeline for anything but Javascript :**
 
 
-#### ** ** Dependency Graph** One key thing to note when you're using Webpacker is how it works out what code to load. With the Asset Pipeline, because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies. The Asset Pipeline would then ensure it was only loaded once to prevent bloated code :**
+####  Dependency Graph** One key thing to note when you're using Webpacker is how it works out what code to load. With the Asset Pipeline, because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies. The Asset Pipeline would then ensure it was only loaded once to prevent bloated code :**
 
 Webpack builds a dependency graph for each pack file so it's possible, if different pack files both require the same library, to bundle the same code twice into the different packs. This would make the client's necessary download size much larger overall. There are several ways to ensure you don't do this but the easiest way, at least when starting out, is to only use the default `application.js` pack file. If you only have one pack file where all the code you need is included, then the dependency graph will be built from that one file and Webpack will ensure it optimises the code required.
 ---** # Challenge:
@@ -102,4 +102,4 @@ There isn't a huge amount of reading to do here. But a couple of links just to g
 ---
 
 
-### ** Conclusion** Rails is all about convention over configuration so  get up and running with Webpacker and, through that, Webpack with minimum fuss. Just stick to a limited number of pack files while you're getting to grips with it and you should be handling all your Javascript code like a boss in no time.
+### Conclusion** Rails is all about convention over configuration so  get up and running with Webpacker and, through that, Webpack with minimum fuss. Just stick to a limited number of pack files while you're getting to grips with it and you should be handling all your Javascript code like a boss in no time.

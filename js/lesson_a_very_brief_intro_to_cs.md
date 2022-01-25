@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >You've learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education.  However, just because you can write English at a grade school level doesn't mean you will be editing the New York Times anytime soon :**
 
 In the world of programming, there's a difference between solving a problem the brute force way and solving a problem WELL.  We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.  ** If you assume those lessons were all about learning how to write good code, these next few lessons are going to be about training yourself to figure out the best code to write -- the most elegant solution to the problem at hand.  It becomes particularly important whenever you start working with large data sets, like when your website becomes highly successful :**
@@ -20,7 +20,7 @@ Look through these now and then use them to test yourself after doing the assign
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -32,7 +32,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

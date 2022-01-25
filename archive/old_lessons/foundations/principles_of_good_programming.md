@@ -2,7 +2,7 @@ There are a handful of generally accepted principles of good programming.  Commo
 
 If you stick with them, they'll keep you out of trouble.  Print the list from the first post below if you need to.  This is a great resource to check back with once you're writing code more consistently.
 
-### ** Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -14,10 +14,10 @@ If you stick with them, they'll keep you out of trouble.  Print the list from th
 * How Embrace Change is fundamental to the engineer's career.
 * TETO -- test early, test often
 
-### ** Your Assignment:
+### Your Assignment:
 1. Christopher Diggins has compiled a healthy list of principles in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531), check them out.  Some will be more specific than you're really ready for, but you'll likely encounter them all at some point early in your career.  Focus on the ones highlighted in the "Points to Ponder" above.  They're things that a live teacher will tell you again and again while walking around the classroom.
 
-### ** Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

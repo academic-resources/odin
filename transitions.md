@@ -1,17 +1,17 @@
-### ** Exerpt
+### Exerpt
 >It's time to dive into the exciting world of CSS transitions and give your HTML elements some slick transformations! ** 
 
 ---
 
 
-### ** Topics** * What a CSS transition is and when to use it
+### Topics** * What a CSS transition is and when to use it
 * Know what CSS properties are animatable and which ones are not
 * How to make sure your transitions are smooth and performant** 
 
 ---
 
 
-### ** Transitions** CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white to grey to black over a period of time. This is a CSS transition. Have a look at the Codepen below to see one in action :**
+### Transitions** CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white to grey to black over a period of time. This is a CSS transition. Have a look at the Codepen below to see one in action :**
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmYRm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmYRm">
@@ -64,7 +64,7 @@ button {
 ---
 
 
-### ** Performance** Generally, keeping your CSS transitions performant will not be an issue. However there are a couple of things you need to keep in mind :**
+### Performance** Generally, keeping your CSS transitions performant will not be an issue. However there are a couple of things you need to keep in mind :**
 
 The first is the "stacking context". Basically, a stacking context is formed when certain element scenarios are in place. A relevant scenario for us would be to transition a `transform` property like below:** ** 
 ```css
@@ -91,7 +91,7 @@ What's important is that you have a solid understanding of these concepts and ca
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">Are all CSS properties animatable?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">What are the long and short-hand notations for transitions?</a>
@@ -101,7 +101,7 @@ What's important is that you have a solid understanding of these concepts and ca
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 
 

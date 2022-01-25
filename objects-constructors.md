@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher :**
 
@@ -36,7 +36,7 @@ const variable = 'property'** myObject.variable // this gives us 'undefined' bec
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
@@ -49,7 +49,7 @@ const variable = 'property'** myObject.variable // this gives us 'undefined' bec
 ---
 
 
-### ** Objects as a Design Pattern** One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:** ** 
+### Objects as a Design Pattern** One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:** ** 
 
 ```js
 
@@ -96,7 +96,7 @@ function gameOver(winningPlayer){
 ---
 
 
-### ** Object Constructors** When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:** ** 
+### Object Constructors** When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:** ** 
 
 ```js
 
@@ -133,7 +133,7 @@ player2.sayName() // logs 'also steve'
 ---
 
 
-### ** Exercise** Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book :**
+### Exercise** Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book :**
 
 Put a function into the constructor that can report the book info like so:** ** 
 
@@ -153,7 +153,7 @@ console.log(theHobbit.info());
 ---
 
 
-### ** The Prototype** Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties :**
+### The Prototype** Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties :**
 
 This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!** 1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
 2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype :**
@@ -174,7 +174,7 @@ Student.prototype.goToProm = function() {
 ** If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference :**
 
 
-#### ** ** Recommended Method for Prototypal Inheritance** So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:** ** 
+####  Recommended Method for Prototypal Inheritance** So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:** ** 
 
 ```js
 
@@ -221,7 +221,7 @@ carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName f
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -237,7 +237,7 @@ Nicholas C. Zakas is really great to understand OOP in javascript, which explain
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href='#object-constructors'>Write an object constructor and instantiate the object.</a>

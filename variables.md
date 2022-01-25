@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see  but it should help with understanding variables for now :**
 
@@ -7,7 +7,7 @@ Variables are a way of assigning data to names in your programs. You can think o
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Describe what a variable is and how to assign it a value or expression.
  - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
@@ -18,7 +18,7 @@ Variables are a way of assigning data to names in your programs. You can think o
 ---
 
 
-### ** Declaring a Variable
+### Declaring a Variable
 This is how to create a variable in Ruby:** ** 
 ```ruby
 age = 18 #=> 18
@@ -57,7 +57,7 @@ age -= 2  #=> 16** cash = 10
 cash *= 2 #=> 20** temperature = 40
 temperature /= 10 #=> 4
 ```
-** #### ** ** How to Name Variables
+** ####  How to Name Variables
 Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents :**
 
 Naming variables clearly will pay dividends when you review your code months after you've written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:** ** 
@@ -75,7 +75,7 @@ age = 19
 name = "John"
 can_swim = false
 ```
-** #### ** ** Variables are References
+** ####  Variables are References
 The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code :**
 
 Let's look at an example of this unexpected behavior, with two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory :**
@@ -102,7 +102,7 @@ johns_location          #=> "BARCELONA"
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -117,7 +117,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

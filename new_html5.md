@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >HTML5 brought in a lot of nice new features, many geared specifically towards giving webpages the ability to display media and interactive features more easily.  The downside is that there are still browser compatibility issues with some of that functionality, but that will get sorted over time.  Another set of new features is the use of more semantic tags in your markup so you don't need to put a `div` around everything (you can use the `aside` or `footer` etc) :**
 
 
@@ -6,7 +6,7 @@
 ---
 
 
-### ** Topics** * What are semantic tags and how are there more of them in HTML5?
+### Topics** * What are semantic tags and how are there more of them in HTML5?
 * What does the canvas element do for you?
 * Seriously, why is canvas potentially amazing?
 * What are the new video control features?
@@ -25,7 +25,7 @@
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

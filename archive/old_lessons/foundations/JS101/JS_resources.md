@@ -4,7 +4,7 @@ We assume that you know the basics of JavaScript by now, that you know what a st
 
 The following is a list of great resources that we've found for deepening your JavaScript knowledge or getting more practice where you need it.  Many of them we have referenced throughout the course, but have put here so it's easy to find them again.  If you find any more across the net please add them to the list!
 
-### ** General JS
+### General JS
 
 1. [JavaScript.info](http://javascript.info/) .
       - Can't stress this one enough!
@@ -18,7 +18,7 @@ The following is a list of great resources that we've found for deepening your J
 5. [MDN](https://developer.mozilla.org/en-US/)
       - Probably the most complete and definitive resource on the Net.  Professional programmers use the detailed documentation found here daily.
 
-### ** Not so beginner
+### Not so beginner
 
 1. [JS the Right Way](http://jstherightway.org/#getting-started)
       - Covers many topics and links some _great_ external resources, but with minimal explanation.
@@ -26,7 +26,7 @@ The following is a list of great resources that we've found for deepening your J
 3. [Must Watch JS Talks](https://github.com/AllThingsSmitty/must-watch-javascript)
 4. [Another must watch of talks](https://github.com/AllThingsSmitty/js-must-watch)
 
-### ** Exercises  
+### Exercises  
 
 1. [Javascript 30](https://javascript30.com)
       - A great series of video tutorials that mainly deal with DOM manipulation and plain JavaScript.

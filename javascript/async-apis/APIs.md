@@ -11,7 +11,7 @@ One of the most powerful things a web developer can do is fetching data from a s
  - Explain how to fetch and extract data from an API
  - Explain why your API request might be blocked by the browser, and how to fix this
 
-### ** APIs
+### APIs
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
@@ -53,7 +53,7 @@ Back to OpenWeatherMap. Go ahead and create an account to obtain an API key from
 
 Congratulations on making your first API request!
 
-### ** Fetching Data
+### Fetching Data
 
 So how do we actually get the data from an API into our code?
 
@@ -117,7 +117,7 @@ Giphy has several methods for searching and finding gifs which you can read abou
 
 Go ahead and try that URL (with YOUR API key) in a browser. If everything goes well you should get a relatively long string of data and no errors.
 
-### ** CORS
+### CORS
 
 A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
 
@@ -134,7 +134,7 @@ fetch('url.url.com/api', {
 
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
-### ** Let's Do This
+### Let's Do This
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
 ```HTML
@@ -233,7 +233,7 @@ If you've gotten lost along the way, check out [this jsbin project](http://jsbin
 
 While we are pushing this API key to the frontend, this isn't something you should do with any key that is not free, anything on the client is public knowledge. Handling keys that are unsafe to push to the frontend will be taught in later sections if you haven't been exposed in the Ruby course.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
@@ -242,7 +242,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>

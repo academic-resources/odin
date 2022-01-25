@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program.. :**
 
@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:**  - Describe
 ---
 
 
-### ** Truthy and Falsy in Ruby
+### Truthy and Falsy in Ruby
 You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body :**
 
 
@@ -33,7 +33,7 @@ You already know that conditional statements check expressions for a true or fal
 ---
 
 
-### ** Basic Conditional Statement
+### Basic Conditional Statement
 The simplest way to control the flow of your code using conditionals is with the `if` statement :**
 
 The general syntax of an `if` statement is shown here:** ```ruby
@@ -54,7 +54,7 @@ puts "Hot diggity damn, 1 is less than 2" if 1 < 2
 ---
 
 
-### ** Adding else and elsif
+### Adding else and elsif
 We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement :**
 
 ```ruby
@@ -82,7 +82,7 @@ end
 ---
 
 
-### ** Boolean Logic
+### Boolean Logic
 To determine whether an expression evaluates to `true` or `false`, you'll need a comparison operator. There are several provided by Ruby:** `==` (equals) returns `true` if the values compared are equal :**
 
 ```ruby
@@ -157,7 +157,7 @@ All of the above operators also work on data types other than numbers, such as s
 ---
 
 
-### ** Logical Operators
+### Logical Operators
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not) :**
 
 There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. I recommend you read [this article](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/) that explains the differences :**
@@ -198,7 +198,7 @@ if !false     #=> true** if !(10 < 5)  #=> true
 ---
 
 
-### ** Case Statements
+### Case Statements
 Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if...elsif` statement. You can even assign the return value from a case statement to a variable for use later :**
 
 Case statements process each condition in turn, and if the condition returns `false`, it will move onto the next one until a match is found. An `else` clause can be provided to serve as a default if no match is found :**
@@ -231,7 +231,7 @@ end
 ---
 
 
-### ** Unless Statements
+### Unless Statements
 An `unless` statement works in the opposite way as an `if` statement: it only processes the code in the block if the expression evaluates to `false`. There isn't much more to it :**
 
 ```ruby
@@ -257,7 +257,7 @@ end
 ---
 
 
-### ** Ternary Operator
+### Ternary Operator
 The ternary operator is a one-line `if...else` statement that can make your code much more concise :**
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable :**
@@ -286,7 +286,7 @@ end** puts response #=> "You're all grown up."
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
  - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
@@ -298,7 +298,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
   * <a class="knowledge-check-link" href="#boolean-logic">What is a Boolean?</a>

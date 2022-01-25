@@ -11,14 +11,14 @@ Some of the more common templating languages include [Mustache](http://mustache.
 * How do you include Mustache.js in your project?
 * How do you use Mustache to display a group of `<div>`'s?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Smashing Magazine on Client Side Templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/), which starts from scratch and gives lots of examples
 2. Read [Learning about Handlebars Templating from JSIS](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/) to get an in-depth guide on Mustache.  You can skip the early stuff if you've already got a good handle on the theory of templating.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 * Glance over [An overview of JS templates from Creative Bloq](http://www.creativebloq.com/web-design/templating-engines-9134396) for more examples.

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >In this lesson we will be exploring some of the tools RSpec provides for sharing code among multiple tests. Specifically, we will be looking at hook, let and subject helper methods. These methods are frequently used in RSpec test suites so it's important to know how they work and when to use them :**
 
 We will once again be working from the `odin_rspec` project we set up in the previous lesson. To get the most out this lesson, please follow along with all the examples :**
@@ -8,7 +8,7 @@ We will once again be working from the `odin_rspec` project we set up in the pre
 ---
 
 
-### ** Topics** - What is a before hook and what phase of a test should you use it for?
+### Topics** - What is a before hook and what phase of a test should you use it for?
 - What is an after hook and phase of a test should you use it for?
 - What is a let variable for?
 - What is a subject for?** 
@@ -16,10 +16,10 @@ We will once again be working from the `odin_rspec` project we set up in the pre
 ---
 
 
-### ** Hooks** We will often have the same arrange, act and teardown code in multiple test cases. RSpec provides a way of sharing this code by using hook methods that allow us to run code before and after our tests :**
+### Hooks** We will often have the same arrange, act and teardown code in multiple test cases. RSpec provides a way of sharing this code by using hook methods that allow us to run code before and after our tests :**
 
 
-#### ** ** Before Hooks** Before hooks run ** before**  the tests are executed. We could put any code we wished into them, but they are best used to share the same arrange phase and on some occasions the same act phase code between multiple tests :**
+####  Before Hooks** Before hooks run ** before**  the tests are executed. We could put any code we wished into them, but they are best used to share the same arrange phase and on some occasions the same act phase code between multiple tests :**
 
 To see this in action, create a new file in the lib directory of your `odin_rspec` project named `user.rb` and paste the following code into it:** ** 
 ```ruby
@@ -99,7 +99,7 @@ end
 When the before hook runs before each test, it ensures each of the tests start with a fresh object to work with and state changes to the object will not leak to other tests. Potentially causing hard to debug test failures :**
 
 
-#### ** ** After Hook** After hooks are run after our tests have executed. They are best used for the teardown phase so we can clean up ** after**  our tests and get the state of the system back to what it was before the test was executed :**
+####  After Hook** After hooks are run after our tests have executed. They are best used for the teardown phase so we can clean up ** after**  our tests and get the state of the system back to what it was before the test was executed :**
 
 Using the counter example we used to demonstrate the teardown phase in the previous less, we can refactor the counter tests to use an after hook for the teardown phase and reset the count between each of the tests :**
 
@@ -124,7 +124,7 @@ require "counter"** RSpec.describe Counter do**   describe "increment!" do**    
 ---
 
 
-### ** Let and Subject Variables** Using instance variables in before hooks like we have been doing has some big drawbacks that can lead to slower and less stable test suites :**
+### Let and Subject Variables** Using instance variables in before hooks like we have been doing has some big drawbacks that can lead to slower and less stable test suites :**
 
 - Before hooks are run for every test in the same example group. Some of those tests may not need that instance variable.
 - Instance variables return nil if they are not assigned, it's fairly easy and a common mistake to misspell an instance variable and end up with a no method error for nil class in Ruby. You've probably seen this error a few times already while working through the OOP section.
@@ -161,7 +161,7 @@ The let method is lazily evaluated, which means it doesn't execute until we invo
 But this version of the let variable will be more useful later in the course when we are writing tests for Rails apps and need to create database records before our tests and assign it to a variable we can use later :**
 
 
-#### ** ** Subject** As you have seen time and time again throughout this guide, we need to initialize new instances of the class we are testing and assign it to a variable in the arrange phase of almost all of our tests :**
+####  Subject** As you have seen time and time again throughout this guide, we need to initialize new instances of the class we are testing and assign it to a variable in the arrange phase of almost all of our tests :**
 
 Because this is such a common pattern, RSpec provides an even more specialised method just for creating an instance we can use in all of our tests. The `subject` helper method :**
 
@@ -199,7 +199,7 @@ Subject is meant to be used for the *subject* of the test file or in other words
 Let variables on the other hand, can be used for any generic data that needs to be shared :**
 
 
-#### ** ** So when should you use let?** The rule here is as simple as using `let` variables for anything other than creating the object under test since that should be reserved for `subject` :**
+####  So when should you use let?** The rule here is as simple as using `let` variables for anything other than creating the object under test since that should be reserved for `subject` :**
 
 One common use case is using let variables for the arguments we pass to the instance created in the subject :**
 
@@ -327,7 +327,7 @@ When the test case for when the user is 65 is executed for example, it will use 
 ---
 
 
-### ** Conclusion** Hooks, lets and subjects are incredibly powerful. They can help greatly with crafting well structured and easy to understand tests by cutting down on duplication and unnecessary noise within a test suite :**
+### Conclusion** Hooks, lets and subjects are incredibly powerful. They can help greatly with crafting well structured and easy to understand tests by cutting down on duplication and unnecessary noise within a test suite :**
 
 However, it is easy to overuse them and end up with test files that the reader will need to repeatedly bounce around between hooks, lets and the actual tests to get a full picture of what the tests are doing. Making it a chore to read and reason about what's going on in the individual test cases :**
 
@@ -342,7 +342,7 @@ These code sharing tools are best only when they improve the overall readability
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [https://mixandgo.com/learn/let-vs-instance-variables-in-rspec](https://mixandgo.com/learn/let-vs-instance-variables-in-rspec)

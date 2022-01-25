@@ -1,4 +1,4 @@
-### ** Writing Clean Code
+### Writing Clean Code
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
@@ -51,7 +51,7 @@ The second one, however, is much easier to follow.  Even if you don't know exact
 
 There are many different opinions on what constitutes great JavaScript code.  The most important thing is just that you're consistent.  The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
 
-### ** Rules of Thumb
+### Rules of Thumb
 
 1. Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation.
 
@@ -94,14 +94,14 @@ There are many different opinions on what constitutes great JavaScript code.  Th
    ```
 
 
-### ** Assignment
+### Assignment
 
 Read through these articles that discuss a few elements of writing good clean code.
 
 1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
@@ -109,7 +109,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
 * [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
 
-### ** Knowledge check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#writing-clean-code">Why is it important to write clean code?</a>

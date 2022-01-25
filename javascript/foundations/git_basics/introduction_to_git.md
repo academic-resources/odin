@@ -28,7 +28,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe the differences between Git and a text editor in terms of what they save and their record keeping.
  - Describe why Git is useful for an individual developer and a team of developers.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -39,14 +39,14 @@ By the end of this lesson, you should be able to do the following:
   5. Take a look at The Odin Project's very own [GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 * [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 * [What is Git](https://www.atlassian.com/git/tutorials/what-is-git)
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a  class="knowledge-check-link" href="#introduction">What kind of program is Git?</a>

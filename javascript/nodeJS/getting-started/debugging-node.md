@@ -7,7 +7,7 @@ By the end of this lesson, you should be able to do the following:
 - Use the VS Code built-in Node debugger
 - Use the Chrome DevTools to debug Node
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 - Watch [this video tutorial](https://www.youtube.com/watch?v=2oFKNL7vYV8&ab_channel=VisualStudioCode) to see the process in action
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 

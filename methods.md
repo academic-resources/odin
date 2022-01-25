@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 In Ruby, methods are where all the action happens!** You will often find yourself writing code that does the same thing in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for! Methods allow you to name sections of your code and then run that code anywhere in your program as many times as you need just by calling that name :**
 
@@ -16,7 +16,7 @@ In this lesson, we're going to deconstruct what methods are, examine their behav
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
  - Explain how to create and call a new method.
  - Explain how to pass variables to a method and how to define default parameters.
@@ -30,7 +30,7 @@ In this lesson, we're going to deconstruct what methods are, examine their behav
 ---
 
 
-### ** Ruby's Built-in Methods** One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-2.6.1/Integer.html) class :**
+### Ruby's Built-in Methods** One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-2.6.1/Integer.html) class :**
 
 If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.twitter.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending :**
 
@@ -51,7 +51,7 @@ puts "anything" #=> anything
 ---
 
 
-### ** Creating a Method** You can create your own custom methods in Ruby using the following syntax:** ** 
+### Creating a Method** You can create your own custom methods in Ruby using the following syntax:** ** 
 ```ruby
 def my_name
   "Joe Smith"
@@ -67,7 +67,7 @@ end** puts my_name    #=> "Joe Smith"
 ---
 
 
-### ** Method Names** As mentioned above, you can name your methods almost anything you want, but you shouldn't pick names haphazardly. There are certain conventions that are recommended in order to improve the readability and maintainability of your code :**
+### Method Names** As mentioned above, you can name your methods almost anything you want, but you shouldn't pick names haphazardly. There are certain conventions that are recommended in order to improve the readability and maintainability of your code :**
 
 Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. <span id="snake-case">Just like with variable names in Ruby, the convention for a method name with multiple words is to use ** snake_case** , separating words with underscores.</span>** It's good practice to start the method name with a lower-case character, because names that start with capital letters are constants in Ruby. Check [here](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby) for more details :**
 
@@ -95,7 +95,7 @@ If your method does so many things that you feel it requires a very long name, t
 ---
 
 
-### ** Parameters and Arguments** Of course, not all methods are as simplistic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. ** Parameters**  are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile :**
+### Parameters and Arguments** Of course, not all methods are as simplistic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. ** Parameters**  are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile :**
 
 ```ruby
 def greet(name)
@@ -105,7 +105,7 @@ end** puts greet("John") #=> Hello, John!
 ** In this example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method was called with the argument `"John"`, which returns the string "Hello John!"** If you're wondering what the differences are between an argument and a parameter, ** parameters**  act as placeholder variables in the template of your method, whereas ** arguments**  are the actual variables that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction :**
 
 
-#### ** ** Default Parameters** What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":** ** 
+####  Default Parameters** What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":** ** 
 ```ruby
 def greet(name = "stranger")
   "Hello, " + name + "!"
@@ -117,7 +117,7 @@ puts greet #=> Hello, stranger!
 ---
 
 
-### ** What Methods Return** An important detail that a programmer must learn is understanding what your methods ** return** . Having a good understanding of what your methods are returning is an important part of debugging your code when things don't behave as expected :**
+### What Methods Return** An important detail that a programmer must learn is understanding what your methods ** return** . Having a good understanding of what your methods are returning is an important part of debugging your code when things don't behave as expected :**
 
 How do we tell our methods what to return? Let's revisit our `my_name` example method:** ** 
 ```ruby
@@ -163,7 +163,7 @@ def even_odd(number)
 end** puts even_odd(20) #=>  That is an even number.
 puts even_odd("Ruby") #=>  A number was not entered.
 ```
-** Now, try removing the explicit `return` from the method above. Does the method return what you expected?** #### ** ** Difference Between `puts` and `return`** A common source of confusion for new programmers is the difference between `puts` and `return` :**
+** Now, try removing the explicit `return` from the method above. Does the method return what you expected?** ####  Difference Between `puts` and `return`** A common source of confusion for new programmers is the difference between `puts` and `return` :**
 
  * `puts` is a method that prints whatever argument you pass it to the console.
  * `return` is the final output of a method that you can use in other places throughout your code :**
@@ -193,7 +193,7 @@ sum = x + y #=> 500** puts "The sum of #{x} and #{y} is #{sum}."
 ---
 
 
-### ** Chaining Methods** One of the magical properties of methods that allows you to write very concise code is being able to ** chain methods**  together. This can be done using Ruby's built-in methods or with methods that you create :**
+### Chaining Methods** One of the magical properties of methods that allows you to write very concise code is being able to ** chain methods**  together. This can be done using Ruby's built-in methods or with methods that you create :**
 
 ```ruby
 phrase = ["be", "to", "not", "or", "be", "to"]** puts phrase.reverse.join(" ").capitalize
@@ -211,7 +211,7 @@ phrase = ["be", "to", "not", "or", "be", "to"]** puts phrase.reverse.join(" ").c
 ---
 
 
-### ** Predicate Methods** You will sometimes encounter built-in Ruby methods that have a question mark (`?`) at the end of their name, such as `even?`, `odd?`, or `between?`. These are all ** predicate**  methods, which is a naming convention that Ruby uses for methods that return a Boolean, that is, they return either `true` or `false` :**
+### Predicate Methods** You will sometimes encounter built-in Ruby methods that have a question mark (`?`) at the end of their name, such as `even?`, `odd?`, or `between?`. These are all ** predicate**  methods, which is a naming convention that Ruby uses for methods that return a Boolean, that is, they return either `true` or `false` :**
 
 ```ruby
 puts 5.even?  #=> false
@@ -225,7 +225,7 @@ puts 17.odd?  #=> true** puts 12.between?(10, 15)  #=> true
 ---
 
 
-### ** Bang Methods** Observe the example below:** ** 
+### Bang Methods** Observe the example below:** ** 
 ```ruby
 whisper = "HELLO EVERYBODY"** puts whisper.downcase #=> "hello everybody"
 puts whisper #=> "HELLO EVERYBODY"
@@ -249,7 +249,7 @@ puts whisper #=> "hello everybody"
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
   - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
@@ -260,7 +260,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
  * <a class="knowledge-check-link" href="#creating-a-method">How would you create your own method?</a>

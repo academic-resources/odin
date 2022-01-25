@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 We've already looked at scopes and functions quite a bit and you've had a chance to play with callbacks already, but here we'll dig deeper.  Events are everywhere in Javascript, and you almost always want to do something when the event has finished running (or if there's been an error).  That's where the callback comes in :**
 
@@ -7,7 +7,7 @@ We've already looked at scopes and functions quite a bit and you've had a chance
 ---
 
 
-### ** Topics** * What is a callback?
+### Topics** * What is a callback?
 * What is the scope inside a callback?
 * What is `this` in a callback?
 * When is a callback called?
@@ -17,8 +17,8 @@ We've already looked at scopes and functions quite a bit and you've had a chance
 ---
 
 
-### ** What is a callback?
-#### ** ** A callback is a function that is passed as an argument to another function :**
+### What is a callback?
+####  A callback is a function that is passed as an argument to another function :**
 
 That's basically it :**
 
@@ -27,7 +27,7 @@ That's basically it :**
 ---
 
 
-### ** How does this look in practice?
+### How does this look in practice?
 Consider the following:** ** 
 
 ```js
@@ -54,7 +54,7 @@ This is really the simplest, and most basic explanation of callbacks.  Make sure
 ---
 
 
-### ** Take a look at the above example again :**
+### Take a look at the above example again :**
 
 Did you notice how `firstFunction` passes only one argument to its callback?** And also, that `secondFunction` only expects to receive one argument?** This is important, because the *number of arguments* and the *type of data they pass around* is something that you need to be aware of when you're using callbacks :**
 
@@ -74,7 +74,7 @@ secondFunction(string, number) {
 ---
 
 
-### ** Ok so far so good.
+### Ok so far so good.
 Let's take a look at some jQuery code :**
 
 
@@ -88,7 +88,7 @@ $('#link').click(function(){
 ** What's going on here? Let's break this down into it's component parts :**
 
 
-#### ** ** 1. The `$` jQuery function.
+####  1. The `$` jQuery function.
 This is the first function you are calling. `$` is just the name of that function.  Somewhere in the jQuery library is code that looks something like this:** ** 
 
 ```js
@@ -100,11 +100,11 @@ function $(){
 ** It's really that simple. `$('#link')` is the `$()` function with `'#link'` as its argument :**
 
 
-#### ** ** 2. `#link`
+####  2. `#link`
 This is the DOM element that you have selected :**
 
 
-#### ** ** 3. `.click()`
+####  3. `.click()`
 This is an event handler - it's a special type of function that gets executed when certain things happen in the DOM.  In this case, when a user clicks on the selected element, the `.click()` function is called.  The `click` function expects a single function as its argument, which it executes. The source code for the `.click()` function might look something like this:** ** 
 Disclaimer: this is totally not what it looks like in reality - it's a massive simplification to serve a point!** 
 ```js
@@ -113,7 +113,7 @@ function click(callback){
   callback() //execute callback
 }
 ```
-** #### ** ** 4. `function(){//Do stuff}`
+** ####  4. `function(){//Do stuff}`
 Ok so this is it. This is our callback function :**
 
 But hang on, this looks different from the first example of callbacks! Well, not really :**
@@ -145,7 +145,7 @@ So when should you use anonymous functions?  A good rule of thumb is, if you're 
 ---
 
 
-### ** The most important thing you need to know about callbacks** #### ** ** Using callbacks is like playing a game of hot-potato.  You have a piece of data that you are passing from function to function to function.  There's a good chance that you will not `return` this data :**
+### The most important thing you need to know about callbacks** ####  Using callbacks is like playing a game of hot-potato.  You have a piece of data that you are passing from function to function to function.  There's a good chance that you will not `return` this data :**
 
 If you're coming to JavaScript from Ruby then you're probably very comfortable with thinking about functions as things that `return` data.  You put something into it, and then you get something back :**
 
@@ -177,7 +177,7 @@ firstFunction(secondFunction);** //Writes 'hello' to the console.
 ---
 
 
-### ** To summarise, here are some basic rules about callbacks:** ** 1. A function that accepts a callback will expect to receive that callback *in a specific format*.  This is the initial function will (probably) pass data to that callback.
+### To summarise, here are some basic rules about callbacks:** ** 1. A function that accepts a callback will expect to receive that callback *in a specific format*.  This is the initial function will (probably) pass data to that callback.
 2. If you are using a library or framework (like jQuery or Express.js), it's *up to you* to understand how the functions you are using expect the callbacks to be formatted.  The best way to learn this is through experience, and to read the documentation.
 3. Remember that a callback can be an anonymous function.
 4. Don't expect your callbacks to `return` data.
@@ -191,7 +191,7 @@ firstFunction(secondFunction);** //Writes 'hello' to the console.
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 

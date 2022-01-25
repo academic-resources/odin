@@ -1,4 +1,4 @@
-### ** Intro :** 
+### Intro :** 
 >Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? vertical centering?) :**
 
 ## Topics:** * How do you define a flex container?
@@ -12,7 +12,7 @@
 ---
 
 
-### ** Overview** Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layouts. There were 3 different iterations of the flex property, the final 2012 spec — `display: flex` has excellent [browser support](https://caniuse.com/#search=flex).  The current Flexbox spec is fully supported in all modern browsers, including mobile, IE11 and Edge.
+### Overview** Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layouts. There were 3 different iterations of the flex property, the final 2012 spec — `display: flex` has excellent [browser support](https://caniuse.com/#search=flex).  The current Flexbox spec is fully supported in all modern browsers, including mobile, IE11 and Edge.
 # Challenge** <div class="lesson-content__panel" markdown="1">
 * Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). This course consists of 20 videos covering Flexbox and are all available to [watch on YouTube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid). 
 * Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) if you want more in depth information. 
@@ -22,7 +22,7 @@
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
 

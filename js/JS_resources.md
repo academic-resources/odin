@@ -1,11 +1,11 @@
-### ** Intro :
+### Intro :
 >
 We assume that you know the basics of JavaScript by now, that you know what a string is, how to manipulate arrays and objects and write simple functions. As you're coding, if you feel like you're missing anything simply go back through the previous lessons for a refresher.  Don't fret if you find that you're forgetting things.. The more you practice the more you'll start to internalize the things that you really need the most.  Until that happens don't be afraid to look up anything you've forgotten!** The following is a list of great resources that we've found for deepening your JavaScript knowledge or getting more practice where you need it.  Many of them we have referenced throughout the course, but have put here so it's easy to find them again.  If you find any more across the net please add them to the list!** 
 
 ---
 
 
-### ** General JS** 1. [JavaScript.info](http://javascript.info/) .
+### General JS** 1. [JavaScript.info](http://javascript.info/) .
       - Can't stress this one enough!
       - It has concise but detailed information about every concept to know in JS. Very higly recommended!
 2. [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
@@ -22,7 +22,7 @@ We assume that you know the basics of JavaScript by now, that you know what a st
 ---
 
 
-### ** Not so beginner** 1. [JS the Right Way](http://jstherightway.org/#getting-started)
+### Not so beginner** 1. [JS the Right Way](http://jstherightway.org/#getting-started)
       - Covers many topics and links some _great_ external resources, but with minimal explanation.
 2. [25 Free Resources for JS](https://medium.freecodecamp.com/25-free-resources-for-new-javascript-developers-11342cf1f4df#.8c29vx90p)
 3. [Must Watch JS Talks](https://github.com/AllThingsSmitty/must-watch-javascript)
@@ -31,7 +31,7 @@ We assume that you know the basics of JavaScript by now, that you know what a st
 ---
 
 
-### ** Exercises  ** 1. [Javascript 30](https://javascript30.com)
+### Exercises  ** 1. [Javascript 30](https://javascript30.com)
       - A great series of video tutorials that mainly deal with DOM manipulation and plain JavaScript.
 1. [exercism - website](https://github.com/exercism/javascript)
       - This one is a favorite of many Odin grads.. tons of Code Exercises to work up your skills. (They have many other languages too)

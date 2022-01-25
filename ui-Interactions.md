@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 JavaScript is a very powerful language. It is capable of creating complex web applications that work _everywhere_. But it is just as often used on a smaller scale. JavaScript is the glue that holds even less flashy websites together- it makes drop-downs drop down and image sliders slide.  ** Fortunately, at this point, you already have all the tools you need to make these items without resorting to using a bloated framework like bootstrap. (Nothing against bootstrap... you just do _not_ need it! Good for you!)** We aren't presenting any new content in this lesson - just giving you the chance to practice some of the techniques that you're going to be using on a daily basis as a JavaScript programmer :**
 
@@ -9,14 +9,14 @@ JavaScript is a very powerful language. It is capable of creating complex web ap
 ---
 
 
-### ** Topics** - Practice everyday techniques used by JavaScript programmers :**
+### Topics** - Practice everyday techniques used by JavaScript programmers :**
 
 
 
 ---
 
 
-### ** Drop-down Menus** You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:** ** 
+### Drop-down Menus** You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:** ** 
 1. You can allow the menu to show up either on click or on hover.
 2. You should hard-code the menu items into your HTML but hide/reveal them using JavaScript. You can do this either by adding a class (`visible` or something) or by manually setting the style in JS.
 3. Make sure the code is reusable!  create multiple drop-downs on a page without repeating the JavaScript code.
@@ -27,14 +27,14 @@ JavaScript is a very powerful language. It is capable of creating complex web ap
 ---
 
 
-### ** Mobile menus** Mobile versions of your sites are almost definitely going to need their own menu implementation. Depending on how you decided to implement your drop-down, you _could_ reuse it here, but there are tons of more inventive options out there :**
+### Mobile menus** Mobile versions of your sites are almost definitely going to need their own menu implementation. Depending on how you decided to implement your drop-down, you _could_ reuse it here, but there are tons of more inventive options out there :**
 
 1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0) [inspiration](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/), pick something and try to implement it!** 
 
 ---
 
 
-### ** Image slider** Again, there's not much instruction needed here - just practice.  ** Create a simple image carousel. It should contain arrows on each side to advance the image forward or backward. It should automatically move forward every 5 seconds. It should contain the little navigation circles at the bottom that indicate which slide you are on (and they should be click-able to advance to that particular slide) :**
+### Image slider** Again, there's not much instruction needed here - just practice.  ** Create a simple image carousel. It should contain arrows on each side to advance the image forward or backward. It should automatically move forward every 5 seconds. It should contain the little navigation circles at the bottom that indicate which slide you are on (and they should be click-able to advance to that particular slide) :**
 
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the slider sliding :**
 
@@ -49,7 +49,7 @@ Don't spend too much time worrying about getting your images to display at the c
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0">What are some different types of navigation menus?</a>
 - <a class="knowledge-check-link" href="https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/">What are the alternatives to hamburger menus?</a>

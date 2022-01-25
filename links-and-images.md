@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. The internet is essentially a web of HTML pages connected to one another with links :**
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images :**
@@ -8,7 +8,7 @@ In this lesson, we will learn how to create links and add some visual flair to o
 ---
 
 
-### ** Topics** - How to create links to pages on other websites on the internet
+### Topics** - How to create links to pages on other websites on the internet
 - How to create links to other pages on your own websites
 - The difference between absolute and relative links
 - How to display an image on webpage using HTML** 
@@ -16,7 +16,7 @@ In this lesson, we will learn how to create links and add some visual flair to o
 ---
 
 
-### ** Preparation** To get some practice using links and images throughout this lesson we need an HTML project to work with :**
+### Preparation** To get some practice using links and images throughout this lesson we need an HTML project to work with :**
 
 1. Create a new directory named `odin-links-and-images`.
 2. Within that directory, create a new file named `index.html`.
@@ -30,7 +30,7 @@ In this lesson, we will learn how to create links and add some visual flair to o
 ---
 
 
-### ** Anchor Elements** To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag :**
+### Anchor Elements** To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag :**
 
 Add the following to the body of the index.html page we created and open it in the browser:** ** 
 ```html
@@ -54,13 +54,13 @@ It's worth noting you can use anchor tags to link to any kind of resource on the
 ---
 
 
-### ** Absolute and Relative Links** Generally, there are two kinds of links we will create:** ** 
+### Absolute and Relative Links** Generally, there are two kinds of links we will create:** ** 
 1. Links to pages on other websites on the internet
-2. Links to pages located on our own websites** #### ** ** Absolute Links** Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination :**
+2. Links to pages located on our own websites** ####  Absolute Links** Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination :**
 
 We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the protocol and domain :**
 
-`https://www.theodinproject.com/about`** #### ** ** Relative Links** Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on :**
+`https://www.theodinproject.com/about`** ####  Relative Links** Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on :**
 
 Relative links only include the file path to the other page, *relative* to the page you are creating the link on. This is quite abstract, let's see this in action using an example :**
 
@@ -115,7 +115,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 </body>
 ```
 ** 
-#### ** ** A Metaphor** Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:** ** 
+####  A Metaphor** Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:** ** 
 Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house :**
 
 
@@ -123,7 +123,7 @@ Think of the directory in which a website is located as a house, and each page o
 ---
 
 
-### ** Images** Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element :**
+### Images** Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element :**
 
 To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag :**
 
@@ -158,7 +158,7 @@ Finally add the image to the `index.html` file:** **
 ---
 
 
-### ** Parent Directories
+### Parent Directories
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory :**
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:** ** 
@@ -177,7 +177,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 ---
 
 
-### ** Alt attribute** <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute :**
+### Alt attribute** <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute :**
 
 The alt attribute is used to describe an image, it will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users :**
 
@@ -200,14 +200,14 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
 ---
 
 
-### ** Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
+### Additional Resources** This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)** 
 
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>

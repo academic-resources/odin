@@ -7,8 +7,8 @@ We're going to be building a very minimal express app that will allow users to s
 ---
 
 
-### ** Topics**   do the following:** ** 
-#### ** ** PassportJS** - Understand the use order for the required middleware.
+### Topics**   do the following:** ** 
+####  PassportJS** - Understand the use order for the required middleware.
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
@@ -16,7 +16,7 @@ We're going to be building a very minimal express app that will allow users to s
 - Use PassportJS to set up user authentication with Express :**
 
 
-#### ** ** Data Security/Safety** - Describe what bcrypt is and its use.
+####  Data Security/Safety** - Describe what bcrypt is and its use.
 - Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function :**
 
@@ -25,7 +25,7 @@ We're going to be building a very minimal express app that will allow users to s
 ---
 
 
-### ** Set Up** We're going to be using another Mongo database, so before we begin log in to your mongo provider and create a new database and save its URL string somewhere handy :**
+### Set Up** We're going to be using another Mongo database, so before we begin log in to your mongo provider and create a new database and save its URL string somewhere handy :**
 
 To begin, let's set up a very minimal express app with a single MongoDB model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:** ** 
 ```
@@ -86,7 +86,7 @@ To keep things simple, our view engine is set up to just look in the main direct
 ---
 
 
-### ** Creating Users** The first thing we need is a sign up form so we can actually create users to authenticate! In the Library Tutorial website, you learned about validating and sanitizing inputs. This is a _really good idea_, but for the sake of brevity, we're going to leave that out here. Don't forget to include sanitation and validation when you get to the project :**
+### Creating Users** The first thing we need is a sign up form so we can actually create users to authenticate! In the Library Tutorial website, you learned about validating and sanitizing inputs. This is a _really good idea_, but for the sake of brevity, we're going to leave that out here. Don't forget to include sanitation and validation when you get to the project :**
 
 Create a new template called `sign-up-form`, and a route for `/sign-up` that points to it:** ** 
 ```html
@@ -143,12 +143,12 @@ app.post("/sign-up", (req, res, next) => {
 ---
 
 
-### ** Authentication** Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project :**
+### Authentication** Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project :**
 
 <span id='strategy'>PassportJS uses what they call _Strategies_ to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!** We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialize())` :**
 
 
-#### ** ** Function one : setting up the LocalStrategy
+####  Function one : setting up the LocalStrategy
 
 ```js
 
@@ -177,7 +177,7 @@ passport.use(
 ---
 
 
-### ** Functions two and three: Sessions and serialization** <span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine :**
+### Functions two and three: Sessions and serialization** <span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine :**
 
 
 ```js
@@ -198,7 +198,7 @@ passport.serializeUser(function(user, done) {
 ---
 
 
-### ** Log in form** To keep things nice and simple let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:** ** 
+### Log in form** To keep things nice and simple let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:** ** 
 ```html
 <h1>please log in</h1>
 
@@ -280,7 +280,7 @@ app.get("/log-out", (req, res) => {
 });
 
 ```
-** You should now be able to visit `/sign-up` to create a new user, then log-in using that user's username and password, and then log out by clicking the log out button!** #### ** ** A quick tip** In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views. ** Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app :**
+** You should now be able to visit `/sign-up` to create a new user, then log-in using that user's username and password, and then log out by clicking the log out button!** ####  A quick tip** In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views. ** Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app :**
 
 
 ```js
@@ -298,14 +298,14 @@ app.use(function(req, res, next) {
 ---
 
 
-### ** Securing passwords with bcrypt** Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up :**
+### Securing passwords with bcrypt** Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up :**
 
 First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now, the modules work the same so we can just use `bcryptjs` :**
 
 Once it's installed you need to require it at the top of your app.js and then we are going to put it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy :**
 
 
-#### ** ** Storing hashed passwords:** ** 
+####  Storing hashed passwords:** ** 
 Password hashes are the result of passing the user's password through a one-way hash function, which maps variable sized inputs to fixed size pseudo-random outputs. ** Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:** ** 
 
 ```js
@@ -325,7 +325,7 @@ The hash function is somewhat slow, so all of the DB storage stuff needs to go i
 It's important to note that _how_ hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function) :**
 
 
-#### ** ** Comparing hashed passwords:** ** 
+####  Comparing hashed passwords:** ** 
 <span id='compare'>We will use the `bcrypt.compare()` function to validate the password input. The function compares the plain-text password in the request object to the hashed password</span> :**
 
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function :**
@@ -344,7 +344,7 @@ bcrypt.compare(password, user.password, (err, res) => {
 })
 ```
 ** You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)** 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 - [This article](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195) goes into great detail about the passport local strategy and brings the magic that happens behind the scenes into the light. It provides a comprehensive foundation for how session-based authentication works using browser cookies along with backend sessions to manage users :**
@@ -352,7 +352,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) by the same author who wrote the article above. You just need to watch the first 6 videos :**
 
 - [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them. ** 
-### ** Knowledge Checks 
+### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>

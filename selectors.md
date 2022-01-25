@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialized tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way :**
 
@@ -11,7 +11,7 @@ As always feel free to open up your code editor and run you own experiments with
 ---
 
 
-### ** Topics
+### Topics
 * Understand how to use parent and sibling selectors
 * Recognize the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
@@ -20,7 +20,7 @@ As always feel free to open up your code editor and run you own experiments with
 ---
 
 
-### ** Parent and Sibling Combinators
+### Parent and Sibling Combinators
 Let's have a look at some more ways we can access different elements _without_ referring to their classes. Here are three new selectors to do just that :**
 
 
@@ -86,7 +86,7 @@ main > div > div {
 ---
 
 
-### ** Pseudo-selectors
+### Pseudo-selectors
 Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup. If that doesn't make sense straight away, don't worry - we'll explore some examples below :**
 
 
@@ -94,7 +94,7 @@ Before diving into pseudo-selectors, a quick note on the difference between [pse
 ---
 
 
-### ** Pseudo-classes
+### Pseudo-classes
 Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together** As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available :**
 
 ## Dynamic and User Action Pseudo-classes
@@ -138,7 +138,7 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
 ---
 
 
-### ** Pseudo-elements
+### Pseudo-elements
 While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseudo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specificity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways :**
 
 [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers :**
@@ -169,7 +169,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!** [`::selection`](https:/
 ---
 
 
-### ** Attribute Selectors
+### Attribute Selectors
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com` :**
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values :**
@@ -230,7 +230,7 @@ Let's look at some examples for basic usage :**
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something :**
 
 
@@ -248,7 +248,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

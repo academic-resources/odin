@@ -13,7 +13,7 @@ Most of this should be review since you've already completed the [HTML and CSS F
 * What attributes are required by image and links for them to be effective and accessible?
 * Where should your CSS live?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe's Introduction to Terminology & Syntax](http://learn.shayhowe.com/html-css/terminology-syntax-intro)
@@ -21,7 +21,7 @@ Most of this should be review since you've already completed the [HTML and CSS F
 3. Read [Shay Howe on Best Practices](http://learn.shayhowe.com/html-css/coding-practices)
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [WTFHTMLCSS with basic tips to improve your code](http://wtfhtmlcss.com/)

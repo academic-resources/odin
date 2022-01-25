@@ -10,9 +10,9 @@ If you feel uneasy about what we've learned so far, go back and review the conce
 - Understanding how to render lists in React
 - Understanding how to handle input fields and forms in React.
 
-### ** Assignment
+### Assignment
 
-### ** Do-It-Yourself Guide
+### Do-It-Yourself Guide
 
 Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button, you can add the content from your input to a "tasks array" that is managed in state. (We will use class components for this example because we haven't introduced hooks in this section yet). Finally, for each task in the tasks array, an HTML list element should be rendered.
 
@@ -21,7 +21,7 @@ Our application will be made of two components, `App` and `Overview`. Your appli
 3. With the intended functionality explained, it's your turn to implement this React app. You can do it. You are not required to style this assignment unless you wish to, the focus is on using event handlers and dealing with forms with state.
 4. ** Quick tip** : Use the JavaScript function `map` to map over your tasks array. You will need to provide a unique key to each item (read the warning, you'll know it when you see it in the console!). And there is a difference between handling input fields in plain JavaScript and in React. If you face a problem with it, attempt to figure it out on your own using tools like the documentation, StackOverflow, Google, or experimenting. But fear not, we will again provide an overview of our solution below.
 
-### ** Detailed Guide
+### Detailed Guide
 
 1. Let's get started! First, run `npx create-react-app task-app` in your terminal, and open the project in your text editor.
 
@@ -410,26 +410,26 @@ export default Overview;
 
 ```
 
-### ** Optional Tasks / Ideas to play around
+### Optional Tasks / Ideas to play around
 
 Here are a few optional tasks for you to practice. Try them out, if you can't solve them, continue with the curriculum and make sure to come back later to give them another try and see how you advanced.
 
-### ** ** Easy** 
+###  Easy** 
 
 1. Instead of displaying unordered list items, manage the amount of tasks in state and let each task display its number. Yes, you could also do that with a simple ordered list, but where's the fun in that? Try using state.
 2. Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. If you want you can use [Font Awesome](https://fontawesome.com/) for the icon.
    ** Tip** : You can remove each task by its id, but for that you have to save the task id together with the task title.
 
-### ** ** Hard:** 
+###  Hard:** 
 
 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button.
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!
 
-### ** Knowledge Check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

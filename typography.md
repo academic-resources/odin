@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Something like 95% of the web is text and yet most web developers don't pay any heed whatsoever to typography -- it's this mysterious esoteric subject reserved for designer geeks and their lattes.  You are not "most web developers" :**
 
@@ -11,7 +11,7 @@ Do what you can to get at least a familiarity with the high level decisions invo
 ---
 
 
-### ** Topics** * Why do fonts matter?
+### Topics** * Why do fonts matter?
 * What's the difference between a serif and sans-serif font?
 * What are `font-family` attributes used for?
 * How is the active font determined in a `font-family`?
@@ -29,7 +29,7 @@ Do what you can to get at least a familiarity with the high level decisions invo
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 

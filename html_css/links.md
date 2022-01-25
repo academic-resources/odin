@@ -11,7 +11,7 @@ Links are the glue holding the web together, so make sure you understand how to 
 * How do you open links in external windows?
 * What are all the possible pseudo-states (e.g. `:hover`) of a link and when are they actually activated?  How do you change styles based on them?
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Lena Shore's explanation of the difference between absolute and relative paths](http://www.lenashore.com/2011/12/the-difference-between-absolute-and-relative-paths/).
@@ -19,7 +19,7 @@ Links are the glue holding the web together, so make sure you understand how to 
 3. Read [Six Revisions' article on link pseudo-classes](http://sixrevisions.com/css/link-pseudo-classes/) .
 </div>
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Glance over [About.com's article on linking](http://webdesign.about.com/od/beginningtutorials/a/aa040502a.htm) if you need any additional support

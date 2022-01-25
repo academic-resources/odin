@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work :**
 
@@ -7,7 +7,7 @@ Before you can understand how to program the web, you need a more rigorous under
 ---
 
 
-### ** Topics
+### Topics
 At the end of this lesson,  do the following:** ** 
 * Describe what the internet is.
 * Describe what packets are and how they are used to transfer data.
@@ -28,7 +28,7 @@ At the end of this lesson,  do the following:** **
 ---
 
 
-### ** Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental :**
 
 
@@ -42,7 +42,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ---
 
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 

@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >You are already familiar with Ruby blocks from the [Basic Enumerable Methods](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-enumerable-methods) lesson from earlier. But there is more depth to blocks than we've covered, so this lesson will dive deeper. Blocks are such a fundamental part of Ruby that you should get to know them inside out :**
 
 A very quick recap of the basics that you should already be familiar with.. :**
@@ -17,7 +17,7 @@ end
 ---
 
 
-### ** Topics** - What is a block?
+### Topics** - What is a block?
 - How is a block like a method?
 - What are the two ways to declare a block?
 - Why would you use a block instead of just creating a method?
@@ -29,7 +29,7 @@ end
 - What's the difference between a proc and a block?
 - When would you use a proc instead of a block?
 - What's different between a lambda and a proc?** 
-### ** Yield** `yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Let's imagine you're writing a simple method for your library which allows users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that information is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this using only a method, it would actually be quite difficult. You'd have to account for every possible option the user of your library might want to call and then create the docs to explain it. With blocks, we can just relinquish control of the method to the block with `yield` and allow the user to define how they want to print it :**
+### Yield** `yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Let's imagine you're writing a simple method for your library which allows users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that information is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this using only a method, it would actually be quite difficult. You'd have to account for every possible option the user of your library might want to call and then create the docs to explain it. With blocks, we can just relinquish control of the method to the block with `yield` and allow the user to define how they want to print it :**
 
 ```ruby
 def logger
@@ -139,7 +139,7 @@ end** awesome_method { |key, value| puts "#{key}: #{value}" }
 ---
 
 
-### ** Block control** Oftentimes, the person who writes a method and the person who calls a method are different people. If you're writing a method that uses `yield`, how can you be sure the caller will include a block? What happens if they don't?** ```ruby
+### Block control** Oftentimes, the person who writes a method and the person who calls a method are different people. If you're writing a method that uses `yield`, how can you be sure the caller will include a block? What happens if they don't?** ```ruby
 def simple_method
   yield
 end** simple_method
@@ -165,7 +165,7 @@ end** maybe_block
 ---
 
 
-### ** Lambdas** A lambda is a way to write a block and save it to a variable. This can be useful if you're calling different methods but passing in the same block to each of them. It keeps you from having to type out the same code over and over again :**
+### Lambdas** A lambda is a way to write a block and save it to a variable. This can be useful if you're calling different methods but passing in the same block to each of them. It keeps you from having to type out the same code over and over again :**
 
 There are two ways to create a lambda. One is to use the `lambda` keyword e.g. `lambda { "inside the lambda" }`. The other way to declare a lambda is using the "stabby lambda" syntax, `-> {}`. This looks a little funky but you get used to it. Stabby lambda notation is more commonly used, so that's what we'll be using for the other examples :**
 
@@ -203,7 +203,7 @@ my_name.=== "tim"
 ---
 
 
-### ** Procs** A proc is just an object that you can use to store blocks and pass them around like variables. If you think this sounds a bit like a lambda, then you'd be right. In fact, there is no special lambda class. A lambda is actually just a type of proc object but with some distinct behaviors which we'll cover shortly :**
+### Procs** A proc is just an object that you can use to store blocks and pass them around like variables. If you think this sounds a bit like a lambda, then you'd be right. In fact, there is no special lambda class. A lambda is actually just a type of proc object but with some distinct behaviors which we'll cover shortly :**
 
 You declare a new proc in the same way you instantiate any object in Ruby, using `new` :**
 
@@ -224,10 +224,10 @@ a_proc = Proc.new { |name, age| puts "name: #{name} --- age: #{age}" }** a_proc.
 ---
 
 
-### ** Procs vs Lambdas** There isn't much more to creating procs that you haven't already seen with lambdas. So why use one over the other? Well, there are some key differences between procs and lambdas that can make choosing one over the other more suitable :**
+### Procs vs Lambdas** There isn't much more to creating procs that you haven't already seen with lambdas. So why use one over the other? Well, there are some key differences between procs and lambdas that can make choosing one over the other more suitable :**
 
 
-#### ** ** Arguments** A proc behaves much like a block with regards to arguments. A proc doesn't care if you pass in fewer or more arguments than you specify. In fact, it doesn't care if you don't pass in any arguments at all. It will assign `nil` to any parameters you name but don't pass through as arguments :**
+####  Arguments** A proc behaves much like a block with regards to arguments. A proc doesn't care if you pass in fewer or more arguments than you specify. In fact, it doesn't care if you don't pass in any arguments at all. It will assign `nil` to any parameters you name but don't pass through as arguments :**
 
 ```ruby
 a_proc = Proc.new { |a, b| puts "a: #{a} --- b: #{b}" }** a_proc.call("apple")
@@ -247,7 +247,7 @@ a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }** a_proc.call("apple")
 # => wrong number of Arguments (given 1, expected 2) (ArgumentError)** a_proc.call("apple", "banana", "cake")
 # => wrong number of Arguments (given 3, expected 2) (ArgumentError)
 ```
-** #### ** ** Returning** When you write an explicit return inside a lambda, it returns from the lambda block back to the caller :**
+** ####  Returning** When you write an explicit return inside a lambda, it returns from the lambda block back to the caller :**
 
 ```ruby
 a_lambda = -> { return 1 }** a_lambda.call
@@ -277,16 +277,16 @@ end** my_method
 ---
 
 
-### ** Similarities** Now that we've covered some big differences between procs and lambdas, there are some similarities we need to cover :**
+### Similarities** Now that we've covered some big differences between procs and lambdas, there are some similarities we need to cover :**
 
 
-#### ** ** Default Arguments** Both procs and lambdas support default arguments in the same way Ruby methods do:** ** 
+####  Default Arguments** Both procs and lambdas support default arguments in the same way Ruby methods do:** ** 
 ```ruby
 my_proc = Proc.new { |name="bob"| puts name }** my_proc.call
 # => bob** my_lambda = ->(name="r2d2") { puts name }** my_lambda.call
 # => r2d2
 ```
-** #### ** ** Method parameters** Both procs and lambdas can be used as arguments to a method :**
+** ####  Method parameters** Both procs and lambdas can be used as arguments to a method :**
 
 ```ruby
 def my_method(useful_arg)
@@ -301,7 +301,7 @@ my_proc = Proc.new { puts "proc" }** my_method(my_lambda)
 ---
 
 
-### ** Capturing blocks** Now that we know how procs and lambdas work, how can this be applied to blocks? As we learned, blocks are like little anonymous methods. But what if we want to capture a reference to that block to do something with it? Maybe we need to receive the block now in our method and store it in an instance variable to be called later :**
+### Capturing blocks** Now that we know how procs and lambdas work, how can this be applied to blocks? As we learned, blocks are like little anonymous methods. But what if we want to capture a reference to that block to do something with it? Maybe we need to receive the block now in our method and store it in an instance variable to be called later :**
 
 Ruby allows us to capture blocks in a method definition as a special argument using `&` :**
 
@@ -344,7 +344,7 @@ end** a_proc = Proc.new { puts "procodile hunter" }** cool_method(&a_proc) # Con
 ---
 
 
-### ** Wrapping up** Blocks are used everywhere in Ruby. You'll find many use cases, and see them used extensively in code libraries. They allow callers of methods to pass in some contextual information which might otherwise be hard to do without having numerous methods to handle different scenarios :**
+### Wrapping up** Blocks are used everywhere in Ruby. You'll find many use cases, and see them used extensively in code libraries. They allow callers of methods to pass in some contextual information which might otherwise be hard to do without having numerous methods to handle different scenarios :**
 
 After coming to grips with the information in this lesson you'll be a block, proc and lambda master, able to easily craft beautiful Ruby code.
 ---** # Challenge:
@@ -355,7 +355,7 @@ After coming to grips with the information in this lesson you'll be a block, pro
 ---
 
 
-### ** Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
+### Knowledge Check** This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">What is a block?</a>
 - <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">How is a block like a method?</a>

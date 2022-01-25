@@ -1,4 +1,4 @@
-### ** Intro :
+### Intro :
 >
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong :**
 
@@ -7,13 +7,13 @@ An important basic concept in testing is isolation.  You should only test one me
 ---
 
 
-### ** Topics
+### Topics
   do the following:** ** 
 - Explain what tightly coupled code is
 - Describe a pure function and how it relates to TDD
 - Explain what mocking is
   
-### ** Pure Functions** There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`</span>.  ** Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:** ** 
+### Pure Functions** There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`</span>.  ** Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:** ** 
 
 ```js
 
@@ -60,7 +60,7 @@ If we had written this program with TDD it is very likely that it would have loo
 ---
 
 
-### ** Mocking** <span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
+### Mocking** <span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 ---** # Challenge:** <div class="lesson-content__panel" markdown="1">
 1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
 2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  These two articles ([one](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4) and [two](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)) might be a little extreme, but they contain several really good points about program architecture and testing.
@@ -72,7 +72,7 @@ If we had written this program with TDD it is very likely that it would have loo
 ---
 
 
-### ** Knowledge Check 
+### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer :**
 
 - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>

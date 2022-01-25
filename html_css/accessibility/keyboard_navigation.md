@@ -11,7 +11,7 @@ Some users aren't able to use a mouse to navigate or operate their computer, and
 * Understand what the tab order is.
 * Know how to properly hide hidden content from assistive technologies.
 
-### ** Focus
+### Focus
 
 Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from the... well, Semantic HTML lesson? Another issue with using `<div>` and `<span>` elements is that, by default, they aren't focusable and they don't have any event handling by default. In order to fix our non-semantic Rock, Paper, Scissors example for keyboard users, we would need to take some extra steps, similar to the below code snippets:
 
@@ -47,7 +47,7 @@ Of course, this example then makes it *less* understandable for screen reader us
 
 The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.
 
-### ** Focus Styles
+### Focus Styles
 
 Another aspect of focusable elements is their focus styles, which are usually an outline or border surrounding the element when it receives focus. One of the things you may have done, or may still do, is completely remove these focus styles by using CSS rules similar to the example below:
 
@@ -63,7 +63,7 @@ You probably assume that you're about to be told not to do this. Well... ** You 
 
 Why? Completely removing focus styles can make a page impossible for keyboard users to navigate and operate, as they have no visual indication what element actually has focus. It would force them to have to manually keep track of how many times they've pressed the Tab key while also trying to guess what elements are *actually* focusable. Imagine trying to browse a website with an invisible cursor and without any visual indication of when the cursor was hovering over interactive elements like links or buttons. Doesn't sound too fun, does it?
 
-### ** Tab Order
+### Tab Order
 
 The tab order is the order in which elements on the page will receive focus when pressing the Tab key, and is by default in the same order as the order of elements listed in the HTML file:
 
@@ -81,7 +81,7 @@ Sometimes you may find it necessary to either change the visual order of element
 
 The best way to avoid this issue is to just place elements in your HTMl file in the order that you want them to actually receive focus.
 
-### ** Hidden Content
+### Hidden Content
 
 Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible. 
 
@@ -91,13 +91,13 @@ One way to prevent this frustrating behavior is to give each individual item in 
 
 A better solution is giving the container for the hidden content itself either the `display: none` or `visibility: hidden` CSS property when it's hidden, and removing or overriding that property when it's meant to be visible. This not only removes the menu items from the tab order, but it also prevents assistive technologies from announcing them.
 
-### ** Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
 </div>
 
-### ** Knowledge Check
+### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What are two things that interactive elements must have for keyboard users?
@@ -106,7 +106,7 @@ This section contains questions for you to check your understanding of this less
 * What is the tab order?
 * What is the best way to hide hidden content from assistive technologies?
 
-### ** Additional Resources
+### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

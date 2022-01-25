@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >This is a simple follow along lesson to show you how Action Cable can be used to enhance an application to give it real time features. We won't explain everything in detail, as much of the setup instructions should be familiar to you but will take the time around the Action Cable specific content to explain things a little more :**
 
 The app we'll build will be in two stages. The first stage will be an app for sending messages only viewable to those currently logged in. We'll then build on it in the second stage to save the messages so that they are also viewable to anyone who logs in in the future :**
@@ -8,7 +8,7 @@ The app we'll build will be in two stages. The first stage will be an app for se
 ---
 
 
-### ** Setup** First let's create the app** 
+### Setup** First let's create the app** 
 
 
 ---
@@ -274,7 +274,7 @@ Now if you were to spin up a server and open localhost in a browser you should n
 ---
 
 
-### ** Action Cable** Let's now deal with setting up the server connection. As we covered in the Action Cable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization :**
+### Action Cable** Let's now deal with setting up the server connection. As we covered in the Action Cable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization :**
 
 If you open up `app/channels/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable :**
 
@@ -928,6 +928,6 @@ That's it. Try sending messages between your two users and you should see instan
 ---
 
 
-### ** Conclusion** The point here was to show you how Action Cable makes WebSockets pretty easy to work with. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think WebSockets :**
+### Conclusion** The point here was to show you how Action Cable makes WebSockets pretty easy to work with. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think WebSockets :**
 
 This only scratches the surface of what Action Cable can do, but if you do find yourself in a situation where you think they might be useful  find what you need with a few searches.

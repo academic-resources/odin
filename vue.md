@@ -1,4 +1,4 @@
-### ** Exerpt
+### Exerpt
 >VueJS was created by Evan You, it's the youngest of the popular frameworks, but it's quickly rising popularity proves that it's worth paying attention to. Vue is known for being one of the easiest frontend frameworks to learn while still having the same scalable power as other popular frameworks :**
 
 ## Conceptual Overview:** ** 
@@ -11,7 +11,7 @@ One downside is that unlike the other popular frameworks, Vue was not created no
 ---
 
 
-### ** Getting Started** You can quickly start playing around with vue via the cdn by including 
+### Getting Started** You can quickly start playing around with vue via the cdn by including 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
@@ -26,7 +26,7 @@ For complete Vue projects you can use the [vue-cli](https://github.com/vuejs/vue
 ---
 
 
-### ** Additional Resources** - [This massive udemy course](https://www.udemy.com/vuejs-2-the-complete-guide/) is not free, but will teach you pretty much everything you need to learn about Vue, and you can often get Udemy courses for a decent discount.
+### Additional Resources** - [This massive udemy course](https://www.udemy.com/vuejs-2-the-complete-guide/) is not free, but will teach you pretty much everything you need to learn about Vue, and you can often get Udemy courses for a decent discount.
 - Learn Vue for free in [laracasts](https://laracasts.com/series/learn-vue-2-step-by-step)
 - Here is a [free crash course on vue](https://www.youtube.com/watch?v=78tNYZUS-ps) just to show you can learn vue in about 2 hours.
 - [Here](https://www.youtube.com/watch?v=KMX1mFEmM3E&t=687s) is a nice video comparing all the popular frontend frameworks.

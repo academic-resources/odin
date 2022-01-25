@@ -1,6 +1,6 @@
 Let's dive deeper into the fundamentals of JavaScript. After you complete this lesson you will have time to practice all the bits and pieces you are learning, but as we go please be sure to do the exercises and code-alongs that you can find in the various articles and tutorials we're directing you to!  You will learn much more by _doing_ rather than simply reading.
 
-### ** Points to Ponder
+### Points to Ponder
 <details>
   <summary>Can you define the terms "operand", "unary" and "binary" in a Javascript context?</summary>
 ​    
@@ -125,7 +125,7 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
   * Values defined within a function have local scope. They can only be accessed by that specific function.
   </details>
 
-### ** Operators and Comparisons
+### Operators and Comparisons
 
 This basic information is another crucial building block in the foundation of your programming skill.  In the end it's not too complicated despite the technical jargon, but make sure you understand this stuff before you move on!
 
@@ -133,7 +133,7 @@ This basic information is another crucial building block in the foundation of yo
 2. [More operators](http://javascript.info/logical-operators).  
 3. Some of the most common operators in programming are those used to compare values.  Read about those [here](http://javascript.info/comparison).
 
-### ** Conditionals
+### Conditionals
 
 Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
 
@@ -146,14 +146,14 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 >
 > As we get further into the curriculum, you are likely to encounter tasks or problems that you aren't sure how to complete.  ** That's OK!**   Do not waste too much time trying to figure something out when you don't have any idea where to start.  Simply give it a shot, and if you get stuck go ahead and ask for help or look at the given solution.  _THEN_ figure out how the solution works and try to code it yourself without looking.  Doing it yourself is the quickest way to actually learn, but don't get stuck thinking that you're cheating by looking up the answer or asking for help.
 
-### ** Loops
+### Loops
 
 Computers don't get tired, and they're really _really_ fast!  For that reason they are well suited to solving problems that involve doing calculations multiple times.  In some cases a computer will be able to repeat a task _thousands_ or even _millions_ of times in just a few short seconds where it might take a human many hours. \(obviously speed here depends on the complexity of the calculation and the speed of the computer itself\).  One way to make a computer do a repetitive task is using a ** loop** 
 
 1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code).  It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.  
 2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for) \(Skim the info if you think you know it all, but ** don't forget the tasks at the end of the page** .  You learn best by _doing_\)
 
-### ** Functions
+### Functions
 
 Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript.
 
